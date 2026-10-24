@@ -1,0 +1,18 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00005
+# Generated: 2026-03-15T10:29:31
+# Records Count: 15
+[2026-03-15 10:29:31.000] [INFO    ] [worker-pool   ] [trc-601903] Connection acquired from connection pool latency_ms=41
+[2026-03-15 10:29:31.506] [INFO    ] [file-storage  ] [trc-702593] Incoming HTTP request dispatched to worker handler latency_ms=56
+[2026-03-15 10:29:31.518] [INFO    ] [worker-pool   ] [trc-683165] Scheduled garbage collection sweep finished latency_ms=43
+[2026-03-15 10:29:33.085] [INFO    ] [db-cluster    ] [trc-520286] Connection acquired from connection pool latency_ms=36
+[2026-03-15 10:29:33.844] [INFO    ] [auth-service  ] [trc-605806] Cache lookup returned positive hit for session key latency_ms=31
+[2026-03-15 10:29:34.775] [ERROR   ] [db-cluster    ] [trc-922412] TLS socket abruptly terminated before payload completion latency_ms=1306
+[2026-03-15 10:29:34.000] [INFO    ] [file-storage  ] [trc-827851] TLS handshake completed with client agent latency_ms=14
+[2026-03-15 10:29:36.159] [CRITICAL] [cache-redis   ] [trc-610268] File descriptor limit reached for worker process; operating system rejecting socket creation latency_ms=6165
+[2026-03-15 10:29:36.744] [CRITICAL] [api-gateway   ] [trc-961953] Authentication burst anomaly: 120 failed auth tokens within 10 seconds from subnet 198.51.100.0/24 latency_ms=6824
+[2026-03-15 10:29:32.989] [ERROR   ] [file-storage  ] [trc-214027] TLS socket abruptly terminated before payload completion latency_ms=6604
+[2026-03-15 10:29:35.850] [ERROR   ] [db-cluster    ] [trc-776320] Connection reset by peer while transmitting payload latency_ms=5282
+[2026-03-15 10:29:34.212] [ERROR   ] [file-storage  ] [trc-891662] Connection reset by peer while transmitting payload latency_ms=4701
+[2026-03-15 10:29:34.624] [INFO    ] [db-cluster    ] [trc-657062] Worker heartbeat acknowledged by supervisor latency_ms=62
+[2026-03-15 10:29:35.550] [WARNING ] [auth-service  ] [trc-814622] Downstream microservice response delayed, retry attempt scheduled latency_ms=371
+[2026-03-15 10:29:37.454] [ERROR   ] [db-cluster    ] [trc-852658] Worker thread crashed with segmentation violation in foreign library latency_ms=591

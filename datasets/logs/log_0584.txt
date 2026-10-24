@@ -1,0 +1,19 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00584
+# Generated: 2026-03-15T16:46:49
+# Records Count: 16
+[2026-03-15 16:46:49.000] [INFO    ] [worker-pool   ] [trc-331416] TLS handshake completed with client agent latency_ms=36
+[2026-03-15 16:46:49.707] [INFO    ] [auth-service  ] [trc-133346] Batch file chunk serialized successfully latency_ms=67
+[2026-03-15 16:46:50.144] [INFO    ] [db-cluster    ] [trc-829860] Scheduled garbage collection sweep finished latency_ms=39
+[2026-03-15 16:46:50.224] [ERROR   ] [billing-svc   ] [trc-180782] Worker thread crashed with segmentation violation in foreign library latency_ms=726
+[2026-03-15 16:46:52.184] [INFO    ] [api-gateway   ] [trc-745540] TLS handshake completed with client agent latency_ms=68
+[2026-03-15 16:46:50.035] [INFO    ] [cache-redis   ] [trc-566201] Batch file chunk serialized successfully latency_ms=56
+[2026-03-15 16:46:50.992] [INFO    ] [api-gateway   ] [trc-529313] Scheduled garbage collection sweep finished latency_ms=24
+[2026-03-15 16:46:53.606] [ERROR   ] [auth-service  ] [trc-371078] Worker thread crashed with segmentation violation in foreign library latency_ms=965
+[2026-03-15 16:46:50.296] [INFO    ] [cache-redis   ] [trc-694245] Scheduled garbage collection sweep finished latency_ms=59
+[2026-03-15 16:46:54.679] [INFO    ] [worker-pool   ] [trc-482382] Incoming HTTP request dispatched to worker handler latency_ms=60
+[2026-03-15 16:46:51.980] [INFO    ] [auth-service  ] [trc-719550] Cache lookup returned positive hit for session key latency_ms=22
+[2026-03-15 16:46:55.545] [INFO    ] [billing-svc   ] [trc-464146] Cache lookup returned positive hit for session key latency_ms=47
+[2026-03-15 16:46:58.564] [ERROR   ] [db-cluster    ] [trc-455305] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=1411
+[2026-03-15 16:46:57.788] [INFO    ] [api-gateway   ] [trc-216273] Scheduled garbage collection sweep finished latency_ms=5
+[2026-03-15 16:46:51.618] [INFO    ] [cache-redis   ] [trc-475099] Cache lookup returned positive hit for session key latency_ms=45
+[2026-03-15 16:46:56.560] [WARNING ] [auth-service  ] [trc-151000] Downstream microservice response delayed, retry attempt scheduled latency_ms=90

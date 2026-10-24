@@ -1,0 +1,23 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00498
+# Generated: 2026-03-15T07:21:20
+# Records Count: 20
+[2026-03-15 07:21:20.000] [INFO    ] [worker-pool   ] [trc-206359] Cache lookup returned positive hit for session key latency_ms=48
+[2026-03-15 07:21:20.561] [INFO    ] [auth-service  ] [trc-764138] Connection acquired from connection pool latency_ms=7
+[2026-03-15 07:21:20.646] [ERROR   ] [worker-pool   ] [trc-370349] Connection reset by peer while transmitting payload latency_ms=1090
+[2026-03-15 07:21:21.224] [ERROR   ] [api-gateway   ] [trc-183593] TLS socket abruptly terminated before payload completion latency_ms=1305
+[2026-03-15 07:21:22.248] [INFO    ] [worker-pool   ] [trc-373661] Cache lookup returned positive hit for session key latency_ms=45
+[2026-03-15 07:21:21.245] [INFO    ] [db-cluster    ] [trc-914116] Batch file chunk serialized successfully latency_ms=33
+[2026-03-15 07:21:23.486] [INFO    ] [worker-pool   ] [trc-989290] Cache lookup returned positive hit for session key latency_ms=8
+[2026-03-15 07:21:25.341] [INFO    ] [billing-svc   ] [trc-285340] Worker heartbeat acknowledged by supervisor latency_ms=66
+[2026-03-15 07:21:24.232] [INFO    ] [billing-svc   ] [trc-614897] TLS handshake completed with client agent latency_ms=29
+[2026-03-15 07:21:22.259] [INFO    ] [worker-pool   ] [trc-826083] Incoming HTTP request dispatched to worker handler latency_ms=56
+[2026-03-15 07:21:22.530] [ERROR   ] [worker-pool   ] [trc-347812] TLS socket abruptly terminated before payload completion latency_ms=7599
+[2026-03-15 07:21:25.764] [ERROR   ] [file-storage  ] [trc-705557] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=3820
+[2026-03-15 07:21:29.168] [ERROR   ] [billing-svc   ] [trc-711300] Connection reset by peer while transmitting payload latency_ms=6895
+[2026-03-15 07:21:29.906] [ERROR   ] [file-storage  ] [trc-864541] Connection reset by peer while transmitting payload latency_ms=8021
+[2026-03-15 07:21:30.206] [ERROR   ] [auth-service  ] [trc-333864] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=4085
+[2026-03-15 07:21:23.165] [INFO    ] [worker-pool   ] [trc-418033] Batch file chunk serialized successfully latency_ms=17
+[2026-03-15 07:21:24.112] [INFO    ] [auth-service  ] [trc-791616] Batch file chunk serialized successfully latency_ms=74
+[2026-03-15 07:21:33.243] [WARNING ] [api-gateway   ] [trc-503696] Disk buffer cache pressure elevated during concurrent writes latency_ms=319
+[2026-03-15 07:21:32.186] [ERROR   ] [worker-pool   ] [trc-665096] Failed to write metadata block to distributed store latency_ms=1113
+[2026-03-15 07:21:24.788] [WARNING ] [auth-service  ] [trc-775758] Thread pool saturation index approaching upper boundary latency_ms=396

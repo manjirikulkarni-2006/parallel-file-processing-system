@@ -1,0 +1,23 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00796
+# Generated: 2026-03-15T00:58:30
+# Records Count: 20
+[2026-03-15 00:58:30.000] [INFO    ] [cache-redis   ] [trc-513739] Connection acquired from connection pool latency_ms=47
+[2026-03-15 00:58:30.383] [INFO    ] [file-storage  ] [trc-269099] Worker heartbeat acknowledged by supervisor latency_ms=18
+[2026-03-15 00:58:30.356] [INFO    ] [file-storage  ] [trc-689698] Scheduled garbage collection sweep finished latency_ms=41
+[2026-03-15 00:58:30.867] [INFO    ] [file-storage  ] [trc-385837] Connection acquired from connection pool latency_ms=27
+[2026-03-15 00:58:30.920] [INFO    ] [cache-redis   ] [trc-376909] Worker heartbeat acknowledged by supervisor latency_ms=34
+[2026-03-15 00:58:32.425] [INFO    ] [worker-pool   ] [trc-701543] Incoming HTTP request dispatched to worker handler latency_ms=68
+[2026-03-15 00:58:33.180] [WARNING ] [file-storage  ] [trc-592019] Thread pool saturation index approaching upper boundary latency_ms=420
+[2026-03-15 00:58:34.165] [INFO    ] [billing-svc   ] [trc-718929] Batch file chunk serialized successfully latency_ms=55
+[2026-03-15 00:58:31.368] [ERROR   ] [file-storage  ] [trc-568594] TLS socket abruptly terminated before payload completion latency_ms=1103
+[2026-03-15 00:58:37.056] [INFO    ] [billing-svc   ] [trc-314309] TLS handshake completed with client agent latency_ms=25
+[2026-03-15 00:58:36.130] [ERROR   ] [db-cluster    ] [trc-232931] Connection reset by peer while transmitting payload latency_ms=7304
+[2026-03-15 00:58:38.778] [CRITICAL] [db-cluster    ] [trc-137590] Cascading failover triggered on primary cluster node; state recovery active latency_ms=5481
+[2026-03-15 00:58:32.220] [ERROR   ] [billing-svc   ] [trc-751568] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=7025
+[2026-03-15 00:58:39.672] [CRITICAL] [worker-pool   ] [trc-212611] Cascading failover triggered on primary cluster node; state recovery active latency_ms=3802
+[2026-03-15 00:58:35.670] [ERROR   ] [api-gateway   ] [trc-470705] Connection reset by peer while transmitting payload latency_ms=6196
+[2026-03-15 00:58:39.405] [INFO    ] [auth-service  ] [trc-210515] Scheduled garbage collection sweep finished latency_ms=29
+[2026-03-15 00:58:32.896] [INFO    ] [worker-pool   ] [trc-736145] Batch file chunk serialized successfully latency_ms=7
+[2026-03-15 00:58:38.857] [INFO    ] [api-gateway   ] [trc-478916] Connection acquired from connection pool latency_ms=47
+[2026-03-15 00:58:34.392] [WARNING ] [cache-redis   ] [trc-641805] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=341
+[2026-03-15 00:58:40.640] [INFO    ] [api-gateway   ] [trc-403417] Incoming HTTP request dispatched to worker handler latency_ms=7

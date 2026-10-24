@@ -1,0 +1,20 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00593
+# Generated: 2026-03-15T12:01:12
+# Records Count: 17
+[2026-03-15 12:01:12.000] [INFO    ] [db-cluster    ] [trc-299886] Connection acquired from connection pool latency_ms=35
+[2026-03-15 12:01:12.741] [INFO    ] [db-cluster    ] [trc-376559] Cache lookup returned positive hit for session key latency_ms=16
+[2026-03-15 12:01:12.636] [WARNING ] [db-cluster    ] [trc-929226] Thread pool saturation index approaching upper boundary latency_ms=371
+[2026-03-15 12:01:14.094] [INFO    ] [file-storage  ] [trc-114527] Scheduled garbage collection sweep finished latency_ms=22
+[2026-03-15 12:01:12.832] [WARNING ] [file-storage  ] [trc-738950] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=249
+[2026-03-15 12:01:13.585] [INFO    ] [worker-pool   ] [trc-175326] Worker heartbeat acknowledged by supervisor latency_ms=72
+[2026-03-15 12:01:15.684] [INFO    ] [cache-redis   ] [trc-475726] TLS handshake completed with client agent latency_ms=56
+[2026-03-15 12:01:16.620] [INFO    ] [cache-redis   ] [trc-853064] Cache lookup returned positive hit for session key latency_ms=65
+[2026-03-15 12:01:16.096] [CRITICAL] [billing-svc   ] [trc-674255] Database connection pool completely exhausted; dropping new client requests latency_ms=4587
+[2026-03-15 12:01:18.129] [CRITICAL] [api-gateway   ] [trc-689086] Cascading failover triggered on primary cluster node; state recovery active latency_ms=5746
+[2026-03-15 12:01:14.520] [CRITICAL] [api-gateway   ] [trc-510923] File descriptor limit reached for worker process; operating system rejecting socket creation latency_ms=4105
+[2026-03-15 12:01:14.046] [ERROR   ] [api-gateway   ] [trc-109323] Connection reset by peer while transmitting payload latency_ms=4346
+[2026-03-15 12:01:18.360] [ERROR   ] [auth-service  ] [trc-459793] Failed to write metadata block to distributed store latency_ms=7177
+[2026-03-15 12:01:21.347] [WARNING ] [api-gateway   ] [trc-147488] Downstream microservice response delayed, retry attempt scheduled latency_ms=289
+[2026-03-15 12:01:14.632] [INFO    ] [file-storage  ] [trc-658659] Scheduled garbage collection sweep finished latency_ms=41
+[2026-03-15 12:01:15.555] [INFO    ] [file-storage  ] [trc-503262] Worker heartbeat acknowledged by supervisor latency_ms=44
+[2026-03-15 12:01:16.128] [INFO    ] [cache-redis   ] [trc-727926] Batch file chunk serialized successfully latency_ms=41

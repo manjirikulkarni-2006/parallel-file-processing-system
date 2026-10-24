@@ -1,0 +1,27 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00778
+# Generated: 2026-03-15T17:28:10
+# Records Count: 24
+[2026-03-15 17:28:10.000] [INFO    ] [api-gateway   ] [trc-557871] TLS handshake completed with client agent latency_ms=55
+[2026-03-15 17:28:10.430] [INFO    ] [cache-redis   ] [trc-759739] TLS handshake completed with client agent latency_ms=40
+[2026-03-15 17:28:10.368] [INFO    ] [worker-pool   ] [trc-546275] Connection acquired from connection pool latency_ms=12
+[2026-03-15 17:28:10.642] [INFO    ] [file-storage  ] [trc-563802] Worker heartbeat acknowledged by supervisor latency_ms=47
+[2026-03-15 17:28:12.228] [INFO    ] [worker-pool   ] [trc-684478] TLS handshake completed with client agent latency_ms=12
+[2026-03-15 17:28:12.540] [INFO    ] [cache-redis   ] [trc-956406] Worker heartbeat acknowledged by supervisor latency_ms=6
+[2026-03-15 17:28:13.036] [INFO    ] [billing-svc   ] [trc-332934] Cache lookup returned positive hit for session key latency_ms=8
+[2026-03-15 17:28:12.499] [WARNING ] [auth-service  ] [trc-406897] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=93
+[2026-03-15 17:28:15.088] [INFO    ] [api-gateway   ] [trc-836446] Worker heartbeat acknowledged by supervisor latency_ms=69
+[2026-03-15 17:28:14.464] [WARNING ] [billing-svc   ] [trc-387194] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=199
+[2026-03-15 17:28:18.000] [INFO    ] [worker-pool   ] [trc-898023] Worker heartbeat acknowledged by supervisor latency_ms=32
+[2026-03-15 17:28:16.952] [INFO    ] [billing-svc   ] [trc-911520] Connection acquired from connection pool latency_ms=69
+[2026-03-15 17:28:19.024] [CRITICAL] [worker-pool   ] [trc-763139] File descriptor limit reached for worker process; operating system rejecting socket creation latency_ms=5040
+[2026-03-15 17:28:17.228] [ERROR   ] [worker-pool   ] [trc-406367] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=5552
+[2026-03-15 17:28:18.022] [CRITICAL] [billing-svc   ] [trc-162358] Database connection pool completely exhausted; dropping new client requests latency_ms=3768
+[2026-03-15 17:28:20.830] [ERROR   ] [worker-pool   ] [trc-298076] TLS socket abruptly terminated before payload completion latency_ms=3937
+[2026-03-15 17:28:13.776] [ERROR   ] [db-cluster    ] [trc-903286] Failed to write metadata block to distributed store latency_ms=6406
+[2026-03-15 17:28:21.560] [INFO    ] [db-cluster    ] [trc-469663] Batch file chunk serialized successfully latency_ms=7
+[2026-03-15 17:28:13.690] [INFO    ] [auth-service  ] [trc-430429] Incoming HTTP request dispatched to worker handler latency_ms=51
+[2026-03-15 17:28:25.200] [INFO    ] [file-storage  ] [trc-773890] Connection acquired from connection pool latency_ms=39
+[2026-03-15 17:28:19.260] [WARNING ] [file-storage  ] [trc-705438] Disk buffer cache pressure elevated during concurrent writes latency_ms=266
+[2026-03-15 17:28:18.673] [ERROR   ] [api-gateway   ] [trc-221200] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=800
+[2026-03-15 17:28:27.116] [INFO    ] [worker-pool   ] [trc-120917] Cache lookup returned positive hit for session key latency_ms=39
+[2026-03-15 17:28:19.430] [INFO    ] [file-storage  ] [trc-826012] Scheduled garbage collection sweep finished latency_ms=33

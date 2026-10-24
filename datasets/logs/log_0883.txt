@@ -1,0 +1,27 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00883
+# Generated: 2026-03-15T16:46:03
+# Records Count: 24
+[2026-03-15 16:46:03.000] [INFO    ] [billing-svc   ] [trc-742992] Connection acquired from connection pool latency_ms=67
+[2026-03-15 16:46:03.612] [INFO    ] [auth-service  ] [trc-660390] Batch file chunk serialized successfully latency_ms=36
+[2026-03-15 16:46:03.884] [INFO    ] [worker-pool   ] [trc-770085] Incoming HTTP request dispatched to worker handler latency_ms=6
+[2026-03-15 16:46:04.293] [INFO    ] [db-cluster    ] [trc-147995] Incoming HTTP request dispatched to worker handler latency_ms=41
+[2026-03-15 16:46:04.032] [WARNING ] [db-cluster    ] [trc-416737] Downstream microservice response delayed, retry attempt scheduled latency_ms=213
+[2026-03-15 16:46:04.745] [WARNING ] [auth-service  ] [trc-976856] Disk buffer cache pressure elevated during concurrent writes latency_ms=232
+[2026-03-15 16:46:05.040] [INFO    ] [worker-pool   ] [trc-551775] Incoming HTTP request dispatched to worker handler latency_ms=75
+[2026-03-15 16:46:06.017] [INFO    ] [billing-svc   ] [trc-428556] Connection acquired from connection pool latency_ms=67
+[2026-03-15 16:46:05.816] [INFO    ] [db-cluster    ] [trc-172525] Cache lookup returned positive hit for session key latency_ms=55
+[2026-03-15 16:46:09.651] [INFO    ] [billing-svc   ] [trc-671811] Incoming HTTP request dispatched to worker handler latency_ms=37
+[2026-03-15 16:46:09.300] [WARNING ] [billing-svc   ] [trc-403675] Downstream microservice response delayed, retry attempt scheduled latency_ms=201
+[2026-03-15 16:46:05.849] [INFO    ] [file-storage  ] [trc-234191] Batch file chunk serialized successfully latency_ms=65
+[2026-03-15 16:46:05.532] [ERROR   ] [api-gateway   ] [trc-579236] Connection reset by peer while transmitting payload latency_ms=5396
+[2026-03-15 16:46:09.708] [CRITICAL] [billing-svc   ] [trc-376777] Database connection pool completely exhausted; dropping new client requests latency_ms=7874
+[2026-03-15 16:46:06.150] [CRITICAL] [cache-redis   ] [trc-239000] Database connection pool completely exhausted; dropping new client requests latency_ms=6344
+[2026-03-15 16:46:05.910] [CRITICAL] [db-cluster    ] [trc-742319] File descriptor limit reached for worker process; operating system rejecting socket creation latency_ms=6455
+[2026-03-15 16:46:15.784] [CRITICAL] [billing-svc   ] [trc-586211] Database connection pool completely exhausted; dropping new client requests latency_ms=4967
+[2026-03-15 16:46:06.349] [WARNING ] [api-gateway   ] [trc-335794] Disk buffer cache pressure elevated during concurrent writes latency_ms=190
+[2026-03-15 16:46:11.028] [ERROR   ] [auth-service  ] [trc-250272] TLS socket abruptly terminated before payload completion latency_ms=1020
+[2026-03-15 16:46:08.624] [INFO    ] [db-cluster    ] [trc-920248] Batch file chunk serialized successfully latency_ms=17
+[2026-03-15 16:46:18.140] [WARNING ] [billing-svc   ] [trc-437831] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=250
+[2026-03-15 16:46:11.631] [INFO    ] [worker-pool   ] [trc-650748] Worker heartbeat acknowledged by supervisor latency_ms=17
+[2026-03-15 16:46:10.634] [ERROR   ] [db-cluster    ] [trc-233980] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=1470
+[2026-03-15 16:46:16.432] [INFO    ] [db-cluster    ] [trc-704599] TLS handshake completed with client agent latency_ms=10

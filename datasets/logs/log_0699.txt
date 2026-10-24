@@ -1,0 +1,23 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00699
+# Generated: 2026-03-15T19:14:03
+# Records Count: 20
+[2026-03-15 19:14:03.000] [WARNING ] [cache-redis   ] [trc-931722] High memory consumption threshold reached (88% utilized) latency_ms=258
+[2026-03-15 19:14:03.361] [INFO    ] [billing-svc   ] [trc-275659] Scheduled garbage collection sweep finished latency_ms=28
+[2026-03-15 19:14:03.742] [WARNING ] [auth-service  ] [trc-259464] High memory consumption threshold reached (88% utilized) latency_ms=338
+[2026-03-15 19:14:04.725] [ERROR   ] [billing-svc   ] [trc-213142] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=675
+[2026-03-15 19:14:05.220] [INFO    ] [billing-svc   ] [trc-400554] Batch file chunk serialized successfully latency_ms=11
+[2026-03-15 19:14:06.750] [INFO    ] [file-storage  ] [trc-144589] Batch file chunk serialized successfully latency_ms=21
+[2026-03-15 19:14:04.440] [INFO    ] [api-gateway   ] [trc-334311] Scheduled garbage collection sweep finished latency_ms=75
+[2026-03-15 19:14:06.213] [WARNING ] [db-cluster    ] [trc-765281] Downstream microservice response delayed, retry attempt scheduled latency_ms=107
+[2026-03-15 19:14:05.688] [INFO    ] [cache-redis   ] [trc-937585] Cache lookup returned positive hit for session key latency_ms=30
+[2026-03-15 19:14:04.431] [ERROR   ] [billing-svc   ] [trc-990654] Failed to write metadata block to distributed store latency_ms=1025
+[2026-03-15 19:14:06.170] [ERROR   ] [cache-redis   ] [trc-746726] Worker thread crashed with segmentation violation in foreign library latency_ms=1405
+[2026-03-15 19:14:08.786] [INFO    ] [auth-service  ] [trc-500315] Incoming HTTP request dispatched to worker handler latency_ms=49
+[2026-03-15 19:14:10.476] [INFO    ] [billing-svc   ] [trc-347126] Incoming HTTP request dispatched to worker handler latency_ms=33
+[2026-03-15 19:14:12.347] [INFO    ] [billing-svc   ] [trc-661662] Batch file chunk serialized successfully latency_ms=21
+[2026-03-15 19:14:11.064] [INFO    ] [api-gateway   ] [trc-906407] Connection acquired from connection pool latency_ms=53
+[2026-03-15 19:14:05.655] [INFO    ] [db-cluster    ] [trc-303277] Worker heartbeat acknowledged by supervisor latency_ms=8
+[2026-03-15 19:14:11.672] [WARNING ] [db-cluster    ] [trc-770136] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=192
+[2026-03-15 19:14:07.301] [INFO    ] [db-cluster    ] [trc-905521] Worker heartbeat acknowledged by supervisor latency_ms=17
+[2026-03-15 19:14:05.988] [INFO    ] [worker-pool   ] [trc-356012] Scheduled garbage collection sweep finished latency_ms=18
+[2026-03-15 19:14:14.286] [ERROR   ] [auth-service  ] [trc-234398] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=865

@@ -1,0 +1,23 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00784
+# Generated: 2026-03-15T10:10:33
+# Records Count: 20
+[2026-03-15 10:10:33.000] [ERROR   ] [file-storage  ] [trc-917356] Failed to write metadata block to distributed store latency_ms=1383
+[2026-03-15 10:10:33.358] [INFO    ] [billing-svc   ] [trc-857201] Worker heartbeat acknowledged by supervisor latency_ms=10
+[2026-03-15 10:10:34.460] [WARNING ] [auth-service  ] [trc-273327] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=265
+[2026-03-15 10:10:34.506] [INFO    ] [file-storage  ] [trc-576305] Batch file chunk serialized successfully latency_ms=23
+[2026-03-15 10:10:36.136] [INFO    ] [file-storage  ] [trc-953964] Batch file chunk serialized successfully latency_ms=24
+[2026-03-15 10:10:35.480] [WARNING ] [db-cluster    ] [trc-711168] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=422
+[2026-03-15 10:10:36.852] [INFO    ] [worker-pool   ] [trc-533764] Batch file chunk serialized successfully latency_ms=36
+[2026-03-15 10:10:38.201] [WARNING ] [cache-redis   ] [trc-962907] Downstream microservice response delayed, retry attempt scheduled latency_ms=404
+[2026-03-15 10:10:34.496] [INFO    ] [worker-pool   ] [trc-431171] Connection acquired from connection pool latency_ms=69
+[2026-03-15 10:10:37.779] [INFO    ] [file-storage  ] [trc-326768] TLS handshake completed with client agent latency_ms=14
+[2026-03-15 10:10:36.690] [INFO    ] [worker-pool   ] [trc-947549] TLS handshake completed with client agent latency_ms=55
+[2026-03-15 10:10:35.156] [INFO    ] [db-cluster    ] [trc-798371] Batch file chunk serialized successfully latency_ms=64
+[2026-03-15 10:10:35.772] [INFO    ] [worker-pool   ] [trc-150130] Connection acquired from connection pool latency_ms=72
+[2026-03-15 10:10:35.613] [ERROR   ] [cache-redis   ] [trc-501867] Worker thread crashed with segmentation violation in foreign library latency_ms=1110
+[2026-03-15 10:10:35.730] [ERROR   ] [api-gateway   ] [trc-891939] TLS socket abruptly terminated before payload completion latency_ms=1036
+[2026-03-15 10:10:44.895] [INFO    ] [api-gateway   ] [trc-616904] Worker heartbeat acknowledged by supervisor latency_ms=34
+[2026-03-15 10:10:36.248] [INFO    ] [worker-pool   ] [trc-150787] Worker heartbeat acknowledged by supervisor latency_ms=43
+[2026-03-15 10:10:37.080] [INFO    ] [db-cluster    ] [trc-216302] Batch file chunk serialized successfully latency_ms=52
+[2026-03-15 10:10:38.706] [INFO    ] [file-storage  ] [trc-754713] Worker heartbeat acknowledged by supervisor latency_ms=29
+[2026-03-15 10:10:40.277] [INFO    ] [cache-redis   ] [trc-920038] Batch file chunk serialized successfully latency_ms=45

@@ -1,0 +1,28 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00970
+# Generated: 2026-03-15T04:15:43
+# Records Count: 25
+[2026-03-15 04:15:43.000] [INFO    ] [billing-svc   ] [trc-657128] Scheduled garbage collection sweep finished latency_ms=50
+[2026-03-15 04:15:43.358] [INFO    ] [api-gateway   ] [trc-685390] Batch file chunk serialized successfully latency_ms=61
+[2026-03-15 04:15:44.044] [WARNING ] [api-gateway   ] [trc-897981] Downstream microservice response delayed, retry attempt scheduled latency_ms=229
+[2026-03-15 04:15:44.818] [WARNING ] [auth-service  ] [trc-627983] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=211
+[2026-03-15 04:15:45.896] [INFO    ] [worker-pool   ] [trc-321092] TLS handshake completed with client agent latency_ms=9
+[2026-03-15 04:15:46.290] [WARNING ] [auth-service  ] [trc-339887] High memory consumption threshold reached (88% utilized) latency_ms=412
+[2026-03-15 04:15:46.924] [INFO    ] [worker-pool   ] [trc-111911] Incoming HTTP request dispatched to worker handler latency_ms=18
+[2026-03-15 04:15:45.086] [INFO    ] [file-storage  ] [trc-151983] Batch file chunk serialized successfully latency_ms=33
+[2026-03-15 04:15:49.400] [INFO    ] [worker-pool   ] [trc-991153] Incoming HTTP request dispatched to worker handler latency_ms=49
+[2026-03-15 04:15:44.953] [INFO    ] [billing-svc   ] [trc-615633] Scheduled garbage collection sweep finished latency_ms=45
+[2026-03-15 04:15:46.320] [INFO    ] [db-cluster    ] [trc-311247] Incoming HTTP request dispatched to worker handler latency_ms=23
+[2026-03-15 04:15:47.147] [ERROR   ] [worker-pool   ] [trc-458245] Failed to write metadata block to distributed store latency_ms=694
+[2026-03-15 04:15:50.848] [CRITICAL] [auth-service  ] [trc-303534] File descriptor limit reached for worker process; operating system rejecting socket creation latency_ms=3859
+[2026-03-15 04:15:47.407] [CRITICAL] [file-storage  ] [trc-631789] Authentication burst anomaly: 120 failed auth tokens within 10 seconds from subnet 198.51.100.0/24 latency_ms=3545
+[2026-03-15 04:15:53.276] [CRITICAL] [api-gateway   ] [trc-881273] Database connection pool completely exhausted; dropping new client requests latency_ms=4479
+[2026-03-15 04:15:49.075] [CRITICAL] [auth-service  ] [trc-612716] Cascading failover triggered on primary cluster node; state recovery active latency_ms=3514
+[2026-03-15 04:15:47.112] [CRITICAL] [db-cluster    ] [trc-120479] Database connection pool completely exhausted; dropping new client requests latency_ms=5934
+[2026-03-15 04:15:49.477] [INFO    ] [api-gateway   ] [trc-373290] Scheduled garbage collection sweep finished latency_ms=62
+[2026-03-15 04:15:52.630] [INFO    ] [billing-svc   ] [trc-241260] TLS handshake completed with client agent latency_ms=21
+[2026-03-15 04:15:49.821] [INFO    ] [cache-redis   ] [trc-265944] TLS handshake completed with client agent latency_ms=8
+[2026-03-15 04:15:58.380] [INFO    ] [api-gateway   ] [trc-564508] Incoming HTTP request dispatched to worker handler latency_ms=12
+[2026-03-15 04:15:57.469] [INFO    ] [api-gateway   ] [trc-717945] Cache lookup returned positive hit for session key latency_ms=12
+[2026-03-15 04:15:49.226] [ERROR   ] [worker-pool   ] [trc-378795] Failed to write metadata block to distributed store latency_ms=1310
+[2026-03-15 04:15:59.721] [WARNING ] [cache-redis   ] [trc-783817] Downstream microservice response delayed, retry attempt scheduled latency_ms=303
+[2026-03-15 04:16:02.056] [INFO    ] [api-gateway   ] [trc-492569] TLS handshake completed with client agent latency_ms=34

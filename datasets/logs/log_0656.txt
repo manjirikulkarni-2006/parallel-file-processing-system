@@ -1,0 +1,20 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00656
+# Generated: 2026-03-15T05:11:02
+# Records Count: 17
+[2026-03-15 05:11:02.000] [INFO    ] [api-gateway   ] [trc-531203] Worker heartbeat acknowledged by supervisor latency_ms=22
+[2026-03-15 05:11:02.302] [ERROR   ] [file-storage  ] [trc-741190] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=501
+[2026-03-15 05:11:03.522] [WARNING ] [billing-svc   ] [trc-754851] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=294
+[2026-03-15 05:11:03.200] [INFO    ] [auth-service  ] [trc-255730] Connection acquired from connection pool latency_ms=11
+[2026-03-15 05:11:02.648] [INFO    ] [auth-service  ] [trc-949522] Worker heartbeat acknowledged by supervisor latency_ms=46
+[2026-03-15 05:11:03.580] [INFO    ] [api-gateway   ] [trc-248327] Incoming HTTP request dispatched to worker handler latency_ms=54
+[2026-03-15 05:11:03.746] [INFO    ] [auth-service  ] [trc-383708] Cache lookup returned positive hit for session key latency_ms=72
+[2026-03-15 05:11:05.948] [INFO    ] [api-gateway   ] [trc-122714] Scheduled garbage collection sweep finished latency_ms=70
+[2026-03-15 05:11:07.320] [INFO    ] [billing-svc   ] [trc-265337] TLS handshake completed with client agent latency_ms=60
+[2026-03-15 05:11:08.957] [WARNING ] [api-gateway   ] [trc-767027] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=383
+[2026-03-15 05:11:03.650] [INFO    ] [cache-redis   ] [trc-870709] Batch file chunk serialized successfully latency_ms=7
+[2026-03-15 05:11:06.664] [INFO    ] [worker-pool   ] [trc-149135] Worker heartbeat acknowledged by supervisor latency_ms=28
+[2026-03-15 05:11:03.992] [ERROR   ] [cache-redis   ] [trc-767045] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=1239
+[2026-03-15 05:11:12.218] [INFO    ] [auth-service  ] [trc-579401] Scheduled garbage collection sweep finished latency_ms=67
+[2026-03-15 05:11:06.410] [ERROR   ] [cache-redis   ] [trc-870222] Failed to write metadata block to distributed store latency_ms=1090
+[2026-03-15 05:11:12.320] [ERROR   ] [auth-service  ] [trc-832047] Worker thread crashed with segmentation violation in foreign library latency_ms=823
+[2026-03-15 05:11:08.096] [INFO    ] [db-cluster    ] [trc-379496] TLS handshake completed with client agent latency_ms=28

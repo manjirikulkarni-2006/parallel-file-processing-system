@@ -1,0 +1,20 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00647
+# Generated: 2026-03-15T07:19:52
+# Records Count: 17
+[2026-03-15 07:19:52.000] [INFO    ] [cache-redis   ] [trc-507481] Worker heartbeat acknowledged by supervisor latency_ms=58
+[2026-03-15 07:19:52.444] [INFO    ] [file-storage  ] [trc-329768] Cache lookup returned positive hit for session key latency_ms=67
+[2026-03-15 07:19:52.324] [WARNING ] [db-cluster    ] [trc-455612] Downstream microservice response delayed, retry attempt scheduled latency_ms=265
+[2026-03-15 07:19:53.035] [WARNING ] [file-storage  ] [trc-673122] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=203
+[2026-03-15 07:19:53.712] [INFO    ] [api-gateway   ] [trc-692805] Incoming HTTP request dispatched to worker handler latency_ms=69
+[2026-03-15 07:19:55.645] [ERROR   ] [worker-pool   ] [trc-608835] Worker thread crashed with segmentation violation in foreign library latency_ms=1423
+[2026-03-15 07:19:54.202] [INFO    ] [file-storage  ] [trc-251212] Worker heartbeat acknowledged by supervisor latency_ms=24
+[2026-03-15 07:19:57.054] [INFO    ] [auth-service  ] [trc-562247] Worker heartbeat acknowledged by supervisor latency_ms=62
+[2026-03-15 07:19:56.280] [INFO    ] [file-storage  ] [trc-146132] Worker heartbeat acknowledged by supervisor latency_ms=13
+[2026-03-15 07:19:53.764] [INFO    ] [cache-redis   ] [trc-473291] Connection acquired from connection pool latency_ms=18
+[2026-03-15 07:19:56.640] [WARNING ] [db-cluster    ] [trc-710688] Disk buffer cache pressure elevated during concurrent writes latency_ms=399
+[2026-03-15 07:19:56.114] [INFO    ] [auth-service  ] [trc-757409] TLS handshake completed with client agent latency_ms=32
+[2026-03-15 07:19:57.052] [INFO    ] [worker-pool   ] [trc-628818] Connection acquired from connection pool latency_ms=54
+[2026-03-15 07:19:57.252] [INFO    ] [billing-svc   ] [trc-493298] Cache lookup returned positive hit for session key latency_ms=69
+[2026-03-15 07:19:58.216] [INFO    ] [billing-svc   ] [trc-935083] Incoming HTTP request dispatched to worker handler latency_ms=18
+[2026-03-15 07:19:58.210] [INFO    ] [cache-redis   ] [trc-490504] Worker heartbeat acknowledged by supervisor latency_ms=63
+[2026-03-15 07:19:58.048] [ERROR   ] [file-storage  ] [trc-528499] TLS socket abruptly terminated before payload completion latency_ms=530

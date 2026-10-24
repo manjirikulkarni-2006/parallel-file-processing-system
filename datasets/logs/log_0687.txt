@@ -1,0 +1,28 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00687
+# Generated: 2026-03-15T18:16:36
+# Records Count: 25
+[2026-03-15 18:16:36.000] [INFO    ] [billing-svc   ] [trc-980140] Connection acquired from connection pool latency_ms=60
+[2026-03-15 18:16:36.164] [INFO    ] [db-cluster    ] [trc-955700] Connection acquired from connection pool latency_ms=60
+[2026-03-15 18:16:36.766] [ERROR   ] [db-cluster    ] [trc-397329] Connection reset by peer while transmitting payload latency_ms=890
+[2026-03-15 18:16:37.992] [WARNING ] [cache-redis   ] [trc-853559] Disk buffer cache pressure elevated during concurrent writes latency_ms=303
+[2026-03-15 18:16:37.624] [WARNING ] [db-cluster    ] [trc-482657] High memory consumption threshold reached (88% utilized) latency_ms=248
+[2026-03-15 18:16:39.225] [INFO    ] [auth-service  ] [trc-402538] Cache lookup returned positive hit for session key latency_ms=53
+[2026-03-15 18:16:39.312] [INFO    ] [worker-pool   ] [trc-394621] Connection acquired from connection pool latency_ms=70
+[2026-03-15 18:16:41.096] [INFO    ] [file-storage  ] [trc-591882] Connection acquired from connection pool latency_ms=5
+[2026-03-15 18:16:40.808] [INFO    ] [api-gateway   ] [trc-100725] Batch file chunk serialized successfully latency_ms=58
+[2026-03-15 18:16:37.890] [ERROR   ] [billing-svc   ] [trc-983718] Worker thread crashed with segmentation violation in foreign library latency_ms=1197
+[2026-03-15 18:16:39.170] [ERROR   ] [auth-service  ] [trc-833872] Connection reset by peer while transmitting payload latency_ms=1351
+[2026-03-15 18:16:39.179] [INFO    ] [cache-redis   ] [trc-414773] Connection acquired from connection pool latency_ms=7
+[2026-03-15 18:16:41.856] [CRITICAL] [auth-service  ] [trc-103974] Database connection pool completely exhausted; dropping new client requests latency_ms=8115
+[2026-03-15 18:16:38.795] [CRITICAL] [file-storage  ] [trc-778019] File descriptor limit reached for worker process; operating system rejecting socket creation latency_ms=3613
+[2026-03-15 18:16:43.798] [CRITICAL] [db-cluster    ] [trc-689927] Authentication burst anomaly: 120 failed auth tokens within 10 seconds from subnet 198.51.100.0/24 latency_ms=7677
+[2026-03-15 18:16:47.595] [ERROR   ] [api-gateway   ] [trc-838813] Failed to write metadata block to distributed store latency_ms=4215
+[2026-03-15 18:16:40.400] [CRITICAL] [worker-pool   ] [trc-868003] Database connection pool completely exhausted; dropping new client requests latency_ms=6074
+[2026-03-15 18:16:43.990] [INFO    ] [cache-redis   ] [trc-660046] Batch file chunk serialized successfully latency_ms=29
+[2026-03-15 18:16:48.330] [INFO    ] [auth-service  ] [trc-343255] Worker heartbeat acknowledged by supervisor latency_ms=63
+[2026-03-15 18:16:38.869] [INFO    ] [cache-redis   ] [trc-406386] Worker heartbeat acknowledged by supervisor latency_ms=29
+[2026-03-15 18:16:45.540] [ERROR   ] [db-cluster    ] [trc-991822] Failed to write metadata block to distributed store latency_ms=986
+[2026-03-15 18:16:49.251] [INFO    ] [api-gateway   ] [trc-324505] Scheduled garbage collection sweep finished latency_ms=33
+[2026-03-15 18:16:42.666] [WARNING ] [file-storage  ] [trc-630303] Thread pool saturation index approaching upper boundary latency_ms=254
+[2026-03-15 18:16:42.670] [INFO    ] [worker-pool   ] [trc-591022] Scheduled garbage collection sweep finished latency_ms=74
+[2026-03-15 18:16:51.168] [INFO    ] [worker-pool   ] [trc-791527] Cache lookup returned positive hit for session key latency_ms=36

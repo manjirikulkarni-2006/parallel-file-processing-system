@@ -1,0 +1,17 @@
+==================================================
+CUSTOMER PRODUCT REVIEW RECORD
+Review-ID: REV-00011
+Product: QuantumRouter AX6000
+Category: Networking
+Rating: 1/5 Stars
+Sentiment-Tag: Negative
+Date: 2026-03-09
+--------------------------------------------------
+Feedback:
+Extremely disappointed with the QuantumRouter AX6000. Frequent thermal spikes and unexpected system freezes during moderate multitasking.
+
+Verified Purchase: Yes. Usage duration: 25 weeks.
+Key attributes evaluated: build quality, throughput, reliability, ergonomics.
+User feedback note: Consider alternatives if demanding high stability.
+Diagnostic benchmark checksum ID: REV-00011-CHK.
+==================================================

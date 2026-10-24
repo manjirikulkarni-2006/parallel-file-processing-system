@@ -1,0 +1,28 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00287
+# Generated: 2026-03-15T21:41:42
+# Records Count: 25
+[2026-03-15 21:41:42.000] [INFO    ] [file-storage  ] [trc-590563] Connection acquired from connection pool latency_ms=42
+[2026-03-15 21:41:42.660] [INFO    ] [db-cluster    ] [trc-580150] Incoming HTTP request dispatched to worker handler latency_ms=11
+[2026-03-15 21:41:43.196] [INFO    ] [file-storage  ] [trc-263398] Batch file chunk serialized successfully latency_ms=60
+[2026-03-15 21:41:43.653] [INFO    ] [db-cluster    ] [trc-737079] Worker heartbeat acknowledged by supervisor latency_ms=33
+[2026-03-15 21:41:44.364] [INFO    ] [billing-svc   ] [trc-959392] Worker heartbeat acknowledged by supervisor latency_ms=44
+[2026-03-15 21:41:43.825] [INFO    ] [file-storage  ] [trc-528316] TLS handshake completed with client agent latency_ms=50
+[2026-03-15 21:41:42.996] [INFO    ] [file-storage  ] [trc-442862] Connection acquired from connection pool latency_ms=47
+[2026-03-15 21:41:47.586] [INFO    ] [db-cluster    ] [trc-273190] Scheduled garbage collection sweep finished latency_ms=28
+[2026-03-15 21:41:46.288] [WARNING ] [db-cluster    ] [trc-693038] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=187
+[2026-03-15 21:41:44.664] [WARNING ] [worker-pool   ] [trc-569684] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=329
+[2026-03-15 21:41:46.000] [WARNING ] [billing-svc   ] [trc-418945] Thread pool saturation index approaching upper boundary latency_ms=356
+[2026-03-15 21:41:50.470] [INFO    ] [billing-svc   ] [trc-273693] Incoming HTTP request dispatched to worker handler latency_ms=39
+[2026-03-15 21:41:49.536] [WARNING ] [auth-service  ] [trc-301784] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=209
+[2026-03-15 21:41:47.291] [INFO    ] [db-cluster    ] [trc-536404] Incoming HTTP request dispatched to worker handler latency_ms=50
+[2026-03-15 21:41:45.528] [WARNING ] [worker-pool   ] [trc-728616] Thread pool saturation index approaching upper boundary latency_ms=124
+[2026-03-15 21:41:52.635] [WARNING ] [api-gateway   ] [trc-496810] Thread pool saturation index approaching upper boundary latency_ms=166
+[2026-03-15 21:41:52.624] [INFO    ] [cache-redis   ] [trc-675560] TLS handshake completed with client agent latency_ms=71
+[2026-03-15 21:41:53.628] [ERROR   ] [db-cluster    ] [trc-746000] Worker thread crashed with segmentation violation in foreign library latency_ms=1495
+[2026-03-15 21:41:49.308] [ERROR   ] [file-storage  ] [trc-367199] Failed to write metadata block to distributed store latency_ms=1196
+[2026-03-15 21:41:56.953] [INFO    ] [worker-pool   ] [trc-187435] Batch file chunk serialized successfully latency_ms=46
+[2026-03-15 21:41:53.540] [INFO    ] [cache-redis   ] [trc-190888] Cache lookup returned positive hit for session key latency_ms=39
+[2026-03-15 21:41:46.158] [ERROR   ] [cache-redis   ] [trc-688719] Failed to write metadata block to distributed store latency_ms=1212
+[2026-03-15 21:41:50.580] [INFO    ] [cache-redis   ] [trc-206427] Worker heartbeat acknowledged by supervisor latency_ms=8
+[2026-03-15 21:41:48.302] [WARNING ] [db-cluster    ] [trc-707442] Downstream microservice response delayed, retry attempt scheduled latency_ms=320
+[2026-03-15 21:41:55.920] [WARNING ] [file-storage  ] [trc-171425] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=332

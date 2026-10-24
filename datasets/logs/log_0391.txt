@@ -1,0 +1,24 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00391
+# Generated: 2026-03-15T11:40:54
+# Records Count: 21
+[2026-03-15 11:40:54.000] [INFO    ] [db-cluster    ] [trc-317657] Incoming HTTP request dispatched to worker handler latency_ms=57
+[2026-03-15 11:40:54.184] [INFO    ] [api-gateway   ] [trc-489665] Connection acquired from connection pool latency_ms=8
+[2026-03-15 11:40:55.034] [WARNING ] [auth-service  ] [trc-287765] Downstream microservice response delayed, retry attempt scheduled latency_ms=301
+[2026-03-15 11:40:54.978] [ERROR   ] [worker-pool   ] [trc-810052] TLS socket abruptly terminated before payload completion latency_ms=1059
+[2026-03-15 11:40:56.900] [WARNING ] [billing-svc   ] [trc-821876] Disk buffer cache pressure elevated during concurrent writes latency_ms=88
+[2026-03-15 11:40:56.285] [INFO    ] [file-storage  ] [trc-619522] Batch file chunk serialized successfully latency_ms=40
+[2026-03-15 11:40:58.284] [INFO    ] [billing-svc   ] [trc-446514] Incoming HTTP request dispatched to worker handler latency_ms=56
+[2026-03-15 11:40:59.131] [INFO    ] [billing-svc   ] [trc-320534] Cache lookup returned positive hit for session key latency_ms=9
+[2026-03-15 11:40:57.920] [ERROR   ] [cache-redis   ] [trc-769646] Worker thread crashed with segmentation violation in foreign library latency_ms=602
+[2026-03-15 11:40:56.088] [INFO    ] [billing-svc   ] [trc-693227] Connection acquired from connection pool latency_ms=17
+[2026-03-15 11:41:01.910] [INFO    ] [api-gateway   ] [trc-345834] Scheduled garbage collection sweep finished latency_ms=14
+[2026-03-15 11:41:00.105] [INFO    ] [cache-redis   ] [trc-906532] Batch file chunk serialized successfully latency_ms=8
+[2026-03-15 11:41:03.468] [ERROR   ] [cache-redis   ] [trc-811045] Failed to write metadata block to distributed store latency_ms=574
+[2026-03-15 11:41:02.697] [INFO    ] [cache-redis   ] [trc-448409] Scheduled garbage collection sweep finished latency_ms=53
+[2026-03-15 11:41:03.702] [INFO    ] [billing-svc   ] [trc-144923] Connection acquired from connection pool latency_ms=38
+[2026-03-15 11:40:58.455] [INFO    ] [file-storage  ] [trc-114690] Scheduled garbage collection sweep finished latency_ms=70
+[2026-03-15 11:41:05.088] [INFO    ] [file-storage  ] [trc-249870] Scheduled garbage collection sweep finished latency_ms=74
+[2026-03-15 11:41:07.583] [INFO    ] [worker-pool   ] [trc-607582] Connection acquired from connection pool latency_ms=74
+[2026-03-15 11:40:57.528] [INFO    ] [auth-service  ] [trc-601489] Batch file chunk serialized successfully latency_ms=65
+[2026-03-15 11:41:00.859] [INFO    ] [cache-redis   ] [trc-186557] Cache lookup returned positive hit for session key latency_ms=75
+[2026-03-15 11:41:08.360] [INFO    ] [db-cluster    ] [trc-694407] Cache lookup returned positive hit for session key latency_ms=71

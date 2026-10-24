@@ -1,0 +1,21 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00325
+# Generated: 2026-03-15T21:43:53
+# Records Count: 18
+[2026-03-15 21:43:53.000] [INFO    ] [file-storage  ] [trc-146700] Worker heartbeat acknowledged by supervisor latency_ms=67
+[2026-03-15 21:43:53.588] [INFO    ] [auth-service  ] [trc-121934] Scheduled garbage collection sweep finished latency_ms=75
+[2026-03-15 21:43:53.692] [INFO    ] [db-cluster    ] [trc-358505] Cache lookup returned positive hit for session key latency_ms=26
+[2026-03-15 21:43:54.407] [INFO    ] [auth-service  ] [trc-956426] Batch file chunk serialized successfully latency_ms=5
+[2026-03-15 21:43:55.588] [INFO    ] [worker-pool   ] [trc-791950] Cache lookup returned positive hit for session key latency_ms=60
+[2026-03-15 21:43:55.085] [ERROR   ] [cache-redis   ] [trc-899958] Connection reset by peer while transmitting payload latency_ms=1315
+[2026-03-15 21:43:54.944] [INFO    ] [db-cluster    ] [trc-827492] Cache lookup returned positive hit for session key latency_ms=29
+[2026-03-15 21:43:56.073] [INFO    ] [auth-service  ] [trc-441363] Batch file chunk serialized successfully latency_ms=16
+[2026-03-15 21:43:58.760] [WARNING ] [auth-service  ] [trc-250343] Thread pool saturation index approaching upper boundary latency_ms=448
+[2026-03-15 21:43:55.754] [INFO    ] [cache-redis   ] [trc-192573] Cache lookup returned positive hit for session key latency_ms=20
+[2026-03-15 21:43:58.180] [WARNING ] [worker-pool   ] [trc-175910] Disk buffer cache pressure elevated during concurrent writes latency_ms=421
+[2026-03-15 21:43:58.610] [WARNING ] [worker-pool   ] [trc-238961] Downstream microservice response delayed, retry attempt scheduled latency_ms=152
+[2026-03-15 21:44:00.704] [INFO    ] [worker-pool   ] [trc-106950] Worker heartbeat acknowledged by supervisor latency_ms=69
+[2026-03-15 21:43:55.769] [INFO    ] [file-storage  ] [trc-387173] Worker heartbeat acknowledged by supervisor latency_ms=27
+[2026-03-15 21:43:55.282] [INFO    ] [db-cluster    ] [trc-263949] Connection acquired from connection pool latency_ms=55
+[2026-03-15 21:43:58.130] [INFO    ] [auth-service  ] [trc-421758] TLS handshake completed with client agent latency_ms=28
+[2026-03-15 21:44:05.528] [INFO    ] [auth-service  ] [trc-612452] Incoming HTTP request dispatched to worker handler latency_ms=36
+[2026-03-15 21:43:58.185] [INFO    ] [db-cluster    ] [trc-592686] Connection acquired from connection pool latency_ms=36

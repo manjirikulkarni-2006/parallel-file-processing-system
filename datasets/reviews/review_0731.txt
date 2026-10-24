@@ -1,0 +1,17 @@
+==================================================
+CUSTOMER PRODUCT REVIEW RECORD
+Review-ID: REV-00731
+Product: AeroBook Slim 15
+Category: Laptops
+Rating: 2/5 Stars
+Sentiment-Tag: Negative
+Date: 2026-03-09
+--------------------------------------------------
+Feedback:
+Extremely disappointed with the AeroBook Slim 15. Frequent thermal spikes and unexpected system freezes during moderate multitasking.
+
+Verified Purchase: Yes. Usage duration: 5 weeks.
+Key attributes evaluated: build quality, throughput, reliability, ergonomics.
+User feedback note: Consider alternatives if demanding high stability.
+Diagnostic benchmark checksum ID: REV-00731-CHK.
+==================================================

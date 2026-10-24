@@ -1,0 +1,22 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00019
+# Generated: 2026-03-15T12:42:23
+# Records Count: 19
+[2026-03-15 12:42:23.000] [INFO    ] [api-gateway   ] [trc-708684] Connection acquired from connection pool latency_ms=69
+[2026-03-15 12:42:23.654] [INFO    ] [worker-pool   ] [trc-590822] Cache lookup returned positive hit for session key latency_ms=72
+[2026-03-15 12:42:24.186] [INFO    ] [auth-service  ] [trc-373055] Incoming HTTP request dispatched to worker handler latency_ms=21
+[2026-03-15 12:42:24.983] [INFO    ] [cache-redis   ] [trc-975355] Cache lookup returned positive hit for session key latency_ms=60
+[2026-03-15 12:42:24.756] [WARNING ] [worker-pool   ] [trc-742705] Downstream microservice response delayed, retry attempt scheduled latency_ms=344
+[2026-03-15 12:42:25.350] [INFO    ] [db-cluster    ] [trc-272998] Batch file chunk serialized successfully latency_ms=24
+[2026-03-15 12:42:27.314] [INFO    ] [cache-redis   ] [trc-789354] Batch file chunk serialized successfully latency_ms=11
+[2026-03-15 12:42:25.401] [INFO    ] [auth-service  ] [trc-157217] Incoming HTTP request dispatched to worker handler latency_ms=65
+[2026-03-15 12:42:26.328] [INFO    ] [auth-service  ] [trc-840255] Incoming HTTP request dispatched to worker handler latency_ms=68
+[2026-03-15 12:42:24.719] [ERROR   ] [db-cluster    ] [trc-473838] TLS socket abruptly terminated before payload completion latency_ms=996
+[2026-03-15 12:42:29.180] [WARNING ] [db-cluster    ] [trc-217955] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=143
+[2026-03-15 12:42:28.577] [WARNING ] [api-gateway   ] [trc-313630] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=166
+[2026-03-15 12:42:31.040] [INFO    ] [cache-redis   ] [trc-386042] TLS handshake completed with client agent latency_ms=32
+[2026-03-15 12:42:32.711] [WARNING ] [api-gateway   ] [trc-651567] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=293
+[2026-03-15 12:42:26.192] [INFO    ] [auth-service  ] [trc-905572] Incoming HTTP request dispatched to worker handler latency_ms=47
+[2026-03-15 12:42:25.640] [ERROR   ] [worker-pool   ] [trc-814407] Connection reset by peer while transmitting payload latency_ms=903
+[2026-03-15 12:42:31.512] [WARNING ] [file-storage  ] [trc-211222] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=94
+[2026-03-15 12:42:26.961] [WARNING ] [db-cluster    ] [trc-971051] Thread pool saturation index approaching upper boundary latency_ms=312
+[2026-03-15 12:42:37.274] [INFO    ] [worker-pool   ] [trc-723068] Cache lookup returned positive hit for session key latency_ms=10

@@ -1,0 +1,22 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00500
+# Generated: 2026-03-15T19:28:43
+# Records Count: 19
+[2026-03-15 19:28:43.000] [INFO    ] [worker-pool   ] [trc-669136] Worker heartbeat acknowledged by supervisor latency_ms=35
+[2026-03-15 19:28:43.272] [INFO    ] [db-cluster    ] [trc-141530] Connection acquired from connection pool latency_ms=65
+[2026-03-15 19:28:44.350] [ERROR   ] [db-cluster    ] [trc-305739] Worker thread crashed with segmentation violation in foreign library latency_ms=1047
+[2026-03-15 19:28:44.803] [WARNING ] [cache-redis   ] [trc-539567] Downstream microservice response delayed, retry attempt scheduled latency_ms=448
+[2026-03-15 19:28:45.204] [INFO    ] [billing-svc   ] [trc-200227] Scheduled garbage collection sweep finished latency_ms=12
+[2026-03-15 19:28:45.840] [ERROR   ] [file-storage  ] [trc-980284] Worker thread crashed with segmentation violation in foreign library latency_ms=1303
+[2026-03-15 19:28:44.866] [INFO    ] [api-gateway   ] [trc-210529] Scheduled garbage collection sweep finished latency_ms=47
+[2026-03-15 19:28:45.569] [WARNING ] [api-gateway   ] [trc-517030] Downstream microservice response delayed, retry attempt scheduled latency_ms=275
+[2026-03-15 19:28:47.400] [INFO    ] [db-cluster    ] [trc-851941] Cache lookup returned positive hit for session key latency_ms=61
+[2026-03-15 19:28:45.313] [INFO    ] [auth-service  ] [trc-381203] Scheduled garbage collection sweep finished latency_ms=21
+[2026-03-15 19:28:50.720] [INFO    ] [auth-service  ] [trc-762584] Scheduled garbage collection sweep finished latency_ms=71
+[2026-03-15 19:28:45.398] [INFO    ] [api-gateway   ] [trc-383143] Connection acquired from connection pool latency_ms=75
+[2026-03-15 19:28:52.528] [INFO    ] [billing-svc   ] [trc-440266] Cache lookup returned positive hit for session key latency_ms=62
+[2026-03-15 19:28:53.192] [INFO    ] [db-cluster    ] [trc-435048] Cache lookup returned positive hit for session key latency_ms=42
+[2026-03-15 19:28:50.182] [INFO    ] [api-gateway   ] [trc-945202] Cache lookup returned positive hit for session key latency_ms=38
+[2026-03-15 19:28:53.545] [INFO    ] [file-storage  ] [trc-452220] Scheduled garbage collection sweep finished latency_ms=10
+[2026-03-15 19:28:51.736] [INFO    ] [file-storage  ] [trc-152744] Worker heartbeat acknowledged by supervisor latency_ms=75
+[2026-03-15 19:28:53.812] [INFO    ] [file-storage  ] [trc-653745] Worker heartbeat acknowledged by supervisor latency_ms=41
+[2026-03-15 19:28:57.148] [INFO    ] [billing-svc   ] [trc-973133] Cache lookup returned positive hit for session key latency_ms=40

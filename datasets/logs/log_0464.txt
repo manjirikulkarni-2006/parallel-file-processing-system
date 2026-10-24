@@ -1,0 +1,18 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00464
+# Generated: 2026-03-15T02:16:36
+# Records Count: 15
+[2026-03-15 02:16:36.000] [WARNING ] [cache-redis   ] [trc-791278] High memory consumption threshold reached (88% utilized) latency_ms=434
+[2026-03-15 02:16:36.751] [INFO    ] [api-gateway   ] [trc-450989] TLS handshake completed with client agent latency_ms=43
+[2026-03-15 02:16:36.936] [INFO    ] [cache-redis   ] [trc-699224] TLS handshake completed with client agent latency_ms=52
+[2026-03-15 02:16:36.894] [INFO    ] [cache-redis   ] [trc-214846] Connection acquired from connection pool latency_ms=75
+[2026-03-15 02:16:39.116] [WARNING ] [db-cluster    ] [trc-956360] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=378
+[2026-03-15 02:16:36.995] [INFO    ] [db-cluster    ] [trc-523309] Batch file chunk serialized successfully latency_ms=67
+[2026-03-15 02:16:39.090] [WARNING ] [billing-svc   ] [trc-259114] Downstream microservice response delayed, retry attempt scheduled latency_ms=173
+[2026-03-15 02:16:37.148] [INFO    ] [cache-redis   ] [trc-352297] Scheduled garbage collection sweep finished latency_ms=46
+[2026-03-15 02:16:41.136] [INFO    ] [file-storage  ] [trc-722567] Batch file chunk serialized successfully latency_ms=49
+[2026-03-15 02:16:42.480] [ERROR   ] [api-gateway   ] [trc-207445] Worker thread crashed with segmentation violation in foreign library latency_ms=877
+[2026-03-15 02:16:38.090] [INFO    ] [cache-redis   ] [trc-595765] Connection acquired from connection pool latency_ms=60
+[2026-03-15 02:16:40.169] [INFO    ] [worker-pool   ] [trc-144690] Worker heartbeat acknowledged by supervisor latency_ms=58
+[2026-03-15 02:16:44.076] [INFO    ] [api-gateway   ] [trc-207931] Connection acquired from connection pool latency_ms=63
+[2026-03-15 02:16:39.536] [INFO    ] [cache-redis   ] [trc-914143] Connection acquired from connection pool latency_ms=31
+[2026-03-15 02:16:46.794] [INFO    ] [billing-svc   ] [trc-340054] Batch file chunk serialized successfully latency_ms=5

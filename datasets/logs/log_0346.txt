@@ -1,0 +1,33 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00346
+# Generated: 2026-03-15T10:12:18
+# Records Count: 30
+[2026-03-15 10:12:18.000] [ERROR   ] [api-gateway   ] [trc-185662] Connection reset by peer while transmitting payload latency_ms=660
+[2026-03-15 10:12:18.670] [INFO    ] [worker-pool   ] [trc-835176] Cache lookup returned positive hit for session key latency_ms=29
+[2026-03-15 10:12:19.424] [INFO    ] [file-storage  ] [trc-856209] Cache lookup returned positive hit for session key latency_ms=68
+[2026-03-15 10:12:19.422] [INFO    ] [file-storage  ] [trc-874662] Cache lookup returned positive hit for session key latency_ms=13
+[2026-03-15 10:12:20.008] [ERROR   ] [worker-pool   ] [trc-271600] TLS socket abruptly terminated before payload completion latency_ms=1255
+[2026-03-15 10:12:19.590] [INFO    ] [cache-redis   ] [trc-339509] Scheduled garbage collection sweep finished latency_ms=17
+[2026-03-15 10:12:21.348] [INFO    ] [worker-pool   ] [trc-863923] TLS handshake completed with client agent latency_ms=36
+[2026-03-15 10:12:23.544] [ERROR   ] [auth-service  ] [trc-732391] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=1221
+[2026-03-15 10:12:21.480] [WARNING ] [worker-pool   ] [trc-774619] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=196
+[2026-03-15 10:12:20.682] [INFO    ] [file-storage  ] [trc-836334] TLS handshake completed with client agent latency_ms=63
+[2026-03-15 10:12:24.870] [INFO    ] [db-cluster    ] [trc-623120] TLS handshake completed with client agent latency_ms=41
+[2026-03-15 10:12:20.255] [ERROR   ] [worker-pool   ] [trc-998386] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=632
+[2026-03-15 10:12:23.016] [WARNING ] [billing-svc   ] [trc-767374] Downstream microservice response delayed, retry attempt scheduled latency_ms=397
+[2026-03-15 10:12:26.346] [WARNING ] [auth-service  ] [trc-925331] Disk buffer cache pressure elevated during concurrent writes latency_ms=188
+[2026-03-15 10:12:24.328] [WARNING ] [api-gateway   ] [trc-690264] Thread pool saturation index approaching upper boundary latency_ms=310
+[2026-03-15 10:12:29.880] [WARNING ] [cache-redis   ] [trc-791122] High memory consumption threshold reached (88% utilized) latency_ms=96
+[2026-03-15 10:12:30.160] [INFO    ] [file-storage  ] [trc-563777] Cache lookup returned positive hit for session key latency_ms=27
+[2026-03-15 10:12:31.226] [INFO    ] [file-storage  ] [trc-273060] Connection acquired from connection pool latency_ms=13
+[2026-03-15 10:12:27.684] [INFO    ] [billing-svc   ] [trc-372287] Connection acquired from connection pool latency_ms=69
+[2026-03-15 10:12:23.301] [INFO    ] [db-cluster    ] [trc-472764] Worker heartbeat acknowledged by supervisor latency_ms=65
+[2026-03-15 10:12:22.020] [INFO    ] [cache-redis   ] [trc-903738] Worker heartbeat acknowledged by supervisor latency_ms=14
+[2026-03-15 10:12:21.171] [INFO    ] [worker-pool   ] [trc-774500] Worker heartbeat acknowledged by supervisor latency_ms=16
+[2026-03-15 10:12:29.440] [WARNING ] [cache-redis   ] [trc-989841] Downstream microservice response delayed, retry attempt scheduled latency_ms=197
+[2026-03-15 10:12:27.660] [ERROR   ] [billing-svc   ] [trc-467781] Worker thread crashed with segmentation violation in foreign library latency_ms=1484
+[2026-03-15 10:12:24.456] [ERROR   ] [billing-svc   ] [trc-254546] Failed to write metadata block to distributed store latency_ms=793
+[2026-03-15 10:12:26.975] [INFO    ] [worker-pool   ] [trc-388602] Scheduled garbage collection sweep finished latency_ms=64
+[2026-03-15 10:12:22.602] [INFO    ] [file-storage  ] [trc-909681] Scheduled garbage collection sweep finished latency_ms=32
+[2026-03-15 10:12:23.994] [INFO    ] [billing-svc   ] [trc-350966] Worker heartbeat acknowledged by supervisor latency_ms=42
+[2026-03-15 10:12:29.032] [INFO    ] [worker-pool   ] [trc-571649] Scheduled garbage collection sweep finished latency_ms=39
+[2026-03-15 10:12:32.007] [WARNING ] [file-storage  ] [trc-121548] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=433

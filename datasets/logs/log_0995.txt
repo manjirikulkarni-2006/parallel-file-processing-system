@@ -1,0 +1,23 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00995
+# Generated: 2026-03-15T19:40:38
+# Records Count: 20
+[2026-03-15 19:40:38.000] [INFO    ] [file-storage  ] [trc-641180] Cache lookup returned positive hit for session key latency_ms=56
+[2026-03-15 19:40:38.656] [WARNING ] [billing-svc   ] [trc-712382] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=326
+[2026-03-15 19:40:38.368] [INFO    ] [file-storage  ] [trc-757697] Scheduled garbage collection sweep finished latency_ms=75
+[2026-03-15 19:40:39.737] [INFO    ] [cache-redis   ] [trc-546944] Incoming HTTP request dispatched to worker handler latency_ms=49
+[2026-03-15 19:40:39.712] [INFO    ] [api-gateway   ] [trc-598939] Batch file chunk serialized successfully latency_ms=59
+[2026-03-15 19:40:39.695] [INFO    ] [db-cluster    ] [trc-693875] Incoming HTTP request dispatched to worker handler latency_ms=19
+[2026-03-15 19:40:39.932] [INFO    ] [file-storage  ] [trc-553801] Connection acquired from connection pool latency_ms=27
+[2026-03-15 19:40:40.177] [INFO    ] [api-gateway   ] [trc-623225] Worker heartbeat acknowledged by supervisor latency_ms=22
+[2026-03-15 19:40:41.864] [INFO    ] [db-cluster    ] [trc-601007] Worker heartbeat acknowledged by supervisor latency_ms=28
+[2026-03-15 19:40:43.742] [INFO    ] [db-cluster    ] [trc-761703] Scheduled garbage collection sweep finished latency_ms=10
+[2026-03-15 19:40:44.080] [WARNING ] [worker-pool   ] [trc-143440] Disk buffer cache pressure elevated during concurrent writes latency_ms=117
+[2026-03-15 19:40:45.216] [WARNING ] [worker-pool   ] [trc-130723] Thread pool saturation index approaching upper boundary latency_ms=196
+[2026-03-15 19:40:46.376] [INFO    ] [worker-pool   ] [trc-871046] Cache lookup returned positive hit for session key latency_ms=22
+[2026-03-15 19:40:44.032] [ERROR   ] [worker-pool   ] [trc-280387] Connection reset by peer while transmitting payload latency_ms=1480
+[2026-03-15 19:40:44.048] [ERROR   ] [api-gateway   ] [trc-901513] Connection reset by peer while transmitting payload latency_ms=975
+[2026-03-15 19:40:46.970] [INFO    ] [billing-svc   ] [trc-786809] Cache lookup returned positive hit for session key latency_ms=13
+[2026-03-15 19:40:44.304] [INFO    ] [cache-redis   ] [trc-867958] Scheduled garbage collection sweep finished latency_ms=74
+[2026-03-15 19:40:46.177] [ERROR   ] [db-cluster    ] [trc-835710] Connection reset by peer while transmitting payload latency_ms=595
+[2026-03-15 19:40:50.564] [ERROR   ] [db-cluster    ] [trc-204432] Worker thread crashed with segmentation violation in foreign library latency_ms=1151
+[2026-03-15 19:40:47.044] [WARNING ] [api-gateway   ] [trc-882463] Thread pool saturation index approaching upper boundary latency_ms=146

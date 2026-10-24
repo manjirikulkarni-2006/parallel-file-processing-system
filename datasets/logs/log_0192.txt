@@ -1,0 +1,26 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00192
+# Generated: 2026-03-15T19:35:13
+# Records Count: 23
+[2026-03-15 19:35:13.000] [INFO    ] [file-storage  ] [trc-824050] Worker heartbeat acknowledged by supervisor latency_ms=9
+[2026-03-15 19:35:13.514] [WARNING ] [api-gateway   ] [trc-900230] Downstream microservice response delayed, retry attempt scheduled latency_ms=243
+[2026-03-15 19:35:13.422] [INFO    ] [worker-pool   ] [trc-855741] Connection acquired from connection pool latency_ms=73
+[2026-03-15 19:35:14.275] [INFO    ] [db-cluster    ] [trc-585995] Scheduled garbage collection sweep finished latency_ms=6
+[2026-03-15 19:35:13.808] [INFO    ] [db-cluster    ] [trc-306646] Scheduled garbage collection sweep finished latency_ms=30
+[2026-03-15 19:35:16.650] [INFO    ] [api-gateway   ] [trc-830797] Connection acquired from connection pool latency_ms=67
+[2026-03-15 19:35:14.770] [INFO    ] [cache-redis   ] [trc-718964] TLS handshake completed with client agent latency_ms=49
+[2026-03-15 19:35:18.551] [INFO    ] [billing-svc   ] [trc-105019] Incoming HTTP request dispatched to worker handler latency_ms=13
+[2026-03-15 19:35:17.648] [INFO    ] [auth-service  ] [trc-451359] Cache lookup returned positive hit for session key latency_ms=19
+[2026-03-15 19:35:17.608] [INFO    ] [api-gateway   ] [trc-809449] TLS handshake completed with client agent latency_ms=5
+[2026-03-15 19:35:17.570] [INFO    ] [worker-pool   ] [trc-124284] Worker heartbeat acknowledged by supervisor latency_ms=17
+[2026-03-15 19:35:18.159] [INFO    ] [auth-service  ] [trc-460099] Incoming HTTP request dispatched to worker handler latency_ms=22
+[2026-03-15 19:35:20.500] [WARNING ] [file-storage  ] [trc-377687] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=194
+[2026-03-15 19:35:21.489] [WARNING ] [file-storage  ] [trc-972872] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=120
+[2026-03-15 19:35:16.528] [INFO    ] [api-gateway   ] [trc-249145] Cache lookup returned positive hit for session key latency_ms=8
+[2026-03-15 19:35:19.465] [INFO    ] [cache-redis   ] [trc-274975] Connection acquired from connection pool latency_ms=63
+[2026-03-15 19:35:19.720] [INFO    ] [auth-service  ] [trc-678143] TLS handshake completed with client agent latency_ms=53
+[2026-03-15 19:35:18.729] [INFO    ] [cache-redis   ] [trc-800278] TLS handshake completed with client agent latency_ms=11
+[2026-03-15 19:35:25.348] [INFO    ] [worker-pool   ] [trc-619999] Connection acquired from connection pool latency_ms=75
+[2026-03-15 19:35:22.652] [INFO    ] [worker-pool   ] [trc-406766] Incoming HTTP request dispatched to worker handler latency_ms=38
+[2026-03-15 19:35:28.940] [ERROR   ] [cache-redis   ] [trc-552344] TLS socket abruptly terminated before payload completion latency_ms=1343
+[2026-03-15 19:35:29.590] [INFO    ] [api-gateway   ] [trc-712997] Incoming HTTP request dispatched to worker handler latency_ms=15
+[2026-03-15 19:35:27.036] [INFO    ] [billing-svc   ] [trc-419224] Cache lookup returned positive hit for session key latency_ms=45

@@ -1,0 +1,23 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00509
+# Generated: 2026-03-15T22:11:10
+# Records Count: 20
+[2026-03-15 22:11:10.000] [INFO    ] [billing-svc   ] [trc-384528] Scheduled garbage collection sweep finished latency_ms=38
+[2026-03-15 22:11:10.178] [INFO    ] [billing-svc   ] [trc-878369] Incoming HTTP request dispatched to worker handler latency_ms=49
+[2026-03-15 22:11:11.474] [INFO    ] [billing-svc   ] [trc-285362] Connection acquired from connection pool latency_ms=11
+[2026-03-15 22:11:12.265] [INFO    ] [db-cluster    ] [trc-967114] TLS handshake completed with client agent latency_ms=40
+[2026-03-15 22:11:12.812] [INFO    ] [db-cluster    ] [trc-169064] TLS handshake completed with client agent latency_ms=26
+[2026-03-15 22:11:12.530] [INFO    ] [cache-redis   ] [trc-453851] Incoming HTTP request dispatched to worker handler latency_ms=42
+[2026-03-15 22:11:12.244] [INFO    ] [auth-service  ] [trc-944209] Incoming HTTP request dispatched to worker handler latency_ms=66
+[2026-03-15 22:11:12.268] [INFO    ] [worker-pool   ] [trc-467054] Incoming HTTP request dispatched to worker handler latency_ms=49
+[2026-03-15 22:11:11.824] [INFO    ] [file-storage  ] [trc-283375] TLS handshake completed with client agent latency_ms=9
+[2026-03-15 22:11:16.435] [WARNING ] [db-cluster    ] [trc-219396] Thread pool saturation index approaching upper boundary latency_ms=342
+[2026-03-15 22:11:11.520] [ERROR   ] [file-storage  ] [trc-618442] Failed to write metadata block to distributed store latency_ms=848
+[2026-03-15 22:11:14.169] [INFO    ] [file-storage  ] [trc-853379] Scheduled garbage collection sweep finished latency_ms=30
+[2026-03-15 22:11:13.636] [ERROR   ] [worker-pool   ] [trc-262507] Worker thread crashed with segmentation violation in foreign library latency_ms=975
+[2026-03-15 22:11:12.730] [INFO    ] [billing-svc   ] [trc-334120] Worker heartbeat acknowledged by supervisor latency_ms=52
+[2026-03-15 22:11:20.416] [INFO    ] [auth-service  ] [trc-431276] Batch file chunk serialized successfully latency_ms=28
+[2026-03-15 22:11:19.600] [WARNING ] [cache-redis   ] [trc-785913] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=387
+[2026-03-15 22:11:12.416] [WARNING ] [billing-svc   ] [trc-374498] Disk buffer cache pressure elevated during concurrent writes latency_ms=395
+[2026-03-15 22:11:21.900] [ERROR   ] [cache-redis   ] [trc-948360] Connection reset by peer while transmitting payload latency_ms=1245
+[2026-03-15 22:11:20.764] [INFO    ] [auth-service  ] [trc-190094] Connection acquired from connection pool latency_ms=66
+[2026-03-15 22:11:13.838] [INFO    ] [auth-service  ] [trc-836407] Incoming HTTP request dispatched to worker handler latency_ms=54

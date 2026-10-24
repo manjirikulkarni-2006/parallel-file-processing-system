@@ -1,0 +1,18 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00301
+# Generated: 2026-03-15T02:25:16
+# Records Count: 15
+[2026-03-15 02:25:16.000] [ERROR   ] [worker-pool   ] [trc-546386] TLS socket abruptly terminated before payload completion latency_ms=1007
+[2026-03-15 02:25:16.396] [INFO    ] [billing-svc   ] [trc-793194] Cache lookup returned positive hit for session key latency_ms=71
+[2026-03-15 02:25:17.328] [INFO    ] [db-cluster    ] [trc-659729] Scheduled garbage collection sweep finished latency_ms=25
+[2026-03-15 02:25:17.464] [INFO    ] [auth-service  ] [trc-199110] Worker heartbeat acknowledged by supervisor latency_ms=27
+[2026-03-15 02:25:18.328] [INFO    ] [cache-redis   ] [trc-539954] Cache lookup returned positive hit for session key latency_ms=68
+[2026-03-15 02:25:19.350] [INFO    ] [api-gateway   ] [trc-819764] Cache lookup returned positive hit for session key latency_ms=71
+[2026-03-15 02:25:17.212] [WARNING ] [worker-pool   ] [trc-114815] Downstream microservice response delayed, retry attempt scheduled latency_ms=277
+[2026-03-15 02:25:17.925] [INFO    ] [cache-redis   ] [trc-430808] Batch file chunk serialized successfully latency_ms=6
+[2026-03-15 02:25:17.528] [ERROR   ] [api-gateway   ] [trc-173756] Connection reset by peer while transmitting payload latency_ms=1489
+[2026-03-15 02:25:17.665] [INFO    ] [db-cluster    ] [trc-319818] Cache lookup returned positive hit for session key latency_ms=37
+[2026-03-15 02:25:21.510] [WARNING ] [db-cluster    ] [trc-895110] Downstream microservice response delayed, retry attempt scheduled latency_ms=334
+[2026-03-15 02:25:20.829] [INFO    ] [auth-service  ] [trc-985574] Worker heartbeat acknowledged by supervisor latency_ms=34
+[2026-03-15 02:25:24.844] [INFO    ] [billing-svc   ] [trc-134008] Cache lookup returned positive hit for session key latency_ms=18
+[2026-03-15 02:25:20.745] [INFO    ] [api-gateway   ] [trc-702278] Worker heartbeat acknowledged by supervisor latency_ms=53
+[2026-03-15 02:25:25.226] [INFO    ] [api-gateway   ] [trc-649113] Incoming HTTP request dispatched to worker handler latency_ms=30

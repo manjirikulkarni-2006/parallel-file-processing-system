@@ -1,0 +1,23 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00086
+# Generated: 2026-03-15T14:24:46
+# Records Count: 20
+[2026-03-15 14:24:46.000] [INFO    ] [auth-service  ] [trc-777141] Batch file chunk serialized successfully latency_ms=52
+[2026-03-15 14:24:46.227] [INFO    ] [worker-pool   ] [trc-537766] Cache lookup returned positive hit for session key latency_ms=9
+[2026-03-15 14:24:46.544] [INFO    ] [worker-pool   ] [trc-248728] Scheduled garbage collection sweep finished latency_ms=31
+[2026-03-15 14:24:46.819] [ERROR   ] [billing-svc   ] [trc-880413] Connection reset by peer while transmitting payload latency_ms=1401
+[2026-03-15 14:24:48.548] [INFO    ] [auth-service  ] [trc-115040] TLS handshake completed with client agent latency_ms=35
+[2026-03-15 14:24:49.080] [INFO    ] [cache-redis   ] [trc-707940] Cache lookup returned positive hit for session key latency_ms=39
+[2026-03-15 14:24:47.038] [INFO    ] [billing-svc   ] [trc-690590] TLS handshake completed with client agent latency_ms=24
+[2026-03-15 14:24:48.590] [INFO    ] [api-gateway   ] [trc-516849] Incoming HTTP request dispatched to worker handler latency_ms=9
+[2026-03-15 14:24:51.272] [INFO    ] [db-cluster    ] [trc-970791] Connection acquired from connection pool latency_ms=6
+[2026-03-15 14:24:52.660] [INFO    ] [api-gateway   ] [trc-788505] Scheduled garbage collection sweep finished latency_ms=40
+[2026-03-15 14:24:50.380] [CRITICAL] [billing-svc   ] [trc-602447] Authentication burst anomaly: 120 failed auth tokens within 10 seconds from subnet 198.51.100.0/24 latency_ms=3699
+[2026-03-15 14:24:50.708] [CRITICAL] [cache-redis   ] [trc-297205] File descriptor limit reached for worker process; operating system rejecting socket creation latency_ms=3515
+[2026-03-15 14:24:48.340] [ERROR   ] [cache-redis   ] [trc-690570] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=8078
+[2026-03-15 14:24:54.450] [ERROR   ] [cache-redis   ] [trc-342767] Connection reset by peer while transmitting payload latency_ms=5847
+[2026-03-15 14:24:53.308] [CRITICAL] [api-gateway   ] [trc-727099] File descriptor limit reached for worker process; operating system rejecting socket creation latency_ms=7961
+[2026-03-15 14:24:50.755] [ERROR   ] [worker-pool   ] [trc-790593] TLS socket abruptly terminated before payload completion latency_ms=1053
+[2026-03-15 14:24:50.784] [INFO    ] [worker-pool   ] [trc-870907] Batch file chunk serialized successfully latency_ms=27
+[2026-03-15 14:24:58.648] [INFO    ] [db-cluster    ] [trc-490185] Cache lookup returned positive hit for session key latency_ms=42
+[2026-03-15 14:24:51.418] [WARNING ] [cache-redis   ] [trc-805332] Thread pool saturation index approaching upper boundary latency_ms=425
+[2026-03-15 14:24:59.395] [ERROR   ] [db-cluster    ] [trc-477832] Connection reset by peer while transmitting payload latency_ms=1116

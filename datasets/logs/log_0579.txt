@@ -1,0 +1,29 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00579
+# Generated: 2026-03-15T15:53:22
+# Records Count: 26
+[2026-03-15 15:53:22.000] [INFO    ] [cache-redis   ] [trc-844017] Incoming HTTP request dispatched to worker handler latency_ms=28
+[2026-03-15 15:53:22.509] [ERROR   ] [worker-pool   ] [trc-245321] Connection reset by peer while transmitting payload latency_ms=1422
+[2026-03-15 15:53:22.356] [INFO    ] [cache-redis   ] [trc-301804] Worker heartbeat acknowledged by supervisor latency_ms=64
+[2026-03-15 15:53:23.065] [WARNING ] [billing-svc   ] [trc-598702] High memory consumption threshold reached (88% utilized) latency_ms=419
+[2026-03-15 15:53:23.312] [INFO    ] [db-cluster    ] [trc-643537] Connection acquired from connection pool latency_ms=36
+[2026-03-15 15:53:23.430] [WARNING ] [cache-redis   ] [trc-219162] Downstream microservice response delayed, retry attempt scheduled latency_ms=336
+[2026-03-15 15:53:24.184] [INFO    ] [billing-svc   ] [trc-523811] Connection acquired from connection pool latency_ms=21
+[2026-03-15 15:53:26.711] [INFO    ] [cache-redis   ] [trc-461627] Scheduled garbage collection sweep finished latency_ms=59
+[2026-03-15 15:53:27.008] [ERROR   ] [worker-pool   ] [trc-334718] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=523
+[2026-03-15 15:53:26.032] [INFO    ] [file-storage  ] [trc-818187] Worker heartbeat acknowledged by supervisor latency_ms=35
+[2026-03-15 15:53:25.970] [WARNING ] [db-cluster    ] [trc-244112] High memory consumption threshold reached (88% utilized) latency_ms=304
+[2026-03-15 15:53:27.214] [ERROR   ] [api-gateway   ] [trc-554407] Connection reset by peer while transmitting payload latency_ms=1204
+[2026-03-15 15:53:31.048] [ERROR   ] [worker-pool   ] [trc-848954] Connection reset by peer while transmitting payload latency_ms=1047
+[2026-03-15 15:53:30.749] [INFO    ] [file-storage  ] [trc-113353] Batch file chunk serialized successfully latency_ms=49
+[2026-03-15 15:53:25.122] [INFO    ] [cache-redis   ] [trc-343718] Incoming HTTP request dispatched to worker handler latency_ms=40
+[2026-03-15 15:53:26.755] [INFO    ] [file-storage  ] [trc-526126] Connection acquired from connection pool latency_ms=6
+[2026-03-15 15:53:31.712] [WARNING ] [worker-pool   ] [trc-510051] Disk buffer cache pressure elevated during concurrent writes latency_ms=279
+[2026-03-15 15:53:28.103] [INFO    ] [file-storage  ] [trc-495830] Scheduled garbage collection sweep finished latency_ms=14
+[2026-03-15 15:53:25.816] [INFO    ] [billing-svc   ] [trc-577886] Scheduled garbage collection sweep finished latency_ms=17
+[2026-03-15 15:53:28.175] [WARNING ] [db-cluster    ] [trc-579088] Downstream microservice response delayed, retry attempt scheduled latency_ms=397
+[2026-03-15 15:53:27.500] [INFO    ] [db-cluster    ] [trc-545182] Scheduled garbage collection sweep finished latency_ms=45
+[2026-03-15 15:53:36.154] [INFO    ] [file-storage  ] [trc-679491] Connection acquired from connection pool latency_ms=13
+[2026-03-15 15:53:34.518] [INFO    ] [billing-svc   ] [trc-252030] Cache lookup returned positive hit for session key latency_ms=17
+[2026-03-15 15:53:32.143] [INFO    ] [billing-svc   ] [trc-224738] Scheduled garbage collection sweep finished latency_ms=51
+[2026-03-15 15:53:35.824] [INFO    ] [cache-redis   ] [trc-234064] Connection acquired from connection pool latency_ms=73
+[2026-03-15 15:53:31.800] [INFO    ] [api-gateway   ] [trc-520872] Worker heartbeat acknowledged by supervisor latency_ms=11

@@ -1,0 +1,21 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00396
+# Generated: 2026-03-15T20:40:40
+# Records Count: 18
+[2026-03-15 20:40:40.000] [INFO    ] [api-gateway   ] [trc-433077] Cache lookup returned positive hit for session key latency_ms=41
+[2026-03-15 20:40:40.273] [WARNING ] [cache-redis   ] [trc-323999] Downstream microservice response delayed, retry attempt scheduled latency_ms=401
+[2026-03-15 20:40:41.596] [INFO    ] [worker-pool   ] [trc-460207] Worker heartbeat acknowledged by supervisor latency_ms=63
+[2026-03-15 20:40:40.540] [INFO    ] [billing-svc   ] [trc-582640] TLS handshake completed with client agent latency_ms=12
+[2026-03-15 20:40:42.548] [INFO    ] [db-cluster    ] [trc-773118] Cache lookup returned positive hit for session key latency_ms=52
+[2026-03-15 20:40:42.475] [ERROR   ] [auth-service  ] [trc-128102] Connection reset by peer while transmitting payload latency_ms=996
+[2026-03-15 20:40:42.100] [ERROR   ] [api-gateway   ] [trc-913928] Connection reset by peer while transmitting payload latency_ms=654
+[2026-03-15 20:40:44.424] [INFO    ] [auth-service  ] [trc-468513] Incoming HTTP request dispatched to worker handler latency_ms=28
+[2026-03-15 20:40:45.904] [INFO    ] [billing-svc   ] [trc-681143] Batch file chunk serialized successfully latency_ms=21
+[2026-03-15 20:40:43.726] [INFO    ] [api-gateway   ] [trc-484542] Scheduled garbage collection sweep finished latency_ms=25
+[2026-03-15 20:40:44.840] [INFO    ] [cache-redis   ] [trc-978889] Batch file chunk serialized successfully latency_ms=41
+[2026-03-15 20:40:48.789] [INFO    ] [file-storage  ] [trc-472472] Connection acquired from connection pool latency_ms=56
+[2026-03-15 20:40:45.580] [WARNING ] [auth-service  ] [trc-896183] Downstream microservice response delayed, retry attempt scheduled latency_ms=190
+[2026-03-15 20:40:47.774] [INFO    ] [worker-pool   ] [trc-261956] Connection acquired from connection pool latency_ms=24
+[2026-03-15 20:40:42.436] [INFO    ] [auth-service  ] [trc-233362] Incoming HTTP request dispatched to worker handler latency_ms=5
+[2026-03-15 20:40:48.670] [INFO    ] [worker-pool   ] [trc-698565] Batch file chunk serialized successfully latency_ms=25
+[2026-03-15 20:40:48.560] [WARNING ] [worker-pool   ] [trc-263981] High memory consumption threshold reached (88% utilized) latency_ms=450
+[2026-03-15 20:40:47.395] [INFO    ] [file-storage  ] [trc-583737] Worker heartbeat acknowledged by supervisor latency_ms=57

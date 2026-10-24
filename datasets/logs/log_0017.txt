@@ -1,0 +1,27 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00017
+# Generated: 2026-03-15T07:09:47
+# Records Count: 24
+[2026-03-15 07:09:47.000] [ERROR   ] [worker-pool   ] [trc-970542] Failed to write metadata block to distributed store latency_ms=1366
+[2026-03-15 07:09:47.572] [INFO    ] [worker-pool   ] [trc-963723] Connection acquired from connection pool latency_ms=37
+[2026-03-15 07:09:48.530] [INFO    ] [auth-service  ] [trc-525581] Connection acquired from connection pool latency_ms=29
+[2026-03-15 07:09:47.534] [WARNING ] [auth-service  ] [trc-935762] Thread pool saturation index approaching upper boundary latency_ms=328
+[2026-03-15 07:09:49.892] [INFO    ] [db-cluster    ] [trc-542519] Incoming HTTP request dispatched to worker handler latency_ms=30
+[2026-03-15 07:09:48.565] [INFO    ] [worker-pool   ] [trc-243057] Scheduled garbage collection sweep finished latency_ms=40
+[2026-03-15 07:09:51.278] [WARNING ] [auth-service  ] [trc-775591] Thread pool saturation index approaching upper boundary latency_ms=90
+[2026-03-15 07:09:48.442] [INFO    ] [cache-redis   ] [trc-188006] Cache lookup returned positive hit for session key latency_ms=13
+[2026-03-15 07:09:51.528] [INFO    ] [worker-pool   ] [trc-804299] Incoming HTTP request dispatched to worker handler latency_ms=55
+[2026-03-15 07:09:49.637] [INFO    ] [auth-service  ] [trc-217369] Worker heartbeat acknowledged by supervisor latency_ms=20
+[2026-03-15 07:09:53.840] [INFO    ] [billing-svc   ] [trc-969250] Scheduled garbage collection sweep finished latency_ms=72
+[2026-03-15 07:09:51.477] [INFO    ] [db-cluster    ] [trc-194632] Incoming HTTP request dispatched to worker handler latency_ms=45
+[2026-03-15 07:09:52.844] [WARNING ] [cache-redis   ] [trc-712710] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=296
+[2026-03-15 07:09:51.849] [INFO    ] [auth-service  ] [trc-212002] Cache lookup returned positive hit for session key latency_ms=61
+[2026-03-15 07:09:54.952] [INFO    ] [worker-pool   ] [trc-718115] Worker heartbeat acknowledged by supervisor latency_ms=52
+[2026-03-15 07:09:50.975] [INFO    ] [worker-pool   ] [trc-672255] TLS handshake completed with client agent latency_ms=36
+[2026-03-15 07:09:53.944] [INFO    ] [cache-redis   ] [trc-251950] TLS handshake completed with client agent latency_ms=52
+[2026-03-15 07:09:54.905] [ERROR   ] [api-gateway   ] [trc-776748] TLS socket abruptly terminated before payload completion latency_ms=535
+[2026-03-15 07:09:50.690] [INFO    ] [billing-svc   ] [trc-927119] Cache lookup returned positive hit for session key latency_ms=75
+[2026-03-15 07:09:57.317] [ERROR   ] [worker-pool   ] [trc-769986] Worker thread crashed with segmentation violation in foreign library latency_ms=1424
+[2026-03-15 07:09:52.480] [WARNING ] [file-storage  ] [trc-347864] Thread pool saturation index approaching upper boundary latency_ms=84
+[2026-03-15 07:09:58.592] [INFO    ] [worker-pool   ] [trc-415504] Scheduled garbage collection sweep finished latency_ms=35
+[2026-03-15 07:09:56.988] [ERROR   ] [auth-service  ] [trc-268010] Worker thread crashed with segmentation violation in foreign library latency_ms=1400
+[2026-03-15 07:10:00.018] [INFO    ] [cache-redis   ] [trc-135527] Incoming HTTP request dispatched to worker handler latency_ms=67

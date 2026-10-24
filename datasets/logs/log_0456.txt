@@ -1,0 +1,18 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00456
+# Generated: 2026-03-15T14:11:17
+# Records Count: 15
+[2026-03-15 14:11:17.000] [INFO    ] [auth-service  ] [trc-686828] Incoming HTTP request dispatched to worker handler latency_ms=15
+[2026-03-15 14:11:17.402] [INFO    ] [auth-service  ] [trc-988324] Scheduled garbage collection sweep finished latency_ms=55
+[2026-03-15 14:11:18.168] [INFO    ] [db-cluster    ] [trc-164870] Scheduled garbage collection sweep finished latency_ms=14
+[2026-03-15 14:11:19.019] [INFO    ] [db-cluster    ] [trc-224538] Incoming HTTP request dispatched to worker handler latency_ms=39
+[2026-03-15 14:11:18.964] [INFO    ] [billing-svc   ] [trc-739756] Worker heartbeat acknowledged by supervisor latency_ms=25
+[2026-03-15 14:11:17.980] [INFO    ] [db-cluster    ] [trc-949317] Worker heartbeat acknowledged by supervisor latency_ms=75
+[2026-03-15 14:11:18.032] [INFO    ] [auth-service  ] [trc-280852] Incoming HTTP request dispatched to worker handler latency_ms=55
+[2026-03-15 14:11:18.281] [INFO    ] [worker-pool   ] [trc-136644] Cache lookup returned positive hit for session key latency_ms=54
+[2026-03-15 14:11:19.088] [INFO    ] [cache-redis   ] [trc-764788] Connection acquired from connection pool latency_ms=42
+[2026-03-15 14:11:19.178] [INFO    ] [db-cluster    ] [trc-841070] Incoming HTTP request dispatched to worker handler latency_ms=40
+[2026-03-15 14:11:22.670] [INFO    ] [cache-redis   ] [trc-462231] Cache lookup returned positive hit for session key latency_ms=15
+[2026-03-15 14:11:20.707] [ERROR   ] [auth-service  ] [trc-316469] Worker thread crashed with segmentation violation in foreign library latency_ms=872
+[2026-03-15 14:11:26.012] [WARNING ] [api-gateway   ] [trc-535190] Downstream microservice response delayed, retry attempt scheduled latency_ms=397
+[2026-03-15 14:11:20.107] [INFO    ] [worker-pool   ] [trc-787740] Connection acquired from connection pool latency_ms=8
+[2026-03-15 14:11:21.914] [INFO    ] [db-cluster    ] [trc-309514] Batch file chunk serialized successfully latency_ms=44

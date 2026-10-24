@@ -1,0 +1,27 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00692
+# Generated: 2026-03-15T06:17:43
+# Records Count: 24
+[2026-03-15 06:17:43.000] [ERROR   ] [billing-svc   ] [trc-837775] TLS socket abruptly terminated before payload completion latency_ms=741
+[2026-03-15 06:17:43.278] [INFO    ] [cache-redis   ] [trc-270839] Incoming HTTP request dispatched to worker handler latency_ms=61
+[2026-03-15 06:17:44.226] [INFO    ] [file-storage  ] [trc-197329] Incoming HTTP request dispatched to worker handler latency_ms=56
+[2026-03-15 06:17:44.389] [ERROR   ] [api-gateway   ] [trc-722993] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=730
+[2026-03-15 06:17:44.132] [INFO    ] [api-gateway   ] [trc-327569] Batch file chunk serialized successfully latency_ms=19
+[2026-03-15 06:17:45.235] [ERROR   ] [file-storage  ] [trc-842669] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=538
+[2026-03-15 06:17:45.148] [ERROR   ] [db-cluster    ] [trc-974371] Worker thread crashed with segmentation violation in foreign library latency_ms=1295
+[2026-03-15 06:17:46.038] [INFO    ] [worker-pool   ] [trc-596910] Batch file chunk serialized successfully latency_ms=64
+[2026-03-15 06:17:47.752] [INFO    ] [billing-svc   ] [trc-325217] Cache lookup returned positive hit for session key latency_ms=20
+[2026-03-15 06:17:46.267] [WARNING ] [billing-svc   ] [trc-205302] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=396
+[2026-03-15 06:17:50.690] [INFO    ] [cache-redis   ] [trc-319875] TLS handshake completed with client agent latency_ms=34
+[2026-03-15 06:17:51.239] [INFO    ] [worker-pool   ] [trc-885187] TLS handshake completed with client agent latency_ms=73
+[2026-03-15 06:17:45.232] [INFO    ] [cache-redis   ] [trc-926478] Cache lookup returned positive hit for session key latency_ms=8
+[2026-03-15 06:17:50.644] [INFO    ] [db-cluster    ] [trc-220653] Batch file chunk serialized successfully latency_ms=56
+[2026-03-15 06:17:48.110] [INFO    ] [db-cluster    ] [trc-658442] Batch file chunk serialized successfully latency_ms=71
+[2026-03-15 06:17:53.320] [WARNING ] [billing-svc   ] [trc-164536] High memory consumption threshold reached (88% utilized) latency_ms=376
+[2026-03-15 06:17:55.736] [WARNING ] [cache-redis   ] [trc-735840] Disk buffer cache pressure elevated during concurrent writes latency_ms=331
+[2026-03-15 06:17:49.120] [INFO    ] [worker-pool   ] [trc-660147] Worker heartbeat acknowledged by supervisor latency_ms=11
+[2026-03-15 06:17:50.794] [ERROR   ] [worker-pool   ] [trc-111204] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=716
+[2026-03-15 06:17:48.320] [INFO    ] [billing-svc   ] [trc-528763] Connection acquired from connection pool latency_ms=12
+[2026-03-15 06:17:53.340] [INFO    ] [db-cluster    ] [trc-259414] TLS handshake completed with client agent latency_ms=61
+[2026-03-15 06:17:49.321] [ERROR   ] [auth-service  ] [trc-996634] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=524
+[2026-03-15 06:17:59.368] [ERROR   ] [cache-redis   ] [trc-198661] Worker thread crashed with segmentation violation in foreign library latency_ms=663
+[2026-03-15 06:17:59.077] [ERROR   ] [file-storage  ] [trc-363015] TLS socket abruptly terminated before payload completion latency_ms=1416

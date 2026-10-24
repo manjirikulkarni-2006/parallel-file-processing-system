@@ -1,0 +1,19 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00468
+# Generated: 2026-03-15T14:21:13
+# Records Count: 16
+[2026-03-15 14:21:13.000] [INFO    ] [db-cluster    ] [trc-886004] Worker heartbeat acknowledged by supervisor latency_ms=38
+[2026-03-15 14:21:13.479] [INFO    ] [worker-pool   ] [trc-397709] Incoming HTTP request dispatched to worker handler latency_ms=16
+[2026-03-15 14:21:13.556] [INFO    ] [billing-svc   ] [trc-249191] Worker heartbeat acknowledged by supervisor latency_ms=71
+[2026-03-15 14:21:14.992] [INFO    ] [worker-pool   ] [trc-687038] Incoming HTTP request dispatched to worker handler latency_ms=21
+[2026-03-15 14:21:13.816] [INFO    ] [worker-pool   ] [trc-736106] Worker heartbeat acknowledged by supervisor latency_ms=71
+[2026-03-15 14:21:16.910] [INFO    ] [billing-svc   ] [trc-345580] Worker heartbeat acknowledged by supervisor latency_ms=24
+[2026-03-15 14:21:15.034] [INFO    ] [auth-service  ] [trc-846849] TLS handshake completed with client agent latency_ms=44
+[2026-03-15 14:21:14.540] [INFO    ] [cache-redis   ] [trc-624086] Scheduled garbage collection sweep finished latency_ms=61
+[2026-03-15 14:21:14.568] [ERROR   ] [cache-redis   ] [trc-937521] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=7845
+[2026-03-15 14:21:16.204] [CRITICAL] [billing-svc   ] [trc-674080] Cascading failover triggered on primary cluster node; state recovery active latency_ms=6597
+[2026-03-15 14:21:18.680] [CRITICAL] [db-cluster    ] [trc-403586] Database connection pool completely exhausted; dropping new client requests latency_ms=3558
+[2026-03-15 14:21:21.382] [CRITICAL] [billing-svc   ] [trc-604214] Authentication burst anomaly: 120 failed auth tokens within 10 seconds from subnet 198.51.100.0/24 latency_ms=5905
+[2026-03-15 14:21:21.928] [CRITICAL] [billing-svc   ] [trc-529399] Authentication burst anomaly: 120 failed auth tokens within 10 seconds from subnet 198.51.100.0/24 latency_ms=8343
+[2026-03-15 14:21:15.184] [INFO    ] [billing-svc   ] [trc-220854] Connection acquired from connection pool latency_ms=51
+[2026-03-15 14:21:19.860] [INFO    ] [auth-service  ] [trc-154312] Cache lookup returned positive hit for session key latency_ms=33
+[2026-03-15 14:21:19.120] [INFO    ] [billing-svc   ] [trc-308181] Cache lookup returned positive hit for session key latency_ms=54

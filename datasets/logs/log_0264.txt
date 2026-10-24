@@ -1,0 +1,24 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00264
+# Generated: 2026-03-15T10:51:59
+# Records Count: 21
+[2026-03-15 10:51:59.000] [INFO    ] [worker-pool   ] [trc-568725] Scheduled garbage collection sweep finished latency_ms=24
+[2026-03-15 10:51:59.194] [INFO    ] [worker-pool   ] [trc-357770] Connection acquired from connection pool latency_ms=61
+[2026-03-15 10:51:59.876] [INFO    ] [auth-service  ] [trc-938703] Batch file chunk serialized successfully latency_ms=59
+[2026-03-15 10:52:00.713] [WARNING ] [worker-pool   ] [trc-517483] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=193
+[2026-03-15 10:52:00.424] [ERROR   ] [db-cluster    ] [trc-190647] Worker thread crashed with segmentation violation in foreign library latency_ms=847
+[2026-03-15 10:52:02.360] [WARNING ] [api-gateway   ] [trc-538849] Downstream microservice response delayed, retry attempt scheduled latency_ms=312
+[2026-03-15 10:52:01.898] [INFO    ] [worker-pool   ] [trc-454808] Batch file chunk serialized successfully latency_ms=22
+[2026-03-15 10:52:00.435] [INFO    ] [billing-svc   ] [trc-353707] Batch file chunk serialized successfully latency_ms=12
+[2026-03-15 10:52:01.376] [INFO    ] [db-cluster    ] [trc-859193] Incoming HTTP request dispatched to worker handler latency_ms=5
+[2026-03-15 10:52:03.626] [WARNING ] [billing-svc   ] [trc-986527] Thread pool saturation index approaching upper boundary latency_ms=361
+[2026-03-15 10:52:05.490] [INFO    ] [api-gateway   ] [trc-546972] Cache lookup returned positive hit for session key latency_ms=64
+[2026-03-15 10:52:01.497] [ERROR   ] [cache-redis   ] [trc-174446] Connection reset by peer while transmitting payload latency_ms=1214
+[2026-03-15 10:52:07.220] [INFO    ] [api-gateway   ] [trc-990652] Scheduled garbage collection sweep finished latency_ms=30
+[2026-03-15 10:52:03.342] [WARNING ] [auth-service  ] [trc-482704] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=374
+[2026-03-15 10:52:04.390] [ERROR   ] [cache-redis   ] [trc-830083] Connection reset by peer while transmitting payload latency_ms=1144
+[2026-03-15 10:52:06.935] [INFO    ] [worker-pool   ] [trc-655457] Worker heartbeat acknowledged by supervisor latency_ms=45
+[2026-03-15 10:52:02.728] [INFO    ] [cache-redis   ] [trc-538937] Scheduled garbage collection sweep finished latency_ms=12
+[2026-03-15 10:52:09.234] [INFO    ] [file-storage  ] [trc-411217] Scheduled garbage collection sweep finished latency_ms=18
+[2026-03-15 10:52:11.420] [INFO    ] [auth-service  ] [trc-133624] Connection acquired from connection pool latency_ms=55
+[2026-03-15 10:52:06.999] [INFO    ] [db-cluster    ] [trc-886302] Cache lookup returned positive hit for session key latency_ms=47
+[2026-03-15 10:52:04.260] [INFO    ] [file-storage  ] [trc-125742] Incoming HTTP request dispatched to worker handler latency_ms=43

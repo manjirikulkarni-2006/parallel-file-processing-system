@@ -1,0 +1,18 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00107
+# Generated: 2026-03-15T20:34:20
+# Records Count: 15
+[2026-03-15 20:34:20.000] [WARNING ] [billing-svc   ] [trc-755569] Downstream microservice response delayed, retry attempt scheduled latency_ms=106
+[2026-03-15 20:34:20.425] [ERROR   ] [api-gateway   ] [trc-795803] Worker thread crashed with segmentation violation in foreign library latency_ms=1273
+[2026-03-15 20:34:21.098] [INFO    ] [db-cluster    ] [trc-863036] TLS handshake completed with client agent latency_ms=63
+[2026-03-15 20:34:22.196] [INFO    ] [api-gateway   ] [trc-132122] Connection acquired from connection pool latency_ms=40
+[2026-03-15 20:34:22.816] [WARNING ] [auth-service  ] [trc-916189] Downstream microservice response delayed, retry attempt scheduled latency_ms=217
+[2026-03-15 20:34:22.035] [INFO    ] [auth-service  ] [trc-649018] Worker heartbeat acknowledged by supervisor latency_ms=55
+[2026-03-15 20:34:22.100] [WARNING ] [auth-service  ] [trc-470168] Disk buffer cache pressure elevated during concurrent writes latency_ms=230
+[2026-03-15 20:34:22.380] [INFO    ] [billing-svc   ] [trc-358604] Connection acquired from connection pool latency_ms=73
+[2026-03-15 20:34:25.912] [WARNING ] [cache-redis   ] [trc-382331] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=179
+[2026-03-15 20:34:26.381] [INFO    ] [file-storage  ] [trc-208110] Connection acquired from connection pool latency_ms=38
+[2026-03-15 20:34:22.310] [ERROR   ] [billing-svc   ] [trc-813586] Failed to write metadata block to distributed store latency_ms=1045
+[2026-03-15 20:34:25.445] [INFO    ] [billing-svc   ] [trc-606779] Cache lookup returned positive hit for session key latency_ms=54
+[2026-03-15 20:34:23.852] [INFO    ] [file-storage  ] [trc-280205] Worker heartbeat acknowledged by supervisor latency_ms=33
+[2026-03-15 20:34:24.901] [INFO    ] [worker-pool   ] [trc-655473] TLS handshake completed with client agent latency_ms=52
+[2026-03-15 20:34:23.556] [INFO    ] [auth-service  ] [trc-628986] TLS handshake completed with client agent latency_ms=55

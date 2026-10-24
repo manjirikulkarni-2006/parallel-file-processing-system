@@ -1,0 +1,33 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00814
+# Generated: 2026-03-15T04:51:55
+# Records Count: 30
+[2026-03-15 04:51:55.000] [INFO    ] [billing-svc   ] [trc-535537] Cache lookup returned positive hit for session key latency_ms=11
+[2026-03-15 04:51:55.350] [INFO    ] [file-storage  ] [trc-317648] TLS handshake completed with client agent latency_ms=29
+[2026-03-15 04:51:55.326] [ERROR   ] [db-cluster    ] [trc-749154] Connection reset by peer while transmitting payload latency_ms=1302
+[2026-03-15 04:51:56.209] [ERROR   ] [worker-pool   ] [trc-875804] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=773
+[2026-03-15 04:51:55.912] [ERROR   ] [db-cluster    ] [trc-572019] Connection reset by peer while transmitting payload latency_ms=1136
+[2026-03-15 04:51:55.790] [INFO    ] [db-cluster    ] [trc-690719] Connection acquired from connection pool latency_ms=18
+[2026-03-15 04:51:59.338] [INFO    ] [file-storage  ] [trc-650337] TLS handshake completed with client agent latency_ms=23
+[2026-03-15 04:51:59.172] [INFO    ] [auth-service  ] [trc-166763] Scheduled garbage collection sweep finished latency_ms=36
+[2026-03-15 04:52:00.368] [INFO    ] [file-storage  ] [trc-151542] Batch file chunk serialized successfully latency_ms=25
+[2026-03-15 04:52:01.894] [INFO    ] [billing-svc   ] [trc-883133] TLS handshake completed with client agent latency_ms=57
+[2026-03-15 04:51:58.250] [INFO    ] [file-storage  ] [trc-255938] Worker heartbeat acknowledged by supervisor latency_ms=18
+[2026-03-15 04:51:58.498] [INFO    ] [auth-service  ] [trc-521117] Cache lookup returned positive hit for session key latency_ms=52
+[2026-03-15 04:52:01.024] [INFO    ] [auth-service  ] [trc-667611] TLS handshake completed with client agent latency_ms=31
+[2026-03-15 04:52:01.227] [WARNING ] [db-cluster    ] [trc-725715] Disk buffer cache pressure elevated during concurrent writes latency_ms=339
+[2026-03-15 04:52:04.170] [INFO    ] [billing-svc   ] [trc-857378] Scheduled garbage collection sweep finished latency_ms=55
+[2026-03-15 04:52:05.440] [WARNING ] [billing-svc   ] [trc-752919] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=394
+[2026-03-15 04:51:59.000] [WARNING ] [file-storage  ] [trc-912951] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=138
+[2026-03-15 04:52:01.987] [INFO    ] [cache-redis   ] [trc-577008] Cache lookup returned positive hit for session key latency_ms=30
+[2026-03-15 04:52:07.780] [INFO    ] [db-cluster    ] [trc-717183] Connection acquired from connection pool latency_ms=9
+[2026-03-15 04:52:02.600] [INFO    ] [cache-redis   ] [trc-683002] Scheduled garbage collection sweep finished latency_ms=38
+[2026-03-15 04:52:07.300] [INFO    ] [billing-svc   ] [trc-262096] Scheduled garbage collection sweep finished latency_ms=52
+[2026-03-15 04:52:11.359] [WARNING ] [billing-svc   ] [trc-364071] High memory consumption threshold reached (88% utilized) latency_ms=143
+[2026-03-15 04:52:04.372] [WARNING ] [billing-svc   ] [trc-460353] Disk buffer cache pressure elevated during concurrent writes latency_ms=257
+[2026-03-15 04:52:07.328] [INFO    ] [api-gateway   ] [trc-691238] Worker heartbeat acknowledged by supervisor latency_ms=8
+[2026-03-15 04:52:05.800] [ERROR   ] [cache-redis   ] [trc-949635] Connection reset by peer while transmitting payload latency_ms=1305
+[2026-03-15 04:52:11.600] [WARNING ] [file-storage  ] [trc-772307] High memory consumption threshold reached (88% utilized) latency_ms=159
+[2026-03-15 04:52:14.604] [INFO    ] [api-gateway   ] [trc-201395] Incoming HTTP request dispatched to worker handler latency_ms=73
+[2026-03-15 04:52:01.372] [INFO    ] [cache-redis   ] [trc-366709] TLS handshake completed with client agent latency_ms=22
+[2026-03-15 04:52:15.468] [ERROR   ] [worker-pool   ] [trc-679955] Failed to write metadata block to distributed store latency_ms=567
+[2026-03-15 04:52:14.894] [INFO    ] [api-gateway   ] [trc-104420] Scheduled garbage collection sweep finished latency_ms=67

@@ -1,0 +1,33 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00688
+# Generated: 2026-03-15T14:59:38
+# Records Count: 30
+[2026-03-15 14:59:38.000] [INFO    ] [db-cluster    ] [trc-869703] Cache lookup returned positive hit for session key latency_ms=43
+[2026-03-15 14:59:38.283] [INFO    ] [api-gateway   ] [trc-582762] Scheduled garbage collection sweep finished latency_ms=20
+[2026-03-15 14:59:39.150] [WARNING ] [file-storage  ] [trc-379702] Downstream microservice response delayed, retry attempt scheduled latency_ms=371
+[2026-03-15 14:59:40.160] [WARNING ] [auth-service  ] [trc-996056] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=238
+[2026-03-15 14:59:40.992] [ERROR   ] [worker-pool   ] [trc-784644] TLS socket abruptly terminated before payload completion latency_ms=1472
+[2026-03-15 14:59:38.965] [INFO    ] [worker-pool   ] [trc-830558] Batch file chunk serialized successfully latency_ms=51
+[2026-03-15 14:59:40.562] [INFO    ] [file-storage  ] [trc-737492] Worker heartbeat acknowledged by supervisor latency_ms=48
+[2026-03-15 14:59:39.904] [WARNING ] [cache-redis   ] [trc-169285] High memory consumption threshold reached (88% utilized) latency_ms=85
+[2026-03-15 14:59:39.840] [INFO    ] [api-gateway   ] [trc-679208] Worker heartbeat acknowledged by supervisor latency_ms=64
+[2026-03-15 14:59:40.889] [INFO    ] [db-cluster    ] [trc-698797] Cache lookup returned positive hit for session key latency_ms=44
+[2026-03-15 14:59:44.100] [INFO    ] [api-gateway   ] [trc-310114] Worker heartbeat acknowledged by supervisor latency_ms=21
+[2026-03-15 14:59:43.885] [INFO    ] [cache-redis   ] [trc-825590] Worker heartbeat acknowledged by supervisor latency_ms=52
+[2026-03-15 14:59:47.300] [INFO    ] [file-storage  ] [trc-174642] Connection acquired from connection pool latency_ms=65
+[2026-03-15 14:59:40.002] [INFO    ] [auth-service  ] [trc-707739] TLS handshake completed with client agent latency_ms=33
+[2026-03-15 14:59:41.654] [WARNING ] [cache-redis   ] [trc-294363] Downstream microservice response delayed, retry attempt scheduled latency_ms=223
+[2026-03-15 14:59:49.805] [INFO    ] [db-cluster    ] [trc-147908] Incoming HTTP request dispatched to worker handler latency_ms=42
+[2026-03-15 14:59:49.648] [INFO    ] [billing-svc   ] [trc-935894] Batch file chunk serialized successfully latency_ms=44
+[2026-03-15 14:59:41.587] [INFO    ] [api-gateway   ] [trc-260709] Batch file chunk serialized successfully latency_ms=37
+[2026-03-15 14:59:42.446] [INFO    ] [db-cluster    ] [trc-931706] Batch file chunk serialized successfully latency_ms=35
+[2026-03-15 14:59:42.598] [INFO    ] [file-storage  ] [trc-648401] Scheduled garbage collection sweep finished latency_ms=39
+[2026-03-15 14:59:50.740] [INFO    ] [file-storage  ] [trc-687832] Cache lookup returned positive hit for session key latency_ms=51
+[2026-03-15 14:59:49.424] [INFO    ] [billing-svc   ] [trc-541028] Worker heartbeat acknowledged by supervisor latency_ms=26
+[2026-03-15 14:59:47.988] [INFO    ] [api-gateway   ] [trc-980627] Worker heartbeat acknowledged by supervisor latency_ms=62
+[2026-03-15 14:59:44.555] [WARNING ] [db-cluster    ] [trc-769641] High memory consumption threshold reached (88% utilized) latency_ms=273
+[2026-03-15 14:59:49.232] [WARNING ] [db-cluster    ] [trc-949607] Disk buffer cache pressure elevated during concurrent writes latency_ms=349
+[2026-03-15 14:59:53.150] [ERROR   ] [api-gateway   ] [trc-367296] TLS socket abruptly terminated before payload completion latency_ms=583
+[2026-03-15 14:59:52.716] [INFO    ] [billing-svc   ] [trc-124516] Connection acquired from connection pool latency_ms=7
+[2026-03-15 14:59:46.208] [ERROR   ] [db-cluster    ] [trc-830115] TLS socket abruptly terminated before payload completion latency_ms=1008
+[2026-03-15 14:59:59.028] [WARNING ] [worker-pool   ] [trc-300547] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=85
+[2026-03-15 14:59:52.964] [ERROR   ] [api-gateway   ] [trc-131821] TLS socket abruptly terminated before payload completion latency_ms=1310

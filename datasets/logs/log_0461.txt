@@ -1,0 +1,19 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00461
+# Generated: 2026-03-15T14:07:23
+# Records Count: 16
+[2026-03-15 14:07:23.000] [WARNING ] [cache-redis   ] [trc-625148] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=321
+[2026-03-15 14:07:23.278] [INFO    ] [billing-svc   ] [trc-460620] Scheduled garbage collection sweep finished latency_ms=7
+[2026-03-15 14:07:23.516] [INFO    ] [auth-service  ] [trc-431442] Batch file chunk serialized successfully latency_ms=69
+[2026-03-15 14:07:24.305] [INFO    ] [file-storage  ] [trc-823076] Scheduled garbage collection sweep finished latency_ms=34
+[2026-03-15 14:07:24.152] [INFO    ] [file-storage  ] [trc-818391] Worker heartbeat acknowledged by supervisor latency_ms=59
+[2026-03-15 14:07:26.965] [INFO    ] [db-cluster    ] [trc-178022] TLS handshake completed with client agent latency_ms=28
+[2026-03-15 14:07:27.380] [ERROR   ] [billing-svc   ] [trc-899690] TLS socket abruptly terminated before payload completion latency_ms=1445
+[2026-03-15 14:07:28.313] [WARNING ] [cache-redis   ] [trc-439762] High memory consumption threshold reached (88% utilized) latency_ms=377
+[2026-03-15 14:07:26.672] [WARNING ] [db-cluster    ] [trc-804119] Thread pool saturation index approaching upper boundary latency_ms=106
+[2026-03-15 14:07:24.755] [INFO    ] [db-cluster    ] [trc-192591] Incoming HTTP request dispatched to worker handler latency_ms=11
+[2026-03-15 14:07:26.870] [INFO    ] [worker-pool   ] [trc-297820] Scheduled garbage collection sweep finished latency_ms=33
+[2026-03-15 14:07:28.577] [INFO    ] [file-storage  ] [trc-255762] Batch file chunk serialized successfully latency_ms=27
+[2026-03-15 14:07:27.272] [ERROR   ] [worker-pool   ] [trc-111539] Connection reset by peer while transmitting payload latency_ms=881
+[2026-03-15 14:07:29.214] [ERROR   ] [file-storage  ] [trc-856659] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=930
+[2026-03-15 14:07:28.642] [ERROR   ] [cache-redis   ] [trc-215574] Worker thread crashed with segmentation violation in foreign library latency_ms=1182
+[2026-03-15 14:07:28.640] [INFO    ] [file-storage  ] [trc-588928] Incoming HTTP request dispatched to worker handler latency_ms=13

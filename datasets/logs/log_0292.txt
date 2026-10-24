@@ -1,0 +1,20 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00292
+# Generated: 2026-03-15T09:59:09
+# Records Count: 17
+[2026-03-15 09:59:09.000] [ERROR   ] [worker-pool   ] [trc-378017] Worker thread crashed with segmentation violation in foreign library latency_ms=800
+[2026-03-15 09:59:09.731] [INFO    ] [worker-pool   ] [trc-601273] Connection acquired from connection pool latency_ms=15
+[2026-03-15 09:59:10.592] [WARNING ] [file-storage  ] [trc-657295] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=400
+[2026-03-15 09:59:10.371] [INFO    ] [db-cluster    ] [trc-349180] Cache lookup returned positive hit for session key latency_ms=14
+[2026-03-15 09:59:10.260] [INFO    ] [file-storage  ] [trc-216647] Batch file chunk serialized successfully latency_ms=39
+[2026-03-15 09:59:12.260] [INFO    ] [billing-svc   ] [trc-740104] Cache lookup returned positive hit for session key latency_ms=54
+[2026-03-15 09:59:11.670] [INFO    ] [auth-service  ] [trc-715132] Worker heartbeat acknowledged by supervisor latency_ms=61
+[2026-03-15 09:59:11.289] [WARNING ] [worker-pool   ] [trc-562345] Downstream microservice response delayed, retry attempt scheduled latency_ms=189
+[2026-03-15 09:59:15.288] [ERROR   ] [file-storage  ] [trc-653975] Worker thread crashed with segmentation violation in foreign library latency_ms=8168
+[2026-03-15 09:59:11.439] [ERROR   ] [worker-pool   ] [trc-351517] Connection reset by peer while transmitting payload latency_ms=7306
+[2026-03-15 09:59:13.730] [CRITICAL] [cache-redis   ] [trc-225021] Database connection pool completely exhausted; dropping new client requests latency_ms=7833
+[2026-03-15 09:59:13.125] [CRITICAL] [cache-redis   ] [trc-391461] Cascading failover triggered on primary cluster node; state recovery active latency_ms=5421
+[2026-03-15 09:59:11.388] [ERROR   ] [worker-pool   ] [trc-588151] TLS socket abruptly terminated before payload completion latency_ms=4905
+[2026-03-15 09:59:14.408] [INFO    ] [worker-pool   ] [trc-876103] Incoming HTTP request dispatched to worker handler latency_ms=8
+[2026-03-15 09:59:18.310] [INFO    ] [api-gateway   ] [trc-247129] Cache lookup returned positive hit for session key latency_ms=35
+[2026-03-15 09:59:18.585] [INFO    ] [file-storage  ] [trc-771038] Batch file chunk serialized successfully latency_ms=26
+[2026-03-15 09:59:16.440] [INFO    ] [auth-service  ] [trc-880955] Scheduled garbage collection sweep finished latency_ms=14

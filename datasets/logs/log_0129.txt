@@ -1,0 +1,18 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00129
+# Generated: 2026-03-15T20:59:52
+# Records Count: 15
+[2026-03-15 20:59:52.000] [WARNING ] [cache-redis   ] [trc-458022] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=193
+[2026-03-15 20:59:52.605] [INFO    ] [db-cluster    ] [trc-574969] Batch file chunk serialized successfully latency_ms=56
+[2026-03-15 20:59:52.962] [INFO    ] [db-cluster    ] [trc-297447] Incoming HTTP request dispatched to worker handler latency_ms=19
+[2026-03-15 20:59:53.305] [WARNING ] [api-gateway   ] [trc-777071] Downstream microservice response delayed, retry attempt scheduled latency_ms=158
+[2026-03-15 20:59:54.396] [INFO    ] [file-storage  ] [trc-165936] Cache lookup returned positive hit for session key latency_ms=46
+[2026-03-15 20:59:55.405] [INFO    ] [billing-svc   ] [trc-147846] Connection acquired from connection pool latency_ms=66
+[2026-03-15 20:59:53.992] [INFO    ] [billing-svc   ] [trc-234242] Connection acquired from connection pool latency_ms=45
+[2026-03-15 20:59:56.368] [ERROR   ] [billing-svc   ] [trc-987810] Connection reset by peer while transmitting payload latency_ms=935
+[2026-03-15 20:59:53.416] [INFO    ] [file-storage  ] [trc-415751] Worker heartbeat acknowledged by supervisor latency_ms=20
+[2026-03-15 20:59:55.348] [INFO    ] [cache-redis   ] [trc-517329] TLS handshake completed with client agent latency_ms=16
+[2026-03-15 20:59:58.560] [INFO    ] [auth-service  ] [trc-136786] Connection acquired from connection pool latency_ms=53
+[2026-03-15 21:00:00.657] [WARNING ] [worker-pool   ] [trc-468117] Disk buffer cache pressure elevated during concurrent writes latency_ms=280
+[2026-03-15 20:59:55.960] [INFO    ] [billing-svc   ] [trc-128090] Connection acquired from connection pool latency_ms=67
+[2026-03-15 20:59:57.226] [WARNING ] [worker-pool   ] [trc-234029] Disk buffer cache pressure elevated during concurrent writes latency_ms=260
+[2026-03-15 20:59:57.152] [INFO    ] [auth-service  ] [trc-255565] TLS handshake completed with client agent latency_ms=61

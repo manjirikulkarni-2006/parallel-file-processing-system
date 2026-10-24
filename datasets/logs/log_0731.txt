@@ -1,0 +1,26 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00731
+# Generated: 2026-03-15T18:28:41
+# Records Count: 23
+[2026-03-15 18:28:41.000] [WARNING ] [file-storage  ] [trc-569780] High memory consumption threshold reached (88% utilized) latency_ms=287
+[2026-03-15 18:28:41.269] [INFO    ] [db-cluster    ] [trc-938166] Scheduled garbage collection sweep finished latency_ms=5
+[2026-03-15 18:28:41.666] [INFO    ] [billing-svc   ] [trc-559567] Scheduled garbage collection sweep finished latency_ms=36
+[2026-03-15 18:28:41.495] [INFO    ] [file-storage  ] [trc-947108] Scheduled garbage collection sweep finished latency_ms=50
+[2026-03-15 18:28:43.596] [INFO    ] [auth-service  ] [trc-865923] Cache lookup returned positive hit for session key latency_ms=23
+[2026-03-15 18:28:42.710] [INFO    ] [api-gateway   ] [trc-717638] Cache lookup returned positive hit for session key latency_ms=31
+[2026-03-15 18:28:44.888] [ERROR   ] [worker-pool   ] [trc-956995] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=796
+[2026-03-15 18:28:44.983] [WARNING ] [cache-redis   ] [trc-614001] Thread pool saturation index approaching upper boundary latency_ms=243
+[2026-03-15 18:28:44.656] [ERROR   ] [auth-service  ] [trc-164227] TLS socket abruptly terminated before payload completion latency_ms=908
+[2026-03-15 18:28:45.824] [INFO    ] [db-cluster    ] [trc-943806] Scheduled garbage collection sweep finished latency_ms=12
+[2026-03-15 18:28:46.990] [INFO    ] [api-gateway   ] [trc-618810] Worker heartbeat acknowledged by supervisor latency_ms=13
+[2026-03-15 18:28:46.093] [ERROR   ] [worker-pool   ] [trc-855997] Connection reset by peer while transmitting payload latency_ms=526
+[2026-03-15 18:28:44.744] [INFO    ] [billing-svc   ] [trc-100434] Incoming HTTP request dispatched to worker handler latency_ms=16
+[2026-03-15 18:28:48.215] [WARNING ] [db-cluster    ] [trc-401594] Downstream microservice response delayed, retry attempt scheduled latency_ms=187
+[2026-03-15 18:28:48.546] [INFO    ] [billing-svc   ] [trc-193882] Cache lookup returned positive hit for session key latency_ms=30
+[2026-03-15 18:28:51.260] [WARNING ] [worker-pool   ] [trc-637508] Downstream microservice response delayed, retry attempt scheduled latency_ms=86
+[2026-03-15 18:28:50.456] [INFO    ] [file-storage  ] [trc-457748] Worker heartbeat acknowledged by supervisor latency_ms=31
+[2026-03-15 18:28:52.594] [INFO    ] [billing-svc   ] [trc-193788] Cache lookup returned positive hit for session key latency_ms=22
+[2026-03-15 18:28:48.362] [INFO    ] [db-cluster    ] [trc-292863] Batch file chunk serialized successfully latency_ms=10
+[2026-03-15 18:28:47.460] [INFO    ] [api-gateway   ] [trc-808999] Scheduled garbage collection sweep finished latency_ms=62
+[2026-03-15 18:28:45.180] [ERROR   ] [auth-service  ] [trc-447398] Failed to write metadata block to distributed store latency_ms=1058
+[2026-03-15 18:28:49.295] [WARNING ] [billing-svc   ] [trc-547628] Disk buffer cache pressure elevated during concurrent writes latency_ms=334
+[2026-03-15 18:28:54.464] [WARNING ] [file-storage  ] [trc-204705] High memory consumption threshold reached (88% utilized) latency_ms=386

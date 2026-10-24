@@ -1,0 +1,20 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00393
+# Generated: 2026-03-15T22:36:19
+# Records Count: 17
+[2026-03-15 22:36:19.000] [INFO    ] [api-gateway   ] [trc-180757] TLS handshake completed with client agent latency_ms=31
+[2026-03-15 22:36:19.374] [INFO    ] [billing-svc   ] [trc-124045] Batch file chunk serialized successfully latency_ms=53
+[2026-03-15 22:36:19.990] [ERROR   ] [worker-pool   ] [trc-756036] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=1427
+[2026-03-15 22:36:20.203] [INFO    ] [auth-service  ] [trc-332152] TLS handshake completed with client agent latency_ms=29
+[2026-03-15 22:36:21.188] [INFO    ] [file-storage  ] [trc-422364] Connection acquired from connection pool latency_ms=44
+[2026-03-15 22:36:21.190] [INFO    ] [db-cluster    ] [trc-278117] Worker heartbeat acknowledged by supervisor latency_ms=7
+[2026-03-15 22:36:22.888] [INFO    ] [worker-pool   ] [trc-794639] Incoming HTTP request dispatched to worker handler latency_ms=45
+[2026-03-15 22:36:21.478] [ERROR   ] [file-storage  ] [trc-806664] TLS socket abruptly terminated before payload completion latency_ms=1297
+[2026-03-15 22:36:20.304] [INFO    ] [worker-pool   ] [trc-865586] Incoming HTTP request dispatched to worker handler latency_ms=39
+[2026-03-15 22:36:21.835] [INFO    ] [file-storage  ] [trc-772218] Worker heartbeat acknowledged by supervisor latency_ms=34
+[2026-03-15 22:36:24.560] [ERROR   ] [auth-service  ] [trc-447454] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=683
+[2026-03-15 22:36:21.607] [INFO    ] [api-gateway   ] [trc-834155] Connection acquired from connection pool latency_ms=64
+[2026-03-15 22:36:24.316] [WARNING ] [api-gateway   ] [trc-152859] Downstream microservice response delayed, retry attempt scheduled latency_ms=378
+[2026-03-15 22:36:22.003] [INFO    ] [worker-pool   ] [trc-877159] Scheduled garbage collection sweep finished latency_ms=70
+[2026-03-15 22:36:22.304] [INFO    ] [worker-pool   ] [trc-456066] Worker heartbeat acknowledged by supervisor latency_ms=44
+[2026-03-15 22:36:30.355] [ERROR   ] [worker-pool   ] [trc-853069] Worker thread crashed with segmentation violation in foreign library latency_ms=671
+[2026-03-15 22:36:31.592] [INFO    ] [db-cluster    ] [trc-368420] Cache lookup returned positive hit for session key latency_ms=22

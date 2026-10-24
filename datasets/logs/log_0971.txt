@@ -1,0 +1,21 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00971
+# Generated: 2026-03-15T14:19:57
+# Records Count: 18
+[2026-03-15 14:19:57.000] [INFO    ] [api-gateway   ] [trc-861240] Scheduled garbage collection sweep finished latency_ms=17
+[2026-03-15 14:19:57.373] [INFO    ] [worker-pool   ] [trc-875229] TLS handshake completed with client agent latency_ms=24
+[2026-03-15 14:19:57.588] [INFO    ] [db-cluster    ] [trc-763727] Worker heartbeat acknowledged by supervisor latency_ms=49
+[2026-03-15 14:19:58.947] [INFO    ] [billing-svc   ] [trc-510732] Scheduled garbage collection sweep finished latency_ms=30
+[2026-03-15 14:19:58.952] [ERROR   ] [worker-pool   ] [trc-790923] Connection reset by peer while transmitting payload latency_ms=730
+[2026-03-15 14:19:59.810] [INFO    ] [auth-service  ] [trc-410601] Worker heartbeat acknowledged by supervisor latency_ms=59
+[2026-03-15 14:19:58.872] [INFO    ] [auth-service  ] [trc-124258] Batch file chunk serialized successfully latency_ms=16
+[2026-03-15 14:20:00.010] [INFO    ] [auth-service  ] [trc-212325] Worker heartbeat acknowledged by supervisor latency_ms=22
+[2026-03-15 14:19:59.432] [INFO    ] [worker-pool   ] [trc-468984] TLS handshake completed with client agent latency_ms=48
+[2026-03-15 14:20:03.930] [ERROR   ] [api-gateway   ] [trc-292432] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=5271
+[2026-03-15 14:20:03.930] [CRITICAL] [worker-pool   ] [trc-407950] Authentication burst anomaly: 120 failed auth tokens within 10 seconds from subnet 198.51.100.0/24 latency_ms=8426
+[2026-03-15 14:20:01.433] [ERROR   ] [api-gateway   ] [trc-667860] Worker thread crashed with segmentation violation in foreign library latency_ms=6992
+[2026-03-15 14:19:59.868] [ERROR   ] [db-cluster    ] [trc-856642] TLS socket abruptly terminated before payload completion latency_ms=7432
+[2026-03-15 14:20:00.250] [ERROR   ] [billing-svc   ] [trc-927903] Worker thread crashed with segmentation violation in foreign library latency_ms=5631
+[2026-03-15 14:20:03.202] [INFO    ] [auth-service  ] [trc-334329] Worker heartbeat acknowledged by supervisor latency_ms=47
+[2026-03-15 14:20:03.570] [INFO    ] [worker-pool   ] [trc-673844] Batch file chunk serialized successfully latency_ms=28
+[2026-03-15 14:20:06.984] [INFO    ] [api-gateway   ] [trc-452963] Connection acquired from connection pool latency_ms=57
+[2026-03-15 14:20:01.539] [INFO    ] [cache-redis   ] [trc-955592] Cache lookup returned positive hit for session key latency_ms=8

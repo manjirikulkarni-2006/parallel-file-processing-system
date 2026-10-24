@@ -1,0 +1,22 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00574
+# Generated: 2026-03-15T12:48:52
+# Records Count: 19
+[2026-03-15 12:48:52.000] [INFO    ] [billing-svc   ] [trc-201908] Incoming HTTP request dispatched to worker handler latency_ms=51
+[2026-03-15 12:48:52.404] [INFO    ] [api-gateway   ] [trc-633917] Incoming HTTP request dispatched to worker handler latency_ms=35
+[2026-03-15 12:48:52.764] [ERROR   ] [api-gateway   ] [trc-989469] Worker thread crashed with segmentation violation in foreign library latency_ms=920
+[2026-03-15 12:48:53.935] [INFO    ] [db-cluster    ] [trc-539261] TLS handshake completed with client agent latency_ms=58
+[2026-03-15 12:48:54.864] [ERROR   ] [billing-svc   ] [trc-681910] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=1249
+[2026-03-15 12:48:52.775] [INFO    ] [db-cluster    ] [trc-407975] Worker heartbeat acknowledged by supervisor latency_ms=11
+[2026-03-15 12:48:56.722] [INFO    ] [billing-svc   ] [trc-169614] TLS handshake completed with client agent latency_ms=24
+[2026-03-15 12:48:57.082] [INFO    ] [file-storage  ] [trc-869368] Connection acquired from connection pool latency_ms=27
+[2026-03-15 12:48:55.520] [INFO    ] [cache-redis   ] [trc-652794] Incoming HTTP request dispatched to worker handler latency_ms=48
+[2026-03-15 12:48:59.164] [ERROR   ] [db-cluster    ] [trc-137636] Worker thread crashed with segmentation violation in foreign library latency_ms=707
+[2026-03-15 12:48:56.390] [INFO    ] [cache-redis   ] [trc-701258] Scheduled garbage collection sweep finished latency_ms=14
+[2026-03-15 12:48:54.211] [INFO    ] [api-gateway   ] [trc-344574] Cache lookup returned positive hit for session key latency_ms=68
+[2026-03-15 12:49:01.480] [ERROR   ] [api-gateway   ] [trc-450804] Failed to write metadata block to distributed store latency_ms=1168
+[2026-03-15 12:48:56.862] [INFO    ] [billing-svc   ] [trc-934318] Worker heartbeat acknowledged by supervisor latency_ms=40
+[2026-03-15 12:48:57.600] [INFO    ] [billing-svc   ] [trc-611460] Cache lookup returned positive hit for session key latency_ms=12
+[2026-03-15 12:49:00.835] [ERROR   ] [auth-service  ] [trc-521778] Worker thread crashed with segmentation violation in foreign library latency_ms=713
+[2026-03-15 12:49:03.632] [ERROR   ] [file-storage  ] [trc-822294] TLS socket abruptly terminated before payload completion latency_ms=908
+[2026-03-15 12:48:58.103] [INFO    ] [db-cluster    ] [trc-710628] Connection acquired from connection pool latency_ms=37
+[2026-03-15 12:48:56.158] [INFO    ] [api-gateway   ] [trc-946641] Cache lookup returned positive hit for session key latency_ms=58

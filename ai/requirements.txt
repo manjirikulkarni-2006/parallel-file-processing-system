@@ -1,0 +1,3 @@
+# Python AI/NLP Analyzer Requirements
+# Pure Python 3.8+ standard library implementation
+# No external dependencies or GPU required

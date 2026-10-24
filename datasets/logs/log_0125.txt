@@ -1,0 +1,18 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00125
+# Generated: 2026-03-15T08:29:29
+# Records Count: 15
+[2026-03-15 08:29:29.000] [INFO    ] [api-gateway   ] [trc-566529] Scheduled garbage collection sweep finished latency_ms=49
+[2026-03-15 08:29:29.315] [WARNING ] [auth-service  ] [trc-848362] High memory consumption threshold reached (88% utilized) latency_ms=172
+[2026-03-15 08:29:29.686] [ERROR   ] [db-cluster    ] [trc-834447] Connection reset by peer while transmitting payload latency_ms=1162
+[2026-03-15 08:29:31.316] [INFO    ] [billing-svc   ] [trc-792325] Cache lookup returned positive hit for session key latency_ms=72
+[2026-03-15 08:29:30.108] [ERROR   ] [file-storage  ] [trc-700677] Connection reset by peer while transmitting payload latency_ms=1202
+[2026-03-15 08:29:31.620] [INFO    ] [file-storage  ] [trc-199051] Scheduled garbage collection sweep finished latency_ms=19
+[2026-03-15 08:29:32.990] [INFO    ] [db-cluster    ] [trc-321706] Cache lookup returned positive hit for session key latency_ms=75
+[2026-03-15 08:29:33.991] [INFO    ] [api-gateway   ] [trc-865806] Cache lookup returned positive hit for session key latency_ms=64
+[2026-03-15 08:29:34.048] [INFO    ] [auth-service  ] [trc-838174] Batch file chunk serialized successfully latency_ms=71
+[2026-03-15 08:29:30.755] [WARNING ] [billing-svc   ] [trc-152789] Downstream microservice response delayed, retry attempt scheduled latency_ms=201
+[2026-03-15 08:29:35.400] [WARNING ] [file-storage  ] [trc-902777] Disk buffer cache pressure elevated during concurrent writes latency_ms=190
+[2026-03-15 08:29:31.398] [INFO    ] [file-storage  ] [trc-493674] Connection acquired from connection pool latency_ms=70
+[2026-03-15 08:29:37.940] [WARNING ] [db-cluster    ] [trc-280751] Downstream microservice response delayed, retry attempt scheduled latency_ms=249
+[2026-03-15 08:29:35.084] [INFO    ] [cache-redis   ] [trc-156015] Worker heartbeat acknowledged by supervisor latency_ms=22
+[2026-03-15 08:29:33.508] [INFO    ] [billing-svc   ] [trc-890618] Incoming HTTP request dispatched to worker handler latency_ms=11

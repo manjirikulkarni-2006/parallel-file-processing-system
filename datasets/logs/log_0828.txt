@@ -1,0 +1,21 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00828
+# Generated: 2026-03-15T21:58:17
+# Records Count: 18
+[2026-03-15 21:58:17.000] [INFO    ] [billing-svc   ] [trc-370745] Cache lookup returned positive hit for session key latency_ms=9
+[2026-03-15 21:58:17.275] [INFO    ] [cache-redis   ] [trc-352028] Batch file chunk serialized successfully latency_ms=10
+[2026-03-15 21:58:18.242] [INFO    ] [worker-pool   ] [trc-691273] Incoming HTTP request dispatched to worker handler latency_ms=8
+[2026-03-15 21:58:17.621] [INFO    ] [billing-svc   ] [trc-838751] Scheduled garbage collection sweep finished latency_ms=23
+[2026-03-15 21:58:19.804] [INFO    ] [auth-service  ] [trc-780716] Connection acquired from connection pool latency_ms=49
+[2026-03-15 21:58:19.835] [INFO    ] [auth-service  ] [trc-133606] TLS handshake completed with client agent latency_ms=73
+[2026-03-15 21:58:19.322] [INFO    ] [cache-redis   ] [trc-481576] TLS handshake completed with client agent latency_ms=11
+[2026-03-15 21:58:20.185] [INFO    ] [auth-service  ] [trc-844277] TLS handshake completed with client agent latency_ms=49
+[2026-03-15 21:58:18.632] [INFO    ] [api-gateway   ] [trc-450219] Connection acquired from connection pool latency_ms=13
+[2026-03-15 21:58:21.932] [ERROR   ] [worker-pool   ] [trc-651805] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=4472
+[2026-03-15 21:58:20.040] [CRITICAL] [api-gateway   ] [trc-470958] Cascading failover triggered on primary cluster node; state recovery active latency_ms=4703
+[2026-03-15 21:58:20.949] [CRITICAL] [auth-service  ] [trc-606428] Cascading failover triggered on primary cluster node; state recovery active latency_ms=4741
+[2026-03-15 21:58:19.076] [ERROR   ] [file-storage  ] [trc-164091] Worker thread crashed with segmentation violation in foreign library latency_ms=6643
+[2026-03-15 21:58:24.072] [CRITICAL] [billing-svc   ] [trc-224586] File descriptor limit reached for worker process; operating system rejecting socket creation latency_ms=5488
+[2026-03-15 21:58:20.164] [ERROR   ] [cache-redis   ] [trc-175062] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=1089
+[2026-03-15 21:58:26.540] [ERROR   ] [api-gateway   ] [trc-851917] Connection reset by peer while transmitting payload latency_ms=1489
+[2026-03-15 21:58:26.200] [INFO    ] [auth-service  ] [trc-537995] Worker heartbeat acknowledged by supervisor latency_ms=21
+[2026-03-15 21:58:20.910] [INFO    ] [worker-pool   ] [trc-471749] Batch file chunk serialized successfully latency_ms=41

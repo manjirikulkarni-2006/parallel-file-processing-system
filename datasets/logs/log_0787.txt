@@ -1,0 +1,24 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00787
+# Generated: 2026-03-15T16:01:54
+# Records Count: 21
+[2026-03-15 16:01:54.000] [INFO    ] [db-cluster    ] [trc-970620] Connection acquired from connection pool latency_ms=5
+[2026-03-15 16:01:54.648] [INFO    ] [billing-svc   ] [trc-927113] Scheduled garbage collection sweep finished latency_ms=27
+[2026-03-15 16:01:55.500] [ERROR   ] [cache-redis   ] [trc-698429] Worker thread crashed with segmentation violation in foreign library latency_ms=649
+[2026-03-15 16:01:54.660] [ERROR   ] [worker-pool   ] [trc-567671] Failed to write metadata block to distributed store latency_ms=601
+[2026-03-15 16:01:55.656] [INFO    ] [file-storage  ] [trc-677225] Batch file chunk serialized successfully latency_ms=48
+[2026-03-15 16:01:56.615] [INFO    ] [cache-redis   ] [trc-483936] Worker heartbeat acknowledged by supervisor latency_ms=38
+[2026-03-15 16:01:55.620] [INFO    ] [auth-service  ] [trc-680968] Connection acquired from connection pool latency_ms=72
+[2026-03-15 16:01:58.970] [INFO    ] [file-storage  ] [trc-588090] Worker heartbeat acknowledged by supervisor latency_ms=6
+[2026-03-15 16:01:59.736] [ERROR   ] [billing-svc   ] [trc-901196] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=1116
+[2026-03-15 16:01:56.520] [INFO    ] [api-gateway   ] [trc-261112] TLS handshake completed with client agent latency_ms=29
+[2026-03-15 16:01:59.010] [ERROR   ] [auth-service  ] [trc-902566] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=7438
+[2026-03-15 16:01:59.346] [CRITICAL] [db-cluster    ] [trc-553540] Database connection pool completely exhausted; dropping new client requests latency_ms=6529
+[2026-03-15 16:02:03.552] [ERROR   ] [cache-redis   ] [trc-669684] Connection reset by peer while transmitting payload latency_ms=7318
+[2026-03-15 16:01:57.276] [ERROR   ] [cache-redis   ] [trc-387587] TLS socket abruptly terminated before payload completion latency_ms=6622
+[2026-03-15 16:02:04.080] [ERROR   ] [worker-pool   ] [trc-184778] TLS socket abruptly terminated before payload completion latency_ms=3563
+[2026-03-15 16:02:03.405] [INFO    ] [db-cluster    ] [trc-846001] Cache lookup returned positive hit for session key latency_ms=23
+[2026-03-15 16:01:56.816] [INFO    ] [cache-redis   ] [trc-915130] Incoming HTTP request dispatched to worker handler latency_ms=69
+[2026-03-15 16:02:00.375] [INFO    ] [cache-redis   ] [trc-513381] Incoming HTTP request dispatched to worker handler latency_ms=60
+[2026-03-15 16:02:05.412] [INFO    ] [file-storage  ] [trc-385090] Scheduled garbage collection sweep finished latency_ms=58
+[2026-03-15 16:02:01.923] [WARNING ] [api-gateway   ] [trc-228620] Downstream microservice response delayed, retry attempt scheduled latency_ms=417
+[2026-03-15 16:02:07.860] [WARNING ] [billing-svc   ] [trc-765864] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=416

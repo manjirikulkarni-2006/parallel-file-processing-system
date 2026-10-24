@@ -1,0 +1,26 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00842
+# Generated: 2026-03-15T15:03:36
+# Records Count: 23
+[2026-03-15 15:03:36.000] [ERROR   ] [worker-pool   ] [trc-164960] Connection reset by peer while transmitting payload latency_ms=1377
+[2026-03-15 15:03:36.523] [INFO    ] [db-cluster    ] [trc-815742] Batch file chunk serialized successfully latency_ms=35
+[2026-03-15 15:03:37.034] [WARNING ] [db-cluster    ] [trc-182608] Disk buffer cache pressure elevated during concurrent writes latency_ms=428
+[2026-03-15 15:03:36.576] [ERROR   ] [db-cluster    ] [trc-250202] TLS socket abruptly terminated before payload completion latency_ms=693
+[2026-03-15 15:03:38.180] [INFO    ] [api-gateway   ] [trc-135695] Cache lookup returned positive hit for session key latency_ms=19
+[2026-03-15 15:03:37.305] [WARNING ] [db-cluster    ] [trc-628897] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=128
+[2026-03-15 15:03:38.490] [INFO    ] [api-gateway   ] [trc-956539] Scheduled garbage collection sweep finished latency_ms=64
+[2026-03-15 15:03:39.682] [INFO    ] [cache-redis   ] [trc-773794] Batch file chunk serialized successfully latency_ms=20
+[2026-03-15 15:03:38.464] [ERROR   ] [db-cluster    ] [trc-375574] Worker thread crashed with segmentation violation in foreign library latency_ms=542
+[2026-03-15 15:03:41.391] [INFO    ] [file-storage  ] [trc-674412] Scheduled garbage collection sweep finished latency_ms=8
+[2026-03-15 15:03:43.970] [ERROR   ] [db-cluster    ] [trc-301191] Connection reset by peer while transmitting payload latency_ms=836
+[2026-03-15 15:03:38.310] [ERROR   ] [db-cluster    ] [trc-768112] TLS socket abruptly terminated before payload completion latency_ms=4895
+[2026-03-15 15:03:42.924] [CRITICAL] [worker-pool   ] [trc-277485] File descriptor limit reached for worker process; operating system rejecting socket creation latency_ms=4171
+[2026-03-15 15:03:40.264] [ERROR   ] [api-gateway   ] [trc-203581] TLS socket abruptly terminated before payload completion latency_ms=7279
+[2026-03-15 15:03:39.794] [ERROR   ] [cache-redis   ] [trc-267661] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=3709
+[2026-03-15 15:03:46.260] [CRITICAL] [auth-service  ] [trc-710475] Database connection pool completely exhausted; dropping new client requests latency_ms=6222
+[2026-03-15 15:03:41.616] [ERROR   ] [cache-redis   ] [trc-872473] Worker thread crashed with segmentation violation in foreign library latency_ms=1013
+[2026-03-15 15:03:46.404] [INFO    ] [api-gateway   ] [trc-311025] Scheduled garbage collection sweep finished latency_ms=9
+[2026-03-15 15:03:48.510] [INFO    ] [cache-redis   ] [trc-304063] Cache lookup returned positive hit for session key latency_ms=63
+[2026-03-15 15:03:51.124] [WARNING ] [api-gateway   ] [trc-320870] Disk buffer cache pressure elevated during concurrent writes latency_ms=271
+[2026-03-15 15:03:46.080] [WARNING ] [auth-service  ] [trc-260170] Downstream microservice response delayed, retry attempt scheduled latency_ms=334
+[2026-03-15 15:03:48.474] [WARNING ] [billing-svc   ] [trc-979970] High memory consumption threshold reached (88% utilized) latency_ms=100
+[2026-03-15 15:03:49.750] [INFO    ] [worker-pool   ] [trc-391352] Cache lookup returned positive hit for session key latency_ms=25

@@ -1,0 +1,33 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00757
+# Generated: 2026-03-15T17:58:55
+# Records Count: 30
+[2026-03-15 17:58:55.000] [INFO    ] [auth-service  ] [trc-659984] Worker heartbeat acknowledged by supervisor latency_ms=36
+[2026-03-15 17:58:55.368] [INFO    ] [cache-redis   ] [trc-496179] TLS handshake completed with client agent latency_ms=33
+[2026-03-15 17:58:55.392] [ERROR   ] [api-gateway   ] [trc-802888] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=1260
+[2026-03-15 17:58:55.471] [INFO    ] [db-cluster    ] [trc-393305] Scheduled garbage collection sweep finished latency_ms=54
+[2026-03-15 17:58:57.688] [INFO    ] [cache-redis   ] [trc-185370] Connection acquired from connection pool latency_ms=48
+[2026-03-15 17:58:58.250] [ERROR   ] [billing-svc   ] [trc-548981] Connection reset by peer while transmitting payload latency_ms=1482
+[2026-03-15 17:58:56.596] [INFO    ] [file-storage  ] [trc-912528] Worker heartbeat acknowledged by supervisor latency_ms=26
+[2026-03-15 17:58:56.904] [ERROR   ] [file-storage  ] [trc-359276] Connection reset by peer while transmitting payload latency_ms=1213
+[2026-03-15 17:58:59.528] [INFO    ] [api-gateway   ] [trc-632668] Cache lookup returned positive hit for session key latency_ms=51
+[2026-03-15 17:58:58.573] [INFO    ] [worker-pool   ] [trc-187210] TLS handshake completed with client agent latency_ms=62
+[2026-03-15 17:59:02.160] [INFO    ] [db-cluster    ] [trc-324654] Worker heartbeat acknowledged by supervisor latency_ms=41
+[2026-03-15 17:59:01.776] [INFO    ] [db-cluster    ] [trc-843516] TLS handshake completed with client agent latency_ms=56
+[2026-03-15 17:59:02.356] [WARNING ] [file-storage  ] [trc-461532] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=244
+[2026-03-15 17:59:01.539] [INFO    ] [file-storage  ] [trc-687732] Incoming HTTP request dispatched to worker handler latency_ms=48
+[2026-03-15 17:59:00.222] [INFO    ] [auth-service  ] [trc-270340] Batch file chunk serialized successfully latency_ms=49
+[2026-03-15 17:59:06.595] [CRITICAL] [db-cluster    ] [trc-796600] File descriptor limit reached for worker process; operating system rejecting socket creation latency_ms=6715
+[2026-03-15 17:59:07.240] [CRITICAL] [db-cluster    ] [trc-145280] Cascading failover triggered on primary cluster node; state recovery active latency_ms=3827
+[2026-03-15 17:59:00.338] [ERROR   ] [worker-pool   ] [trc-394192] TLS socket abruptly terminated before payload completion latency_ms=3944
+[2026-03-15 17:59:00.850] [ERROR   ] [billing-svc   ] [trc-331334] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=3777
+[2026-03-15 17:59:00.377] [CRITICAL] [worker-pool   ] [trc-131797] Authentication burst anomaly: 120 failed auth tokens within 10 seconds from subnet 198.51.100.0/24 latency_ms=4420
+[2026-03-15 17:59:08.400] [INFO    ] [db-cluster    ] [trc-701119] Worker heartbeat acknowledged by supervisor latency_ms=46
+[2026-03-15 17:59:10.813] [ERROR   ] [cache-redis   ] [trc-259662] TLS socket abruptly terminated before payload completion latency_ms=1215
+[2026-03-15 17:59:07.078] [INFO    ] [file-storage  ] [trc-555655] TLS handshake completed with client agent latency_ms=19
+[2026-03-15 17:59:04.430] [ERROR   ] [file-storage  ] [trc-182022] TLS socket abruptly terminated before payload completion latency_ms=903
+[2026-03-15 17:59:12.280] [INFO    ] [billing-svc   ] [trc-991507] Cache lookup returned positive hit for session key latency_ms=46
+[2026-03-15 17:59:01.300] [INFO    ] [api-gateway   ] [trc-173882] Worker heartbeat acknowledged by supervisor latency_ms=39
+[2026-03-15 17:59:02.852] [INFO    ] [worker-pool   ] [trc-759629] Cache lookup returned positive hit for session key latency_ms=7
+[2026-03-15 17:59:07.744] [INFO    ] [cache-redis   ] [trc-176485] Cache lookup returned positive hit for session key latency_ms=71
+[2026-03-15 17:59:15.328] [INFO    ] [auth-service  ] [trc-172744] TLS handshake completed with client agent latency_ms=65
+[2026-03-15 17:59:10.225] [INFO    ] [file-storage  ] [trc-475578] Incoming HTTP request dispatched to worker handler latency_ms=41

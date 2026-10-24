@@ -1,0 +1,25 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00955
+# Generated: 2026-03-15T22:54:24
+# Records Count: 22
+[2026-03-15 22:54:24.000] [INFO    ] [cache-redis   ] [trc-693739] Connection acquired from connection pool latency_ms=38
+[2026-03-15 22:54:24.296] [ERROR   ] [worker-pool   ] [trc-872184] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=1170
+[2026-03-15 22:54:25.016] [INFO    ] [cache-redis   ] [trc-190541] TLS handshake completed with client agent latency_ms=27
+[2026-03-15 22:54:25.332] [ERROR   ] [worker-pool   ] [trc-415562] TLS socket abruptly terminated before payload completion latency_ms=739
+[2026-03-15 22:54:25.624] [INFO    ] [cache-redis   ] [trc-952774] Scheduled garbage collection sweep finished latency_ms=57
+[2026-03-15 22:54:25.585] [INFO    ] [cache-redis   ] [trc-535678] Batch file chunk serialized successfully latency_ms=52
+[2026-03-15 22:54:27.780] [INFO    ] [worker-pool   ] [trc-398430] Batch file chunk serialized successfully latency_ms=26
+[2026-03-15 22:54:25.358] [INFO    ] [file-storage  ] [trc-424101] Connection acquired from connection pool latency_ms=11
+[2026-03-15 22:54:26.424] [INFO    ] [cache-redis   ] [trc-122996] Cache lookup returned positive hit for session key latency_ms=41
+[2026-03-15 22:54:26.610] [INFO    ] [api-gateway   ] [trc-426621] Batch file chunk serialized successfully latency_ms=65
+[2026-03-15 22:54:31.440] [INFO    ] [worker-pool   ] [trc-337488] Incoming HTTP request dispatched to worker handler latency_ms=33
+[2026-03-15 22:54:27.025] [ERROR   ] [billing-svc   ] [trc-109787] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=6181
+[2026-03-15 22:54:27.696] [CRITICAL] [cache-redis   ] [trc-301975] Database connection pool completely exhausted; dropping new client requests latency_ms=5377
+[2026-03-15 22:54:28.108] [CRITICAL] [auth-service  ] [trc-114846] Cascading failover triggered on primary cluster node; state recovery active latency_ms=6007
+[2026-03-15 22:54:30.510] [CRITICAL] [billing-svc   ] [trc-174286] Database connection pool completely exhausted; dropping new client requests latency_ms=7209
+[2026-03-15 22:54:27.960] [CRITICAL] [db-cluster    ] [trc-710298] Cascading failover triggered on primary cluster node; state recovery active latency_ms=5472
+[2026-03-15 22:54:36.144] [INFO    ] [billing-svc   ] [trc-337202] Connection acquired from connection pool latency_ms=52
+[2026-03-15 22:54:30.035] [INFO    ] [worker-pool   ] [trc-893375] Batch file chunk serialized successfully latency_ms=17
+[2026-03-15 22:54:37.536] [WARNING ] [cache-redis   ] [trc-275606] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=294
+[2026-03-15 22:54:33.861] [INFO    ] [file-storage  ] [trc-387245] Incoming HTTP request dispatched to worker handler latency_ms=63
+[2026-03-15 22:54:34.300] [INFO    ] [auth-service  ] [trc-647314] TLS handshake completed with client agent latency_ms=13
+[2026-03-15 22:54:36.390] [INFO    ] [cache-redis   ] [trc-900774] Incoming HTTP request dispatched to worker handler latency_ms=19

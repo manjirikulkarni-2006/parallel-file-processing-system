@@ -1,0 +1,23 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00162
+# Generated: 2026-03-15T18:52:31
+# Records Count: 20
+[2026-03-15 18:52:31.000] [INFO    ] [worker-pool   ] [trc-295030] Batch file chunk serialized successfully latency_ms=28
+[2026-03-15 18:52:31.319] [INFO    ] [db-cluster    ] [trc-691056] Incoming HTTP request dispatched to worker handler latency_ms=54
+[2026-03-15 18:52:32.152] [ERROR   ] [db-cluster    ] [trc-176201] TLS socket abruptly terminated before payload completion latency_ms=1097
+[2026-03-15 18:52:32.701] [ERROR   ] [auth-service  ] [trc-298331] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=1124
+[2026-03-15 18:52:34.016] [WARNING ] [file-storage  ] [trc-789233] Disk buffer cache pressure elevated during concurrent writes latency_ms=388
+[2026-03-15 18:52:34.555] [INFO    ] [auth-service  ] [trc-325796] Worker heartbeat acknowledged by supervisor latency_ms=66
+[2026-03-15 18:52:34.354] [INFO    ] [file-storage  ] [trc-639773] Batch file chunk serialized successfully latency_ms=62
+[2026-03-15 18:52:36.425] [ERROR   ] [auth-service  ] [trc-490247] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=512
+[2026-03-15 18:52:34.664] [INFO    ] [api-gateway   ] [trc-359060] Connection acquired from connection pool latency_ms=11
+[2026-03-15 18:52:37.165] [INFO    ] [cache-redis   ] [trc-946703] Worker heartbeat acknowledged by supervisor latency_ms=36
+[2026-03-15 18:52:33.470] [ERROR   ] [worker-pool   ] [trc-309864] Failed to write metadata block to distributed store latency_ms=8411
+[2026-03-15 18:52:33.596] [CRITICAL] [auth-service  ] [trc-232177] Database connection pool completely exhausted; dropping new client requests latency_ms=3536
+[2026-03-15 18:52:33.616] [CRITICAL] [worker-pool   ] [trc-411941] File descriptor limit reached for worker process; operating system rejecting socket creation latency_ms=6767
+[2026-03-15 18:52:34.900] [ERROR   ] [cache-redis   ] [trc-746908] Connection reset by peer while transmitting payload latency_ms=5998
+[2026-03-15 18:52:36.348] [ERROR   ] [cache-redis   ] [trc-135395] TLS socket abruptly terminated before payload completion latency_ms=4079
+[2026-03-15 18:52:36.580] [INFO    ] [worker-pool   ] [trc-223950] Worker heartbeat acknowledged by supervisor latency_ms=68
+[2026-03-15 18:52:38.664] [WARNING ] [auth-service  ] [trc-766441] Thread pool saturation index approaching upper boundary latency_ms=147
+[2026-03-15 18:52:34.111] [INFO    ] [file-storage  ] [trc-742669] TLS handshake completed with client agent latency_ms=46
+[2026-03-15 18:52:40.756] [WARNING ] [worker-pool   ] [trc-267529] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=231
+[2026-03-15 18:52:34.059] [ERROR   ] [worker-pool   ] [trc-751254] Failed to write metadata block to distributed store latency_ms=556

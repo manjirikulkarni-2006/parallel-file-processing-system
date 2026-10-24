@@ -1,0 +1,20 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00055
+# Generated: 2026-03-15T18:24:19
+# Records Count: 17
+[2026-03-15 18:24:19.000] [INFO    ] [db-cluster    ] [trc-619419] Batch file chunk serialized successfully latency_ms=54
+[2026-03-15 18:24:19.604] [INFO    ] [api-gateway   ] [trc-335351] Connection acquired from connection pool latency_ms=60
+[2026-03-15 18:24:20.390] [INFO    ] [api-gateway   ] [trc-792482] Worker heartbeat acknowledged by supervisor latency_ms=49
+[2026-03-15 18:24:19.528] [ERROR   ] [file-storage  ] [trc-891127] Worker thread crashed with segmentation violation in foreign library latency_ms=1329
+[2026-03-15 18:24:22.020] [INFO    ] [auth-service  ] [trc-894036] TLS handshake completed with client agent latency_ms=60
+[2026-03-15 18:24:21.935] [ERROR   ] [cache-redis   ] [trc-864649] Connection reset by peer while transmitting payload latency_ms=1326
+[2026-03-15 18:24:20.566] [ERROR   ] [file-storage  ] [trc-506963] Worker thread crashed with segmentation violation in foreign library latency_ms=1379
+[2026-03-15 18:24:23.879] [INFO    ] [db-cluster    ] [trc-544423] Worker heartbeat acknowledged by supervisor latency_ms=71
+[2026-03-15 18:24:22.328] [CRITICAL] [auth-service  ] [trc-499812] Cascading failover triggered on primary cluster node; state recovery active latency_ms=4580
+[2026-03-15 18:24:20.485] [ERROR   ] [worker-pool   ] [trc-938429] Worker thread crashed with segmentation violation in foreign library latency_ms=4200
+[2026-03-15 18:24:23.050] [CRITICAL] [cache-redis   ] [trc-669171] File descriptor limit reached for worker process; operating system rejecting socket creation latency_ms=3816
+[2026-03-15 18:24:27.580] [CRITICAL] [worker-pool   ] [trc-479264] Authentication burst anomaly: 120 failed auth tokens within 10 seconds from subnet 198.51.100.0/24 latency_ms=8480
+[2026-03-15 18:24:20.944] [ERROR   ] [api-gateway   ] [trc-421802] Worker thread crashed with segmentation violation in foreign library latency_ms=5666
+[2026-03-15 18:24:23.329] [INFO    ] [db-cluster    ] [trc-585201] Incoming HTTP request dispatched to worker handler latency_ms=64
+[2026-03-15 18:24:21.618] [INFO    ] [worker-pool   ] [trc-603534] Worker heartbeat acknowledged by supervisor latency_ms=32
+[2026-03-15 18:24:27.520] [ERROR   ] [api-gateway   ] [trc-707723] Worker thread crashed with segmentation violation in foreign library latency_ms=1418
+[2026-03-15 18:24:31.384] [ERROR   ] [file-storage  ] [trc-429280] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=684

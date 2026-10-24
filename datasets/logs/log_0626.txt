@@ -1,0 +1,31 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00626
+# Generated: 2026-03-15T09:35:49
+# Records Count: 28
+[2026-03-15 09:35:49.000] [WARNING ] [file-storage  ] [trc-539152] Disk buffer cache pressure elevated during concurrent writes latency_ms=137
+[2026-03-15 09:35:49.162] [INFO    ] [auth-service  ] [trc-295438] Connection acquired from connection pool latency_ms=38
+[2026-03-15 09:35:49.306] [INFO    ] [api-gateway   ] [trc-610438] Connection acquired from connection pool latency_ms=15
+[2026-03-15 09:35:50.428] [WARNING ] [file-storage  ] [trc-821391] Downstream microservice response delayed, retry attempt scheduled latency_ms=436
+[2026-03-15 09:35:50.860] [INFO    ] [auth-service  ] [trc-167647] TLS handshake completed with client agent latency_ms=57
+[2026-03-15 09:35:52.250] [INFO    ] [worker-pool   ] [trc-109899] Scheduled garbage collection sweep finished latency_ms=41
+[2026-03-15 09:35:49.936] [INFO    ] [worker-pool   ] [trc-355939] Incoming HTTP request dispatched to worker handler latency_ms=41
+[2026-03-15 09:35:50.547] [INFO    ] [api-gateway   ] [trc-712198] Batch file chunk serialized successfully latency_ms=33
+[2026-03-15 09:35:53.632] [INFO    ] [api-gateway   ] [trc-532229] Connection acquired from connection pool latency_ms=38
+[2026-03-15 09:35:50.710] [ERROR   ] [worker-pool   ] [trc-946541] Connection reset by peer while transmitting payload latency_ms=1409
+[2026-03-15 09:35:52.560] [INFO    ] [api-gateway   ] [trc-148388] Connection acquired from connection pool latency_ms=34
+[2026-03-15 09:35:57.008] [INFO    ] [worker-pool   ] [trc-316060] Worker heartbeat acknowledged by supervisor latency_ms=19
+[2026-03-15 09:35:57.028] [INFO    ] [auth-service  ] [trc-337780] Incoming HTTP request dispatched to worker handler latency_ms=57
+[2026-03-15 09:35:57.411] [ERROR   ] [api-gateway   ] [trc-538931] TLS socket abruptly terminated before payload completion latency_ms=1399
+[2026-03-15 09:35:59.402] [ERROR   ] [db-cluster    ] [trc-870447] TLS socket abruptly terminated before payload completion latency_ms=567
+[2026-03-15 09:35:58.435] [INFO    ] [cache-redis   ] [trc-449452] Incoming HTTP request dispatched to worker handler latency_ms=41
+[2026-03-15 09:35:56.216] [INFO    ] [cache-redis   ] [trc-235594] Connection acquired from connection pool latency_ms=33
+[2026-03-15 09:35:57.534] [INFO    ] [cache-redis   ] [trc-263122] Cache lookup returned positive hit for session key latency_ms=56
+[2026-03-15 09:35:52.600] [INFO    ] [auth-service  ] [trc-327709] Connection acquired from connection pool latency_ms=43
+[2026-03-15 09:36:01.483] [ERROR   ] [worker-pool   ] [trc-515676] TLS socket abruptly terminated before payload completion latency_ms=1466
+[2026-03-15 09:36:01.820] [ERROR   ] [file-storage  ] [trc-239045] Connection reset by peer while transmitting payload latency_ms=1064
+[2026-03-15 09:35:59.668] [INFO    ] [worker-pool   ] [trc-872494] Batch file chunk serialized successfully latency_ms=11
+[2026-03-15 09:35:56.986] [WARNING ] [billing-svc   ] [trc-468529] Disk buffer cache pressure elevated during concurrent writes latency_ms=311
+[2026-03-15 09:36:06.549] [INFO    ] [db-cluster    ] [trc-975211] TLS handshake completed with client agent latency_ms=7
+[2026-03-15 09:36:06.328] [INFO    ] [db-cluster    ] [trc-630806] Cache lookup returned positive hit for session key latency_ms=17
+[2026-03-15 09:36:04.450] [ERROR   ] [file-storage  ] [trc-538301] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=1132
+[2026-03-15 09:35:58.854] [ERROR   ] [file-storage  ] [trc-903198] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=1110
+[2026-03-15 09:35:59.125] [WARNING ] [file-storage  ] [trc-415558] Disk buffer cache pressure elevated during concurrent writes latency_ms=380

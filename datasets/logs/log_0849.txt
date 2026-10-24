@@ -1,0 +1,19 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00849
+# Generated: 2026-03-15T18:28:28
+# Records Count: 16
+[2026-03-15 18:28:28.000] [INFO    ] [cache-redis   ] [trc-469353] Batch file chunk serialized successfully latency_ms=53
+[2026-03-15 18:28:28.783] [INFO    ] [worker-pool   ] [trc-711017] Scheduled garbage collection sweep finished latency_ms=46
+[2026-03-15 18:28:28.774] [INFO    ] [billing-svc   ] [trc-956722] TLS handshake completed with client agent latency_ms=20
+[2026-03-15 18:28:28.615] [INFO    ] [db-cluster    ] [trc-910694] Connection acquired from connection pool latency_ms=11
+[2026-03-15 18:28:29.396] [INFO    ] [cache-redis   ] [trc-770344] Incoming HTTP request dispatched to worker handler latency_ms=75
+[2026-03-15 18:28:29.330] [INFO    ] [billing-svc   ] [trc-373427] Incoming HTTP request dispatched to worker handler latency_ms=71
+[2026-03-15 18:28:30.616] [INFO    ] [api-gateway   ] [trc-682620] Cache lookup returned positive hit for session key latency_ms=28
+[2026-03-15 18:28:30.072] [INFO    ] [auth-service  ] [trc-486485] Batch file chunk serialized successfully latency_ms=8
+[2026-03-15 18:28:32.016] [ERROR   ] [auth-service  ] [trc-827818] TLS socket abruptly terminated before payload completion latency_ms=6936
+[2026-03-15 18:28:30.817] [ERROR   ] [worker-pool   ] [trc-946712] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=6145
+[2026-03-15 18:28:32.430] [CRITICAL] [cache-redis   ] [trc-640601] Authentication burst anomaly: 120 failed auth tokens within 10 seconds from subnet 198.51.100.0/24 latency_ms=7743
+[2026-03-15 18:28:34.600] [CRITICAL] [api-gateway   ] [trc-260377] Cascading failover triggered on primary cluster node; state recovery active latency_ms=5811
+[2026-03-15 18:28:31.732] [ERROR   ] [cache-redis   ] [trc-538458] Failed to write metadata block to distributed store latency_ms=5691
+[2026-03-15 18:28:32.784] [INFO    ] [db-cluster    ] [trc-196746] Incoming HTTP request dispatched to worker handler latency_ms=70
+[2026-03-15 18:28:32.774] [WARNING ] [cache-redis   ] [trc-682762] Thread pool saturation index approaching upper boundary latency_ms=204
+[2026-03-15 18:28:31.660] [INFO    ] [file-storage  ] [trc-991041] Connection acquired from connection pool latency_ms=5

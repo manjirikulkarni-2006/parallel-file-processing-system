@@ -1,0 +1,21 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00761
+# Generated: 2026-03-15T21:27:23
+# Records Count: 18
+[2026-03-15 21:27:23.000] [INFO    ] [auth-service  ] [trc-621137] Scheduled garbage collection sweep finished latency_ms=31
+[2026-03-15 21:27:23.797] [INFO    ] [file-storage  ] [trc-436324] Worker heartbeat acknowledged by supervisor latency_ms=49
+[2026-03-15 21:27:23.458] [INFO    ] [worker-pool   ] [trc-782232] Connection acquired from connection pool latency_ms=66
+[2026-03-15 21:27:23.612] [INFO    ] [worker-pool   ] [trc-879496] Cache lookup returned positive hit for session key latency_ms=17
+[2026-03-15 21:27:24.380] [WARNING ] [api-gateway   ] [trc-970503] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=350
+[2026-03-15 21:27:25.060] [ERROR   ] [auth-service  ] [trc-843364] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=575
+[2026-03-15 21:27:24.362] [INFO    ] [auth-service  ] [trc-477316] Scheduled garbage collection sweep finished latency_ms=74
+[2026-03-15 21:27:27.998] [INFO    ] [worker-pool   ] [trc-475544] Batch file chunk serialized successfully latency_ms=45
+[2026-03-15 21:27:24.400] [INFO    ] [auth-service  ] [trc-760266] Scheduled garbage collection sweep finished latency_ms=49
+[2026-03-15 21:27:30.020] [WARNING ] [file-storage  ] [trc-671495] Disk buffer cache pressure elevated during concurrent writes latency_ms=83
+[2026-03-15 21:27:25.130] [INFO    ] [api-gateway   ] [trc-219226] Incoming HTTP request dispatched to worker handler latency_ms=47
+[2026-03-15 21:27:24.969] [INFO    ] [worker-pool   ] [trc-279387] Worker heartbeat acknowledged by supervisor latency_ms=34
+[2026-03-15 21:27:25.328] [INFO    ] [file-storage  ] [trc-263796] Batch file chunk serialized successfully latency_ms=13
+[2026-03-15 21:27:25.483] [ERROR   ] [file-storage  ] [trc-601706] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=1101
+[2026-03-15 21:27:33.024] [ERROR   ] [api-gateway   ] [trc-687771] Worker thread crashed with segmentation violation in foreign library latency_ms=844
+[2026-03-15 21:27:31.505] [INFO    ] [auth-service  ] [trc-388212] TLS handshake completed with client agent latency_ms=35
+[2026-03-15 21:27:32.680] [ERROR   ] [auth-service  ] [trc-874380] Failed to write metadata block to distributed store latency_ms=562
+[2026-03-15 21:27:26.179] [WARNING ] [file-storage  ] [trc-320363] Thread pool saturation index approaching upper boundary latency_ms=190

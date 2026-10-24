@@ -1,0 +1,30 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00502
+# Generated: 2026-03-15T22:19:40
+# Records Count: 27
+[2026-03-15 22:19:40.000] [INFO    ] [cache-redis   ] [trc-617384] Cache lookup returned positive hit for session key latency_ms=10
+[2026-03-15 22:19:40.399] [ERROR   ] [billing-svc   ] [trc-286667] Worker thread crashed with segmentation violation in foreign library latency_ms=509
+[2026-03-15 22:19:40.880] [INFO    ] [worker-pool   ] [trc-121496] Incoming HTTP request dispatched to worker handler latency_ms=61
+[2026-03-15 22:19:42.157] [ERROR   ] [worker-pool   ] [trc-545377] Failed to write metadata block to distributed store latency_ms=1421
+[2026-03-15 22:19:41.868] [INFO    ] [auth-service  ] [trc-519360] Cache lookup returned positive hit for session key latency_ms=51
+[2026-03-15 22:19:40.915] [INFO    ] [api-gateway   ] [trc-263968] Cache lookup returned positive hit for session key latency_ms=35
+[2026-03-15 22:19:41.404] [ERROR   ] [auth-service  ] [trc-654583] TLS socket abruptly terminated before payload completion latency_ms=1392
+[2026-03-15 22:19:44.095] [INFO    ] [db-cluster    ] [trc-579432] Batch file chunk serialized successfully latency_ms=42
+[2026-03-15 22:19:44.464] [WARNING ] [file-storage  ] [trc-948400] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=275
+[2026-03-15 22:19:43.573] [ERROR   ] [auth-service  ] [trc-900728] Connection reset by peer while transmitting payload latency_ms=1082
+[2026-03-15 22:19:44.390] [INFO    ] [file-storage  ] [trc-880203] Worker heartbeat acknowledged by supervisor latency_ms=50
+[2026-03-15 22:19:43.795] [ERROR   ] [api-gateway   ] [trc-710623] TLS socket abruptly terminated before payload completion latency_ms=501
+[2026-03-15 22:19:48.244] [INFO    ] [db-cluster    ] [trc-952318] Scheduled garbage collection sweep finished latency_ms=43
+[2026-03-15 22:19:47.007] [CRITICAL] [api-gateway   ] [trc-640189] Database connection pool completely exhausted; dropping new client requests latency_ms=4840
+[2026-03-15 22:19:48.918] [CRITICAL] [billing-svc   ] [trc-961636] Cascading failover triggered on primary cluster node; state recovery active latency_ms=5683
+[2026-03-15 22:19:48.235] [ERROR   ] [db-cluster    ] [trc-664304] Connection reset by peer while transmitting payload latency_ms=5997
+[2026-03-15 22:19:48.752] [CRITICAL] [worker-pool   ] [trc-265350] Database connection pool completely exhausted; dropping new client requests latency_ms=7662
+[2026-03-15 22:19:51.543] [CRITICAL] [billing-svc   ] [trc-284289] Authentication burst anomaly: 120 failed auth tokens within 10 seconds from subnet 198.51.100.0/24 latency_ms=5125
+[2026-03-15 22:19:54.202] [INFO    ] [db-cluster    ] [trc-974779] Scheduled garbage collection sweep finished latency_ms=44
+[2026-03-15 22:19:51.552] [INFO    ] [billing-svc   ] [trc-961325] Connection acquired from connection pool latency_ms=36
+[2026-03-15 22:19:53.060] [WARNING ] [auth-service  ] [trc-368135] Disk buffer cache pressure elevated during concurrent writes latency_ms=445
+[2026-03-15 22:19:46.678] [INFO    ] [file-storage  ] [trc-273742] Connection acquired from connection pool latency_ms=34
+[2026-03-15 22:19:46.402] [ERROR   ] [worker-pool   ] [trc-105574] Connection reset by peer while transmitting payload latency_ms=1029
+[2026-03-15 22:19:52.926] [INFO    ] [billing-svc   ] [trc-744185] Batch file chunk serialized successfully latency_ms=7
+[2026-03-15 22:19:52.384] [WARNING ] [db-cluster    ] [trc-717075] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=309
+[2026-03-15 22:19:50.200] [ERROR   ] [worker-pool   ] [trc-128300] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=1132
+[2026-03-15 22:19:53.442] [INFO    ] [billing-svc   ] [trc-649289] Incoming HTTP request dispatched to worker handler latency_ms=59

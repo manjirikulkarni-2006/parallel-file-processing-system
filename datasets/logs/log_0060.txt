@@ -1,0 +1,25 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00060
+# Generated: 2026-03-15T22:06:28
+# Records Count: 22
+[2026-03-15 22:06:28.000] [INFO    ] [db-cluster    ] [trc-908667] Cache lookup returned positive hit for session key latency_ms=66
+[2026-03-15 22:06:28.726] [INFO    ] [api-gateway   ] [trc-774044] Connection acquired from connection pool latency_ms=15
+[2026-03-15 22:06:28.494] [INFO    ] [file-storage  ] [trc-277477] Batch file chunk serialized successfully latency_ms=36
+[2026-03-15 22:06:28.705] [INFO    ] [auth-service  ] [trc-522780] Batch file chunk serialized successfully latency_ms=71
+[2026-03-15 22:06:30.920] [INFO    ] [cache-redis   ] [trc-343720] Batch file chunk serialized successfully latency_ms=37
+[2026-03-15 22:06:30.855] [INFO    ] [worker-pool   ] [trc-876482] Connection acquired from connection pool latency_ms=9
+[2026-03-15 22:06:30.874] [INFO    ] [billing-svc   ] [trc-692772] Scheduled garbage collection sweep finished latency_ms=5
+[2026-03-15 22:06:30.968] [WARNING ] [billing-svc   ] [trc-319387] Thread pool saturation index approaching upper boundary latency_ms=359
+[2026-03-15 22:06:33.288] [INFO    ] [worker-pool   ] [trc-783680] Batch file chunk serialized successfully latency_ms=66
+[2026-03-15 22:06:34.084] [ERROR   ] [file-storage  ] [trc-875615] Connection reset by peer while transmitting payload latency_ms=1443
+[2026-03-15 22:06:30.570] [INFO    ] [db-cluster    ] [trc-833222] Connection acquired from connection pool latency_ms=6
+[2026-03-15 22:06:31.465] [INFO    ] [file-storage  ] [trc-884490] Connection acquired from connection pool latency_ms=61
+[2026-03-15 22:06:31.192] [INFO    ] [api-gateway   ] [trc-544787] TLS handshake completed with client agent latency_ms=72
+[2026-03-15 22:06:36.424] [WARNING ] [auth-service  ] [trc-885376] Thread pool saturation index approaching upper boundary latency_ms=284
+[2026-03-15 22:06:30.226] [INFO    ] [worker-pool   ] [trc-223295] Cache lookup returned positive hit for session key latency_ms=39
+[2026-03-15 22:06:38.275] [ERROR   ] [worker-pool   ] [trc-744979] TLS socket abruptly terminated before payload completion latency_ms=1165
+[2026-03-15 22:06:33.104] [INFO    ] [auth-service  ] [trc-404293] Connection acquired from connection pool latency_ms=52
+[2026-03-15 22:06:39.577] [INFO    ] [file-storage  ] [trc-363443] Connection acquired from connection pool latency_ms=47
+[2026-03-15 22:06:33.184] [WARNING ] [auth-service  ] [trc-649850] Thread pool saturation index approaching upper boundary latency_ms=85
+[2026-03-15 22:06:37.025] [INFO    ] [db-cluster    ] [trc-287931] Incoming HTTP request dispatched to worker handler latency_ms=5
+[2026-03-15 22:06:37.380] [INFO    ] [billing-svc   ] [trc-296790] Incoming HTTP request dispatched to worker handler latency_ms=73
+[2026-03-15 22:06:40.999] [INFO    ] [worker-pool   ] [trc-199315] Batch file chunk serialized successfully latency_ms=25

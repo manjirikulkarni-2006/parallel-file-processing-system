@@ -1,0 +1,33 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00522
+# Generated: 2026-03-15T03:45:59
+# Records Count: 30
+[2026-03-15 03:45:59.000] [INFO    ] [cache-redis   ] [trc-896233] Scheduled garbage collection sweep finished latency_ms=22
+[2026-03-15 03:45:59.653] [INFO    ] [billing-svc   ] [trc-318792] Scheduled garbage collection sweep finished latency_ms=67
+[2026-03-15 03:45:59.374] [INFO    ] [db-cluster    ] [trc-149893] Batch file chunk serialized successfully latency_ms=23
+[2026-03-15 03:45:59.501] [INFO    ] [auth-service  ] [trc-564428] Cache lookup returned positive hit for session key latency_ms=50
+[2026-03-15 03:46:01.544] [INFO    ] [api-gateway   ] [trc-704781] TLS handshake completed with client agent latency_ms=60
+[2026-03-15 03:46:02.190] [INFO    ] [auth-service  ] [trc-395248] Scheduled garbage collection sweep finished latency_ms=14
+[2026-03-15 03:46:01.460] [INFO    ] [auth-service  ] [trc-195955] Incoming HTTP request dispatched to worker handler latency_ms=64
+[2026-03-15 03:46:04.047] [WARNING ] [cache-redis   ] [trc-181386] Thread pool saturation index approaching upper boundary latency_ms=419
+[2026-03-15 03:46:03.312] [INFO    ] [cache-redis   ] [trc-427581] Scheduled garbage collection sweep finished latency_ms=6
+[2026-03-15 03:46:04.904] [INFO    ] [api-gateway   ] [trc-300968] Connection acquired from connection pool latency_ms=42
+[2026-03-15 03:46:02.270] [WARNING ] [db-cluster    ] [trc-220092] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=215
+[2026-03-15 03:46:02.256] [INFO    ] [worker-pool   ] [trc-613242] TLS handshake completed with client agent latency_ms=43
+[2026-03-15 03:46:07.784] [WARNING ] [auth-service  ] [trc-234428] Downstream microservice response delayed, retry attempt scheduled latency_ms=435
+[2026-03-15 03:46:06.865] [WARNING ] [cache-redis   ] [trc-953588] Thread pool saturation index approaching upper boundary latency_ms=450
+[2026-03-15 03:46:05.258] [INFO    ] [api-gateway   ] [trc-932226] Scheduled garbage collection sweep finished latency_ms=69
+[2026-03-15 03:46:10.025] [INFO    ] [worker-pool   ] [trc-962384] Incoming HTTP request dispatched to worker handler latency_ms=39
+[2026-03-15 03:46:05.032] [WARNING ] [billing-svc   ] [trc-394484] Downstream microservice response delayed, retry attempt scheduled latency_ms=299
+[2026-03-15 03:46:06.905] [INFO    ] [db-cluster    ] [trc-513750] Batch file chunk serialized successfully latency_ms=15
+[2026-03-15 03:46:10.916] [INFO    ] [api-gateway   ] [trc-981531] TLS handshake completed with client agent latency_ms=10
+[2026-03-15 03:46:09.336] [INFO    ] [auth-service  ] [trc-352712] Batch file chunk serialized successfully latency_ms=50
+[2026-03-15 03:46:13.840] [INFO    ] [file-storage  ] [trc-847039] Cache lookup returned positive hit for session key latency_ms=64
+[2026-03-15 03:46:08.933] [INFO    ] [db-cluster    ] [trc-582955] Cache lookup returned positive hit for session key latency_ms=53
+[2026-03-15 03:46:11.804] [INFO    ] [db-cluster    ] [trc-495450] Batch file chunk serialized successfully latency_ms=37
+[2026-03-15 03:46:15.974] [INFO    ] [billing-svc   ] [trc-197282] TLS handshake completed with client agent latency_ms=70
+[2026-03-15 03:46:05.120] [WARNING ] [db-cluster    ] [trc-712592] Downstream microservice response delayed, retry attempt scheduled latency_ms=86
+[2026-03-15 03:46:08.175] [WARNING ] [auth-service  ] [trc-416414] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=136
+[2026-03-15 03:46:14.158] [WARNING ] [billing-svc   ] [trc-368280] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=439
+[2026-03-15 03:46:06.803] [INFO    ] [cache-redis   ] [trc-812605] Cache lookup returned positive hit for session key latency_ms=22
+[2026-03-15 03:46:06.616] [INFO    ] [worker-pool   ] [trc-518495] Incoming HTTP request dispatched to worker handler latency_ms=41
+[2026-03-15 03:46:20.315] [INFO    ] [file-storage  ] [trc-300958] Worker heartbeat acknowledged by supervisor latency_ms=10

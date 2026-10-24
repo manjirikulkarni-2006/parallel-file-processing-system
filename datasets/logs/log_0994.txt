@@ -1,0 +1,29 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00994
+# Generated: 2026-03-15T07:25:53
+# Records Count: 26
+[2026-03-15 07:25:53.000] [WARNING ] [db-cluster    ] [trc-943233] Downstream microservice response delayed, retry attempt scheduled latency_ms=326
+[2026-03-15 07:25:53.364] [INFO    ] [file-storage  ] [trc-807762] Cache lookup returned positive hit for session key latency_ms=12
+[2026-03-15 07:25:54.460] [ERROR   ] [billing-svc   ] [trc-977667] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=1371
+[2026-03-15 07:25:53.630] [INFO    ] [cache-redis   ] [trc-457345] Scheduled garbage collection sweep finished latency_ms=17
+[2026-03-15 07:25:55.436] [INFO    ] [cache-redis   ] [trc-180419] TLS handshake completed with client agent latency_ms=17
+[2026-03-15 07:25:54.970] [INFO    ] [auth-service  ] [trc-426643] TLS handshake completed with client agent latency_ms=12
+[2026-03-15 07:25:56.288] [INFO    ] [file-storage  ] [trc-149289] Incoming HTTP request dispatched to worker handler latency_ms=7
+[2026-03-15 07:25:54.960] [INFO    ] [worker-pool   ] [trc-805353] Cache lookup returned positive hit for session key latency_ms=46
+[2026-03-15 07:25:59.112] [INFO    ] [file-storage  ] [trc-928000] Batch file chunk serialized successfully latency_ms=75
+[2026-03-15 07:25:57.320] [INFO    ] [api-gateway   ] [trc-846277] Connection acquired from connection pool latency_ms=18
+[2026-03-15 07:25:58.090] [WARNING ] [file-storage  ] [trc-500507] Disk buffer cache pressure elevated during concurrent writes latency_ms=259
+[2026-03-15 07:25:57.235] [INFO    ] [auth-service  ] [trc-833977] Incoming HTTP request dispatched to worker handler latency_ms=15
+[2026-03-15 07:25:59.708] [INFO    ] [worker-pool   ] [trc-845303] Batch file chunk serialized successfully latency_ms=68
+[2026-03-15 07:26:00.189] [INFO    ] [file-storage  ] [trc-639333] Connection acquired from connection pool latency_ms=37
+[2026-03-15 07:25:55.660] [WARNING ] [db-cluster    ] [trc-430137] Downstream microservice response delayed, retry attempt scheduled latency_ms=165
+[2026-03-15 07:25:56.990] [INFO    ] [auth-service  ] [trc-137064] Cache lookup returned positive hit for session key latency_ms=35
+[2026-03-15 07:25:58.920] [ERROR   ] [auth-service  ] [trc-659238] Failed to write metadata block to distributed store latency_ms=1367
+[2026-03-15 07:26:05.954] [INFO    ] [auth-service  ] [trc-377152] TLS handshake completed with client agent latency_ms=25
+[2026-03-15 07:26:02.000] [INFO    ] [worker-pool   ] [trc-934486] Batch file chunk serialized successfully latency_ms=24
+[2026-03-15 07:26:07.991] [ERROR   ] [file-storage  ] [trc-714237] TLS socket abruptly terminated before payload completion latency_ms=1064
+[2026-03-15 07:26:00.440] [ERROR   ] [api-gateway   ] [trc-977705] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=1489
+[2026-03-15 07:26:09.737] [INFO    ] [auth-service  ] [trc-863903] Cache lookup returned positive hit for session key latency_ms=71
+[2026-03-15 07:26:05.452] [INFO    ] [cache-redis   ] [trc-834606] Worker heartbeat acknowledged by supervisor latency_ms=72
+[2026-03-15 07:26:04.132] [INFO    ] [billing-svc   ] [trc-613952] Scheduled garbage collection sweep finished latency_ms=40
+[2026-03-15 07:25:57.104] [INFO    ] [billing-svc   ] [trc-972306] Worker heartbeat acknowledged by supervisor latency_ms=69
+[2026-03-15 07:26:04.275] [INFO    ] [auth-service  ] [trc-459431] Incoming HTTP request dispatched to worker handler latency_ms=10

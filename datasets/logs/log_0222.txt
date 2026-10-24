@@ -1,0 +1,28 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00222
+# Generated: 2026-03-15T06:26:05
+# Records Count: 25
+[2026-03-15 06:26:05.000] [WARNING ] [file-storage  ] [trc-438647] Downstream microservice response delayed, retry attempt scheduled latency_ms=235
+[2026-03-15 06:26:05.460] [INFO    ] [auth-service  ] [trc-115532] Scheduled garbage collection sweep finished latency_ms=38
+[2026-03-15 06:26:06.436] [INFO    ] [auth-service  ] [trc-363257] Scheduled garbage collection sweep finished latency_ms=55
+[2026-03-15 06:26:06.035] [INFO    ] [billing-svc   ] [trc-173921] Batch file chunk serialized successfully latency_ms=35
+[2026-03-15 06:26:07.492] [INFO    ] [api-gateway   ] [trc-414786] Connection acquired from connection pool latency_ms=14
+[2026-03-15 06:26:06.310] [INFO    ] [file-storage  ] [trc-133099] Batch file chunk serialized successfully latency_ms=53
+[2026-03-15 06:26:09.776] [INFO    ] [file-storage  ] [trc-951625] Cache lookup returned positive hit for session key latency_ms=20
+[2026-03-15 06:26:10.376] [INFO    ] [cache-redis   ] [trc-360609] Batch file chunk serialized successfully latency_ms=5
+[2026-03-15 06:26:09.336] [INFO    ] [api-gateway   ] [trc-125697] Scheduled garbage collection sweep finished latency_ms=16
+[2026-03-15 06:26:10.967] [WARNING ] [file-storage  ] [trc-973791] High memory consumption threshold reached (88% utilized) latency_ms=377
+[2026-03-15 06:26:12.800] [INFO    ] [auth-service  ] [trc-869274] Batch file chunk serialized successfully latency_ms=23
+[2026-03-15 06:26:10.071] [INFO    ] [billing-svc   ] [trc-609819] Worker heartbeat acknowledged by supervisor latency_ms=32
+[2026-03-15 06:26:10.352] [CRITICAL] [api-gateway   ] [trc-147465] Database connection pool completely exhausted; dropping new client requests latency_ms=5801
+[2026-03-15 06:26:08.185] [CRITICAL] [auth-service  ] [trc-892323] Database connection pool completely exhausted; dropping new client requests latency_ms=4408
+[2026-03-15 06:26:15.150] [CRITICAL] [billing-svc   ] [trc-208599] Authentication burst anomaly: 120 failed auth tokens within 10 seconds from subnet 198.51.100.0/24 latency_ms=4203
+[2026-03-15 06:26:10.805] [ERROR   ] [auth-service  ] [trc-430157] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=8310
+[2026-03-15 06:26:07.432] [CRITICAL] [worker-pool   ] [trc-426966] Authentication burst anomaly: 120 failed auth tokens within 10 seconds from subnet 198.51.100.0/24 latency_ms=6892
+[2026-03-15 06:26:07.567] [INFO    ] [file-storage  ] [trc-881021] Incoming HTTP request dispatched to worker handler latency_ms=54
+[2026-03-15 06:26:16.052] [INFO    ] [api-gateway   ] [trc-410286] Worker heartbeat acknowledged by supervisor latency_ms=63
+[2026-03-15 06:26:18.091] [INFO    ] [auth-service  ] [trc-172570] Incoming HTTP request dispatched to worker handler latency_ms=38
+[2026-03-15 06:26:15.240] [INFO    ] [cache-redis   ] [trc-508656] Batch file chunk serialized successfully latency_ms=21
+[2026-03-15 06:26:11.426] [INFO    ] [db-cluster    ] [trc-444061] Batch file chunk serialized successfully latency_ms=39
+[2026-03-15 06:26:09.510] [INFO    ] [db-cluster    ] [trc-860892] Connection acquired from connection pool latency_ms=32
+[2026-03-15 06:26:19.030] [INFO    ] [worker-pool   ] [trc-370817] Worker heartbeat acknowledged by supervisor latency_ms=72
+[2026-03-15 06:26:19.640] [ERROR   ] [api-gateway   ] [trc-733621] Failed to write metadata block to distributed store latency_ms=1123

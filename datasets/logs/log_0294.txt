@@ -1,0 +1,33 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00294
+# Generated: 2026-03-15T12:00:41
+# Records Count: 30
+[2026-03-15 12:00:41.000] [WARNING ] [auth-service  ] [trc-358674] Disk buffer cache pressure elevated during concurrent writes latency_ms=296
+[2026-03-15 12:00:41.219] [INFO    ] [billing-svc   ] [trc-471159] Connection acquired from connection pool latency_ms=71
+[2026-03-15 12:00:41.958] [WARNING ] [billing-svc   ] [trc-728070] Disk buffer cache pressure elevated during concurrent writes latency_ms=219
+[2026-03-15 12:00:42.851] [INFO    ] [worker-pool   ] [trc-791743] Batch file chunk serialized successfully latency_ms=32
+[2026-03-15 12:00:43.604] [INFO    ] [billing-svc   ] [trc-902042] Connection acquired from connection pool latency_ms=34
+[2026-03-15 12:00:41.895] [INFO    ] [worker-pool   ] [trc-429663] Worker heartbeat acknowledged by supervisor latency_ms=65
+[2026-03-15 12:00:45.590] [WARNING ] [billing-svc   ] [trc-660612] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=279
+[2026-03-15 12:00:45.228] [INFO    ] [db-cluster    ] [trc-116639] TLS handshake completed with client agent latency_ms=17
+[2026-03-15 12:00:42.528] [INFO    ] [worker-pool   ] [trc-715126] Cache lookup returned positive hit for session key latency_ms=73
+[2026-03-15 12:00:43.295] [WARNING ] [worker-pool   ] [trc-104657] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=371
+[2026-03-15 12:00:43.070] [ERROR   ] [auth-service  ] [trc-457564] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=1259
+[2026-03-15 12:00:42.936] [INFO    ] [cache-redis   ] [trc-239846] Scheduled garbage collection sweep finished latency_ms=75
+[2026-03-15 12:00:50.564] [INFO    ] [db-cluster    ] [trc-749039] Batch file chunk serialized successfully latency_ms=59
+[2026-03-15 12:00:43.145] [INFO    ] [cache-redis   ] [trc-747392] Cache lookup returned positive hit for session key latency_ms=44
+[2026-03-15 12:00:49.806] [ERROR   ] [db-cluster    ] [trc-117921] Worker thread crashed with segmentation violation in foreign library latency_ms=1365
+[2026-03-15 12:00:44.495] [INFO    ] [cache-redis   ] [trc-279739] Incoming HTTP request dispatched to worker handler latency_ms=69
+[2026-03-15 12:00:48.152] [INFO    ] [auth-service  ] [trc-508336] Connection acquired from connection pool latency_ms=53
+[2026-03-15 12:00:48.956] [INFO    ] [cache-redis   ] [trc-787236] Incoming HTTP request dispatched to worker handler latency_ms=72
+[2026-03-15 12:00:44.114] [WARNING ] [cache-redis   ] [trc-237002] Downstream microservice response delayed, retry attempt scheduled latency_ms=378
+[2026-03-15 12:00:49.550] [INFO    ] [api-gateway   ] [trc-626080] Scheduled garbage collection sweep finished latency_ms=34
+[2026-03-15 12:00:50.580] [INFO    ] [db-cluster    ] [trc-491644] Connection acquired from connection pool latency_ms=40
+[2026-03-15 12:00:49.400] [INFO    ] [db-cluster    ] [trc-910426] TLS handshake completed with client agent latency_ms=47
+[2026-03-15 12:00:45.136] [WARNING ] [cache-redis   ] [trc-568988] Thread pool saturation index approaching upper boundary latency_ms=429
+[2026-03-15 12:00:52.983] [INFO    ] [cache-redis   ] [trc-911669] Connection acquired from connection pool latency_ms=67
+[2026-03-15 12:00:50.792] [WARNING ] [file-storage  ] [trc-951881] Downstream microservice response delayed, retry attempt scheduled latency_ms=159
+[2026-03-15 12:00:53.200] [INFO    ] [api-gateway   ] [trc-278743] Cache lookup returned positive hit for session key latency_ms=75
+[2026-03-15 12:00:52.622] [WARNING ] [db-cluster    ] [trc-580211] High memory consumption threshold reached (88% utilized) latency_ms=122
+[2026-03-15 12:00:58.631] [WARNING ] [cache-redis   ] [trc-440389] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=325
+[2026-03-15 12:01:02.084] [ERROR   ] [cache-redis   ] [trc-765359] TLS socket abruptly terminated before payload completion latency_ms=780
+[2026-03-15 12:01:02.054] [WARNING ] [billing-svc   ] [trc-897741] Thread pool saturation index approaching upper boundary latency_ms=247

@@ -1,0 +1,30 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00295
+# Generated: 2026-03-15T05:13:50
+# Records Count: 27
+[2026-03-15 05:13:50.000] [INFO    ] [file-storage  ] [trc-746510] Incoming HTTP request dispatched to worker handler latency_ms=33
+[2026-03-15 05:13:50.679] [INFO    ] [worker-pool   ] [trc-382281] Incoming HTTP request dispatched to worker handler latency_ms=12
+[2026-03-15 05:13:51.446] [INFO    ] [worker-pool   ] [trc-896506] Worker heartbeat acknowledged by supervisor latency_ms=15
+[2026-03-15 05:13:50.843] [INFO    ] [worker-pool   ] [trc-250472] TLS handshake completed with client agent latency_ms=45
+[2026-03-15 05:13:52.524] [WARNING ] [worker-pool   ] [trc-332129] Disk buffer cache pressure elevated during concurrent writes latency_ms=254
+[2026-03-15 05:13:51.100] [INFO    ] [billing-svc   ] [trc-311514] Worker heartbeat acknowledged by supervisor latency_ms=66
+[2026-03-15 05:13:53.204] [INFO    ] [billing-svc   ] [trc-359687] Worker heartbeat acknowledged by supervisor latency_ms=41
+[2026-03-15 05:13:54.039] [INFO    ] [api-gateway   ] [trc-427462] Batch file chunk serialized successfully latency_ms=26
+[2026-03-15 05:13:51.376] [INFO    ] [worker-pool   ] [trc-162443] Connection acquired from connection pool latency_ms=7
+[2026-03-15 05:13:55.013] [INFO    ] [cache-redis   ] [trc-358020] Batch file chunk serialized successfully latency_ms=14
+[2026-03-15 05:13:52.200] [INFO    ] [file-storage  ] [trc-727906] Batch file chunk serialized successfully latency_ms=29
+[2026-03-15 05:13:56.699] [INFO    ] [auth-service  ] [trc-646601] Batch file chunk serialized successfully latency_ms=49
+[2026-03-15 05:13:59.204] [INFO    ] [cache-redis   ] [trc-297754] TLS handshake completed with client agent latency_ms=69
+[2026-03-15 05:13:52.496] [WARNING ] [worker-pool   ] [trc-207384] Disk buffer cache pressure elevated during concurrent writes latency_ms=113
+[2026-03-15 05:13:58.988] [ERROR   ] [api-gateway   ] [trc-943525] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=549
+[2026-03-15 05:13:56.015] [WARNING ] [auth-service  ] [trc-968506] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=111
+[2026-03-15 05:14:00.656] [INFO    ] [cache-redis   ] [trc-491857] Incoming HTTP request dispatched to worker handler latency_ms=72
+[2026-03-15 05:13:57.786] [INFO    ] [auth-service  ] [trc-540023] Scheduled garbage collection sweep finished latency_ms=60
+[2026-03-15 05:13:53.690] [INFO    ] [billing-svc   ] [trc-289513] TLS handshake completed with client agent latency_ms=30
+[2026-03-15 05:13:54.541] [ERROR   ] [auth-service  ] [trc-594116] TLS socket abruptly terminated before payload completion latency_ms=549
+[2026-03-15 05:13:56.240] [INFO    ] [billing-svc   ] [trc-170059] Connection acquired from connection pool latency_ms=58
+[2026-03-15 05:14:03.587] [ERROR   ] [billing-svc   ] [trc-858332] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=1462
+[2026-03-15 05:14:03.596] [INFO    ] [cache-redis   ] [trc-586305] Scheduled garbage collection sweep finished latency_ms=58
+[2026-03-15 05:14:01.500] [INFO    ] [cache-redis   ] [trc-578297] Cache lookup returned positive hit for session key latency_ms=49
+[2026-03-15 05:14:00.920] [ERROR   ] [worker-pool   ] [trc-747474] Failed to write metadata block to distributed store latency_ms=756
+[2026-03-15 05:14:06.650] [INFO    ] [api-gateway   ] [trc-743176] Scheduled garbage collection sweep finished latency_ms=37
+[2026-03-15 05:13:59.256] [WARNING ] [worker-pool   ] [trc-908995] High memory consumption threshold reached (88% utilized) latency_ms=135

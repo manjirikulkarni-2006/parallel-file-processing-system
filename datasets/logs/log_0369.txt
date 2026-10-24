@@ -1,0 +1,22 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00369
+# Generated: 2026-03-15T13:13:33
+# Records Count: 19
+[2026-03-15 13:13:33.000] [WARNING ] [db-cluster    ] [trc-995246] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=106
+[2026-03-15 13:13:33.347] [INFO    ] [cache-redis   ] [trc-948506] Connection acquired from connection pool latency_ms=16
+[2026-03-15 13:13:34.272] [ERROR   ] [cache-redis   ] [trc-283792] Failed to write metadata block to distributed store latency_ms=1201
+[2026-03-15 13:13:34.212] [INFO    ] [cache-redis   ] [trc-130604] Incoming HTTP request dispatched to worker handler latency_ms=38
+[2026-03-15 13:13:35.864] [INFO    ] [cache-redis   ] [trc-953216] TLS handshake completed with client agent latency_ms=6
+[2026-03-15 13:13:36.490] [WARNING ] [billing-svc   ] [trc-640564] High memory consumption threshold reached (88% utilized) latency_ms=134
+[2026-03-15 13:13:34.920] [INFO    ] [cache-redis   ] [trc-485178] Cache lookup returned positive hit for session key latency_ms=43
+[2026-03-15 13:13:35.709] [ERROR   ] [api-gateway   ] [trc-517131] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=1444
+[2026-03-15 13:13:38.160] [INFO    ] [auth-service  ] [trc-197261] Batch file chunk serialized successfully latency_ms=18
+[2026-03-15 13:13:38.076] [INFO    ] [file-storage  ] [trc-210837] Worker heartbeat acknowledged by supervisor latency_ms=17
+[2026-03-15 13:13:39.140] [ERROR   ] [db-cluster    ] [trc-549744] Worker thread crashed with segmentation violation in foreign library latency_ms=631
+[2026-03-15 13:13:35.607] [ERROR   ] [worker-pool   ] [trc-259636] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=706
+[2026-03-15 13:13:40.344] [INFO    ] [api-gateway   ] [trc-176222] Scheduled garbage collection sweep finished latency_ms=5
+[2026-03-15 13:13:40.202] [INFO    ] [file-storage  ] [trc-530336] Batch file chunk serialized successfully latency_ms=40
+[2026-03-15 13:13:41.106] [INFO    ] [billing-svc   ] [trc-971857] Cache lookup returned positive hit for session key latency_ms=65
+[2026-03-15 13:13:38.850] [WARNING ] [worker-pool   ] [trc-736356] Thread pool saturation index approaching upper boundary latency_ms=361
+[2026-03-15 13:13:44.712] [INFO    ] [worker-pool   ] [trc-300729] Cache lookup returned positive hit for session key latency_ms=28
+[2026-03-15 13:13:41.517] [INFO    ] [auth-service  ] [trc-432931] Batch file chunk serialized successfully latency_ms=73
+[2026-03-15 13:13:46.428] [INFO    ] [cache-redis   ] [trc-697312] Batch file chunk serialized successfully latency_ms=66

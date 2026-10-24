@@ -1,0 +1,26 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00876
+# Generated: 2026-03-15T14:33:10
+# Records Count: 23
+[2026-03-15 14:33:10.000] [WARNING ] [billing-svc   ] [trc-982172] Disk buffer cache pressure elevated during concurrent writes latency_ms=389
+[2026-03-15 14:33:10.630] [INFO    ] [db-cluster    ] [trc-433782] Scheduled garbage collection sweep finished latency_ms=11
+[2026-03-15 14:33:10.834] [INFO    ] [file-storage  ] [trc-271776] Connection acquired from connection pool latency_ms=16
+[2026-03-15 14:33:11.482] [WARNING ] [worker-pool   ] [trc-149116] Disk buffer cache pressure elevated during concurrent writes latency_ms=406
+[2026-03-15 14:33:12.372] [WARNING ] [billing-svc   ] [trc-627410] High memory consumption threshold reached (88% utilized) latency_ms=115
+[2026-03-15 14:33:12.845] [INFO    ] [file-storage  ] [trc-254051] Batch file chunk serialized successfully latency_ms=37
+[2026-03-15 14:33:11.122] [WARNING ] [cache-redis   ] [trc-507834] Downstream microservice response delayed, retry attempt scheduled latency_ms=371
+[2026-03-15 14:33:12.156] [INFO    ] [billing-svc   ] [trc-276999] Connection acquired from connection pool latency_ms=52
+[2026-03-15 14:33:16.376] [ERROR   ] [worker-pool   ] [trc-512003] Connection reset by peer while transmitting payload latency_ms=634
+[2026-03-15 14:33:12.511] [INFO    ] [file-storage  ] [trc-364163] Scheduled garbage collection sweep finished latency_ms=52
+[2026-03-15 14:33:12.480] [INFO    ] [auth-service  ] [trc-762989] Worker heartbeat acknowledged by supervisor latency_ms=74
+[2026-03-15 14:33:18.173] [INFO    ] [worker-pool   ] [trc-796998] Worker heartbeat acknowledged by supervisor latency_ms=44
+[2026-03-15 14:33:17.704] [INFO    ] [billing-svc   ] [trc-832971] TLS handshake completed with client agent latency_ms=10
+[2026-03-15 14:33:18.203] [INFO    ] [api-gateway   ] [trc-840062] Scheduled garbage collection sweep finished latency_ms=7
+[2026-03-15 14:33:14.718] [INFO    ] [api-gateway   ] [trc-473719] Incoming HTTP request dispatched to worker handler latency_ms=18
+[2026-03-15 14:33:15.385] [INFO    ] [billing-svc   ] [trc-715738] Scheduled garbage collection sweep finished latency_ms=65
+[2026-03-15 14:33:19.024] [INFO    ] [worker-pool   ] [trc-739208] Cache lookup returned positive hit for session key latency_ms=63
+[2026-03-15 14:33:19.520] [WARNING ] [auth-service  ] [trc-170995] High memory consumption threshold reached (88% utilized) latency_ms=414
+[2026-03-15 14:33:18.496] [INFO    ] [auth-service  ] [trc-132215] Incoming HTTP request dispatched to worker handler latency_ms=6
+[2026-03-15 14:33:20.982] [INFO    ] [file-storage  ] [trc-959513] Connection acquired from connection pool latency_ms=75
+[2026-03-15 14:33:22.040] [INFO    ] [cache-redis   ] [trc-355864] TLS handshake completed with client agent latency_ms=41
+[2026-03-15 14:33:17.980] [INFO    ] [worker-pool   ] [trc-922090] Incoming HTTP request dispatched to worker handler latency_ms=16
+[2026-03-15 14:33:13.762] [WARNING ] [billing-svc   ] [trc-231096] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=239

@@ -1,0 +1,26 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00300
+# Generated: 2026-03-15T18:41:20
+# Records Count: 23
+[2026-03-15 18:41:20.000] [INFO    ] [billing-svc   ] [trc-954175] Scheduled garbage collection sweep finished latency_ms=21
+[2026-03-15 18:41:20.726] [WARNING ] [worker-pool   ] [trc-689193] Disk buffer cache pressure elevated during concurrent writes latency_ms=231
+[2026-03-15 18:41:20.688] [WARNING ] [billing-svc   ] [trc-993866] Downstream microservice response delayed, retry attempt scheduled latency_ms=243
+[2026-03-15 18:41:21.857] [WARNING ] [db-cluster    ] [trc-974151] Thread pool saturation index approaching upper boundary latency_ms=282
+[2026-03-15 18:41:20.912] [ERROR   ] [billing-svc   ] [trc-349260] TLS socket abruptly terminated before payload completion latency_ms=1364
+[2026-03-15 18:41:22.985] [INFO    ] [worker-pool   ] [trc-755710] Scheduled garbage collection sweep finished latency_ms=9
+[2026-03-15 18:41:24.476] [INFO    ] [cache-redis   ] [trc-194795] Worker heartbeat acknowledged by supervisor latency_ms=49
+[2026-03-15 18:41:23.913] [INFO    ] [billing-svc   ] [trc-565148] Connection acquired from connection pool latency_ms=31
+[2026-03-15 18:41:25.816] [ERROR   ] [billing-svc   ] [trc-782804] Worker thread crashed with segmentation violation in foreign library latency_ms=1482
+[2026-03-15 18:41:26.795] [INFO    ] [cache-redis   ] [trc-297414] Incoming HTTP request dispatched to worker handler latency_ms=19
+[2026-03-15 18:41:27.430] [INFO    ] [cache-redis   ] [trc-398610] TLS handshake completed with client agent latency_ms=63
+[2026-03-15 18:41:21.991] [INFO    ] [db-cluster    ] [trc-501459] Scheduled garbage collection sweep finished latency_ms=46
+[2026-03-15 18:41:24.620] [WARNING ] [db-cluster    ] [trc-136005] Thread pool saturation index approaching upper boundary latency_ms=353
+[2026-03-15 18:41:22.496] [INFO    ] [db-cluster    ] [trc-242409] Connection acquired from connection pool latency_ms=8
+[2026-03-15 18:41:25.292] [INFO    ] [billing-svc   ] [trc-846540] Worker heartbeat acknowledged by supervisor latency_ms=17
+[2026-03-15 18:41:23.270] [WARNING ] [auth-service  ] [trc-111960] Disk buffer cache pressure elevated during concurrent writes latency_ms=396
+[2026-03-15 18:41:29.392] [INFO    ] [db-cluster    ] [trc-993834] Connection acquired from connection pool latency_ms=61
+[2026-03-15 18:41:25.389] [INFO    ] [api-gateway   ] [trc-309024] Connection acquired from connection pool latency_ms=42
+[2026-03-15 18:41:27.308] [ERROR   ] [file-storage  ] [trc-334659] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=870
+[2026-03-15 18:41:31.020] [INFO    ] [db-cluster    ] [trc-101007] Incoming HTTP request dispatched to worker handler latency_ms=5
+[2026-03-15 18:41:30.100] [WARNING ] [db-cluster    ] [trc-791381] Thread pool saturation index approaching upper boundary latency_ms=226
+[2026-03-15 18:41:27.308] [INFO    ] [file-storage  ] [trc-527859] Incoming HTTP request dispatched to worker handler latency_ms=45
+[2026-03-15 18:41:29.152] [INFO    ] [db-cluster    ] [trc-958469] Worker heartbeat acknowledged by supervisor latency_ms=36

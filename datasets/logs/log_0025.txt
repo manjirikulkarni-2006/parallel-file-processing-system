@@ -1,0 +1,32 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00025
+# Generated: 2026-03-15T09:36:26
+# Records Count: 29
+[2026-03-15 09:36:26.000] [ERROR   ] [auth-service  ] [trc-920910] Worker thread crashed with segmentation violation in foreign library latency_ms=1053
+[2026-03-15 09:36:26.322] [INFO    ] [cache-redis   ] [trc-357070] Batch file chunk serialized successfully latency_ms=62
+[2026-03-15 09:36:26.384] [INFO    ] [api-gateway   ] [trc-952118] Scheduled garbage collection sweep finished latency_ms=42
+[2026-03-15 09:36:26.963] [ERROR   ] [api-gateway   ] [trc-163098] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=779
+[2026-03-15 09:36:29.048] [INFO    ] [worker-pool   ] [trc-980266] Cache lookup returned positive hit for session key latency_ms=32
+[2026-03-15 09:36:29.745] [INFO    ] [cache-redis   ] [trc-635118] Connection acquired from connection pool latency_ms=73
+[2026-03-15 09:36:30.356] [INFO    ] [api-gateway   ] [trc-415242] TLS handshake completed with client agent latency_ms=20
+[2026-03-15 09:36:28.051] [ERROR   ] [billing-svc   ] [trc-683510] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=715
+[2026-03-15 09:36:32.200] [INFO    ] [file-storage  ] [trc-941017] TLS handshake completed with client agent latency_ms=48
+[2026-03-15 09:36:33.200] [WARNING ] [worker-pool   ] [trc-889256] Downstream microservice response delayed, retry attempt scheduled latency_ms=205
+[2026-03-15 09:36:30.790] [INFO    ] [worker-pool   ] [trc-320855] Worker heartbeat acknowledged by supervisor latency_ms=47
+[2026-03-15 09:36:27.826] [INFO    ] [billing-svc   ] [trc-240221] Incoming HTTP request dispatched to worker handler latency_ms=65
+[2026-03-15 09:36:27.848] [INFO    ] [api-gateway   ] [trc-805383] Worker heartbeat acknowledged by supervisor latency_ms=67
+[2026-03-15 09:36:33.176] [WARNING ] [file-storage  ] [trc-185090] High memory consumption threshold reached (88% utilized) latency_ms=355
+[2026-03-15 09:36:28.534] [ERROR   ] [cache-redis   ] [trc-955697] Connection reset by peer while transmitting payload latency_ms=6391
+[2026-03-15 09:36:34.025] [CRITICAL] [cache-redis   ] [trc-730520] Cascading failover triggered on primary cluster node; state recovery active latency_ms=3569
+[2026-03-15 09:36:30.432] [ERROR   ] [db-cluster    ] [trc-488477] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=3576
+[2026-03-15 09:36:32.392] [ERROR   ] [billing-svc   ] [trc-120742] Worker thread crashed with segmentation violation in foreign library latency_ms=5068
+[2026-03-15 09:36:30.356] [ERROR   ] [cache-redis   ] [trc-743241] Failed to write metadata block to distributed store latency_ms=5419
+[2026-03-15 09:36:38.445] [INFO    ] [worker-pool   ] [trc-138583] TLS handshake completed with client agent latency_ms=31
+[2026-03-15 09:36:29.140] [INFO    ] [auth-service  ] [trc-961010] Incoming HTTP request dispatched to worker handler latency_ms=40
+[2026-03-15 09:36:41.372] [INFO    ] [file-storage  ] [trc-618008] Connection acquired from connection pool latency_ms=27
+[2026-03-15 09:36:30.752] [WARNING ] [file-storage  ] [trc-234476] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=212
+[2026-03-15 09:36:42.859] [ERROR   ] [cache-redis   ] [trc-339038] Worker thread crashed with segmentation violation in foreign library latency_ms=696
+[2026-03-15 09:36:30.152] [INFO    ] [billing-svc   ] [trc-810656] Cache lookup returned positive hit for session key latency_ms=63
+[2026-03-15 09:36:29.800] [INFO    ] [db-cluster    ] [trc-772101] TLS handshake completed with client agent latency_ms=11
+[2026-03-15 09:36:38.480] [ERROR   ] [db-cluster    ] [trc-985356] Worker thread crashed with segmentation violation in foreign library latency_ms=624
+[2026-03-15 09:36:44.360] [INFO    ] [db-cluster    ] [trc-619647] Scheduled garbage collection sweep finished latency_ms=10
+[2026-03-15 09:36:36.612] [ERROR   ] [api-gateway   ] [trc-391433] TLS socket abruptly terminated before payload completion latency_ms=959

@@ -1,0 +1,33 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00560
+# Generated: 2026-03-15T13:14:00
+# Records Count: 30
+[2026-03-15 13:14:00.000] [INFO    ] [db-cluster    ] [trc-945861] Worker heartbeat acknowledged by supervisor latency_ms=57
+[2026-03-15 13:14:00.383] [INFO    ] [file-storage  ] [trc-885465] Scheduled garbage collection sweep finished latency_ms=62
+[2026-03-15 13:14:00.940] [ERROR   ] [db-cluster    ] [trc-687946] TLS socket abruptly terminated before payload completion latency_ms=673
+[2026-03-15 13:14:02.367] [INFO    ] [file-storage  ] [trc-898202] Scheduled garbage collection sweep finished latency_ms=15
+[2026-03-15 13:14:00.952] [INFO    ] [api-gateway   ] [trc-234960] Worker heartbeat acknowledged by supervisor latency_ms=44
+[2026-03-15 13:14:03.725] [INFO    ] [billing-svc   ] [trc-317674] Connection acquired from connection pool latency_ms=45
+[2026-03-15 13:14:00.984] [INFO    ] [cache-redis   ] [trc-696204] Batch file chunk serialized successfully latency_ms=52
+[2026-03-15 13:14:02.408] [WARNING ] [auth-service  ] [trc-747696] Disk buffer cache pressure elevated during concurrent writes latency_ms=228
+[2026-03-15 13:14:05.296] [INFO    ] [billing-svc   ] [trc-515562] TLS handshake completed with client agent latency_ms=21
+[2026-03-15 13:14:01.854] [WARNING ] [billing-svc   ] [trc-185729] High memory consumption threshold reached (88% utilized) latency_ms=282
+[2026-03-15 13:14:04.800] [INFO    ] [cache-redis   ] [trc-306762] Connection acquired from connection pool latency_ms=55
+[2026-03-15 13:14:08.503] [INFO    ] [api-gateway   ] [trc-965672] Worker heartbeat acknowledged by supervisor latency_ms=53
+[2026-03-15 13:14:06.468] [WARNING ] [worker-pool   ] [trc-815751] High memory consumption threshold reached (88% utilized) latency_ms=253
+[2026-03-15 13:14:03.185] [INFO    ] [billing-svc   ] [trc-504065] TLS handshake completed with client agent latency_ms=37
+[2026-03-15 13:14:08.008] [INFO    ] [cache-redis   ] [trc-449413] Connection acquired from connection pool latency_ms=29
+[2026-03-15 13:14:11.790] [CRITICAL] [db-cluster    ] [trc-914720] File descriptor limit reached for worker process; operating system rejecting socket creation latency_ms=8099
+[2026-03-15 13:14:04.864] [CRITICAL] [db-cluster    ] [trc-713097] Database connection pool completely exhausted; dropping new client requests latency_ms=3529
+[2026-03-15 13:14:07.446] [CRITICAL] [db-cluster    ] [trc-103257] Cascading failover triggered on primary cluster node; state recovery active latency_ms=6909
+[2026-03-15 13:14:03.438] [ERROR   ] [billing-svc   ] [trc-113443] TLS socket abruptly terminated before payload completion latency_ms=7852
+[2026-03-15 13:14:08.797] [CRITICAL] [cache-redis   ] [trc-792162] Database connection pool completely exhausted; dropping new client requests latency_ms=5148
+[2026-03-15 13:14:08.460] [INFO    ] [file-storage  ] [trc-581837] Scheduled garbage collection sweep finished latency_ms=7
+[2026-03-15 13:14:10.983] [INFO    ] [auth-service  ] [trc-689489] TLS handshake completed with client agent latency_ms=33
+[2026-03-15 13:14:05.566] [INFO    ] [cache-redis   ] [trc-268798] Incoming HTTP request dispatched to worker handler latency_ms=44
+[2026-03-15 13:14:09.844] [WARNING ] [auth-service  ] [trc-627306] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=201
+[2026-03-15 13:14:13.944] [INFO    ] [api-gateway   ] [trc-552314] Incoming HTTP request dispatched to worker handler latency_ms=7
+[2026-03-15 13:14:19.650] [WARNING ] [db-cluster    ] [trc-255483] Disk buffer cache pressure elevated during concurrent writes latency_ms=399
+[2026-03-15 13:14:20.696] [INFO    ] [auth-service  ] [trc-847024] Incoming HTTP request dispatched to worker handler latency_ms=21
+[2026-03-15 13:14:06.642] [ERROR   ] [api-gateway   ] [trc-202100] Connection reset by peer while transmitting payload latency_ms=505
+[2026-03-15 13:14:16.072] [WARNING ] [api-gateway   ] [trc-992702] Thread pool saturation index approaching upper boundary latency_ms=343
+[2026-03-15 13:14:13.311] [INFO    ] [file-storage  ] [trc-605573] Cache lookup returned positive hit for session key latency_ms=24

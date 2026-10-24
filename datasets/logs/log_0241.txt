@@ -1,0 +1,19 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00241
+# Generated: 2026-03-15T23:04:05
+# Records Count: 16
+[2026-03-15 23:04:05.000] [ERROR   ] [cache-redis   ] [trc-132481] TLS socket abruptly terminated before payload completion latency_ms=1126
+[2026-03-15 23:04:05.538] [INFO    ] [cache-redis   ] [trc-908961] Batch file chunk serialized successfully latency_ms=56
+[2026-03-15 23:04:06.244] [INFO    ] [api-gateway   ] [trc-114328] Worker heartbeat acknowledged by supervisor latency_ms=40
+[2026-03-15 23:04:06.686] [ERROR   ] [file-storage  ] [trc-977970] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=1202
+[2026-03-15 23:04:08.076] [INFO    ] [auth-service  ] [trc-850479] Scheduled garbage collection sweep finished latency_ms=36
+[2026-03-15 23:04:06.865] [INFO    ] [billing-svc   ] [trc-583616] Batch file chunk serialized successfully latency_ms=18
+[2026-03-15 23:04:07.850] [INFO    ] [file-storage  ] [trc-958565] Incoming HTTP request dispatched to worker handler latency_ms=68
+[2026-03-15 23:04:06.519] [INFO    ] [worker-pool   ] [trc-787828] Batch file chunk serialized successfully latency_ms=30
+[2026-03-15 23:04:08.240] [INFO    ] [auth-service  ] [trc-326704] Scheduled garbage collection sweep finished latency_ms=8
+[2026-03-15 23:04:10.085] [WARNING ] [worker-pool   ] [trc-660481] Downstream microservice response delayed, retry attempt scheduled latency_ms=226
+[2026-03-15 23:04:12.040] [INFO    ] [billing-svc   ] [trc-651690] Worker heartbeat acknowledged by supervisor latency_ms=26
+[2026-03-15 23:04:09.389] [INFO    ] [db-cluster    ] [trc-451329] Incoming HTTP request dispatched to worker handler latency_ms=68
+[2026-03-15 23:04:09.080] [WARNING ] [auth-service  ] [trc-650081] Downstream microservice response delayed, retry attempt scheduled latency_ms=357
+[2026-03-15 23:04:08.822] [INFO    ] [billing-svc   ] [trc-491993] Cache lookup returned positive hit for session key latency_ms=40
+[2026-03-15 23:04:12.196] [INFO    ] [worker-pool   ] [trc-218037] Scheduled garbage collection sweep finished latency_ms=19
+[2026-03-15 23:04:16.085] [INFO    ] [db-cluster    ] [trc-919695] Connection acquired from connection pool latency_ms=44

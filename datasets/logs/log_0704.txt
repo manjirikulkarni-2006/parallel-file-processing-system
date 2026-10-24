@@ -1,0 +1,18 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00704
+# Generated: 2026-03-15T09:00:51
+# Records Count: 15
+[2026-03-15 09:00:51.000] [WARNING ] [db-cluster    ] [trc-234109] Downstream microservice response delayed, retry attempt scheduled latency_ms=314
+[2026-03-15 09:00:51.315] [WARNING ] [worker-pool   ] [trc-257612] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=107
+[2026-03-15 09:00:52.020] [INFO    ] [db-cluster    ] [trc-715054] TLS handshake completed with client agent latency_ms=7
+[2026-03-15 09:00:52.428] [INFO    ] [billing-svc   ] [trc-664450] Connection acquired from connection pool latency_ms=30
+[2026-03-15 09:00:51.836] [INFO    ] [api-gateway   ] [trc-517820] Worker heartbeat acknowledged by supervisor latency_ms=27
+[2026-03-15 09:00:54.320] [INFO    ] [worker-pool   ] [trc-511837] Cache lookup returned positive hit for session key latency_ms=48
+[2026-03-15 09:00:53.994] [WARNING ] [db-cluster    ] [trc-365524] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=280
+[2026-03-15 09:00:52.057] [INFO    ] [cache-redis   ] [trc-801252] Scheduled garbage collection sweep finished latency_ms=62
+[2026-03-15 09:00:55.232] [WARNING ] [file-storage  ] [trc-584341] High memory consumption threshold reached (88% utilized) latency_ms=416
+[2026-03-15 09:00:53.196] [INFO    ] [file-storage  ] [trc-104313] Scheduled garbage collection sweep finished latency_ms=40
+[2026-03-15 09:00:57.180] [ERROR   ] [file-storage  ] [trc-867835] TLS socket abruptly terminated before payload completion latency_ms=1285
+[2026-03-15 09:00:53.134] [ERROR   ] [worker-pool   ] [trc-191393] TLS socket abruptly terminated before payload completion latency_ms=789
+[2026-03-15 09:00:59.148] [INFO    ] [file-storage  ] [trc-631902] Cache lookup returned positive hit for session key latency_ms=69
+[2026-03-15 09:00:53.860] [WARNING ] [auth-service  ] [trc-904843] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=319
+[2026-03-15 09:00:55.438] [WARNING ] [worker-pool   ] [trc-945888] High memory consumption threshold reached (88% utilized) latency_ms=409

@@ -1,0 +1,19 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00991
+# Generated: 2026-03-15T12:47:04
+# Records Count: 16
+[2026-03-15 12:47:04.000] [ERROR   ] [cache-redis   ] [trc-464358] Worker thread crashed with segmentation violation in foreign library latency_ms=927
+[2026-03-15 12:47:04.462] [WARNING ] [file-storage  ] [trc-671850] Thread pool saturation index approaching upper boundary latency_ms=302
+[2026-03-15 12:47:05.278] [ERROR   ] [worker-pool   ] [trc-890765] TLS socket abruptly terminated before payload completion latency_ms=1026
+[2026-03-15 12:47:05.545] [INFO    ] [worker-pool   ] [trc-365124] Incoming HTTP request dispatched to worker handler latency_ms=30
+[2026-03-15 12:47:04.880] [INFO    ] [db-cluster    ] [trc-153659] TLS handshake completed with client agent latency_ms=71
+[2026-03-15 12:47:07.735] [INFO    ] [worker-pool   ] [trc-331478] Scheduled garbage collection sweep finished latency_ms=43
+[2026-03-15 12:47:07.096] [INFO    ] [db-cluster    ] [trc-569812] Connection acquired from connection pool latency_ms=34
+[2026-03-15 12:47:05.463] [INFO    ] [worker-pool   ] [trc-158658] Cache lookup returned positive hit for session key latency_ms=19
+[2026-03-15 12:47:05.632] [CRITICAL] [api-gateway   ] [trc-884124] Database connection pool completely exhausted; dropping new client requests latency_ms=4898
+[2026-03-15 12:47:08.284] [CRITICAL] [auth-service  ] [trc-285600] Database connection pool completely exhausted; dropping new client requests latency_ms=5427
+[2026-03-15 12:47:11.740] [CRITICAL] [db-cluster    ] [trc-977054] Cascading failover triggered on primary cluster node; state recovery active latency_ms=4326
+[2026-03-15 12:47:10.930] [ERROR   ] [cache-redis   ] [trc-616667] Failed to write metadata block to distributed store latency_ms=5477
+[2026-03-15 12:47:06.916] [CRITICAL] [api-gateway   ] [trc-756941] Database connection pool completely exhausted; dropping new client requests latency_ms=5877
+[2026-03-15 12:47:11.202] [WARNING ] [file-storage  ] [trc-305525] Disk buffer cache pressure elevated during concurrent writes latency_ms=127
+[2026-03-15 12:47:14.346] [WARNING ] [api-gateway   ] [trc-240826] Downstream microservice response delayed, retry attempt scheduled latency_ms=226
+[2026-03-15 12:47:14.665] [INFO    ] [auth-service  ] [trc-152944] TLS handshake completed with client agent latency_ms=14

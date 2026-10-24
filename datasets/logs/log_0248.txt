@@ -1,0 +1,19 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00248
+# Generated: 2026-03-15T15:27:50
+# Records Count: 16
+[2026-03-15 15:27:50.000] [INFO    ] [billing-svc   ] [trc-124336] Batch file chunk serialized successfully latency_ms=17
+[2026-03-15 15:27:50.574] [WARNING ] [worker-pool   ] [trc-908623] Downstream microservice response delayed, retry attempt scheduled latency_ms=406
+[2026-03-15 15:27:51.444] [INFO    ] [api-gateway   ] [trc-115182] Scheduled garbage collection sweep finished latency_ms=67
+[2026-03-15 15:27:51.206] [INFO    ] [billing-svc   ] [trc-385107] Worker heartbeat acknowledged by supervisor latency_ms=43
+[2026-03-15 15:27:51.644] [INFO    ] [db-cluster    ] [trc-931284] Connection acquired from connection pool latency_ms=74
+[2026-03-15 15:27:53.005] [ERROR   ] [cache-redis   ] [trc-675775] Worker thread crashed with segmentation violation in foreign library latency_ms=633
+[2026-03-15 15:27:53.978] [INFO    ] [file-storage  ] [trc-131451] Batch file chunk serialized successfully latency_ms=60
+[2026-03-15 15:27:53.521] [INFO    ] [api-gateway   ] [trc-679994] Worker heartbeat acknowledged by supervisor latency_ms=43
+[2026-03-15 15:27:54.880] [INFO    ] [db-cluster    ] [trc-194970] Scheduled garbage collection sweep finished latency_ms=74
+[2026-03-15 15:27:55.976] [INFO    ] [auth-service  ] [trc-566679] Scheduled garbage collection sweep finished latency_ms=38
+[2026-03-15 15:27:55.130] [WARNING ] [api-gateway   ] [trc-735678] Disk buffer cache pressure elevated during concurrent writes latency_ms=243
+[2026-03-15 15:27:58.613] [INFO    ] [auth-service  ] [trc-627815] Connection acquired from connection pool latency_ms=46
+[2026-03-15 15:27:52.508] [INFO    ] [auth-service  ] [trc-351389] Scheduled garbage collection sweep finished latency_ms=54
+[2026-03-15 15:27:55.681] [INFO    ] [db-cluster    ] [trc-941183] TLS handshake completed with client agent latency_ms=26
+[2026-03-15 15:27:55.894] [WARNING ] [auth-service  ] [trc-412654] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=263
+[2026-03-15 15:27:56.105] [INFO    ] [file-storage  ] [trc-525407] Connection acquired from connection pool latency_ms=19

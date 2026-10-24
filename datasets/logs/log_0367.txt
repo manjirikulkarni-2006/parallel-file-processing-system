@@ -1,0 +1,29 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00367
+# Generated: 2026-03-15T00:37:43
+# Records Count: 26
+[2026-03-15 00:37:43.000] [INFO    ] [file-storage  ] [trc-633162] Batch file chunk serialized successfully latency_ms=75
+[2026-03-15 00:37:43.600] [WARNING ] [file-storage  ] [trc-295881] Disk buffer cache pressure elevated during concurrent writes latency_ms=87
+[2026-03-15 00:37:44.458] [INFO    ] [worker-pool   ] [trc-605724] Scheduled garbage collection sweep finished latency_ms=70
+[2026-03-15 00:37:44.194] [INFO    ] [file-storage  ] [trc-567348] Incoming HTTP request dispatched to worker handler latency_ms=14
+[2026-03-15 00:37:45.896] [INFO    ] [file-storage  ] [trc-689776] Cache lookup returned positive hit for session key latency_ms=71
+[2026-03-15 00:37:45.245] [WARNING ] [db-cluster    ] [trc-892589] High memory consumption threshold reached (88% utilized) latency_ms=310
+[2026-03-15 00:37:45.694] [INFO    ] [worker-pool   ] [trc-539935] Cache lookup returned positive hit for session key latency_ms=53
+[2026-03-15 00:37:47.396] [ERROR   ] [api-gateway   ] [trc-319360] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=601
+[2026-03-15 00:37:48.576] [INFO    ] [cache-redis   ] [trc-769897] Cache lookup returned positive hit for session key latency_ms=71
+[2026-03-15 00:37:48.508] [INFO    ] [cache-redis   ] [trc-444152] Worker heartbeat acknowledged by supervisor latency_ms=75
+[2026-03-15 00:37:44.820] [INFO    ] [billing-svc   ] [trc-238577] Cache lookup returned positive hit for session key latency_ms=21
+[2026-03-15 00:37:45.156] [WARNING ] [worker-pool   ] [trc-519838] Disk buffer cache pressure elevated during concurrent writes latency_ms=104
+[2026-03-15 00:37:50.476] [INFO    ] [worker-pool   ] [trc-318268] TLS handshake completed with client agent latency_ms=56
+[2026-03-15 00:37:48.395] [CRITICAL] [file-storage  ] [trc-363607] File descriptor limit reached for worker process; operating system rejecting socket creation latency_ms=5057
+[2026-03-15 00:37:53.892] [CRITICAL] [auth-service  ] [trc-143445] Authentication burst anomaly: 120 failed auth tokens within 10 seconds from subnet 198.51.100.0/24 latency_ms=5702
+[2026-03-15 00:37:45.445] [CRITICAL] [billing-svc   ] [trc-600868] Database connection pool completely exhausted; dropping new client requests latency_ms=8203
+[2026-03-15 00:37:53.320] [ERROR   ] [api-gateway   ] [trc-667719] Connection reset by peer while transmitting payload latency_ms=4489
+[2026-03-15 00:37:46.723] [ERROR   ] [auth-service  ] [trc-160738] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=7500
+[2026-03-15 00:37:49.012] [ERROR   ] [file-storage  ] [trc-814216] Connection reset by peer while transmitting payload latency_ms=1252
+[2026-03-15 00:37:53.526] [INFO    ] [file-storage  ] [trc-944593] Connection acquired from connection pool latency_ms=60
+[2026-03-15 00:37:47.680] [ERROR   ] [billing-svc   ] [trc-914351] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=1178
+[2026-03-15 00:37:55.180] [INFO    ] [worker-pool   ] [trc-606898] Incoming HTTP request dispatched to worker handler latency_ms=67
+[2026-03-15 00:37:59.192] [INFO    ] [auth-service  ] [trc-463402] Cache lookup returned positive hit for session key latency_ms=58
+[2026-03-15 00:37:55.075] [WARNING ] [auth-service  ] [trc-835058] Disk buffer cache pressure elevated during concurrent writes latency_ms=206
+[2026-03-15 00:37:49.192] [WARNING ] [billing-svc   ] [trc-898885] High memory consumption threshold reached (88% utilized) latency_ms=413
+[2026-03-15 00:37:46.875] [INFO    ] [api-gateway   ] [trc-872287] TLS handshake completed with client agent latency_ms=72

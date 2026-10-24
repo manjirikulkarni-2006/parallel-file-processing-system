@@ -1,0 +1,26 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00371
+# Generated: 2026-03-15T12:25:14
+# Records Count: 23
+[2026-03-15 12:25:14.000] [ERROR   ] [file-storage  ] [trc-563810] Worker thread crashed with segmentation violation in foreign library latency_ms=767
+[2026-03-15 12:25:14.628] [WARNING ] [db-cluster    ] [trc-457644] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=235
+[2026-03-15 12:25:15.120] [INFO    ] [cache-redis   ] [trc-740529] Scheduled garbage collection sweep finished latency_ms=47
+[2026-03-15 12:25:14.801] [INFO    ] [db-cluster    ] [trc-721510] Batch file chunk serialized successfully latency_ms=52
+[2026-03-15 12:25:14.892] [INFO    ] [db-cluster    ] [trc-209379] TLS handshake completed with client agent latency_ms=23
+[2026-03-15 12:25:17.970] [INFO    ] [file-storage  ] [trc-411502] TLS handshake completed with client agent latency_ms=63
+[2026-03-15 12:25:15.074] [WARNING ] [billing-svc   ] [trc-756596] High memory consumption threshold reached (88% utilized) latency_ms=400
+[2026-03-15 12:25:15.211] [ERROR   ] [worker-pool   ] [trc-944708] Worker thread crashed with segmentation violation in foreign library latency_ms=1199
+[2026-03-15 12:25:17.920] [ERROR   ] [billing-svc   ] [trc-652123] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=925
+[2026-03-15 12:25:19.211] [INFO    ] [worker-pool   ] [trc-660654] Cache lookup returned positive hit for session key latency_ms=19
+[2026-03-15 12:25:17.810] [INFO    ] [file-storage  ] [trc-798865] Connection acquired from connection pool latency_ms=63
+[2026-03-15 12:25:20.556] [ERROR   ] [api-gateway   ] [trc-619466] Failed to write metadata block to distributed store latency_ms=5109
+[2026-03-15 12:25:20.096] [ERROR   ] [file-storage  ] [trc-400050] Failed to write metadata block to distributed store latency_ms=5598
+[2026-03-15 12:25:20.773] [ERROR   ] [auth-service  ] [trc-400875] TLS socket abruptly terminated before payload completion latency_ms=7897
+[2026-03-15 12:25:17.794] [ERROR   ] [db-cluster    ] [trc-116217] Worker thread crashed with segmentation violation in foreign library latency_ms=5534
+[2026-03-15 12:25:20.990] [CRITICAL] [api-gateway   ] [trc-610869] Authentication burst anomaly: 120 failed auth tokens within 10 seconds from subnet 198.51.100.0/24 latency_ms=6051
+[2026-03-15 12:25:23.072] [INFO    ] [api-gateway   ] [trc-946632] Incoming HTTP request dispatched to worker handler latency_ms=18
+[2026-03-15 12:25:17.111] [INFO    ] [billing-svc   ] [trc-204665] Scheduled garbage collection sweep finished latency_ms=64
+[2026-03-15 12:25:20.786] [INFO    ] [file-storage  ] [trc-772010] Incoming HTTP request dispatched to worker handler latency_ms=26
+[2026-03-15 12:25:28.060] [INFO    ] [file-storage  ] [trc-959159] Scheduled garbage collection sweep finished latency_ms=45
+[2026-03-15 12:25:27.640] [INFO    ] [worker-pool   ] [trc-395416] TLS handshake completed with client agent latency_ms=6
+[2026-03-15 12:25:19.271] [INFO    ] [auth-service  ] [trc-580966] Connection acquired from connection pool latency_ms=61
+[2026-03-15 12:25:28.322] [ERROR   ] [billing-svc   ] [trc-210216] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=1162

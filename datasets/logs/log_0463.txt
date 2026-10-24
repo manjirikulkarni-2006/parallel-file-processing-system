@@ -1,0 +1,27 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00463
+# Generated: 2026-03-15T12:51:24
+# Records Count: 24
+[2026-03-15 12:51:24.000] [INFO    ] [billing-svc   ] [trc-150525] Incoming HTTP request dispatched to worker handler latency_ms=48
+[2026-03-15 12:51:24.727] [INFO    ] [cache-redis   ] [trc-702555] TLS handshake completed with client agent latency_ms=60
+[2026-03-15 12:51:24.868] [INFO    ] [api-gateway   ] [trc-640952] Batch file chunk serialized successfully latency_ms=62
+[2026-03-15 12:51:24.786] [INFO    ] [api-gateway   ] [trc-703166] Worker heartbeat acknowledged by supervisor latency_ms=53
+[2026-03-15 12:51:26.112] [WARNING ] [api-gateway   ] [trc-118516] Downstream microservice response delayed, retry attempt scheduled latency_ms=389
+[2026-03-15 12:51:25.580] [INFO    ] [cache-redis   ] [trc-979620] Batch file chunk serialized successfully latency_ms=47
+[2026-03-15 12:51:26.220] [INFO    ] [billing-svc   ] [trc-623019] Cache lookup returned positive hit for session key latency_ms=50
+[2026-03-15 12:51:27.605] [INFO    ] [billing-svc   ] [trc-658873] Connection acquired from connection pool latency_ms=15
+[2026-03-15 12:51:29.496] [WARNING ] [worker-pool   ] [trc-983149] Thread pool saturation index approaching upper boundary latency_ms=447
+[2026-03-15 12:51:28.410] [ERROR   ] [worker-pool   ] [trc-692130] Worker thread crashed with segmentation violation in foreign library latency_ms=1440
+[2026-03-15 12:51:30.230] [WARNING ] [file-storage  ] [trc-211144] Thread pool saturation index approaching upper boundary latency_ms=344
+[2026-03-15 12:51:31.821] [INFO    ] [file-storage  ] [trc-867641] Batch file chunk serialized successfully latency_ms=53
+[2026-03-15 12:51:33.504] [CRITICAL] [billing-svc   ] [trc-349871] Database connection pool completely exhausted; dropping new client requests latency_ms=8400
+[2026-03-15 12:51:32.125] [ERROR   ] [api-gateway   ] [trc-758692] Connection reset by peer while transmitting payload latency_ms=7518
+[2026-03-15 12:51:35.088] [CRITICAL] [cache-redis   ] [trc-650755] File descriptor limit reached for worker process; operating system rejecting socket creation latency_ms=4553
+[2026-03-15 12:51:30.075] [CRITICAL] [billing-svc   ] [trc-281196] Database connection pool completely exhausted; dropping new client requests latency_ms=4195
+[2026-03-15 12:51:36.576] [CRITICAL] [billing-svc   ] [trc-221980] File descriptor limit reached for worker process; operating system rejecting socket creation latency_ms=7295
+[2026-03-15 12:51:33.826] [WARNING ] [api-gateway   ] [trc-480216] Disk buffer cache pressure elevated during concurrent writes latency_ms=95
+[2026-03-15 12:51:34.980] [INFO    ] [file-storage  ] [trc-379013] Cache lookup returned positive hit for session key latency_ms=54
+[2026-03-15 12:51:35.951] [INFO    ] [db-cluster    ] [trc-921234] Incoming HTTP request dispatched to worker handler latency_ms=12
+[2026-03-15 12:51:32.200] [ERROR   ] [cache-redis   ] [trc-790438] Worker thread crashed with segmentation violation in foreign library latency_ms=1122
+[2026-03-15 12:51:36.684] [INFO    ] [db-cluster    ] [trc-430895] Connection acquired from connection pool latency_ms=48
+[2026-03-15 12:51:33.064] [INFO    ] [worker-pool   ] [trc-467067] Scheduled garbage collection sweep finished latency_ms=61
+[2026-03-15 12:51:40.813] [INFO    ] [billing-svc   ] [trc-937601] Worker heartbeat acknowledged by supervisor latency_ms=55

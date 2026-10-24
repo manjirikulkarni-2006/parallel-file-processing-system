@@ -1,0 +1,30 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00432
+# Generated: 2026-03-15T13:11:11
+# Records Count: 27
+[2026-03-15 13:11:11.000] [INFO    ] [file-storage  ] [trc-987378] TLS handshake completed with client agent latency_ms=18
+[2026-03-15 13:11:11.689] [INFO    ] [billing-svc   ] [trc-511125] Batch file chunk serialized successfully latency_ms=25
+[2026-03-15 13:11:12.422] [INFO    ] [file-storage  ] [trc-345049] TLS handshake completed with client agent latency_ms=47
+[2026-03-15 13:11:13.100] [INFO    ] [api-gateway   ] [trc-791228] Connection acquired from connection pool latency_ms=30
+[2026-03-15 13:11:11.952] [INFO    ] [billing-svc   ] [trc-478292] Connection acquired from connection pool latency_ms=14
+[2026-03-15 13:11:12.755] [INFO    ] [worker-pool   ] [trc-551908] Incoming HTTP request dispatched to worker handler latency_ms=61
+[2026-03-15 13:11:11.924] [INFO    ] [auth-service  ] [trc-608713] Batch file chunk serialized successfully latency_ms=29
+[2026-03-15 13:11:14.178] [ERROR   ] [worker-pool   ] [trc-578402] TLS socket abruptly terminated before payload completion latency_ms=1307
+[2026-03-15 13:11:13.768] [WARNING ] [db-cluster    ] [trc-279108] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=397
+[2026-03-15 13:11:13.358] [INFO    ] [db-cluster    ] [trc-900749] Worker heartbeat acknowledged by supervisor latency_ms=57
+[2026-03-15 13:11:18.200] [INFO    ] [auth-service  ] [trc-278425] Worker heartbeat acknowledged by supervisor latency_ms=48
+[2026-03-15 13:11:18.535] [INFO    ] [cache-redis   ] [trc-386642] Incoming HTTP request dispatched to worker handler latency_ms=32
+[2026-03-15 13:11:20.588] [INFO    ] [billing-svc   ] [trc-887769] TLS handshake completed with client agent latency_ms=68
+[2026-03-15 13:11:16.993] [INFO    ] [api-gateway   ] [trc-653358] Batch file chunk serialized successfully latency_ms=40
+[2026-03-15 13:11:13.492] [INFO    ] [cache-redis   ] [trc-573561] Batch file chunk serialized successfully latency_ms=24
+[2026-03-15 13:11:22.070] [INFO    ] [billing-svc   ] [trc-540266] Batch file chunk serialized successfully latency_ms=49
+[2026-03-15 13:11:20.072] [INFO    ] [worker-pool   ] [trc-560627] Worker heartbeat acknowledged by supervisor latency_ms=12
+[2026-03-15 13:11:20.248] [ERROR   ] [api-gateway   ] [trc-631403] Worker thread crashed with segmentation violation in foreign library latency_ms=768
+[2026-03-15 13:11:16.436] [INFO    ] [worker-pool   ] [trc-230361] Incoming HTTP request dispatched to worker handler latency_ms=45
+[2026-03-15 13:11:18.904] [INFO    ] [worker-pool   ] [trc-428443] TLS handshake completed with client agent latency_ms=21
+[2026-03-15 13:11:19.920] [ERROR   ] [api-gateway   ] [trc-487060] TLS socket abruptly terminated before payload completion latency_ms=1481
+[2026-03-15 13:11:23.432] [INFO    ] [auth-service  ] [trc-426397] Incoming HTTP request dispatched to worker handler latency_ms=13
+[2026-03-15 13:11:23.892] [INFO    ] [cache-redis   ] [trc-910869] Batch file chunk serialized successfully latency_ms=11
+[2026-03-15 13:11:23.397] [ERROR   ] [worker-pool   ] [trc-736316] Worker thread crashed with segmentation violation in foreign library latency_ms=813
+[2026-03-15 13:11:22.592] [INFO    ] [auth-service  ] [trc-357368] Cache lookup returned positive hit for session key latency_ms=27
+[2026-03-15 13:11:15.250] [INFO    ] [api-gateway   ] [trc-958781] Worker heartbeat acknowledged by supervisor latency_ms=17
+[2026-03-15 13:11:22.232] [INFO    ] [db-cluster    ] [trc-805885] TLS handshake completed with client agent latency_ms=43

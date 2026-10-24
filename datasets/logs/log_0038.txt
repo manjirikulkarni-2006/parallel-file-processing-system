@@ -1,0 +1,20 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00038
+# Generated: 2026-03-15T09:40:54
+# Records Count: 17
+[2026-03-15 09:40:54.000] [WARNING ] [cache-redis   ] [trc-427928] High memory consumption threshold reached (88% utilized) latency_ms=119
+[2026-03-15 09:40:54.395] [INFO    ] [api-gateway   ] [trc-273133] Incoming HTTP request dispatched to worker handler latency_ms=41
+[2026-03-15 09:40:55.434] [WARNING ] [db-cluster    ] [trc-947613] Thread pool saturation index approaching upper boundary latency_ms=426
+[2026-03-15 09:40:56.010] [INFO    ] [billing-svc   ] [trc-243055] Worker heartbeat acknowledged by supervisor latency_ms=73
+[2026-03-15 09:40:55.108] [INFO    ] [db-cluster    ] [trc-114575] Scheduled garbage collection sweep finished latency_ms=5
+[2026-03-15 09:40:56.925] [WARNING ] [billing-svc   ] [trc-660280] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=418
+[2026-03-15 09:40:58.140] [INFO    ] [billing-svc   ] [trc-738785] Batch file chunk serialized successfully latency_ms=26
+[2026-03-15 09:40:58.802] [INFO    ] [auth-service  ] [trc-283305] Scheduled garbage collection sweep finished latency_ms=22
+[2026-03-15 09:40:59.408] [INFO    ] [worker-pool   ] [trc-153379] Batch file chunk serialized successfully latency_ms=26
+[2026-03-15 09:40:58.788] [ERROR   ] [api-gateway   ] [trc-454375] Failed to write metadata block to distributed store latency_ms=1351
+[2026-03-15 09:41:01.020] [WARNING ] [cache-redis   ] [trc-903643] Downstream microservice response delayed, retry attempt scheduled latency_ms=233
+[2026-03-15 09:41:01.084] [INFO    ] [worker-pool   ] [trc-377611] TLS handshake completed with client agent latency_ms=55
+[2026-03-15 09:40:58.464] [INFO    ] [worker-pool   ] [trc-774206] Incoming HTTP request dispatched to worker handler latency_ms=64
+[2026-03-15 09:41:04.166] [INFO    ] [cache-redis   ] [trc-611984] Incoming HTTP request dispatched to worker handler latency_ms=63
+[2026-03-15 09:41:00.804] [INFO    ] [worker-pool   ] [trc-471083] Cache lookup returned positive hit for session key latency_ms=28
+[2026-03-15 09:41:02.415] [INFO    ] [worker-pool   ] [trc-109294] Batch file chunk serialized successfully latency_ms=30
+[2026-03-15 09:40:57.776] [ERROR   ] [file-storage  ] [trc-639302] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=626

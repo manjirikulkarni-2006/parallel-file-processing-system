@@ -1,0 +1,19 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00240
+# Generated: 2026-03-15T17:02:10
+# Records Count: 16
+[2026-03-15 17:02:10.000] [INFO    ] [billing-svc   ] [trc-173647] TLS handshake completed with client agent latency_ms=57
+[2026-03-15 17:02:10.459] [INFO    ] [cache-redis   ] [trc-477973] Incoming HTTP request dispatched to worker handler latency_ms=18
+[2026-03-15 17:02:11.478] [INFO    ] [cache-redis   ] [trc-718753] Connection acquired from connection pool latency_ms=13
+[2026-03-15 17:02:11.116] [INFO    ] [auth-service  ] [trc-436523] Worker heartbeat acknowledged by supervisor latency_ms=31
+[2026-03-15 17:02:10.984] [INFO    ] [db-cluster    ] [trc-258968] Batch file chunk serialized successfully latency_ms=56
+[2026-03-15 17:02:13.250] [ERROR   ] [api-gateway   ] [trc-414984] Connection reset by peer while transmitting payload latency_ms=1433
+[2026-03-15 17:02:13.870] [WARNING ] [api-gateway   ] [trc-111896] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=433
+[2026-03-15 17:02:14.977] [INFO    ] [file-storage  ] [trc-196722] Worker heartbeat acknowledged by supervisor latency_ms=66
+[2026-03-15 17:02:13.576] [WARNING ] [api-gateway   ] [trc-436655] High memory consumption threshold reached (88% utilized) latency_ms=137
+[2026-03-15 17:02:13.546] [WARNING ] [billing-svc   ] [trc-315948] High memory consumption threshold reached (88% utilized) latency_ms=207
+[2026-03-15 17:02:14.280] [INFO    ] [cache-redis   ] [trc-376296] Batch file chunk serialized successfully latency_ms=8
+[2026-03-15 17:02:17.194] [ERROR   ] [api-gateway   ] [trc-368542] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=1288
+[2026-03-15 17:02:16.600] [WARNING ] [worker-pool   ] [trc-160850] Thread pool saturation index approaching upper boundary latency_ms=312
+[2026-03-15 17:02:16.565] [INFO    ] [cache-redis   ] [trc-837521] TLS handshake completed with client agent latency_ms=63
+[2026-03-15 17:02:14.270] [WARNING ] [auth-service  ] [trc-178896] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=140
+[2026-03-15 17:02:18.295] [INFO    ] [api-gateway   ] [trc-975821] Batch file chunk serialized successfully latency_ms=69

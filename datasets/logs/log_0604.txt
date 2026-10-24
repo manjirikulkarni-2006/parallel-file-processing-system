@@ -1,0 +1,22 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00604
+# Generated: 2026-03-15T21:28:12
+# Records Count: 19
+[2026-03-15 21:28:12.000] [INFO    ] [api-gateway   ] [trc-791028] TLS handshake completed with client agent latency_ms=54
+[2026-03-15 21:28:12.606] [INFO    ] [cache-redis   ] [trc-785519] Incoming HTTP request dispatched to worker handler latency_ms=6
+[2026-03-15 21:28:12.502] [WARNING ] [billing-svc   ] [trc-644305] Downstream microservice response delayed, retry attempt scheduled latency_ms=317
+[2026-03-15 21:28:13.758] [INFO    ] [db-cluster    ] [trc-714292] TLS handshake completed with client agent latency_ms=51
+[2026-03-15 21:28:13.380] [INFO    ] [worker-pool   ] [trc-699618] Batch file chunk serialized successfully latency_ms=16
+[2026-03-15 21:28:13.495] [INFO    ] [worker-pool   ] [trc-986679] Cache lookup returned positive hit for session key latency_ms=65
+[2026-03-15 21:28:15.246] [INFO    ] [worker-pool   ] [trc-834677] Incoming HTTP request dispatched to worker handler latency_ms=49
+[2026-03-15 21:28:15.780] [INFO    ] [auth-service  ] [trc-293380] Scheduled garbage collection sweep finished latency_ms=63
+[2026-03-15 21:28:14.216] [INFO    ] [file-storage  ] [trc-162101] TLS handshake completed with client agent latency_ms=71
+[2026-03-15 21:28:18.210] [WARNING ] [cache-redis   ] [trc-173750] Downstream microservice response delayed, retry attempt scheduled latency_ms=403
+[2026-03-15 21:28:15.950] [INFO    ] [db-cluster    ] [trc-208262] Cache lookup returned positive hit for session key latency_ms=45
+[2026-03-15 21:28:19.535] [INFO    ] [auth-service  ] [trc-498294] Batch file chunk serialized successfully latency_ms=9
+[2026-03-15 21:28:14.112] [INFO    ] [billing-svc   ] [trc-576937] Batch file chunk serialized successfully latency_ms=63
+[2026-03-15 21:28:18.422] [INFO    ] [cache-redis   ] [trc-251954] Incoming HTTP request dispatched to worker handler latency_ms=63
+[2026-03-15 21:28:21.352] [INFO    ] [api-gateway   ] [trc-532779] Batch file chunk serialized successfully latency_ms=43
+[2026-03-15 21:28:21.930] [INFO    ] [api-gateway   ] [trc-636408] Connection acquired from connection pool latency_ms=6
+[2026-03-15 21:28:24.656] [INFO    ] [api-gateway   ] [trc-518195] TLS handshake completed with client agent latency_ms=60
+[2026-03-15 21:28:23.288] [WARNING ] [worker-pool   ] [trc-231495] Thread pool saturation index approaching upper boundary latency_ms=203
+[2026-03-15 21:28:18.588] [INFO    ] [db-cluster    ] [trc-186015] Worker heartbeat acknowledged by supervisor latency_ms=17

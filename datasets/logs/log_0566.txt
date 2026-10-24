@@ -1,0 +1,33 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00566
+# Generated: 2026-03-15T17:35:56
+# Records Count: 30
+[2026-03-15 17:35:56.000] [INFO    ] [billing-svc   ] [trc-976026] TLS handshake completed with client agent latency_ms=74
+[2026-03-15 17:35:56.351] [INFO    ] [auth-service  ] [trc-887208] Scheduled garbage collection sweep finished latency_ms=39
+[2026-03-15 17:35:56.414] [INFO    ] [api-gateway   ] [trc-220671] Scheduled garbage collection sweep finished latency_ms=70
+[2026-03-15 17:35:56.510] [INFO    ] [api-gateway   ] [trc-913902] Scheduled garbage collection sweep finished latency_ms=9
+[2026-03-15 17:35:58.500] [ERROR   ] [auth-service  ] [trc-280120] Connection reset by peer while transmitting payload latency_ms=1334
+[2026-03-15 17:35:59.690] [INFO    ] [db-cluster    ] [trc-484611] TLS handshake completed with client agent latency_ms=9
+[2026-03-15 17:35:59.690] [INFO    ] [db-cluster    ] [trc-257611] Scheduled garbage collection sweep finished latency_ms=7
+[2026-03-15 17:36:00.137] [INFO    ] [db-cluster    ] [trc-467218] TLS handshake completed with client agent latency_ms=47
+[2026-03-15 17:36:00.680] [INFO    ] [worker-pool   ] [trc-488402] Incoming HTTP request dispatched to worker handler latency_ms=11
+[2026-03-15 17:35:58.727] [ERROR   ] [db-cluster    ] [trc-815914] Connection reset by peer while transmitting payload latency_ms=921
+[2026-03-15 17:35:58.200] [WARNING ] [db-cluster    ] [trc-241352] Thread pool saturation index approaching upper boundary latency_ms=242
+[2026-03-15 17:36:00.279] [WARNING ] [billing-svc   ] [trc-740342] Downstream microservice response delayed, retry attempt scheduled latency_ms=212
+[2026-03-15 17:36:00.380] [INFO    ] [billing-svc   ] [trc-198151] TLS handshake completed with client agent latency_ms=59
+[2026-03-15 17:35:59.198] [INFO    ] [cache-redis   ] [trc-177141] Worker heartbeat acknowledged by supervisor latency_ms=71
+[2026-03-15 17:35:59.682] [WARNING ] [worker-pool   ] [trc-914720] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=413
+[2026-03-15 17:36:00.020] [ERROR   ] [file-storage  ] [trc-488086] TLS socket abruptly terminated before payload completion latency_ms=5478
+[2026-03-15 17:35:59.232] [ERROR   ] [api-gateway   ] [trc-409394] Worker thread crashed with segmentation violation in foreign library latency_ms=8466
+[2026-03-15 17:36:01.066] [CRITICAL] [auth-service  ] [trc-710052] File descriptor limit reached for worker process; operating system rejecting socket creation latency_ms=6785
+[2026-03-15 17:36:10.292] [ERROR   ] [api-gateway   ] [trc-527472] Connection reset by peer while transmitting payload latency_ms=4454
+[2026-03-15 17:36:09.262] [CRITICAL] [worker-pool   ] [trc-585877] Database connection pool completely exhausted; dropping new client requests latency_ms=4266
+[2026-03-15 17:35:59.400] [INFO    ] [cache-redis   ] [trc-701392] Scheduled garbage collection sweep finished latency_ms=65
+[2026-03-15 17:36:04.106] [ERROR   ] [db-cluster    ] [trc-678359] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=911
+[2026-03-15 17:36:06.538] [ERROR   ] [worker-pool   ] [trc-800919] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=1412
+[2026-03-15 17:36:02.164] [ERROR   ] [file-storage  ] [trc-452285] Worker thread crashed with segmentation violation in foreign library latency_ms=994
+[2026-03-15 17:36:03.656] [INFO    ] [file-storage  ] [trc-144909] Incoming HTTP request dispatched to worker handler latency_ms=34
+[2026-03-15 17:36:13.725] [INFO    ] [db-cluster    ] [trc-951448] Batch file chunk serialized successfully latency_ms=54
+[2026-03-15 17:36:13.108] [ERROR   ] [billing-svc   ] [trc-791177] Failed to write metadata block to distributed store latency_ms=1164
+[2026-03-15 17:36:13.226] [INFO    ] [auth-service  ] [trc-935687] Cache lookup returned positive hit for session key latency_ms=8
+[2026-03-15 17:36:11.596] [INFO    ] [auth-service  ] [trc-461003] Connection acquired from connection pool latency_ms=20
+[2026-03-15 17:36:04.990] [INFO    ] [cache-redis   ] [trc-222947] Incoming HTTP request dispatched to worker handler latency_ms=10

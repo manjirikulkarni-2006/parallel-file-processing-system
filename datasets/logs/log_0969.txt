@@ -1,0 +1,22 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00969
+# Generated: 2026-03-15T18:01:11
+# Records Count: 19
+[2026-03-15 18:01:11.000] [ERROR   ] [worker-pool   ] [trc-703618] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=531
+[2026-03-15 18:01:11.619] [WARNING ] [cache-redis   ] [trc-822464] Thread pool saturation index approaching upper boundary latency_ms=221
+[2026-03-15 18:01:11.848] [ERROR   ] [auth-service  ] [trc-798854] Connection reset by peer while transmitting payload latency_ms=1059
+[2026-03-15 18:01:12.293] [INFO    ] [worker-pool   ] [trc-403464] TLS handshake completed with client agent latency_ms=30
+[2026-03-15 18:01:13.464] [WARNING ] [api-gateway   ] [trc-158964] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=334
+[2026-03-15 18:01:14.665] [INFO    ] [billing-svc   ] [trc-456121] Batch file chunk serialized successfully latency_ms=15
+[2026-03-15 18:01:12.914] [INFO    ] [file-storage  ] [trc-260781] Scheduled garbage collection sweep finished latency_ms=31
+[2026-03-15 18:01:14.640] [INFO    ] [auth-service  ] [trc-983641] TLS handshake completed with client agent latency_ms=51
+[2026-03-15 18:01:16.528] [INFO    ] [cache-redis   ] [trc-183814] Batch file chunk serialized successfully latency_ms=58
+[2026-03-15 18:01:15.410] [INFO    ] [cache-redis   ] [trc-576260] Connection acquired from connection pool latency_ms=67
+[2026-03-15 18:01:13.000] [INFO    ] [file-storage  ] [trc-224741] Cache lookup returned positive hit for session key latency_ms=34
+[2026-03-15 18:01:19.041] [WARNING ] [worker-pool   ] [trc-743692] High memory consumption threshold reached (88% utilized) latency_ms=147
+[2026-03-15 18:01:15.620] [WARNING ] [db-cluster    ] [trc-553379] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=197
+[2026-03-15 18:01:19.411] [INFO    ] [worker-pool   ] [trc-158426] TLS handshake completed with client agent latency_ms=56
+[2026-03-15 18:01:21.276] [INFO    ] [billing-svc   ] [trc-420739] Cache lookup returned positive hit for session key latency_ms=63
+[2026-03-15 18:01:14.360] [INFO    ] [cache-redis   ] [trc-992089] Worker heartbeat acknowledged by supervisor latency_ms=64
+[2026-03-15 18:01:21.032] [WARNING ] [api-gateway   ] [trc-934038] High memory consumption threshold reached (88% utilized) latency_ms=272
+[2026-03-15 18:01:23.699] [INFO    ] [auth-service  ] [trc-461027] Cache lookup returned positive hit for session key latency_ms=17
+[2026-03-15 18:01:16.994] [INFO    ] [db-cluster    ] [trc-671908] Worker heartbeat acknowledged by supervisor latency_ms=28

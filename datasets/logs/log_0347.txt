@@ -1,0 +1,22 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00347
+# Generated: 2026-03-15T23:53:07
+# Records Count: 19
+[2026-03-15 23:53:07.000] [WARNING ] [billing-svc   ] [trc-205648] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=281
+[2026-03-15 23:53:07.465] [INFO    ] [billing-svc   ] [trc-259581] TLS handshake completed with client agent latency_ms=70
+[2026-03-15 23:53:07.460] [INFO    ] [worker-pool   ] [trc-368464] Batch file chunk serialized successfully latency_ms=75
+[2026-03-15 23:53:09.001] [WARNING ] [file-storage  ] [trc-327970] Thread pool saturation index approaching upper boundary latency_ms=106
+[2026-03-15 23:53:09.596] [WARNING ] [api-gateway   ] [trc-487891] Thread pool saturation index approaching upper boundary latency_ms=92
+[2026-03-15 23:53:10.930] [WARNING ] [worker-pool   ] [trc-776661] Thread pool saturation index approaching upper boundary latency_ms=146
+[2026-03-15 23:53:10.264] [INFO    ] [billing-svc   ] [trc-327869] Batch file chunk serialized successfully latency_ms=27
+[2026-03-15 23:53:09.877] [WARNING ] [billing-svc   ] [trc-788675] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=146
+[2026-03-15 23:53:11.696] [INFO    ] [worker-pool   ] [trc-575009] Scheduled garbage collection sweep finished latency_ms=68
+[2026-03-15 23:53:13.930] [INFO    ] [file-storage  ] [trc-155130] Batch file chunk serialized successfully latency_ms=10
+[2026-03-15 23:53:13.420] [ERROR   ] [file-storage  ] [trc-751702] Failed to write metadata block to distributed store latency_ms=951
+[2026-03-15 23:53:15.448] [INFO    ] [file-storage  ] [trc-622985] Cache lookup returned positive hit for session key latency_ms=25
+[2026-03-15 23:53:11.140] [INFO    ] [file-storage  ] [trc-717524] Scheduled garbage collection sweep finished latency_ms=29
+[2026-03-15 23:53:14.124] [INFO    ] [file-storage  ] [trc-944668] Worker heartbeat acknowledged by supervisor latency_ms=43
+[2026-03-15 23:53:14.280] [INFO    ] [worker-pool   ] [trc-380710] TLS handshake completed with client agent latency_ms=74
+[2026-03-15 23:53:12.685] [INFO    ] [file-storage  ] [trc-479922] TLS handshake completed with client agent latency_ms=24
+[2026-03-15 23:53:18.024] [WARNING ] [auth-service  ] [trc-519189] Disk buffer cache pressure elevated during concurrent writes latency_ms=89
+[2026-03-15 23:53:11.301] [ERROR   ] [db-cluster    ] [trc-942291] Connection reset by peer while transmitting payload latency_ms=823
+[2026-03-15 23:53:20.806] [INFO    ] [billing-svc   ] [trc-705331] Batch file chunk serialized successfully latency_ms=41

@@ -1,0 +1,20 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00354
+# Generated: 2026-03-15T00:54:36
+# Records Count: 17
+[2026-03-15 00:54:36.000] [WARNING ] [api-gateway   ] [trc-178380] Downstream microservice response delayed, retry attempt scheduled latency_ms=278
+[2026-03-15 00:54:36.780] [WARNING ] [db-cluster    ] [trc-186366] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=286
+[2026-03-15 00:54:36.372] [INFO    ] [db-cluster    ] [trc-619392] Batch file chunk serialized successfully latency_ms=25
+[2026-03-15 00:54:36.561] [INFO    ] [billing-svc   ] [trc-879082] Incoming HTTP request dispatched to worker handler latency_ms=75
+[2026-03-15 00:54:36.628] [WARNING ] [db-cluster    ] [trc-871564] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=433
+[2026-03-15 00:54:38.545] [ERROR   ] [auth-service  ] [trc-352683] Worker thread crashed with segmentation violation in foreign library latency_ms=527
+[2026-03-15 00:54:37.584] [INFO    ] [db-cluster    ] [trc-844758] Connection acquired from connection pool latency_ms=46
+[2026-03-15 00:54:37.533] [WARNING ] [api-gateway   ] [trc-427479] Disk buffer cache pressure elevated during concurrent writes latency_ms=219
+[2026-03-15 00:54:40.288] [INFO    ] [api-gateway   ] [trc-608925] Cache lookup returned positive hit for session key latency_ms=14
+[2026-03-15 00:54:40.464] [INFO    ] [api-gateway   ] [trc-316992] Connection acquired from connection pool latency_ms=8
+[2026-03-15 00:54:43.550] [INFO    ] [db-cluster    ] [trc-564655] Scheduled garbage collection sweep finished latency_ms=24
+[2026-03-15 00:54:40.950] [INFO    ] [api-gateway   ] [trc-600966] TLS handshake completed with client agent latency_ms=30
+[2026-03-15 00:54:41.952] [INFO    ] [file-storage  ] [trc-762454] Batch file chunk serialized successfully latency_ms=48
+[2026-03-15 00:54:41.122] [INFO    ] [auth-service  ] [trc-690835] Scheduled garbage collection sweep finished latency_ms=54
+[2026-03-15 00:54:41.320] [ERROR   ] [billing-svc   ] [trc-642615] Worker thread crashed with segmentation violation in foreign library latency_ms=992
+[2026-03-15 00:54:42.510] [INFO    ] [auth-service  ] [trc-332034] Worker heartbeat acknowledged by supervisor latency_ms=45
+[2026-03-15 00:54:46.656] [INFO    ] [api-gateway   ] [trc-836698] Scheduled garbage collection sweep finished latency_ms=75

@@ -1,0 +1,19 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00278
+# Generated: 2026-03-15T22:38:10
+# Records Count: 16
+[2026-03-15 22:38:10.000] [INFO    ] [billing-svc   ] [trc-767346] Cache lookup returned positive hit for session key latency_ms=26
+[2026-03-15 22:38:10.688] [INFO    ] [billing-svc   ] [trc-241381] Batch file chunk serialized successfully latency_ms=67
+[2026-03-15 22:38:11.286] [INFO    ] [cache-redis   ] [trc-386164] Worker heartbeat acknowledged by supervisor latency_ms=31
+[2026-03-15 22:38:11.425] [INFO    ] [billing-svc   ] [trc-377867] Scheduled garbage collection sweep finished latency_ms=34
+[2026-03-15 22:38:12.468] [WARNING ] [auth-service  ] [trc-866937] Thread pool saturation index approaching upper boundary latency_ms=346
+[2026-03-15 22:38:11.855] [WARNING ] [file-storage  ] [trc-538546] Disk buffer cache pressure elevated during concurrent writes latency_ms=175
+[2026-03-15 22:38:11.386] [INFO    ] [cache-redis   ] [trc-461457] Incoming HTTP request dispatched to worker handler latency_ms=22
+[2026-03-15 22:38:13.766] [INFO    ] [api-gateway   ] [trc-613505] Connection acquired from connection pool latency_ms=13
+[2026-03-15 22:38:13.304] [INFO    ] [auth-service  ] [trc-758539] TLS handshake completed with client agent latency_ms=71
+[2026-03-15 22:38:14.896] [WARNING ] [file-storage  ] [trc-798858] Downstream microservice response delayed, retry attempt scheduled latency_ms=190
+[2026-03-15 22:38:16.580] [ERROR   ] [api-gateway   ] [trc-478737] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=754
+[2026-03-15 22:38:12.904] [INFO    ] [api-gateway   ] [trc-473394] Worker heartbeat acknowledged by supervisor latency_ms=29
+[2026-03-15 22:38:12.604] [INFO    ] [file-storage  ] [trc-575189] TLS handshake completed with client agent latency_ms=51
+[2026-03-15 22:38:12.626] [INFO    ] [db-cluster    ] [trc-752944] Connection acquired from connection pool latency_ms=64
+[2026-03-15 22:38:18.540] [ERROR   ] [cache-redis   ] [trc-969900] Connection reset by peer while transmitting payload latency_ms=633
+[2026-03-15 22:38:21.640] [ERROR   ] [db-cluster    ] [trc-302134] Worker thread crashed with segmentation violation in foreign library latency_ms=1463

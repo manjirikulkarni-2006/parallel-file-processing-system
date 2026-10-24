@@ -1,0 +1,33 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00853
+# Generated: 2026-03-15T14:49:44
+# Records Count: 30
+[2026-03-15 14:49:44.000] [ERROR   ] [worker-pool   ] [trc-925352] TLS socket abruptly terminated before payload completion latency_ms=1196
+[2026-03-15 14:49:44.795] [INFO    ] [cache-redis   ] [trc-196922] TLS handshake completed with client agent latency_ms=21
+[2026-03-15 14:49:44.764] [ERROR   ] [billing-svc   ] [trc-571551] Connection reset by peer while transmitting payload latency_ms=997
+[2026-03-15 14:49:44.594] [INFO    ] [auth-service  ] [trc-482209] Incoming HTTP request dispatched to worker handler latency_ms=66
+[2026-03-15 14:49:44.888] [INFO    ] [file-storage  ] [trc-754957] Incoming HTTP request dispatched to worker handler latency_ms=55
+[2026-03-15 14:49:46.060] [INFO    ] [api-gateway   ] [trc-602299] Incoming HTTP request dispatched to worker handler latency_ms=45
+[2026-03-15 14:49:45.140] [WARNING ] [api-gateway   ] [trc-420985] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=348
+[2026-03-15 14:49:47.647] [INFO    ] [billing-svc   ] [trc-290123] Worker heartbeat acknowledged by supervisor latency_ms=16
+[2026-03-15 14:49:47.368] [ERROR   ] [api-gateway   ] [trc-318226] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=525
+[2026-03-15 14:49:48.149] [WARNING ] [auth-service  ] [trc-897872] High memory consumption threshold reached (88% utilized) latency_ms=304
+[2026-03-15 14:49:51.480] [INFO    ] [file-storage  ] [trc-296663] Connection acquired from connection pool latency_ms=21
+[2026-03-15 14:49:47.982] [INFO    ] [cache-redis   ] [trc-954660] Incoming HTTP request dispatched to worker handler latency_ms=31
+[2026-03-15 14:49:52.052] [INFO    ] [cache-redis   ] [trc-594237] Incoming HTTP request dispatched to worker handler latency_ms=28
+[2026-03-15 14:49:53.555] [ERROR   ] [worker-pool   ] [trc-508455] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=707
+[2026-03-15 14:49:51.322] [INFO    ] [file-storage  ] [trc-611316] Connection acquired from connection pool latency_ms=14
+[2026-03-15 14:49:49.055] [ERROR   ] [billing-svc   ] [trc-299394] TLS socket abruptly terminated before payload completion latency_ms=1105
+[2026-03-15 14:49:49.392] [INFO    ] [file-storage  ] [trc-606456] Cache lookup returned positive hit for session key latency_ms=60
+[2026-03-15 14:49:56.716] [INFO    ] [cache-redis   ] [trc-886450] Batch file chunk serialized successfully latency_ms=41
+[2026-03-15 14:49:55.664] [INFO    ] [billing-svc   ] [trc-175863] TLS handshake completed with client agent latency_ms=37
+[2026-03-15 14:49:58.611] [WARNING ] [db-cluster    ] [trc-393773] Disk buffer cache pressure elevated during concurrent writes latency_ms=164
+[2026-03-15 14:49:52.100] [WARNING ] [cache-redis   ] [trc-580175] Thread pool saturation index approaching upper boundary latency_ms=92
+[2026-03-15 14:49:49.103] [WARNING ] [db-cluster    ] [trc-743942] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=214
+[2026-03-15 14:49:52.360] [INFO    ] [cache-redis   ] [trc-320973] TLS handshake completed with client agent latency_ms=6
+[2026-03-15 14:49:53.752] [INFO    ] [file-storage  ] [trc-710612] TLS handshake completed with client agent latency_ms=23
+[2026-03-15 14:50:02.216] [WARNING ] [cache-redis   ] [trc-956077] High memory consumption threshold reached (88% utilized) latency_ms=155
+[2026-03-15 14:49:51.650] [INFO    ] [file-storage  ] [trc-901910] Connection acquired from connection pool latency_ms=45
+[2026-03-15 14:49:50.292] [WARNING ] [cache-redis   ] [trc-247709] Downstream microservice response delayed, retry attempt scheduled latency_ms=427
+[2026-03-15 14:49:52.424] [INFO    ] [worker-pool   ] [trc-542195] Cache lookup returned positive hit for session key latency_ms=29
+[2026-03-15 14:49:50.020] [WARNING ] [auth-service  ] [trc-225519] Thread pool saturation index approaching upper boundary latency_ms=440
+[2026-03-15 14:50:05.721] [INFO    ] [api-gateway   ] [trc-715407] Worker heartbeat acknowledged by supervisor latency_ms=30

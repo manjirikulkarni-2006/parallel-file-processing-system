@@ -1,0 +1,33 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00412
+# Generated: 2026-03-15T20:14:00
+# Records Count: 30
+[2026-03-15 20:14:00.000] [INFO    ] [worker-pool   ] [trc-366854] Connection acquired from connection pool latency_ms=8
+[2026-03-15 20:14:00.647] [INFO    ] [api-gateway   ] [trc-241940] Connection acquired from connection pool latency_ms=51
+[2026-03-15 20:14:01.314] [INFO    ] [file-storage  ] [trc-950583] Worker heartbeat acknowledged by supervisor latency_ms=60
+[2026-03-15 20:14:02.292] [INFO    ] [api-gateway   ] [trc-152271] Scheduled garbage collection sweep finished latency_ms=19
+[2026-03-15 20:14:02.928] [WARNING ] [file-storage  ] [trc-976667] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=321
+[2026-03-15 20:14:01.580] [INFO    ] [worker-pool   ] [trc-405008] Cache lookup returned positive hit for session key latency_ms=27
+[2026-03-15 20:14:01.128] [INFO    ] [db-cluster    ] [trc-502549] TLS handshake completed with client agent latency_ms=14
+[2026-03-15 20:14:03.598] [ERROR   ] [auth-service  ] [trc-955761] Failed to write metadata block to distributed store latency_ms=587
+[2026-03-15 20:14:01.936] [INFO    ] [cache-redis   ] [trc-692943] Worker heartbeat acknowledged by supervisor latency_ms=50
+[2026-03-15 20:14:02.331] [INFO    ] [db-cluster    ] [trc-525396] Incoming HTTP request dispatched to worker handler latency_ms=18
+[2026-03-15 20:14:06.970] [INFO    ] [api-gateway   ] [trc-155198] Cache lookup returned positive hit for session key latency_ms=7
+[2026-03-15 20:14:03.267] [INFO    ] [db-cluster    ] [trc-558832] Incoming HTTP request dispatched to worker handler latency_ms=21
+[2026-03-15 20:14:04.524] [INFO    ] [api-gateway   ] [trc-507856] Scheduled garbage collection sweep finished latency_ms=65
+[2026-03-15 20:14:06.838] [ERROR   ] [api-gateway   ] [trc-125693] Connection reset by peer while transmitting payload latency_ms=720
+[2026-03-15 20:14:07.630] [WARNING ] [cache-redis   ] [trc-530966] Downstream microservice response delayed, retry attempt scheduled latency_ms=321
+[2026-03-15 20:14:07.035] [WARNING ] [auth-service  ] [trc-714031] Thread pool saturation index approaching upper boundary latency_ms=409
+[2026-03-15 20:14:06.272] [WARNING ] [file-storage  ] [trc-383253] Thread pool saturation index approaching upper boundary latency_ms=407
+[2026-03-15 20:14:04.131] [INFO    ] [billing-svc   ] [trc-826839] Scheduled garbage collection sweep finished latency_ms=51
+[2026-03-15 20:14:11.952] [INFO    ] [api-gateway   ] [trc-507273] Incoming HTTP request dispatched to worker handler latency_ms=27
+[2026-03-15 20:14:04.921] [WARNING ] [auth-service  ] [trc-721011] Disk buffer cache pressure elevated during concurrent writes latency_ms=161
+[2026-03-15 20:14:06.920] [ERROR   ] [db-cluster    ] [trc-303103] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=1495
+[2026-03-15 20:14:06.027] [INFO    ] [worker-pool   ] [trc-965471] Connection acquired from connection pool latency_ms=71
+[2026-03-15 20:14:04.004] [ERROR   ] [billing-svc   ] [trc-315565] Connection reset by peer while transmitting payload latency_ms=553
+[2026-03-15 20:14:07.061] [INFO    ] [db-cluster    ] [trc-260311] Incoming HTTP request dispatched to worker handler latency_ms=51
+[2026-03-15 20:14:04.488] [INFO    ] [db-cluster    ] [trc-920331] Cache lookup returned positive hit for session key latency_ms=27
+[2026-03-15 20:14:12.700] [INFO    ] [auth-service  ] [trc-259809] Cache lookup returned positive hit for session key latency_ms=41
+[2026-03-15 20:14:14.352] [WARNING ] [worker-pool   ] [trc-956529] Downstream microservice response delayed, retry attempt scheduled latency_ms=333
+[2026-03-15 20:14:14.445] [INFO    ] [auth-service  ] [trc-951176] Worker heartbeat acknowledged by supervisor latency_ms=16
+[2026-03-15 20:14:12.712] [ERROR   ] [worker-pool   ] [trc-471091] Connection reset by peer while transmitting payload latency_ms=711
+[2026-03-15 20:14:15.776] [INFO    ] [worker-pool   ] [trc-336251] TLS handshake completed with client agent latency_ms=41

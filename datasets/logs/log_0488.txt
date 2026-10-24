@@ -1,0 +1,19 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00488
+# Generated: 2026-03-15T09:32:31
+# Records Count: 16
+[2026-03-15 09:32:31.000] [INFO    ] [file-storage  ] [trc-551550] Incoming HTTP request dispatched to worker handler latency_ms=39
+[2026-03-15 09:32:31.534] [INFO    ] [file-storage  ] [trc-739505] Connection acquired from connection pool latency_ms=70
+[2026-03-15 09:32:32.590] [WARNING ] [worker-pool   ] [trc-524596] High memory consumption threshold reached (88% utilized) latency_ms=302
+[2026-03-15 09:32:32.746] [INFO    ] [file-storage  ] [trc-455011] Scheduled garbage collection sweep finished latency_ms=57
+[2026-03-15 09:32:33.460] [INFO    ] [cache-redis   ] [trc-560814] Cache lookup returned positive hit for session key latency_ms=34
+[2026-03-15 09:32:32.450] [INFO    ] [worker-pool   ] [trc-748133] Cache lookup returned positive hit for session key latency_ms=32
+[2026-03-15 09:32:35.662] [INFO    ] [auth-service  ] [trc-143200] Batch file chunk serialized successfully latency_ms=14
+[2026-03-15 09:32:36.432] [INFO    ] [file-storage  ] [trc-690499] Batch file chunk serialized successfully latency_ms=7
+[2026-03-15 09:32:34.224] [ERROR   ] [cache-redis   ] [trc-668069] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=614
+[2026-03-15 09:32:38.173] [INFO    ] [worker-pool   ] [trc-856432] TLS handshake completed with client agent latency_ms=41
+[2026-03-15 09:32:33.850] [ERROR   ] [cache-redis   ] [trc-980458] Failed to write metadata block to distributed store latency_ms=1385
+[2026-03-15 09:32:37.072] [INFO    ] [file-storage  ] [trc-309398] Worker heartbeat acknowledged by supervisor latency_ms=6
+[2026-03-15 09:32:35.476] [INFO    ] [db-cluster    ] [trc-183423] Worker heartbeat acknowledged by supervisor latency_ms=60
+[2026-03-15 09:32:37.227] [INFO    ] [file-storage  ] [trc-670947] Cache lookup returned positive hit for session key latency_ms=56
+[2026-03-15 09:32:34.766] [INFO    ] [billing-svc   ] [trc-253708] Scheduled garbage collection sweep finished latency_ms=57
+[2026-03-15 09:32:38.425] [INFO    ] [worker-pool   ] [trc-442439] Batch file chunk serialized successfully latency_ms=54

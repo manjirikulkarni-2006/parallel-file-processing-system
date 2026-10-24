@@ -1,0 +1,22 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00023
+# Generated: 2026-03-15T17:21:24
+# Records Count: 19
+[2026-03-15 17:21:24.000] [INFO    ] [worker-pool   ] [trc-324116] Worker heartbeat acknowledged by supervisor latency_ms=44
+[2026-03-15 17:21:24.683] [INFO    ] [worker-pool   ] [trc-893820] Incoming HTTP request dispatched to worker handler latency_ms=8
+[2026-03-15 17:21:25.404] [INFO    ] [file-storage  ] [trc-371256] Scheduled garbage collection sweep finished latency_ms=43
+[2026-03-15 17:21:25.746] [WARNING ] [file-storage  ] [trc-215806] Downstream microservice response delayed, retry attempt scheduled latency_ms=212
+[2026-03-15 17:21:27.168] [INFO    ] [file-storage  ] [trc-471692] Scheduled garbage collection sweep finished latency_ms=20
+[2026-03-15 17:21:27.045] [WARNING ] [worker-pool   ] [trc-700241] Thread pool saturation index approaching upper boundary latency_ms=253
+[2026-03-15 17:21:26.346] [ERROR   ] [cache-redis   ] [trc-881984] TLS socket abruptly terminated before payload completion latency_ms=1231
+[2026-03-15 17:21:29.544] [WARNING ] [billing-svc   ] [trc-659193] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=259
+[2026-03-15 17:21:27.648] [WARNING ] [worker-pool   ] [trc-799318] Disk buffer cache pressure elevated during concurrent writes latency_ms=424
+[2026-03-15 17:21:26.637] [INFO    ] [billing-svc   ] [trc-496011] Connection acquired from connection pool latency_ms=18
+[2026-03-15 17:21:28.850] [INFO    ] [file-storage  ] [trc-710658] Scheduled garbage collection sweep finished latency_ms=51
+[2026-03-15 17:21:30.765] [WARNING ] [api-gateway   ] [trc-253672] Thread pool saturation index approaching upper boundary latency_ms=121
+[2026-03-15 17:21:26.928] [ERROR   ] [api-gateway   ] [trc-545526] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=719
+[2026-03-15 17:21:31.878] [INFO    ] [api-gateway   ] [trc-487233] Batch file chunk serialized successfully latency_ms=71
+[2026-03-15 17:21:31.756] [INFO    ] [cache-redis   ] [trc-376502] TLS handshake completed with client agent latency_ms=59
+[2026-03-15 17:21:33.000] [WARNING ] [billing-svc   ] [trc-613321] Thread pool saturation index approaching upper boundary latency_ms=163
+[2026-03-15 17:21:28.752] [INFO    ] [file-storage  ] [trc-233299] Batch file chunk serialized successfully latency_ms=21
+[2026-03-15 17:21:35.475] [INFO    ] [cache-redis   ] [trc-654844] Connection acquired from connection pool latency_ms=63
+[2026-03-15 17:21:35.412] [INFO    ] [api-gateway   ] [trc-882758] Worker heartbeat acknowledged by supervisor latency_ms=52

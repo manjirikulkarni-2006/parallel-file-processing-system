@@ -1,0 +1,22 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00471
+# Generated: 2026-03-15T12:25:27
+# Records Count: 19
+[2026-03-15 12:25:27.000] [INFO    ] [db-cluster    ] [trc-912755] Worker heartbeat acknowledged by supervisor latency_ms=63
+[2026-03-15 12:25:27.302] [WARNING ] [auth-service  ] [trc-921767] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=438
+[2026-03-15 12:25:27.536] [INFO    ] [billing-svc   ] [trc-648649] Incoming HTTP request dispatched to worker handler latency_ms=70
+[2026-03-15 12:25:28.710] [INFO    ] [billing-svc   ] [trc-352528] Cache lookup returned positive hit for session key latency_ms=40
+[2026-03-15 12:25:29.032] [INFO    ] [auth-service  ] [trc-710448] Cache lookup returned positive hit for session key latency_ms=10
+[2026-03-15 12:25:30.560] [ERROR   ] [auth-service  ] [trc-697244] Connection reset by peer while transmitting payload latency_ms=1204
+[2026-03-15 12:25:29.130] [ERROR   ] [file-storage  ] [trc-854235] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=1217
+[2026-03-15 12:25:32.313] [ERROR   ] [file-storage  ] [trc-148144] TLS socket abruptly terminated before payload completion latency_ms=810
+[2026-03-15 12:25:30.480] [INFO    ] [api-gateway   ] [trc-261098] Connection acquired from connection pool latency_ms=58
+[2026-03-15 12:25:29.565] [INFO    ] [billing-svc   ] [trc-496923] TLS handshake completed with client agent latency_ms=40
+[2026-03-15 12:25:34.820] [INFO    ] [worker-pool   ] [trc-214077] TLS handshake completed with client agent latency_ms=42
+[2026-03-15 12:25:33.798] [INFO    ] [file-storage  ] [trc-157913] Batch file chunk serialized successfully latency_ms=46
+[2026-03-15 12:25:29.796] [ERROR   ] [worker-pool   ] [trc-345824] TLS socket abruptly terminated before payload completion latency_ms=670
+[2026-03-15 12:25:34.280] [WARNING ] [billing-svc   ] [trc-118764] Thread pool saturation index approaching upper boundary latency_ms=90
+[2026-03-15 12:25:36.828] [WARNING ] [cache-redis   ] [trc-938300] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=429
+[2026-03-15 12:25:37.185] [ERROR   ] [auth-service  ] [trc-111931] Connection reset by peer while transmitting payload latency_ms=514
+[2026-03-15 12:25:32.216] [INFO    ] [file-storage  ] [trc-595544] Batch file chunk serialized successfully latency_ms=66
+[2026-03-15 12:25:39.155] [INFO    ] [auth-service  ] [trc-756268] Cache lookup returned positive hit for session key latency_ms=45
+[2026-03-15 12:25:33.426] [INFO    ] [api-gateway   ] [trc-739231] Connection acquired from connection pool latency_ms=26

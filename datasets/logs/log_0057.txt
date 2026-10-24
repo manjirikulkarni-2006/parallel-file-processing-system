@@ -1,0 +1,22 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00057
+# Generated: 2026-03-15T13:43:37
+# Records Count: 19
+[2026-03-15 13:43:37.000] [INFO    ] [worker-pool   ] [trc-429089] Batch file chunk serialized successfully latency_ms=58
+[2026-03-15 13:43:37.667] [INFO    ] [auth-service  ] [trc-703992] Scheduled garbage collection sweep finished latency_ms=30
+[2026-03-15 13:43:37.668] [INFO    ] [db-cluster    ] [trc-116265] Batch file chunk serialized successfully latency_ms=38
+[2026-03-15 13:43:39.151] [WARNING ] [billing-svc   ] [trc-592684] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=97
+[2026-03-15 13:43:39.364] [INFO    ] [api-gateway   ] [trc-823566] Incoming HTTP request dispatched to worker handler latency_ms=21
+[2026-03-15 13:43:40.385] [ERROR   ] [cache-redis   ] [trc-655021] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=862
+[2026-03-15 13:43:38.680] [INFO    ] [db-cluster    ] [trc-830782] TLS handshake completed with client agent latency_ms=42
+[2026-03-15 13:43:38.897] [ERROR   ] [worker-pool   ] [trc-964776] TLS socket abruptly terminated before payload completion latency_ms=1123
+[2026-03-15 13:43:43.248] [INFO    ] [api-gateway   ] [trc-857260] TLS handshake completed with client agent latency_ms=50
+[2026-03-15 13:43:42.481] [INFO    ] [db-cluster    ] [trc-761475] Scheduled garbage collection sweep finished latency_ms=60
+[2026-03-15 13:43:41.460] [WARNING ] [cache-redis   ] [trc-600281] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=450
+[2026-03-15 13:43:45.283] [INFO    ] [cache-redis   ] [trc-634117] Incoming HTTP request dispatched to worker handler latency_ms=52
+[2026-03-15 13:43:44.368] [INFO    ] [db-cluster    ] [trc-436002] Worker heartbeat acknowledged by supervisor latency_ms=40
+[2026-03-15 13:43:40.237] [INFO    ] [auth-service  ] [trc-411792] Incoming HTTP request dispatched to worker handler latency_ms=71
+[2026-03-15 13:43:46.618] [WARNING ] [file-storage  ] [trc-632915] Thread pool saturation index approaching upper boundary latency_ms=226
+[2026-03-15 13:43:44.200] [WARNING ] [db-cluster    ] [trc-434053] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=101
+[2026-03-15 13:43:42.840] [INFO    ] [db-cluster    ] [trc-644352] Worker heartbeat acknowledged by supervisor latency_ms=45
+[2026-03-15 13:43:41.267] [INFO    ] [worker-pool   ] [trc-398624] Cache lookup returned positive hit for session key latency_ms=40
+[2026-03-15 13:43:48.664] [ERROR   ] [db-cluster    ] [trc-334496] Worker thread crashed with segmentation violation in foreign library latency_ms=1461

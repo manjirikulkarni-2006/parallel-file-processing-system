@@ -1,0 +1,25 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00956
+# Generated: 2026-03-15T15:05:42
+# Records Count: 22
+[2026-03-15 15:05:42.000] [INFO    ] [billing-svc   ] [trc-303718] Incoming HTTP request dispatched to worker handler latency_ms=59
+[2026-03-15 15:05:42.664] [INFO    ] [file-storage  ] [trc-647306] TLS handshake completed with client agent latency_ms=20
+[2026-03-15 15:05:43.122] [INFO    ] [auth-service  ] [trc-254507] Cache lookup returned positive hit for session key latency_ms=43
+[2026-03-15 15:05:44.355] [INFO    ] [auth-service  ] [trc-968798] TLS handshake completed with client agent latency_ms=45
+[2026-03-15 15:05:43.064] [INFO    ] [db-cluster    ] [trc-912248] Cache lookup returned positive hit for session key latency_ms=8
+[2026-03-15 15:05:43.040] [WARNING ] [file-storage  ] [trc-890895] Thread pool saturation index approaching upper boundary latency_ms=375
+[2026-03-15 15:05:45.822] [INFO    ] [worker-pool   ] [trc-412133] Cache lookup returned positive hit for session key latency_ms=60
+[2026-03-15 15:05:45.388] [WARNING ] [auth-service  ] [trc-240213] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=344
+[2026-03-15 15:05:45.496] [ERROR   ] [auth-service  ] [trc-797663] Worker thread crashed with segmentation violation in foreign library latency_ms=519
+[2026-03-15 15:05:48.552] [WARNING ] [db-cluster    ] [trc-385743] Downstream microservice response delayed, retry attempt scheduled latency_ms=235
+[2026-03-15 15:05:44.410] [INFO    ] [db-cluster    ] [trc-971113] TLS handshake completed with client agent latency_ms=6
+[2026-03-15 15:05:44.189] [CRITICAL] [cache-redis   ] [trc-608760] Cascading failover triggered on primary cluster node; state recovery active latency_ms=4072
+[2026-03-15 15:05:44.064] [CRITICAL] [cache-redis   ] [trc-573337] Database connection pool completely exhausted; dropping new client requests latency_ms=7948
+[2026-03-15 15:05:45.939] [ERROR   ] [billing-svc   ] [trc-316870] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=3823
+[2026-03-15 15:05:47.866] [CRITICAL] [auth-service  ] [trc-813866] Database connection pool completely exhausted; dropping new client requests latency_ms=8178
+[2026-03-15 15:05:45.060] [ERROR   ] [api-gateway   ] [trc-535845] TLS socket abruptly terminated before payload completion latency_ms=6149
+[2026-03-15 15:05:49.344] [WARNING ] [db-cluster    ] [trc-923011] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=385
+[2026-03-15 15:05:49.871] [INFO    ] [api-gateway   ] [trc-498649] Cache lookup returned positive hit for session key latency_ms=71
+[2026-03-15 15:05:46.752] [INFO    ] [cache-redis   ] [trc-636857] Worker heartbeat acknowledged by supervisor latency_ms=63
+[2026-03-15 15:05:50.170] [INFO    ] [auth-service  ] [trc-208208] Batch file chunk serialized successfully latency_ms=25
+[2026-03-15 15:05:49.140] [ERROR   ] [file-storage  ] [trc-476252] Connection reset by peer while transmitting payload latency_ms=703
+[2026-03-15 15:05:48.930] [INFO    ] [file-storage  ] [trc-173069] Batch file chunk serialized successfully latency_ms=56

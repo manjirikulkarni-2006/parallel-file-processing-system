@@ -1,0 +1,24 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00707
+# Generated: 2026-03-15T03:39:19
+# Records Count: 21
+[2026-03-15 03:39:19.000] [INFO    ] [file-storage  ] [trc-417797] Batch file chunk serialized successfully latency_ms=32
+[2026-03-15 03:39:19.434] [INFO    ] [worker-pool   ] [trc-226048] Scheduled garbage collection sweep finished latency_ms=34
+[2026-03-15 03:39:20.094] [WARNING ] [cache-redis   ] [trc-201588] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=449
+[2026-03-15 03:39:20.392] [INFO    ] [cache-redis   ] [trc-134752] Incoming HTTP request dispatched to worker handler latency_ms=20
+[2026-03-15 03:39:20.364] [WARNING ] [db-cluster    ] [trc-779614] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=314
+[2026-03-15 03:39:19.775] [INFO    ] [file-storage  ] [trc-207587] Incoming HTTP request dispatched to worker handler latency_ms=26
+[2026-03-15 03:39:21.436] [INFO    ] [api-gateway   ] [trc-237502] Connection acquired from connection pool latency_ms=46
+[2026-03-15 03:39:23.074] [INFO    ] [file-storage  ] [trc-670114] Scheduled garbage collection sweep finished latency_ms=52
+[2026-03-15 03:39:22.992] [INFO    ] [auth-service  ] [trc-702106] Incoming HTTP request dispatched to worker handler latency_ms=12
+[2026-03-15 03:39:24.049] [INFO    ] [auth-service  ] [trc-932494] Incoming HTTP request dispatched to worker handler latency_ms=59
+[2026-03-15 03:39:26.640] [ERROR   ] [db-cluster    ] [trc-604048] TLS socket abruptly terminated before payload completion latency_ms=5090
+[2026-03-15 03:39:22.245] [CRITICAL] [auth-service  ] [trc-669314] Cascading failover triggered on primary cluster node; state recovery active latency_ms=6400
+[2026-03-15 03:39:20.872] [ERROR   ] [file-storage  ] [trc-302718] Connection reset by peer while transmitting payload latency_ms=3886
+[2026-03-15 03:39:22.068] [CRITICAL] [cache-redis   ] [trc-591740] File descriptor limit reached for worker process; operating system rejecting socket creation latency_ms=6785
+[2026-03-15 03:39:25.202] [CRITICAL] [api-gateway   ] [trc-112741] Database connection pool completely exhausted; dropping new client requests latency_ms=6576
+[2026-03-15 03:39:21.985] [INFO    ] [db-cluster    ] [trc-127419] Batch file chunk serialized successfully latency_ms=16
+[2026-03-15 03:39:24.456] [INFO    ] [worker-pool   ] [trc-373422] Batch file chunk serialized successfully latency_ms=44
+[2026-03-15 03:39:31.461] [INFO    ] [worker-pool   ] [trc-540099] Scheduled garbage collection sweep finished latency_ms=60
+[2026-03-15 03:39:31.024] [WARNING ] [auth-service  ] [trc-604608] Downstream microservice response delayed, retry attempt scheduled latency_ms=327
+[2026-03-15 03:39:22.686] [WARNING ] [db-cluster    ] [trc-246068] Downstream microservice response delayed, retry attempt scheduled latency_ms=301
+[2026-03-15 03:39:25.720] [INFO    ] [worker-pool   ] [trc-752263] Batch file chunk serialized successfully latency_ms=71

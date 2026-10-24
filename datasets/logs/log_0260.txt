@@ -1,0 +1,28 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00260
+# Generated: 2026-03-15T18:27:46
+# Records Count: 25
+[2026-03-15 18:27:46.000] [INFO    ] [billing-svc   ] [trc-626183] Incoming HTTP request dispatched to worker handler latency_ms=48
+[2026-03-15 18:27:46.165] [WARNING ] [cache-redis   ] [trc-843028] Disk buffer cache pressure elevated during concurrent writes latency_ms=363
+[2026-03-15 18:27:46.876] [INFO    ] [file-storage  ] [trc-875370] TLS handshake completed with client agent latency_ms=46
+[2026-03-15 18:27:46.543] [INFO    ] [file-storage  ] [trc-699899] Cache lookup returned positive hit for session key latency_ms=41
+[2026-03-15 18:27:48.264] [INFO    ] [billing-svc   ] [trc-404591] Cache lookup returned positive hit for session key latency_ms=8
+[2026-03-15 18:27:49.020] [INFO    ] [cache-redis   ] [trc-533033] Cache lookup returned positive hit for session key latency_ms=49
+[2026-03-15 18:27:49.060] [WARNING ] [file-storage  ] [trc-831663] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=268
+[2026-03-15 18:27:49.430] [INFO    ] [file-storage  ] [trc-635591] Incoming HTTP request dispatched to worker handler latency_ms=69
+[2026-03-15 18:27:48.296] [INFO    ] [billing-svc   ] [trc-259953] Scheduled garbage collection sweep finished latency_ms=47
+[2026-03-15 18:27:50.113] [WARNING ] [db-cluster    ] [trc-904927] Thread pool saturation index approaching upper boundary latency_ms=332
+[2026-03-15 18:27:50.280] [WARNING ] [worker-pool   ] [trc-702327] Downstream microservice response delayed, retry attempt scheduled latency_ms=225
+[2026-03-15 18:27:48.970] [INFO    ] [auth-service  ] [trc-327357] Connection acquired from connection pool latency_ms=41
+[2026-03-15 18:27:55.000] [INFO    ] [cache-redis   ] [trc-950835] Worker heartbeat acknowledged by supervisor latency_ms=65
+[2026-03-15 18:27:56.140] [INFO    ] [api-gateway   ] [trc-117853] TLS handshake completed with client agent latency_ms=41
+[2026-03-15 18:27:52.832] [ERROR   ] [worker-pool   ] [trc-728983] TLS socket abruptly terminated before payload completion latency_ms=1352
+[2026-03-15 18:27:53.005] [WARNING ] [file-storage  ] [trc-821408] Thread pool saturation index approaching upper boundary latency_ms=215
+[2026-03-15 18:27:50.128] [INFO    ] [db-cluster    ] [trc-547082] TLS handshake completed with client agent latency_ms=48
+[2026-03-15 18:27:55.877] [INFO    ] [billing-svc   ] [trc-986523] Connection acquired from connection pool latency_ms=47
+[2026-03-15 18:27:55.396] [INFO    ] [file-storage  ] [trc-331732] Incoming HTTP request dispatched to worker handler latency_ms=26
+[2026-03-15 18:27:57.609] [INFO    ] [db-cluster    ] [trc-568452] TLS handshake completed with client agent latency_ms=7
+[2026-03-15 18:27:56.680] [WARNING ] [worker-pool   ] [trc-229944] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=331
+[2026-03-15 18:27:52.321] [INFO    ] [billing-svc   ] [trc-606121] Connection acquired from connection pool latency_ms=13
+[2026-03-15 18:27:55.658] [ERROR   ] [cache-redis   ] [trc-485685] Failed to write metadata block to distributed store latency_ms=782
+[2026-03-15 18:27:51.865] [WARNING ] [db-cluster    ] [trc-767910] High memory consumption threshold reached (88% utilized) latency_ms=253
+[2026-03-15 18:27:56.536] [INFO    ] [worker-pool   ] [trc-452730] Scheduled garbage collection sweep finished latency_ms=42

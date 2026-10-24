@@ -1,0 +1,18 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00788
+# Generated: 2026-03-15T15:43:00
+# Records Count: 15
+[2026-03-15 15:43:00.000] [INFO    ] [file-storage  ] [trc-919204] Worker heartbeat acknowledged by supervisor latency_ms=24
+[2026-03-15 15:43:00.771] [ERROR   ] [api-gateway   ] [trc-259388] Worker thread crashed with segmentation violation in foreign library latency_ms=824
+[2026-03-15 15:43:00.362] [INFO    ] [db-cluster    ] [trc-500248] Worker heartbeat acknowledged by supervisor latency_ms=56
+[2026-03-15 15:43:01.281] [WARNING ] [worker-pool   ] [trc-702384] Disk buffer cache pressure elevated during concurrent writes latency_ms=356
+[2026-03-15 15:43:01.032] [INFO    ] [cache-redis   ] [trc-464016] Cache lookup returned positive hit for session key latency_ms=17
+[2026-03-15 15:43:03.090] [INFO    ] [db-cluster    ] [trc-382690] Incoming HTTP request dispatched to worker handler latency_ms=23
+[2026-03-15 15:43:01.386] [WARNING ] [file-storage  ] [trc-616319] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=89
+[2026-03-15 15:43:04.018] [INFO    ] [auth-service  ] [trc-380659] Connection acquired from connection pool latency_ms=26
+[2026-03-15 15:43:03.024] [INFO    ] [worker-pool   ] [trc-637153] Cache lookup returned positive hit for session key latency_ms=16
+[2026-03-15 15:43:04.716] [INFO    ] [cache-redis   ] [trc-270677] Worker heartbeat acknowledged by supervisor latency_ms=58
+[2026-03-15 15:43:06.410] [INFO    ] [billing-svc   ] [trc-427281] Batch file chunk serialized successfully latency_ms=19
+[2026-03-15 15:43:04.499] [INFO    ] [worker-pool   ] [trc-640404] Worker heartbeat acknowledged by supervisor latency_ms=6
+[2026-03-15 15:43:07.512] [ERROR   ] [api-gateway   ] [trc-356123] Worker thread crashed with segmentation violation in foreign library latency_ms=841
+[2026-03-15 15:43:07.176] [INFO    ] [file-storage  ] [trc-394903] Batch file chunk serialized successfully latency_ms=16
+[2026-03-15 15:43:08.260] [ERROR   ] [cache-redis   ] [trc-267615] TLS socket abruptly terminated before payload completion latency_ms=780

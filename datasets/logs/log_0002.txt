@@ -1,0 +1,19 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00002
+# Generated: 2026-03-15T05:27:18
+# Records Count: 16
+[2026-03-15 05:27:18.000] [INFO    ] [db-cluster    ] [trc-970206] Incoming HTTP request dispatched to worker handler latency_ms=69
+[2026-03-15 05:27:18.265] [INFO    ] [auth-service  ] [trc-916558] TLS handshake completed with client agent latency_ms=74
+[2026-03-15 05:27:18.576] [INFO    ] [db-cluster    ] [trc-533648] Incoming HTTP request dispatched to worker handler latency_ms=27
+[2026-03-15 05:27:19.842] [ERROR   ] [file-storage  ] [trc-847251] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=592
+[2026-03-15 05:27:19.624] [INFO    ] [worker-pool   ] [trc-825318] TLS handshake completed with client agent latency_ms=25
+[2026-03-15 05:27:19.380] [WARNING ] [api-gateway   ] [trc-219710] Downstream microservice response delayed, retry attempt scheduled latency_ms=123
+[2026-03-15 05:27:22.116] [WARNING ] [billing-svc   ] [trc-502744] Disk buffer cache pressure elevated during concurrent writes latency_ms=393
+[2026-03-15 05:27:20.191] [INFO    ] [db-cluster    ] [trc-677079] Scheduled garbage collection sweep finished latency_ms=26
+[2026-03-15 05:27:21.944] [WARNING ] [file-storage  ] [trc-791567] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=154
+[2026-03-15 05:27:20.997] [INFO    ] [cache-redis   ] [trc-846635] Cache lookup returned positive hit for session key latency_ms=44
+[2026-03-15 05:27:24.060] [INFO    ] [worker-pool   ] [trc-756883] Connection acquired from connection pool latency_ms=30
+[2026-03-15 05:27:19.683] [INFO    ] [file-storage  ] [trc-902575] Batch file chunk serialized successfully latency_ms=68
+[2026-03-15 05:27:25.920] [INFO    ] [file-storage  ] [trc-946677] Batch file chunk serialized successfully latency_ms=35
+[2026-03-15 05:27:22.836] [INFO    ] [file-storage  ] [trc-791505] Batch file chunk serialized successfully latency_ms=61
+[2026-03-15 05:27:21.234] [INFO    ] [file-storage  ] [trc-729252] Worker heartbeat acknowledged by supervisor latency_ms=40
+[2026-03-15 05:27:29.760] [WARNING ] [billing-svc   ] [trc-684632] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=105

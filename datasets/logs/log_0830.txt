@@ -1,0 +1,28 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00830
+# Generated: 2026-03-15T13:39:12
+# Records Count: 25
+[2026-03-15 13:39:12.000] [INFO    ] [file-storage  ] [trc-476241] TLS handshake completed with client agent latency_ms=41
+[2026-03-15 13:39:12.200] [INFO    ] [auth-service  ] [trc-892797] Batch file chunk serialized successfully latency_ms=9
+[2026-03-15 13:39:12.736] [INFO    ] [billing-svc   ] [trc-763347] Connection acquired from connection pool latency_ms=58
+[2026-03-15 13:39:14.385] [INFO    ] [billing-svc   ] [trc-180280] Scheduled garbage collection sweep finished latency_ms=22
+[2026-03-15 13:39:14.236] [INFO    ] [auth-service  ] [trc-703183] Scheduled garbage collection sweep finished latency_ms=69
+[2026-03-15 13:39:14.155] [INFO    ] [billing-svc   ] [trc-295087] Incoming HTTP request dispatched to worker handler latency_ms=24
+[2026-03-15 13:39:13.266] [INFO    ] [api-gateway   ] [trc-689807] Cache lookup returned positive hit for session key latency_ms=16
+[2026-03-15 13:39:14.653] [INFO    ] [worker-pool   ] [trc-247575] Scheduled garbage collection sweep finished latency_ms=25
+[2026-03-15 13:39:17.368] [INFO    ] [file-storage  ] [trc-843712] Incoming HTTP request dispatched to worker handler latency_ms=75
+[2026-03-15 13:39:16.599] [ERROR   ] [api-gateway   ] [trc-994955] Connection reset by peer while transmitting payload latency_ms=1250
+[2026-03-15 13:39:19.640] [INFO    ] [api-gateway   ] [trc-863308] Batch file chunk serialized successfully latency_ms=55
+[2026-03-15 13:39:17.423] [INFO    ] [db-cluster    ] [trc-724017] Incoming HTTP request dispatched to worker handler latency_ms=51
+[2026-03-15 13:39:14.256] [INFO    ] [auth-service  ] [trc-206001] TLS handshake completed with client agent latency_ms=15
+[2026-03-15 13:39:15.029] [INFO    ] [api-gateway   ] [trc-880060] Incoming HTTP request dispatched to worker handler latency_ms=73
+[2026-03-15 13:39:21.086] [INFO    ] [file-storage  ] [trc-883319] Scheduled garbage collection sweep finished latency_ms=34
+[2026-03-15 13:39:22.140] [INFO    ] [worker-pool   ] [trc-449840] Scheduled garbage collection sweep finished latency_ms=68
+[2026-03-15 13:39:21.136] [INFO    ] [billing-svc   ] [trc-630607] Batch file chunk serialized successfully latency_ms=66
+[2026-03-15 13:39:19.990] [INFO    ] [cache-redis   ] [trc-134478] Batch file chunk serialized successfully latency_ms=30
+[2026-03-15 13:39:19.848] [INFO    ] [worker-pool   ] [trc-589894] Cache lookup returned positive hit for session key latency_ms=41
+[2026-03-15 13:39:20.645] [INFO    ] [auth-service  ] [trc-618620] Batch file chunk serialized successfully latency_ms=56
+[2026-03-15 13:39:23.620] [INFO    ] [worker-pool   ] [trc-412133] Incoming HTTP request dispatched to worker handler latency_ms=53
+[2026-03-15 13:39:17.754] [INFO    ] [file-storage  ] [trc-274143] Worker heartbeat acknowledged by supervisor latency_ms=44
+[2026-03-15 13:39:16.840] [INFO    ] [billing-svc   ] [trc-245163] Incoming HTTP request dispatched to worker handler latency_ms=35
+[2026-03-15 13:39:28.169] [ERROR   ] [db-cluster    ] [trc-817883] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=712
+[2026-03-15 13:39:28.728] [INFO    ] [billing-svc   ] [trc-417178] TLS handshake completed with client agent latency_ms=13

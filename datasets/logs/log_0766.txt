@@ -1,0 +1,21 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00766
+# Generated: 2026-03-15T13:46:57
+# Records Count: 18
+[2026-03-15 13:46:57.000] [INFO    ] [cache-redis   ] [trc-583473] Connection acquired from connection pool latency_ms=35
+[2026-03-15 13:46:57.207] [INFO    ] [auth-service  ] [trc-919725] Connection acquired from connection pool latency_ms=69
+[2026-03-15 13:46:57.490] [WARNING ] [auth-service  ] [trc-822447] High memory consumption threshold reached (88% utilized) latency_ms=145
+[2026-03-15 13:46:58.965] [WARNING ] [auth-service  ] [trc-861084] Downstream microservice response delayed, retry attempt scheduled latency_ms=325
+[2026-03-15 13:46:58.976] [INFO    ] [auth-service  ] [trc-290177] Connection acquired from connection pool latency_ms=45
+[2026-03-15 13:46:59.370] [INFO    ] [worker-pool   ] [trc-656978] Cache lookup returned positive hit for session key latency_ms=27
+[2026-03-15 13:46:58.758] [INFO    ] [file-storage  ] [trc-325297] Incoming HTTP request dispatched to worker handler latency_ms=17
+[2026-03-15 13:47:01.550] [INFO    ] [file-storage  ] [trc-501624] Cache lookup returned positive hit for session key latency_ms=17
+[2026-03-15 13:47:00.648] [INFO    ] [worker-pool   ] [trc-968991] Scheduled garbage collection sweep finished latency_ms=75
+[2026-03-15 13:47:01.635] [INFO    ] [worker-pool   ] [trc-753470] Connection acquired from connection pool latency_ms=42
+[2026-03-15 13:47:04.100] [INFO    ] [db-cluster    ] [trc-554037] Incoming HTTP request dispatched to worker handler latency_ms=12
+[2026-03-15 13:46:59.871] [INFO    ] [worker-pool   ] [trc-519067] Cache lookup returned positive hit for session key latency_ms=32
+[2026-03-15 13:47:04.464] [INFO    ] [db-cluster    ] [trc-119223] Cache lookup returned positive hit for session key latency_ms=32
+[2026-03-15 13:47:05.775] [WARNING ] [file-storage  ] [trc-265904] Downstream microservice response delayed, retry attempt scheduled latency_ms=231
+[2026-03-15 13:47:04.882] [INFO    ] [auth-service  ] [trc-434314] Connection acquired from connection pool latency_ms=16
+[2026-03-15 13:47:00.615] [INFO    ] [api-gateway   ] [trc-228538] Worker heartbeat acknowledged by supervisor latency_ms=26
+[2026-03-15 13:47:00.296] [INFO    ] [db-cluster    ] [trc-602004] Scheduled garbage collection sweep finished latency_ms=67
+[2026-03-15 13:47:07.863] [ERROR   ] [billing-svc   ] [trc-254852] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=883

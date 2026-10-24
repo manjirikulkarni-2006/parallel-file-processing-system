@@ -1,0 +1,33 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00493
+# Generated: 2026-03-15T05:09:35
+# Records Count: 30
+[2026-03-15 05:09:35.000] [INFO    ] [api-gateway   ] [trc-803568] Batch file chunk serialized successfully latency_ms=52
+[2026-03-15 05:09:35.649] [WARNING ] [billing-svc   ] [trc-641905] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=197
+[2026-03-15 05:09:36.008] [INFO    ] [api-gateway   ] [trc-758793] TLS handshake completed with client agent latency_ms=9
+[2026-03-15 05:09:35.939] [INFO    ] [cache-redis   ] [trc-554891] Incoming HTTP request dispatched to worker handler latency_ms=43
+[2026-03-15 05:09:37.996] [WARNING ] [auth-service  ] [trc-658346] Downstream microservice response delayed, retry attempt scheduled latency_ms=117
+[2026-03-15 05:09:37.730] [ERROR   ] [billing-svc   ] [trc-343823] Worker thread crashed with segmentation violation in foreign library latency_ms=1396
+[2026-03-15 05:09:37.652] [INFO    ] [db-cluster    ] [trc-591100] Connection acquired from connection pool latency_ms=67
+[2026-03-15 05:09:40.502] [WARNING ] [db-cluster    ] [trc-741858] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=396
+[2026-03-15 05:09:37.432] [INFO    ] [api-gateway   ] [trc-462745] Incoming HTTP request dispatched to worker handler latency_ms=51
+[2026-03-15 05:09:40.634] [INFO    ] [api-gateway   ] [trc-928673] Cache lookup returned positive hit for session key latency_ms=29
+[2026-03-15 05:09:38.860] [INFO    ] [api-gateway   ] [trc-403510] Worker heartbeat acknowledged by supervisor latency_ms=39
+[2026-03-15 05:09:42.898] [ERROR   ] [api-gateway   ] [trc-479234] TLS socket abruptly terminated before payload completion latency_ms=1439
+[2026-03-15 05:09:43.076] [INFO    ] [cache-redis   ] [trc-249942] Worker heartbeat acknowledged by supervisor latency_ms=65
+[2026-03-15 05:09:40.837] [INFO    ] [worker-pool   ] [trc-331200] Batch file chunk serialized successfully latency_ms=31
+[2026-03-15 05:09:38.696] [ERROR   ] [worker-pool   ] [trc-761301] Failed to write metadata block to distributed store latency_ms=1123
+[2026-03-15 05:09:37.565] [INFO    ] [auth-service  ] [trc-121089] Incoming HTTP request dispatched to worker handler latency_ms=5
+[2026-03-15 05:09:41.032] [INFO    ] [file-storage  ] [trc-195219] TLS handshake completed with client agent latency_ms=43
+[2026-03-15 05:09:37.754] [INFO    ] [db-cluster    ] [trc-461061] Worker heartbeat acknowledged by supervisor latency_ms=64
+[2026-03-15 05:09:47.600] [INFO    ] [cache-redis   ] [trc-558168] Scheduled garbage collection sweep finished latency_ms=58
+[2026-03-15 05:09:42.030] [INFO    ] [worker-pool   ] [trc-630531] TLS handshake completed with client agent latency_ms=41
+[2026-03-15 05:09:42.780] [INFO    ] [api-gateway   ] [trc-449788] Cache lookup returned positive hit for session key latency_ms=66
+[2026-03-15 05:09:45.374] [WARNING ] [worker-pool   ] [trc-122076] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=197
+[2026-03-15 05:09:50.774] [INFO    ] [auth-service  ] [trc-653901] Worker heartbeat acknowledged by supervisor latency_ms=17
+[2026-03-15 05:09:47.719] [ERROR   ] [api-gateway   ] [trc-344309] Connection reset by peer while transmitting payload latency_ms=1095
+[2026-03-15 05:09:46.616] [INFO    ] [billing-svc   ] [trc-640437] Scheduled garbage collection sweep finished latency_ms=8
+[2026-03-15 05:09:51.300] [WARNING ] [auth-service  ] [trc-929685] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=328
+[2026-03-15 05:09:42.124] [INFO    ] [worker-pool   ] [trc-499344] Cache lookup returned positive hit for session key latency_ms=42
+[2026-03-15 05:09:42.965] [INFO    ] [file-storage  ] [trc-420298] Worker heartbeat acknowledged by supervisor latency_ms=58
+[2026-03-15 05:09:45.332] [WARNING ] [cache-redis   ] [trc-762458] Disk buffer cache pressure elevated during concurrent writes latency_ms=307
+[2026-03-15 05:09:44.599] [ERROR   ] [api-gateway   ] [trc-319445] Failed to write metadata block to distributed store latency_ms=704

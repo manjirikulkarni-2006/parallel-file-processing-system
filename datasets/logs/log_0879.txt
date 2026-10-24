@@ -1,0 +1,26 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00879
+# Generated: 2026-03-15T13:40:05
+# Records Count: 23
+[2026-03-15 13:40:05.000] [INFO    ] [api-gateway   ] [trc-795459] Connection acquired from connection pool latency_ms=40
+[2026-03-15 13:40:05.357] [INFO    ] [worker-pool   ] [trc-722672] TLS handshake completed with client agent latency_ms=66
+[2026-03-15 13:40:05.462] [INFO    ] [auth-service  ] [trc-888239] Connection acquired from connection pool latency_ms=19
+[2026-03-15 13:40:06.497] [INFO    ] [billing-svc   ] [trc-914266] TLS handshake completed with client agent latency_ms=57
+[2026-03-15 13:40:07.640] [INFO    ] [worker-pool   ] [trc-344898] Cache lookup returned positive hit for session key latency_ms=60
+[2026-03-15 13:40:07.310] [INFO    ] [worker-pool   ] [trc-601283] TLS handshake completed with client agent latency_ms=59
+[2026-03-15 13:40:06.872] [INFO    ] [cache-redis   ] [trc-913314] Scheduled garbage collection sweep finished latency_ms=29
+[2026-03-15 13:40:07.562] [INFO    ] [cache-redis   ] [trc-681463] Batch file chunk serialized successfully latency_ms=56
+[2026-03-15 13:40:06.256] [INFO    ] [auth-service  ] [trc-111737] Cache lookup returned positive hit for session key latency_ms=48
+[2026-03-15 13:40:11.174] [INFO    ] [auth-service  ] [trc-894352] TLS handshake completed with client agent latency_ms=17
+[2026-03-15 13:40:10.720] [WARNING ] [worker-pool   ] [trc-942544] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=143
+[2026-03-15 13:40:08.718] [INFO    ] [api-gateway   ] [trc-878178] Connection acquired from connection pool latency_ms=33
+[2026-03-15 13:40:07.784] [INFO    ] [api-gateway   ] [trc-840205] Scheduled garbage collection sweep finished latency_ms=11
+[2026-03-15 13:40:12.202] [INFO    ] [cache-redis   ] [trc-716696] Cache lookup returned positive hit for session key latency_ms=19
+[2026-03-15 13:40:09.102] [INFO    ] [billing-svc   ] [trc-382840] Worker heartbeat acknowledged by supervisor latency_ms=6
+[2026-03-15 13:40:16.355] [ERROR   ] [auth-service  ] [trc-763932] Connection reset by peer while transmitting payload latency_ms=1035
+[2026-03-15 13:40:17.304] [INFO    ] [cache-redis   ] [trc-926145] TLS handshake completed with client agent latency_ms=8
+[2026-03-15 13:40:17.682] [WARNING ] [api-gateway   ] [trc-356867] Downstream microservice response delayed, retry attempt scheduled latency_ms=177
+[2026-03-15 13:40:09.050] [INFO    ] [cache-redis   ] [trc-208462] Worker heartbeat acknowledged by supervisor latency_ms=11
+[2026-03-15 13:40:12.809] [INFO    ] [db-cluster    ] [trc-822909] Scheduled garbage collection sweep finished latency_ms=64
+[2026-03-15 13:40:08.260] [INFO    ] [api-gateway   ] [trc-349981] Incoming HTTP request dispatched to worker handler latency_ms=69
+[2026-03-15 13:40:15.836] [WARNING ] [api-gateway   ] [trc-301282] Downstream microservice response delayed, retry attempt scheduled latency_ms=422
+[2026-03-15 13:40:08.872] [INFO    ] [cache-redis   ] [trc-480483] Incoming HTTP request dispatched to worker handler latency_ms=33

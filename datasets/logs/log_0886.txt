@@ -1,0 +1,21 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00886
+# Generated: 2026-03-15T04:52:55
+# Records Count: 18
+[2026-03-15 04:52:55.000] [ERROR   ] [cache-redis   ] [trc-515988] Failed to write metadata block to distributed store latency_ms=858
+[2026-03-15 04:52:55.686] [INFO    ] [auth-service  ] [trc-550266] Cache lookup returned positive hit for session key latency_ms=72
+[2026-03-15 04:52:56.102] [INFO    ] [auth-service  ] [trc-729122] Worker heartbeat acknowledged by supervisor latency_ms=61
+[2026-03-15 04:52:56.893] [INFO    ] [billing-svc   ] [trc-201737] Cache lookup returned positive hit for session key latency_ms=20
+[2026-03-15 04:52:55.852] [INFO    ] [cache-redis   ] [trc-976647] Incoming HTTP request dispatched to worker handler latency_ms=71
+[2026-03-15 04:52:55.765] [ERROR   ] [cache-redis   ] [trc-862648] Worker thread crashed with segmentation violation in foreign library latency_ms=939
+[2026-03-15 04:52:58.786] [WARNING ] [billing-svc   ] [trc-858575] High memory consumption threshold reached (88% utilized) latency_ms=249
+[2026-03-15 04:52:57.359] [INFO    ] [worker-pool   ] [trc-123776] Connection acquired from connection pool latency_ms=73
+[2026-03-15 04:52:58.120] [INFO    ] [cache-redis   ] [trc-473940] Scheduled garbage collection sweep finished latency_ms=45
+[2026-03-15 04:53:00.076] [INFO    ] [api-gateway   ] [trc-572974] Connection acquired from connection pool latency_ms=63
+[2026-03-15 04:53:02.790] [INFO    ] [billing-svc   ] [trc-495604] Scheduled garbage collection sweep finished latency_ms=64
+[2026-03-15 04:53:01.666] [INFO    ] [api-gateway   ] [trc-381385] Connection acquired from connection pool latency_ms=46
+[2026-03-15 04:53:01.732] [INFO    ] [auth-service  ] [trc-902446] Scheduled garbage collection sweep finished latency_ms=70
+[2026-03-15 04:53:02.943] [INFO    ] [cache-redis   ] [trc-645876] Worker heartbeat acknowledged by supervisor latency_ms=30
+[2026-03-15 04:53:02.196] [ERROR   ] [cache-redis   ] [trc-597647] Worker thread crashed with segmentation violation in foreign library latency_ms=922
+[2026-03-15 04:53:00.985] [INFO    ] [db-cluster    ] [trc-947309] Worker heartbeat acknowledged by supervisor latency_ms=24
+[2026-03-15 04:53:02.616] [INFO    ] [api-gateway   ] [trc-265917] Scheduled garbage collection sweep finished latency_ms=13
+[2026-03-15 04:53:07.852] [WARNING ] [db-cluster    ] [trc-296255] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=414

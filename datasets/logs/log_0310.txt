@@ -1,0 +1,28 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00310
+# Generated: 2026-03-15T13:13:07
+# Records Count: 25
+[2026-03-15 13:13:07.000] [INFO    ] [db-cluster    ] [trc-122857] Incoming HTTP request dispatched to worker handler latency_ms=60
+[2026-03-15 13:13:07.787] [INFO    ] [cache-redis   ] [trc-367860] TLS handshake completed with client agent latency_ms=17
+[2026-03-15 13:13:07.854] [INFO    ] [billing-svc   ] [trc-420262] Incoming HTTP request dispatched to worker handler latency_ms=39
+[2026-03-15 13:13:07.561] [INFO    ] [cache-redis   ] [trc-566157] Incoming HTTP request dispatched to worker handler latency_ms=24
+[2026-03-15 13:13:08.576] [INFO    ] [cache-redis   ] [trc-229013] Batch file chunk serialized successfully latency_ms=44
+[2026-03-15 13:13:07.955] [ERROR   ] [db-cluster    ] [trc-906072] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=662
+[2026-03-15 13:13:11.488] [WARNING ] [db-cluster    ] [trc-649511] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=367
+[2026-03-15 13:13:11.655] [WARNING ] [billing-svc   ] [trc-446229] Downstream microservice response delayed, retry attempt scheduled latency_ms=158
+[2026-03-15 13:13:11.912] [INFO    ] [auth-service  ] [trc-878715] Worker heartbeat acknowledged by supervisor latency_ms=67
+[2026-03-15 13:13:13.651] [INFO    ] [cache-redis   ] [trc-876839] Scheduled garbage collection sweep finished latency_ms=52
+[2026-03-15 13:13:09.670] [INFO    ] [cache-redis   ] [trc-994116] Worker heartbeat acknowledged by supervisor latency_ms=66
+[2026-03-15 13:13:10.839] [INFO    ] [cache-redis   ] [trc-531014] Scheduled garbage collection sweep finished latency_ms=46
+[2026-03-15 13:13:12.184] [ERROR   ] [db-cluster    ] [trc-868358] TLS socket abruptly terminated before payload completion latency_ms=1422
+[2026-03-15 13:13:15.086] [WARNING ] [cache-redis   ] [trc-687508] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=421
+[2026-03-15 13:13:16.030] [WARNING ] [api-gateway   ] [trc-162744] Downstream microservice response delayed, retry attempt scheduled latency_ms=176
+[2026-03-15 13:13:18.265] [INFO    ] [billing-svc   ] [trc-829659] TLS handshake completed with client agent latency_ms=12
+[2026-03-15 13:13:16.440] [INFO    ] [billing-svc   ] [trc-945765] Incoming HTTP request dispatched to worker handler latency_ms=46
+[2026-03-15 13:13:12.933] [INFO    ] [billing-svc   ] [trc-520795] TLS handshake completed with client agent latency_ms=18
+[2026-03-15 13:13:18.448] [WARNING ] [worker-pool   ] [trc-335299] Downstream microservice response delayed, retry attempt scheduled latency_ms=111
+[2026-03-15 13:13:12.909] [ERROR   ] [worker-pool   ] [trc-495334] Connection reset by peer while transmitting payload latency_ms=547
+[2026-03-15 13:13:16.000] [ERROR   ] [api-gateway   ] [trc-310740] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=1198
+[2026-03-15 13:13:18.676] [INFO    ] [cache-redis   ] [trc-618209] Connection acquired from connection pool latency_ms=66
+[2026-03-15 13:13:10.300] [ERROR   ] [db-cluster    ] [trc-215866] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=1089
+[2026-03-15 13:13:21.467] [INFO    ] [api-gateway   ] [trc-560407] TLS handshake completed with client agent latency_ms=46
+[2026-03-15 13:13:10.816] [WARNING ] [db-cluster    ] [trc-935460] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=436

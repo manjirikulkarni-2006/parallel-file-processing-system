@@ -1,0 +1,21 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00768
+# Generated: 2026-03-15T23:25:33
+# Records Count: 18
+[2026-03-15 23:25:33.000] [INFO    ] [api-gateway   ] [trc-848419] Worker heartbeat acknowledged by supervisor latency_ms=73
+[2026-03-15 23:25:33.491] [INFO    ] [auth-service  ] [trc-957146] TLS handshake completed with client agent latency_ms=25
+[2026-03-15 23:25:34.516] [INFO    ] [worker-pool   ] [trc-559519] TLS handshake completed with client agent latency_ms=54
+[2026-03-15 23:25:34.515] [WARNING ] [cache-redis   ] [trc-118720] Disk buffer cache pressure elevated during concurrent writes latency_ms=256
+[2026-03-15 23:25:34.136] [ERROR   ] [worker-pool   ] [trc-512619] Connection reset by peer while transmitting payload latency_ms=1372
+[2026-03-15 23:25:36.455] [ERROR   ] [api-gateway   ] [trc-151756] Connection reset by peer while transmitting payload latency_ms=743
+[2026-03-15 23:25:37.260] [WARNING ] [api-gateway   ] [trc-126595] Thread pool saturation index approaching upper boundary latency_ms=219
+[2026-03-15 23:25:34.834] [INFO    ] [auth-service  ] [trc-554581] Incoming HTTP request dispatched to worker handler latency_ms=6
+[2026-03-15 23:25:39.264] [INFO    ] [api-gateway   ] [trc-155759] Connection acquired from connection pool latency_ms=72
+[2026-03-15 23:25:34.773] [ERROR   ] [db-cluster    ] [trc-800096] TLS socket abruptly terminated before payload completion latency_ms=8499
+[2026-03-15 23:25:37.600] [ERROR   ] [cache-redis   ] [trc-784139] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=5587
+[2026-03-15 23:25:38.951] [ERROR   ] [cache-redis   ] [trc-269331] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=6668
+[2026-03-15 23:25:38.292] [CRITICAL] [api-gateway   ] [trc-622623] File descriptor limit reached for worker process; operating system rejecting socket creation latency_ms=5326
+[2026-03-15 23:25:43.322] [CRITICAL] [api-gateway   ] [trc-635563] Cascading failover triggered on primary cluster node; state recovery active latency_ms=5591
+[2026-03-15 23:25:39.902] [INFO    ] [billing-svc   ] [trc-481879] Cache lookup returned positive hit for session key latency_ms=65
+[2026-03-15 23:25:35.430] [INFO    ] [db-cluster    ] [trc-136704] Worker heartbeat acknowledged by supervisor latency_ms=11
+[2026-03-15 23:25:41.384] [INFO    ] [worker-pool   ] [trc-104830] Connection acquired from connection pool latency_ms=71
+[2026-03-15 23:25:46.311] [ERROR   ] [file-storage  ] [trc-904943] TLS socket abruptly terminated before payload completion latency_ms=508

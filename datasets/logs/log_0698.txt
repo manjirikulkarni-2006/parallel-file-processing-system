@@ -1,0 +1,19 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00698
+# Generated: 2026-03-15T05:55:03
+# Records Count: 16
+[2026-03-15 05:55:03.000] [WARNING ] [cache-redis   ] [trc-512841] Downstream microservice response delayed, retry attempt scheduled latency_ms=393
+[2026-03-15 05:55:03.215] [INFO    ] [worker-pool   ] [trc-172688] TLS handshake completed with client agent latency_ms=74
+[2026-03-15 05:55:03.598] [INFO    ] [db-cluster    ] [trc-343164] Scheduled garbage collection sweep finished latency_ms=48
+[2026-03-15 05:55:03.612] [INFO    ] [auth-service  ] [trc-219185] Incoming HTTP request dispatched to worker handler latency_ms=67
+[2026-03-15 05:55:04.148] [INFO    ] [api-gateway   ] [trc-746582] Worker heartbeat acknowledged by supervisor latency_ms=71
+[2026-03-15 05:55:04.415] [WARNING ] [auth-service  ] [trc-830044] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=157
+[2026-03-15 05:55:05.472] [INFO    ] [auth-service  ] [trc-635656] Cache lookup returned positive hit for session key latency_ms=37
+[2026-03-15 05:55:05.065] [INFO    ] [file-storage  ] [trc-813887] Batch file chunk serialized successfully latency_ms=20
+[2026-03-15 05:55:05.624] [INFO    ] [auth-service  ] [trc-865726] Connection acquired from connection pool latency_ms=48
+[2026-03-15 05:55:06.321] [ERROR   ] [billing-svc   ] [trc-112534] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=1498
+[2026-03-15 05:55:06.060] [INFO    ] [auth-service  ] [trc-943968] Scheduled garbage collection sweep finished latency_ms=74
+[2026-03-15 05:55:07.730] [INFO    ] [worker-pool   ] [trc-370267] Cache lookup returned positive hit for session key latency_ms=17
+[2026-03-15 05:55:07.224] [INFO    ] [billing-svc   ] [trc-971591] Cache lookup returned positive hit for session key latency_ms=74
+[2026-03-15 05:55:12.113] [INFO    ] [db-cluster    ] [trc-158594] Cache lookup returned positive hit for session key latency_ms=72
+[2026-03-15 05:55:05.268] [INFO    ] [api-gateway   ] [trc-474941] Connection acquired from connection pool latency_ms=47
+[2026-03-15 05:55:07.605] [INFO    ] [cache-redis   ] [trc-702160] Cache lookup returned positive hit for session key latency_ms=44

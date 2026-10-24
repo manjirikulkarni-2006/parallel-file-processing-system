@@ -1,0 +1,31 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00402
+# Generated: 2026-03-15T03:12:13
+# Records Count: 28
+[2026-03-15 03:12:13.000] [INFO    ] [db-cluster    ] [trc-588579] Scheduled garbage collection sweep finished latency_ms=54
+[2026-03-15 03:12:13.233] [INFO    ] [db-cluster    ] [trc-205347] Incoming HTTP request dispatched to worker handler latency_ms=45
+[2026-03-15 03:12:13.858] [INFO    ] [auth-service  ] [trc-337520] Incoming HTTP request dispatched to worker handler latency_ms=66
+[2026-03-15 03:12:14.176] [INFO    ] [db-cluster    ] [trc-592432] Batch file chunk serialized successfully latency_ms=38
+[2026-03-15 03:12:15.580] [INFO    ] [api-gateway   ] [trc-537889] Scheduled garbage collection sweep finished latency_ms=52
+[2026-03-15 03:12:14.975] [INFO    ] [cache-redis   ] [trc-181898] Batch file chunk serialized successfully latency_ms=72
+[2026-03-15 03:12:17.554] [INFO    ] [worker-pool   ] [trc-997858] TLS handshake completed with client agent latency_ms=54
+[2026-03-15 03:12:18.502] [INFO    ] [cache-redis   ] [trc-572961] Worker heartbeat acknowledged by supervisor latency_ms=59
+[2026-03-15 03:12:17.856] [INFO    ] [auth-service  ] [trc-995533] Incoming HTTP request dispatched to worker handler latency_ms=75
+[2026-03-15 03:12:18.310] [INFO    ] [auth-service  ] [trc-742627] Worker heartbeat acknowledged by supervisor latency_ms=18
+[2026-03-15 03:12:18.360] [ERROR   ] [db-cluster    ] [trc-678765] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=821
+[2026-03-15 03:12:20.931] [INFO    ] [db-cluster    ] [trc-823778] Cache lookup returned positive hit for session key latency_ms=6
+[2026-03-15 03:12:16.228] [INFO    ] [file-storage  ] [trc-960531] Cache lookup returned positive hit for session key latency_ms=49
+[2026-03-15 03:12:18.226] [ERROR   ] [api-gateway   ] [trc-575058] Worker thread crashed with segmentation violation in foreign library latency_ms=1318
+[2026-03-15 03:12:15.114] [ERROR   ] [worker-pool   ] [trc-510089] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=4419
+[2026-03-15 03:12:19.780] [ERROR   ] [billing-svc   ] [trc-345337] Worker thread crashed with segmentation violation in foreign library latency_ms=3900
+[2026-03-15 03:12:19.112] [CRITICAL] [file-storage  ] [trc-588696] File descriptor limit reached for worker process; operating system rejecting socket creation latency_ms=7405
+[2026-03-15 03:12:21.398] [CRITICAL] [worker-pool   ] [trc-462486] Database connection pool completely exhausted; dropping new client requests latency_ms=8266
+[2026-03-15 03:12:21.118] [CRITICAL] [api-gateway   ] [trc-370531] Database connection pool completely exhausted; dropping new client requests latency_ms=6388
+[2026-03-15 03:12:23.469] [INFO    ] [auth-service  ] [trc-528537] Incoming HTTP request dispatched to worker handler latency_ms=32
+[2026-03-15 03:12:26.420] [INFO    ] [worker-pool   ] [trc-777721] Worker heartbeat acknowledged by supervisor latency_ms=71
+[2026-03-15 03:12:20.140] [ERROR   ] [auth-service  ] [trc-221515] Failed to write metadata block to distributed store latency_ms=1132
+[2026-03-15 03:12:30.248] [INFO    ] [db-cluster    ] [trc-609809] Scheduled garbage collection sweep finished latency_ms=44
+[2026-03-15 03:12:21.211] [INFO    ] [worker-pool   ] [trc-661807] TLS handshake completed with client agent latency_ms=51
+[2026-03-15 03:12:31.768] [WARNING ] [file-storage  ] [trc-213320] Thread pool saturation index approaching upper boundary latency_ms=318
+[2026-03-15 03:12:27.225] [INFO    ] [auth-service  ] [trc-637129] Batch file chunk serialized successfully latency_ms=23
+[2026-03-15 03:12:20.670] [INFO    ] [worker-pool   ] [trc-847242] Cache lookup returned positive hit for session key latency_ms=34
+[2026-03-15 03:12:30.523] [INFO    ] [billing-svc   ] [trc-526755] Batch file chunk serialized successfully latency_ms=27

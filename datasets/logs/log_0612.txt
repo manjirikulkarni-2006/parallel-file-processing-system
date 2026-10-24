@@ -1,0 +1,26 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00612
+# Generated: 2026-03-15T04:21:54
+# Records Count: 23
+[2026-03-15 04:21:54.000] [INFO    ] [billing-svc   ] [trc-916703] Incoming HTTP request dispatched to worker handler latency_ms=37
+[2026-03-15 04:21:54.374] [INFO    ] [worker-pool   ] [trc-328369] Connection acquired from connection pool latency_ms=49
+[2026-03-15 04:21:54.424] [ERROR   ] [api-gateway   ] [trc-652819] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=1469
+[2026-03-15 04:21:56.304] [INFO    ] [cache-redis   ] [trc-716605] Incoming HTTP request dispatched to worker handler latency_ms=49
+[2026-03-15 04:21:54.880] [INFO    ] [api-gateway   ] [trc-302672] Scheduled garbage collection sweep finished latency_ms=14
+[2026-03-15 04:21:56.590] [WARNING ] [file-storage  ] [trc-418132] Disk buffer cache pressure elevated during concurrent writes latency_ms=416
+[2026-03-15 04:21:55.740] [INFO    ] [billing-svc   ] [trc-669793] Worker heartbeat acknowledged by supervisor latency_ms=41
+[2026-03-15 04:21:56.135] [INFO    ] [file-storage  ] [trc-358909] Scheduled garbage collection sweep finished latency_ms=22
+[2026-03-15 04:21:58.824] [INFO    ] [api-gateway   ] [trc-539676] Batch file chunk serialized successfully latency_ms=14
+[2026-03-15 04:21:57.879] [INFO    ] [file-storage  ] [trc-972714] Cache lookup returned positive hit for session key latency_ms=23
+[2026-03-15 04:21:57.870] [INFO    ] [db-cluster    ] [trc-742992] Scheduled garbage collection sweep finished latency_ms=10
+[2026-03-15 04:21:58.290] [INFO    ] [cache-redis   ] [trc-238086] Connection acquired from connection pool latency_ms=34
+[2026-03-15 04:21:59.268] [ERROR   ] [api-gateway   ] [trc-581827] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=1101
+[2026-03-15 04:21:57.965] [WARNING ] [cache-redis   ] [trc-823062] High memory consumption threshold reached (88% utilized) latency_ms=314
+[2026-03-15 04:21:56.940] [INFO    ] [api-gateway   ] [trc-482872] Cache lookup returned positive hit for session key latency_ms=55
+[2026-03-15 04:21:56.445] [INFO    ] [file-storage  ] [trc-125202] Scheduled garbage collection sweep finished latency_ms=65
+[2026-03-15 04:21:58.368] [WARNING ] [db-cluster    ] [trc-278278] Disk buffer cache pressure elevated during concurrent writes latency_ms=424
+[2026-03-15 04:22:05.900] [INFO    ] [worker-pool   ] [trc-116953] Scheduled garbage collection sweep finished latency_ms=9
+[2026-03-15 04:22:07.284] [ERROR   ] [worker-pool   ] [trc-305829] Worker thread crashed with segmentation violation in foreign library latency_ms=674
+[2026-03-15 04:21:59.111] [WARNING ] [api-gateway   ] [trc-894187] Disk buffer cache pressure elevated during concurrent writes latency_ms=330
+[2026-03-15 04:21:59.500] [WARNING ] [db-cluster    ] [trc-648332] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=256
+[2026-03-15 04:22:05.781] [INFO    ] [billing-svc   ] [trc-986611] Batch file chunk serialized successfully latency_ms=35
+[2026-03-15 04:22:06.804] [ERROR   ] [file-storage  ] [trc-669269] Worker thread crashed with segmentation violation in foreign library latency_ms=1185

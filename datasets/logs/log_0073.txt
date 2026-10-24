@@ -1,0 +1,33 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00073
+# Generated: 2026-03-15T12:20:00
+# Records Count: 30
+[2026-03-15 12:20:00.000] [WARNING ] [auth-service  ] [trc-759253] Disk buffer cache pressure elevated during concurrent writes latency_ms=287
+[2026-03-15 12:20:00.612] [INFO    ] [auth-service  ] [trc-575207] Worker heartbeat acknowledged by supervisor latency_ms=61
+[2026-03-15 12:20:00.540] [INFO    ] [billing-svc   ] [trc-392872] Worker heartbeat acknowledged by supervisor latency_ms=48
+[2026-03-15 12:20:01.485] [INFO    ] [auth-service  ] [trc-367685] Scheduled garbage collection sweep finished latency_ms=67
+[2026-03-15 12:20:02.848] [INFO    ] [db-cluster    ] [trc-795466] Scheduled garbage collection sweep finished latency_ms=48
+[2026-03-15 12:20:03.405] [WARNING ] [worker-pool   ] [trc-166183] Thread pool saturation index approaching upper boundary latency_ms=408
+[2026-03-15 12:20:01.056] [INFO    ] [file-storage  ] [trc-232359] Batch file chunk serialized successfully latency_ms=19
+[2026-03-15 12:20:01.911] [INFO    ] [file-storage  ] [trc-847315] Scheduled garbage collection sweep finished latency_ms=49
+[2026-03-15 12:20:03.712] [INFO    ] [db-cluster    ] [trc-557351] Incoming HTTP request dispatched to worker handler latency_ms=69
+[2026-03-15 12:20:03.024] [ERROR   ] [db-cluster    ] [trc-959860] TLS socket abruptly terminated before payload completion latency_ms=699
+[2026-03-15 12:20:02.950] [INFO    ] [cache-redis   ] [trc-813633] Incoming HTTP request dispatched to worker handler latency_ms=30
+[2026-03-15 12:20:05.632] [WARNING ] [file-storage  ] [trc-730127] Disk buffer cache pressure elevated during concurrent writes latency_ms=351
+[2026-03-15 12:20:08.244] [INFO    ] [api-gateway   ] [trc-939133] Worker heartbeat acknowledged by supervisor latency_ms=34
+[2026-03-15 12:20:09.009] [INFO    ] [auth-service  ] [trc-492662] TLS handshake completed with client agent latency_ms=26
+[2026-03-15 12:20:11.200] [INFO    ] [billing-svc   ] [trc-748213] Scheduled garbage collection sweep finished latency_ms=24
+[2026-03-15 12:20:10.545] [WARNING ] [file-storage  ] [trc-544612] Downstream microservice response delayed, retry attempt scheduled latency_ms=105
+[2026-03-15 12:20:08.960] [ERROR   ] [worker-pool   ] [trc-508705] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=1415
+[2026-03-15 12:20:10.829] [INFO    ] [db-cluster    ] [trc-437558] Cache lookup returned positive hit for session key latency_ms=5
+[2026-03-15 12:20:04.068] [INFO    ] [worker-pool   ] [trc-842749] Cache lookup returned positive hit for session key latency_ms=31
+[2026-03-15 12:20:14.763] [INFO    ] [file-storage  ] [trc-170060] Batch file chunk serialized successfully latency_ms=22
+[2026-03-15 12:20:05.940] [INFO    ] [db-cluster    ] [trc-962392] Scheduled garbage collection sweep finished latency_ms=36
+[2026-03-15 12:20:11.550] [INFO    ] [cache-redis   ] [trc-267188] Batch file chunk serialized successfully latency_ms=29
+[2026-03-15 12:20:08.888] [INFO    ] [cache-redis   ] [trc-467428] Cache lookup returned positive hit for session key latency_ms=22
+[2026-03-15 12:20:12.903] [WARNING ] [api-gateway   ] [trc-861244] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=185
+[2026-03-15 12:20:14.496] [INFO    ] [auth-service  ] [trc-804892] Cache lookup returned positive hit for session key latency_ms=6
+[2026-03-15 12:20:06.750] [INFO    ] [file-storage  ] [trc-426275] Scheduled garbage collection sweep finished latency_ms=65
+[2026-03-15 12:20:10.062] [INFO    ] [billing-svc   ] [trc-559561] Incoming HTTP request dispatched to worker handler latency_ms=74
+[2026-03-15 12:20:20.898] [INFO    ] [db-cluster    ] [trc-261141] Scheduled garbage collection sweep finished latency_ms=48
+[2026-03-15 12:20:11.984] [WARNING ] [api-gateway   ] [trc-500033] Downstream microservice response delayed, retry attempt scheduled latency_ms=137
+[2026-03-15 12:20:22.939] [INFO    ] [db-cluster    ] [trc-546599] TLS handshake completed with client agent latency_ms=67

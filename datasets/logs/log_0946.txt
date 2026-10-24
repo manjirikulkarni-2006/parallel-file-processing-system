@@ -1,0 +1,33 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00946
+# Generated: 2026-03-15T04:47:40
+# Records Count: 30
+[2026-03-15 04:47:40.000] [WARNING ] [file-storage  ] [trc-925291] Disk buffer cache pressure elevated during concurrent writes latency_ms=122
+[2026-03-15 04:47:40.703] [WARNING ] [billing-svc   ] [trc-956435] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=157
+[2026-03-15 04:47:40.964] [INFO    ] [api-gateway   ] [trc-382336] Cache lookup returned positive hit for session key latency_ms=58
+[2026-03-15 04:47:40.504] [INFO    ] [db-cluster    ] [trc-799860] Batch file chunk serialized successfully latency_ms=60
+[2026-03-15 04:47:41.684] [INFO    ] [billing-svc   ] [trc-739716] TLS handshake completed with client agent latency_ms=65
+[2026-03-15 04:47:43.650] [INFO    ] [cache-redis   ] [trc-175182] Cache lookup returned positive hit for session key latency_ms=43
+[2026-03-15 04:47:44.584] [INFO    ] [file-storage  ] [trc-619339] Incoming HTTP request dispatched to worker handler latency_ms=44
+[2026-03-15 04:47:43.465] [INFO    ] [billing-svc   ] [trc-389211] Scheduled garbage collection sweep finished latency_ms=27
+[2026-03-15 04:47:42.200] [ERROR   ] [auth-service  ] [trc-442065] Worker thread crashed with segmentation violation in foreign library latency_ms=1202
+[2026-03-15 04:47:46.696] [WARNING ] [db-cluster    ] [trc-918281] Downstream microservice response delayed, retry attempt scheduled latency_ms=368
+[2026-03-15 04:47:47.440] [INFO    ] [cache-redis   ] [trc-300369] Worker heartbeat acknowledged by supervisor latency_ms=44
+[2026-03-15 04:47:47.986] [WARNING ] [cache-redis   ] [trc-540261] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=406
+[2026-03-15 04:47:46.012] [INFO    ] [worker-pool   ] [trc-457736] Scheduled garbage collection sweep finished latency_ms=27
+[2026-03-15 04:47:44.420] [INFO    ] [api-gateway   ] [trc-830538] Connection acquired from connection pool latency_ms=21
+[2026-03-15 04:47:49.786] [INFO    ] [db-cluster    ] [trc-952712] Scheduled garbage collection sweep finished latency_ms=20
+[2026-03-15 04:47:43.390] [CRITICAL] [db-cluster    ] [trc-236187] Cascading failover triggered on primary cluster node; state recovery active latency_ms=8220
+[2026-03-15 04:47:44.080] [CRITICAL] [auth-service  ] [trc-465239] Cascading failover triggered on primary cluster node; state recovery active latency_ms=4783
+[2026-03-15 04:47:46.018] [CRITICAL] [cache-redis   ] [trc-253245] Authentication burst anomaly: 120 failed auth tokens within 10 seconds from subnet 198.51.100.0/24 latency_ms=8344
+[2026-03-15 04:47:44.140] [ERROR   ] [billing-svc   ] [trc-530810] Connection reset by peer while transmitting payload latency_ms=3948
+[2026-03-15 04:47:51.932] [CRITICAL] [worker-pool   ] [trc-501563] Authentication burst anomaly: 120 failed auth tokens within 10 seconds from subnet 198.51.100.0/24 latency_ms=5229
+[2026-03-15 04:47:55.560] [WARNING ] [cache-redis   ] [trc-752923] High memory consumption threshold reached (88% utilized) latency_ms=298
+[2026-03-15 04:47:45.754] [ERROR   ] [cache-redis   ] [trc-170458] Worker thread crashed with segmentation violation in foreign library latency_ms=1473
+[2026-03-15 04:47:55.708] [INFO    ] [db-cluster    ] [trc-437799] Connection acquired from connection pool latency_ms=45
+[2026-03-15 04:47:54.191] [INFO    ] [file-storage  ] [trc-982915] Cache lookup returned positive hit for session key latency_ms=46
+[2026-03-15 04:47:43.768] [INFO    ] [db-cluster    ] [trc-210178] TLS handshake completed with client agent latency_ms=6
+[2026-03-15 04:47:48.300] [INFO    ] [worker-pool   ] [trc-458158] Incoming HTTP request dispatched to worker handler latency_ms=74
+[2026-03-15 04:47:51.882] [INFO    ] [cache-redis   ] [trc-338638] Cache lookup returned positive hit for session key latency_ms=39
+[2026-03-15 04:48:00.034] [INFO    ] [db-cluster    ] [trc-921021] Scheduled garbage collection sweep finished latency_ms=49
+[2026-03-15 04:47:54.728] [INFO    ] [worker-pool   ] [trc-550594] TLS handshake completed with client agent latency_ms=12
+[2026-03-15 04:47:58.705] [INFO    ] [cache-redis   ] [trc-164533] TLS handshake completed with client agent latency_ms=58

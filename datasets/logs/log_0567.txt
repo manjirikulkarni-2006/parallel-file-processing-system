@@ -1,0 +1,21 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00567
+# Generated: 2026-03-15T00:38:38
+# Records Count: 18
+[2026-03-15 00:38:38.000] [ERROR   ] [file-storage  ] [trc-290565] Worker thread crashed with segmentation violation in foreign library latency_ms=1035
+[2026-03-15 00:38:38.592] [INFO    ] [api-gateway   ] [trc-328597] Incoming HTTP request dispatched to worker handler latency_ms=5
+[2026-03-15 00:38:38.688] [INFO    ] [worker-pool   ] [trc-645113] Batch file chunk serialized successfully latency_ms=15
+[2026-03-15 00:38:38.624] [INFO    ] [file-storage  ] [trc-196717] TLS handshake completed with client agent latency_ms=37
+[2026-03-15 00:38:39.996] [INFO    ] [cache-redis   ] [trc-804896] Worker heartbeat acknowledged by supervisor latency_ms=65
+[2026-03-15 00:38:41.860] [ERROR   ] [worker-pool   ] [trc-738934] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=731
+[2026-03-15 00:38:42.104] [INFO    ] [billing-svc   ] [trc-417249] Cache lookup returned positive hit for session key latency_ms=40
+[2026-03-15 00:38:41.850] [INFO    ] [file-storage  ] [trc-219005] Batch file chunk serialized successfully latency_ms=27
+[2026-03-15 00:38:40.768] [INFO    ] [cache-redis   ] [trc-857580] Incoming HTTP request dispatched to worker handler latency_ms=29
+[2026-03-15 00:38:43.436] [INFO    ] [auth-service  ] [trc-509942] Scheduled garbage collection sweep finished latency_ms=49
+[2026-03-15 00:38:44.390] [INFO    ] [cache-redis   ] [trc-953248] Incoming HTTP request dispatched to worker handler latency_ms=47
+[2026-03-15 00:38:40.365] [WARNING ] [billing-svc   ] [trc-664245] High memory consumption threshold reached (88% utilized) latency_ms=313
+[2026-03-15 00:38:45.872] [INFO    ] [file-storage  ] [trc-337342] Batch file chunk serialized successfully latency_ms=72
+[2026-03-15 00:38:42.407] [INFO    ] [db-cluster    ] [trc-166903] Scheduled garbage collection sweep finished latency_ms=43
+[2026-03-15 00:38:45.784] [WARNING ] [worker-pool   ] [trc-912712] Downstream microservice response delayed, retry attempt scheduled latency_ms=309
+[2026-03-15 00:38:45.620] [INFO    ] [auth-service  ] [trc-169778] Incoming HTTP request dispatched to worker handler latency_ms=22
+[2026-03-15 00:38:47.120] [ERROR   ] [cache-redis   ] [trc-548690] TLS socket abruptly terminated before payload completion latency_ms=1221
+[2026-03-15 00:38:48.268] [ERROR   ] [worker-pool   ] [trc-989472] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=826

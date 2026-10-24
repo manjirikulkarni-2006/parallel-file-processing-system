@@ -1,0 +1,18 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00251
+# Generated: 2026-03-15T00:52:25
+# Records Count: 15
+[2026-03-15 00:52:25.000] [INFO    ] [cache-redis   ] [trc-625863] Scheduled garbage collection sweep finished latency_ms=21
+[2026-03-15 00:52:25.617] [INFO    ] [worker-pool   ] [trc-457019] Worker heartbeat acknowledged by supervisor latency_ms=33
+[2026-03-15 00:52:26.566] [ERROR   ] [billing-svc   ] [trc-672923] Worker thread crashed with segmentation violation in foreign library latency_ms=1085
+[2026-03-15 00:52:25.573] [INFO    ] [db-cluster    ] [trc-370418] Cache lookup returned positive hit for session key latency_ms=15
+[2026-03-15 00:52:26.848] [INFO    ] [auth-service  ] [trc-797466] Incoming HTTP request dispatched to worker handler latency_ms=42
+[2026-03-15 00:52:28.925] [ERROR   ] [worker-pool   ] [trc-576369] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=1429
+[2026-03-15 00:52:28.546] [WARNING ] [auth-service  ] [trc-431555] Disk buffer cache pressure elevated during concurrent writes latency_ms=227
+[2026-03-15 00:52:29.305] [INFO    ] [db-cluster    ] [trc-889314] Incoming HTTP request dispatched to worker handler latency_ms=49
+[2026-03-15 00:52:27.792] [INFO    ] [api-gateway   ] [trc-200376] Scheduled garbage collection sweep finished latency_ms=41
+[2026-03-15 00:52:30.913] [ERROR   ] [auth-service  ] [trc-649911] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=626
+[2026-03-15 00:52:31.300] [WARNING ] [worker-pool   ] [trc-804953] Disk buffer cache pressure elevated during concurrent writes latency_ms=243
+[2026-03-15 00:52:33.206] [ERROR   ] [api-gateway   ] [trc-241296] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=632
+[2026-03-15 00:52:34.276] [ERROR   ] [cache-redis   ] [trc-567654] Connection reset by peer while transmitting payload latency_ms=623
+[2026-03-15 00:52:32.137] [WARNING ] [db-cluster    ] [trc-243765] Disk buffer cache pressure elevated during concurrent writes latency_ms=284
+[2026-03-15 00:52:33.330] [INFO    ] [api-gateway   ] [trc-905299] Worker heartbeat acknowledged by supervisor latency_ms=71

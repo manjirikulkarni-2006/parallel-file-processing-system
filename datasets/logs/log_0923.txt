@@ -1,0 +1,28 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00923
+# Generated: 2026-03-15T12:27:36
+# Records Count: 25
+[2026-03-15 12:27:36.000] [INFO    ] [file-storage  ] [trc-398862] Cache lookup returned positive hit for session key latency_ms=33
+[2026-03-15 12:27:36.543] [INFO    ] [billing-svc   ] [trc-148775] Cache lookup returned positive hit for session key latency_ms=29
+[2026-03-15 12:27:37.424] [INFO    ] [api-gateway   ] [trc-725557] Connection acquired from connection pool latency_ms=61
+[2026-03-15 12:27:37.407] [INFO    ] [auth-service  ] [trc-478204] Connection acquired from connection pool latency_ms=42
+[2026-03-15 12:27:36.680] [INFO    ] [api-gateway   ] [trc-897050] Incoming HTTP request dispatched to worker handler latency_ms=74
+[2026-03-15 12:27:38.020] [WARNING ] [api-gateway   ] [trc-164337] High memory consumption threshold reached (88% utilized) latency_ms=388
+[2026-03-15 12:27:40.224] [WARNING ] [cache-redis   ] [trc-724836] Thread pool saturation index approaching upper boundary latency_ms=148
+[2026-03-15 12:27:39.437] [INFO    ] [cache-redis   ] [trc-651018] Cache lookup returned positive hit for session key latency_ms=38
+[2026-03-15 12:27:39.656] [WARNING ] [billing-svc   ] [trc-453209] Downstream microservice response delayed, retry attempt scheduled latency_ms=183
+[2026-03-15 12:27:38.196] [INFO    ] [file-storage  ] [trc-148012] Worker heartbeat acknowledged by supervisor latency_ms=73
+[2026-03-15 12:27:38.340] [INFO    ] [file-storage  ] [trc-630363] Scheduled garbage collection sweep finished latency_ms=44
+[2026-03-15 12:27:40.510] [INFO    ] [cache-redis   ] [trc-859287] Scheduled garbage collection sweep finished latency_ms=52
+[2026-03-15 12:27:45.228] [INFO    ] [api-gateway   ] [trc-965747] Connection acquired from connection pool latency_ms=65
+[2026-03-15 12:27:41.603] [ERROR   ] [file-storage  ] [trc-467507] Connection reset by peer while transmitting payload latency_ms=919
+[2026-03-15 12:27:46.402] [INFO    ] [db-cluster    ] [trc-110986] Worker heartbeat acknowledged by supervisor latency_ms=44
+[2026-03-15 12:27:39.795] [WARNING ] [api-gateway   ] [trc-206774] Downstream microservice response delayed, retry attempt scheduled latency_ms=222
+[2026-03-15 12:27:39.280] [INFO    ] [billing-svc   ] [trc-599083] Cache lookup returned positive hit for session key latency_ms=27
+[2026-03-15 12:27:41.151] [WARNING ] [worker-pool   ] [trc-562544] Downstream microservice response delayed, retry attempt scheduled latency_ms=381
+[2026-03-15 12:27:40.086] [WARNING ] [billing-svc   ] [trc-351035] High memory consumption threshold reached (88% utilized) latency_ms=88
+[2026-03-15 12:27:42.935] [INFO    ] [billing-svc   ] [trc-851256] Connection acquired from connection pool latency_ms=42
+[2026-03-15 12:27:45.580] [INFO    ] [worker-pool   ] [trc-649407] Cache lookup returned positive hit for session key latency_ms=34
+[2026-03-15 12:27:42.279] [WARNING ] [cache-redis   ] [trc-547790] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=405
+[2026-03-15 12:27:49.618] [INFO    ] [billing-svc   ] [trc-927574] Batch file chunk serialized successfully latency_ms=45
+[2026-03-15 12:27:42.233] [INFO    ] [file-storage  ] [trc-872877] Worker heartbeat acknowledged by supervisor latency_ms=35
+[2026-03-15 12:27:50.184] [INFO    ] [file-storage  ] [trc-475907] Cache lookup returned positive hit for session key latency_ms=17

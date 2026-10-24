@@ -1,0 +1,19 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00962
+# Generated: 2026-03-15T21:35:20
+# Records Count: 16
+[2026-03-15 21:35:20.000] [INFO    ] [billing-svc   ] [trc-525424] Cache lookup returned positive hit for session key latency_ms=62
+[2026-03-15 21:35:20.574] [INFO    ] [api-gateway   ] [trc-994759] Scheduled garbage collection sweep finished latency_ms=28
+[2026-03-15 21:35:21.412] [INFO    ] [billing-svc   ] [trc-403746] Batch file chunk serialized successfully latency_ms=73
+[2026-03-15 21:35:22.154] [ERROR   ] [cache-redis   ] [trc-128802] Connection reset by peer while transmitting payload latency_ms=743
+[2026-03-15 21:35:21.432] [WARNING ] [db-cluster    ] [trc-995571] Disk buffer cache pressure elevated during concurrent writes latency_ms=105
+[2026-03-15 21:35:21.320] [WARNING ] [worker-pool   ] [trc-299544] Downstream microservice response delayed, retry attempt scheduled latency_ms=251
+[2026-03-15 21:35:21.254] [INFO    ] [file-storage  ] [trc-795086] Cache lookup returned positive hit for session key latency_ms=48
+[2026-03-15 21:35:23.206] [INFO    ] [file-storage  ] [trc-715967] TLS handshake completed with client agent latency_ms=46
+[2026-03-15 21:35:25.936] [INFO    ] [file-storage  ] [trc-505792] Worker heartbeat acknowledged by supervisor latency_ms=21
+[2026-03-15 21:35:23.906] [INFO    ] [worker-pool   ] [trc-728155] TLS handshake completed with client agent latency_ms=21
+[2026-03-15 21:35:22.820] [INFO    ] [cache-redis   ] [trc-980601] Batch file chunk serialized successfully latency_ms=38
+[2026-03-15 21:35:26.149] [INFO    ] [cache-redis   ] [trc-530291] TLS handshake completed with client agent latency_ms=61
+[2026-03-15 21:35:25.676] [WARNING ] [cache-redis   ] [trc-828568] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=444
+[2026-03-15 21:35:24.394] [INFO    ] [worker-pool   ] [trc-697894] Scheduled garbage collection sweep finished latency_ms=38
+[2026-03-15 21:35:22.702] [INFO    ] [cache-redis   ] [trc-464097] Worker heartbeat acknowledged by supervisor latency_ms=49
+[2026-03-15 21:35:27.065] [ERROR   ] [file-storage  ] [trc-509717] Connection reset by peer while transmitting payload latency_ms=694

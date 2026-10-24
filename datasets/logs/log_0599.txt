@@ -1,0 +1,22 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00599
+# Generated: 2026-03-15T01:59:31
+# Records Count: 19
+[2026-03-15 01:59:31.000] [INFO    ] [db-cluster    ] [trc-637393] Cache lookup returned positive hit for session key latency_ms=14
+[2026-03-15 01:59:31.581] [ERROR   ] [worker-pool   ] [trc-879935] Connection reset by peer while transmitting payload latency_ms=1156
+[2026-03-15 01:59:32.170] [ERROR   ] [worker-pool   ] [trc-134941] Connection reset by peer while transmitting payload latency_ms=844
+[2026-03-15 01:59:33.142] [ERROR   ] [cache-redis   ] [trc-880091] Worker thread crashed with segmentation violation in foreign library latency_ms=1479
+[2026-03-15 01:59:32.804] [WARNING ] [worker-pool   ] [trc-208035] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=337
+[2026-03-15 01:59:32.625] [ERROR   ] [db-cluster    ] [trc-919392] TLS socket abruptly terminated before payload completion latency_ms=767
+[2026-03-15 01:59:32.878] [INFO    ] [file-storage  ] [trc-751233] Incoming HTTP request dispatched to worker handler latency_ms=59
+[2026-03-15 01:59:35.144] [INFO    ] [cache-redis   ] [trc-899709] Scheduled garbage collection sweep finished latency_ms=65
+[2026-03-15 01:59:33.528] [INFO    ] [billing-svc   ] [trc-382917] Connection acquired from connection pool latency_ms=24
+[2026-03-15 01:59:35.257] [INFO    ] [cache-redis   ] [trc-730254] Cache lookup returned positive hit for session key latency_ms=75
+[2026-03-15 01:59:36.240] [WARNING ] [file-storage  ] [trc-213817] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=185
+[2026-03-15 01:59:38.271] [INFO    ] [worker-pool   ] [trc-709228] Connection acquired from connection pool latency_ms=33
+[2026-03-15 01:59:35.932] [INFO    ] [worker-pool   ] [trc-925741] Scheduled garbage collection sweep finished latency_ms=31
+[2026-03-15 01:59:40.243] [INFO    ] [file-storage  ] [trc-192697] Incoming HTTP request dispatched to worker handler latency_ms=55
+[2026-03-15 01:59:41.570] [WARNING ] [worker-pool   ] [trc-501853] Downstream microservice response delayed, retry attempt scheduled latency_ms=301
+[2026-03-15 01:59:41.875] [INFO    ] [cache-redis   ] [trc-743010] Connection acquired from connection pool latency_ms=28
+[2026-03-15 01:59:38.472] [INFO    ] [billing-svc   ] [trc-937513] Worker heartbeat acknowledged by supervisor latency_ms=9
+[2026-03-15 01:59:41.761] [INFO    ] [auth-service  ] [trc-445801] Worker heartbeat acknowledged by supervisor latency_ms=61
+[2026-03-15 01:59:40.270] [INFO    ] [cache-redis   ] [trc-763197] Incoming HTTP request dispatched to worker handler latency_ms=46

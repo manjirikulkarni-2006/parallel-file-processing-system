@@ -1,0 +1,19 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00140
+# Generated: 2026-03-15T13:28:36
+# Records Count: 16
+[2026-03-15 13:28:36.000] [INFO    ] [billing-svc   ] [trc-120453] Worker heartbeat acknowledged by supervisor latency_ms=65
+[2026-03-15 13:28:36.315] [WARNING ] [db-cluster    ] [trc-773960] High memory consumption threshold reached (88% utilized) latency_ms=137
+[2026-03-15 13:28:37.592] [INFO    ] [cache-redis   ] [trc-313956] TLS handshake completed with client agent latency_ms=20
+[2026-03-15 13:28:36.594] [ERROR   ] [auth-service  ] [trc-384566] Worker thread crashed with segmentation violation in foreign library latency_ms=1472
+[2026-03-15 13:28:37.632] [INFO    ] [auth-service  ] [trc-730669] Incoming HTTP request dispatched to worker handler latency_ms=55
+[2026-03-15 13:28:39.225] [INFO    ] [worker-pool   ] [trc-797581] Batch file chunk serialized successfully latency_ms=56
+[2026-03-15 13:28:39.198] [ERROR   ] [auth-service  ] [trc-415499] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=645
+[2026-03-15 13:28:37.953] [ERROR   ] [api-gateway   ] [trc-439326] TLS socket abruptly terminated before payload completion latency_ms=1111
+[2026-03-15 13:28:40.768] [INFO    ] [cache-redis   ] [trc-600890] Batch file chunk serialized successfully latency_ms=27
+[2026-03-15 13:28:39.042] [INFO    ] [cache-redis   ] [trc-289582] Incoming HTTP request dispatched to worker handler latency_ms=47
+[2026-03-15 13:28:39.910] [INFO    ] [auth-service  ] [trc-766057] Cache lookup returned positive hit for session key latency_ms=61
+[2026-03-15 13:28:37.980] [INFO    ] [worker-pool   ] [trc-623138] Batch file chunk serialized successfully latency_ms=43
+[2026-03-15 13:28:44.448] [WARNING ] [worker-pool   ] [trc-817995] Downstream microservice response delayed, retry attempt scheduled latency_ms=385
+[2026-03-15 13:28:40.914] [INFO    ] [file-storage  ] [trc-558304] Incoming HTTP request dispatched to worker handler latency_ms=34
+[2026-03-15 13:28:45.758] [INFO    ] [auth-service  ] [trc-427721] Scheduled garbage collection sweep finished latency_ms=15
+[2026-03-15 13:28:40.350] [WARNING ] [worker-pool   ] [trc-449193] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=132

@@ -1,0 +1,25 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00286
+# Generated: 2026-03-15T14:41:01
+# Records Count: 22
+[2026-03-15 14:41:01.000] [INFO    ] [billing-svc   ] [trc-327119] TLS handshake completed with client agent latency_ms=41
+[2026-03-15 14:41:01.537] [WARNING ] [worker-pool   ] [trc-780009] Thread pool saturation index approaching upper boundary latency_ms=350
+[2026-03-15 14:41:01.882] [INFO    ] [cache-redis   ] [trc-908687] Cache lookup returned positive hit for session key latency_ms=57
+[2026-03-15 14:41:02.065] [INFO    ] [worker-pool   ] [trc-226969] Batch file chunk serialized successfully latency_ms=31
+[2026-03-15 14:41:02.884] [WARNING ] [cache-redis   ] [trc-171287] Disk buffer cache pressure elevated during concurrent writes latency_ms=267
+[2026-03-15 14:41:02.300] [WARNING ] [cache-redis   ] [trc-864504] Thread pool saturation index approaching upper boundary latency_ms=282
+[2026-03-15 14:41:05.392] [INFO    ] [billing-svc   ] [trc-505384] Scheduled garbage collection sweep finished latency_ms=51
+[2026-03-15 14:41:06.201] [WARNING ] [db-cluster    ] [trc-443103] High memory consumption threshold reached (88% utilized) latency_ms=101
+[2026-03-15 14:41:04.072] [INFO    ] [billing-svc   ] [trc-329562] Cache lookup returned positive hit for session key latency_ms=24
+[2026-03-15 14:41:04.024] [INFO    ] [file-storage  ] [trc-983957] Cache lookup returned positive hit for session key latency_ms=71
+[2026-03-15 14:41:05.120] [INFO    ] [billing-svc   ] [trc-246456] Worker heartbeat acknowledged by supervisor latency_ms=25
+[2026-03-15 14:41:04.718] [INFO    ] [auth-service  ] [trc-441906] Cache lookup returned positive hit for session key latency_ms=48
+[2026-03-15 14:41:07.132] [INFO    ] [db-cluster    ] [trc-716430] Scheduled garbage collection sweep finished latency_ms=30
+[2026-03-15 14:41:08.982] [INFO    ] [billing-svc   ] [trc-236799] Batch file chunk serialized successfully latency_ms=57
+[2026-03-15 14:41:03.744] [INFO    ] [worker-pool   ] [trc-173491] Batch file chunk serialized successfully latency_ms=44
+[2026-03-15 14:41:06.535] [INFO    ] [api-gateway   ] [trc-293866] Batch file chunk serialized successfully latency_ms=10
+[2026-03-15 14:41:12.328] [WARNING ] [api-gateway   ] [trc-331398] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=171
+[2026-03-15 14:41:13.818] [INFO    ] [file-storage  ] [trc-249677] Worker heartbeat acknowledged by supervisor latency_ms=30
+[2026-03-15 14:41:10.360] [INFO    ] [billing-svc   ] [trc-893991] TLS handshake completed with client agent latency_ms=29
+[2026-03-15 14:41:15.630] [INFO    ] [auth-service  ] [trc-274268] Cache lookup returned positive hit for session key latency_ms=9
+[2026-03-15 14:41:05.780] [INFO    ] [billing-svc   ] [trc-806434] Cache lookup returned positive hit for session key latency_ms=55
+[2026-03-15 14:41:07.006] [INFO    ] [file-storage  ] [trc-372944] Scheduled garbage collection sweep finished latency_ms=60

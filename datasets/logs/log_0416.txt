@@ -1,0 +1,22 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00416
+# Generated: 2026-03-15T19:51:40
+# Records Count: 19
+[2026-03-15 19:51:40.000] [INFO    ] [cache-redis   ] [trc-649465] Batch file chunk serialized successfully latency_ms=64
+[2026-03-15 19:51:40.436] [ERROR   ] [worker-pool   ] [trc-643228] Failed to write metadata block to distributed store latency_ms=1022
+[2026-03-15 19:51:41.300] [INFO    ] [file-storage  ] [trc-111405] Connection acquired from connection pool latency_ms=12
+[2026-03-15 19:51:40.582] [INFO    ] [cache-redis   ] [trc-413822] Connection acquired from connection pool latency_ms=9
+[2026-03-15 19:51:42.968] [INFO    ] [db-cluster    ] [trc-537695] Batch file chunk serialized successfully latency_ms=60
+[2026-03-15 19:51:41.640] [INFO    ] [file-storage  ] [trc-496720] Connection acquired from connection pool latency_ms=60
+[2026-03-15 19:51:42.814] [INFO    ] [cache-redis   ] [trc-739572] TLS handshake completed with client agent latency_ms=10
+[2026-03-15 19:51:42.891] [INFO    ] [cache-redis   ] [trc-849491] Batch file chunk serialized successfully latency_ms=43
+[2026-03-15 19:51:46.072] [ERROR   ] [worker-pool   ] [trc-369517] Worker thread crashed with segmentation violation in foreign library latency_ms=1153
+[2026-03-15 19:51:45.976] [ERROR   ] [cache-redis   ] [trc-377546] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=6319
+[2026-03-15 19:51:46.290] [ERROR   ] [db-cluster    ] [trc-851793] Failed to write metadata block to distributed store latency_ms=7188
+[2026-03-15 19:51:42.893] [CRITICAL] [worker-pool   ] [trc-307115] File descriptor limit reached for worker process; operating system rejecting socket creation latency_ms=7612
+[2026-03-15 19:51:48.940] [ERROR   ] [auth-service  ] [trc-766487] TLS socket abruptly terminated before payload completion latency_ms=7303
+[2026-03-15 19:51:44.810] [ERROR   ] [auth-service  ] [trc-921024] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=6593
+[2026-03-15 19:51:48.204] [WARNING ] [worker-pool   ] [trc-369545] Disk buffer cache pressure elevated during concurrent writes latency_ms=403
+[2026-03-15 19:51:46.690] [WARNING ] [auth-service  ] [trc-623888] Disk buffer cache pressure elevated during concurrent writes latency_ms=228
+[2026-03-15 19:51:49.408] [INFO    ] [billing-svc   ] [trc-420186] Cache lookup returned positive hit for session key latency_ms=12
+[2026-03-15 19:51:45.831] [WARNING ] [billing-svc   ] [trc-131528] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=409
+[2026-03-15 19:51:44.536] [INFO    ] [cache-redis   ] [trc-414836] Batch file chunk serialized successfully latency_ms=46

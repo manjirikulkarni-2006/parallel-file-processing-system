@@ -1,0 +1,24 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00479
+# Generated: 2026-03-15T15:21:21
+# Records Count: 21
+[2026-03-15 15:21:21.000] [INFO    ] [billing-svc   ] [trc-940998] TLS handshake completed with client agent latency_ms=16
+[2026-03-15 15:21:21.419] [INFO    ] [file-storage  ] [trc-361092] Cache lookup returned positive hit for session key latency_ms=41
+[2026-03-15 15:21:22.346] [INFO    ] [worker-pool   ] [trc-706038] Worker heartbeat acknowledged by supervisor latency_ms=27
+[2026-03-15 15:21:21.474] [INFO    ] [cache-redis   ] [trc-512941] Cache lookup returned positive hit for session key latency_ms=31
+[2026-03-15 15:21:22.656] [INFO    ] [db-cluster    ] [trc-740202] TLS handshake completed with client agent latency_ms=16
+[2026-03-15 15:21:21.925] [INFO    ] [file-storage  ] [trc-122303] Scheduled garbage collection sweep finished latency_ms=73
+[2026-03-15 15:21:22.404] [INFO    ] [api-gateway   ] [trc-141156] Connection acquired from connection pool latency_ms=58
+[2026-03-15 15:21:24.906] [INFO    ] [db-cluster    ] [trc-990325] Worker heartbeat acknowledged by supervisor latency_ms=6
+[2026-03-15 15:21:26.360] [WARNING ] [billing-svc   ] [trc-636279] Downstream microservice response delayed, retry attempt scheduled latency_ms=237
+[2026-03-15 15:21:28.101] [ERROR   ] [billing-svc   ] [trc-708539] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=1496
+[2026-03-15 15:21:23.970] [INFO    ] [db-cluster    ] [trc-828532] Batch file chunk serialized successfully latency_ms=49
+[2026-03-15 15:21:22.683] [INFO    ] [auth-service  ] [trc-867858] Cache lookup returned positive hit for session key latency_ms=25
+[2026-03-15 15:21:27.144] [INFO    ] [api-gateway   ] [trc-894805] Connection acquired from connection pool latency_ms=19
+[2026-03-15 15:21:27.760] [INFO    ] [auth-service  ] [trc-486322] Cache lookup returned positive hit for session key latency_ms=25
+[2026-03-15 15:21:29.988] [INFO    ] [api-gateway   ] [trc-721115] Batch file chunk serialized successfully latency_ms=55
+[2026-03-15 15:21:25.035] [INFO    ] [db-cluster    ] [trc-275343] Worker heartbeat acknowledged by supervisor latency_ms=29
+[2026-03-15 15:21:26.872] [INFO    ] [file-storage  ] [trc-126088] TLS handshake completed with client agent latency_ms=11
+[2026-03-15 15:21:31.795] [INFO    ] [billing-svc   ] [trc-146594] Batch file chunk serialized successfully latency_ms=42
+[2026-03-15 15:21:29.370] [INFO    ] [db-cluster    ] [trc-120687] Cache lookup returned positive hit for session key latency_ms=53
+[2026-03-15 15:21:28.999] [INFO    ] [file-storage  ] [trc-222770] Cache lookup returned positive hit for session key latency_ms=6
+[2026-03-15 15:21:33.320] [WARNING ] [file-storage  ] [trc-895917] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=128

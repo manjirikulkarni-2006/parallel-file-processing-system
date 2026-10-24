@@ -1,0 +1,26 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00985
+# Generated: 2026-03-15T23:46:44
+# Records Count: 23
+[2026-03-15 23:46:44.000] [INFO    ] [file-storage  ] [trc-490311] Scheduled garbage collection sweep finished latency_ms=66
+[2026-03-15 23:46:44.606] [INFO    ] [billing-svc   ] [trc-771975] TLS handshake completed with client agent latency_ms=60
+[2026-03-15 23:46:44.488] [INFO    ] [worker-pool   ] [trc-155943] Incoming HTTP request dispatched to worker handler latency_ms=52
+[2026-03-15 23:46:44.969] [WARNING ] [billing-svc   ] [trc-207596] Thread pool saturation index approaching upper boundary latency_ms=152
+[2026-03-15 23:46:45.636] [ERROR   ] [cache-redis   ] [trc-491966] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=1155
+[2026-03-15 23:46:45.330] [INFO    ] [cache-redis   ] [trc-115312] Worker heartbeat acknowledged by supervisor latency_ms=17
+[2026-03-15 23:46:47.096] [INFO    ] [api-gateway   ] [trc-910932] Worker heartbeat acknowledged by supervisor latency_ms=22
+[2026-03-15 23:46:45.806] [WARNING ] [db-cluster    ] [trc-639657] High memory consumption threshold reached (88% utilized) latency_ms=306
+[2026-03-15 23:46:45.544] [ERROR   ] [billing-svc   ] [trc-990940] Connection reset by peer while transmitting payload latency_ms=893
+[2026-03-15 23:46:45.836] [INFO    ] [worker-pool   ] [trc-825818] Cache lookup returned positive hit for session key latency_ms=67
+[2026-03-15 23:46:48.060] [WARNING ] [db-cluster    ] [trc-194909] High memory consumption threshold reached (88% utilized) latency_ms=362
+[2026-03-15 23:46:47.355] [WARNING ] [file-storage  ] [trc-756218] High memory consumption threshold reached (88% utilized) latency_ms=347
+[2026-03-15 23:46:46.796] [INFO    ] [api-gateway   ] [trc-245031] Connection acquired from connection pool latency_ms=53
+[2026-03-15 23:46:51.436] [INFO    ] [file-storage  ] [trc-691312] Cache lookup returned positive hit for session key latency_ms=8
+[2026-03-15 23:46:49.558] [INFO    ] [file-storage  ] [trc-810948] Connection acquired from connection pool latency_ms=6
+[2026-03-15 23:46:46.385] [INFO    ] [auth-service  ] [trc-650612] Connection acquired from connection pool latency_ms=14
+[2026-03-15 23:46:50.304] [INFO    ] [billing-svc   ] [trc-236747] Batch file chunk serialized successfully latency_ms=17
+[2026-03-15 23:46:50.018] [INFO    ] [cache-redis   ] [trc-868767] Connection acquired from connection pool latency_ms=34
+[2026-03-15 23:46:54.008] [INFO    ] [auth-service  ] [trc-526459] Batch file chunk serialized successfully latency_ms=23
+[2026-03-15 23:46:55.628] [INFO    ] [api-gateway   ] [trc-886964] Scheduled garbage collection sweep finished latency_ms=38
+[2026-03-15 23:46:49.760] [INFO    ] [billing-svc   ] [trc-465595] Incoming HTTP request dispatched to worker handler latency_ms=26
+[2026-03-15 23:46:47.633] [INFO    ] [worker-pool   ] [trc-620153] Batch file chunk serialized successfully latency_ms=61
+[2026-03-15 23:46:47.916] [WARNING ] [auth-service  ] [trc-331424] Disk buffer cache pressure elevated during concurrent writes latency_ms=232

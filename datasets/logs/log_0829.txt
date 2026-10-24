@@ -1,0 +1,28 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00829
+# Generated: 2026-03-15T22:28:55
+# Records Count: 25
+[2026-03-15 22:28:55.000] [INFO    ] [api-gateway   ] [trc-791548] Batch file chunk serialized successfully latency_ms=18
+[2026-03-15 22:28:55.715] [INFO    ] [billing-svc   ] [trc-495806] Scheduled garbage collection sweep finished latency_ms=35
+[2026-03-15 22:28:55.924] [INFO    ] [db-cluster    ] [trc-171734] TLS handshake completed with client agent latency_ms=16
+[2026-03-15 22:28:56.047] [ERROR   ] [cache-redis   ] [trc-574676] TLS socket abruptly terminated before payload completion latency_ms=1347
+[2026-03-15 22:28:57.820] [INFO    ] [cache-redis   ] [trc-853736] Scheduled garbage collection sweep finished latency_ms=64
+[2026-03-15 22:28:57.255] [INFO    ] [worker-pool   ] [trc-933980] Cache lookup returned positive hit for session key latency_ms=66
+[2026-03-15 22:28:57.232] [INFO    ] [db-cluster    ] [trc-682767] Connection acquired from connection pool latency_ms=56
+[2026-03-15 22:28:58.570] [INFO    ] [billing-svc   ] [trc-720824] Incoming HTTP request dispatched to worker handler latency_ms=66
+[2026-03-15 22:29:01.144] [INFO    ] [file-storage  ] [trc-509192] Incoming HTTP request dispatched to worker handler latency_ms=13
+[2026-03-15 22:29:00.823] [INFO    ] [file-storage  ] [trc-280737] Connection acquired from connection pool latency_ms=74
+[2026-03-15 22:29:01.620] [INFO    ] [file-storage  ] [trc-345026] TLS handshake completed with client agent latency_ms=28
+[2026-03-15 22:29:03.701] [INFO    ] [worker-pool   ] [trc-629181] Batch file chunk serialized successfully latency_ms=32
+[2026-03-15 22:29:03.328] [ERROR   ] [api-gateway   ] [trc-641185] TLS socket abruptly terminated before payload completion latency_ms=4845
+[2026-03-15 22:29:03.021] [CRITICAL] [auth-service  ] [trc-234000] File descriptor limit reached for worker process; operating system rejecting socket creation latency_ms=5451
+[2026-03-15 22:29:03.890] [CRITICAL] [db-cluster    ] [trc-925530] Authentication burst anomaly: 120 failed auth tokens within 10 seconds from subnet 198.51.100.0/24 latency_ms=6035
+[2026-03-15 22:29:01.000] [ERROR   ] [cache-redis   ] [trc-434080] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=5949
+[2026-03-15 22:29:05.832] [ERROR   ] [api-gateway   ] [trc-604961] Worker thread crashed with segmentation violation in foreign library latency_ms=3965
+[2026-03-15 22:29:04.401] [INFO    ] [auth-service  ] [trc-559073] Incoming HTTP request dispatched to worker handler latency_ms=48
+[2026-03-15 22:29:06.268] [WARNING ] [file-storage  ] [trc-947559] Thread pool saturation index approaching upper boundary latency_ms=238
+[2026-03-15 22:29:02.372] [INFO    ] [file-storage  ] [trc-678364] Connection acquired from connection pool latency_ms=31
+[2026-03-15 22:29:03.820] [INFO    ] [billing-svc   ] [trc-493637] Cache lookup returned positive hit for session key latency_ms=56
+[2026-03-15 22:29:04.156] [INFO    ] [worker-pool   ] [trc-231637] Scheduled garbage collection sweep finished latency_ms=26
+[2026-03-15 22:29:02.128] [INFO    ] [cache-redis   ] [trc-332940] TLS handshake completed with client agent latency_ms=29
+[2026-03-15 22:28:58.611] [ERROR   ] [cache-redis   ] [trc-389072] Connection reset by peer while transmitting payload latency_ms=506
+[2026-03-15 22:29:06.808] [WARNING ] [api-gateway   ] [trc-270757] Downstream microservice response delayed, retry attempt scheduled latency_ms=350

@@ -1,0 +1,22 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00939
+# Generated: 2026-03-15T17:19:45
+# Records Count: 19
+[2026-03-15 17:19:45.000] [WARNING ] [auth-service  ] [trc-690136] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=167
+[2026-03-15 17:19:45.342] [INFO    ] [worker-pool   ] [trc-525946] Incoming HTTP request dispatched to worker handler latency_ms=65
+[2026-03-15 17:19:46.032] [INFO    ] [billing-svc   ] [trc-478413] Batch file chunk serialized successfully latency_ms=8
+[2026-03-15 17:19:46.656] [INFO    ] [cache-redis   ] [trc-319341] Incoming HTTP request dispatched to worker handler latency_ms=56
+[2026-03-15 17:19:45.904] [INFO    ] [db-cluster    ] [trc-341574] Worker heartbeat acknowledged by supervisor latency_ms=16
+[2026-03-15 17:19:46.345] [INFO    ] [cache-redis   ] [trc-698104] TLS handshake completed with client agent latency_ms=30
+[2026-03-15 17:19:47.280] [WARNING ] [auth-service  ] [trc-418055] Disk buffer cache pressure elevated during concurrent writes latency_ms=445
+[2026-03-15 17:19:47.086] [WARNING ] [auth-service  ] [trc-556122] Disk buffer cache pressure elevated during concurrent writes latency_ms=185
+[2026-03-15 17:19:46.760] [INFO    ] [auth-service  ] [trc-632629] TLS handshake completed with client agent latency_ms=72
+[2026-03-15 17:19:48.600] [INFO    ] [billing-svc   ] [trc-247768] Cache lookup returned positive hit for session key latency_ms=9
+[2026-03-15 17:19:51.780] [WARNING ] [cache-redis   ] [trc-316254] Downstream microservice response delayed, retry attempt scheduled latency_ms=329
+[2026-03-15 17:19:49.884] [INFO    ] [worker-pool   ] [trc-657419] Worker heartbeat acknowledged by supervisor latency_ms=59
+[2026-03-15 17:19:53.592] [INFO    ] [auth-service  ] [trc-947259] Connection acquired from connection pool latency_ms=23
+[2026-03-15 17:19:52.137] [INFO    ] [billing-svc   ] [trc-616078] Connection acquired from connection pool latency_ms=38
+[2026-03-15 17:19:54.352] [WARNING ] [file-storage  ] [trc-207328] Downstream microservice response delayed, retry attempt scheduled latency_ms=347
+[2026-03-15 17:19:51.795] [ERROR   ] [worker-pool   ] [trc-283536] Failed to write metadata block to distributed store latency_ms=770
+[2026-03-15 17:19:50.120] [WARNING ] [auth-service  ] [trc-945261] Disk buffer cache pressure elevated during concurrent writes latency_ms=382
+[2026-03-15 17:19:51.052] [INFO    ] [db-cluster    ] [trc-607632] Incoming HTTP request dispatched to worker handler latency_ms=29
+[2026-03-15 17:19:55.332] [INFO    ] [file-storage  ] [trc-121882] TLS handshake completed with client agent latency_ms=26

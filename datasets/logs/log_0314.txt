@@ -1,0 +1,24 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00314
+# Generated: 2026-03-15T18:33:55
+# Records Count: 21
+[2026-03-15 18:33:55.000] [WARNING ] [api-gateway   ] [trc-579238] Downstream microservice response delayed, retry attempt scheduled latency_ms=398
+[2026-03-15 18:33:55.671] [WARNING ] [cache-redis   ] [trc-687202] Downstream microservice response delayed, retry attempt scheduled latency_ms=379
+[2026-03-15 18:33:55.956] [WARNING ] [file-storage  ] [trc-178487] Thread pool saturation index approaching upper boundary latency_ms=82
+[2026-03-15 18:33:57.226] [INFO    ] [auth-service  ] [trc-100511] Incoming HTTP request dispatched to worker handler latency_ms=38
+[2026-03-15 18:33:57.372] [ERROR   ] [worker-pool   ] [trc-537521] Worker thread crashed with segmentation violation in foreign library latency_ms=1007
+[2026-03-15 18:33:56.360] [INFO    ] [cache-redis   ] [trc-539950] Batch file chunk serialized successfully latency_ms=70
+[2026-03-15 18:33:59.776] [INFO    ] [api-gateway   ] [trc-321335] Worker heartbeat acknowledged by supervisor latency_ms=49
+[2026-03-15 18:33:56.456] [ERROR   ] [worker-pool   ] [trc-346542] TLS socket abruptly terminated before payload completion latency_ms=1191
+[2026-03-15 18:33:59.440] [INFO    ] [worker-pool   ] [trc-780783] Cache lookup returned positive hit for session key latency_ms=50
+[2026-03-15 18:33:56.710] [INFO    ] [file-storage  ] [trc-504351] TLS handshake completed with client agent latency_ms=46
+[2026-03-15 18:33:58.440] [WARNING ] [cache-redis   ] [trc-236507] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=91
+[2026-03-15 18:34:01.963] [ERROR   ] [auth-service  ] [trc-384390] TLS socket abruptly terminated before payload completion latency_ms=1439
+[2026-03-15 18:34:02.800] [INFO    ] [db-cluster    ] [trc-367044] Connection acquired from connection pool latency_ms=57
+[2026-03-15 18:33:58.263] [WARNING ] [auth-service  ] [trc-802022] Downstream microservice response delayed, retry attempt scheduled latency_ms=265
+[2026-03-15 18:34:04.114] [INFO    ] [worker-pool   ] [trc-436168] Incoming HTTP request dispatched to worker handler latency_ms=69
+[2026-03-15 18:33:57.445] [WARNING ] [billing-svc   ] [trc-438597] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=375
+[2026-03-15 18:34:01.416] [INFO    ] [worker-pool   ] [trc-137892] Cache lookup returned positive hit for session key latency_ms=39
+[2026-03-15 18:34:08.566] [WARNING ] [cache-redis   ] [trc-392818] Thread pool saturation index approaching upper boundary latency_ms=343
+[2026-03-15 18:34:07.474] [INFO    ] [worker-pool   ] [trc-692024] Worker heartbeat acknowledged by supervisor latency_ms=20
+[2026-03-15 18:34:09.307] [INFO    ] [auth-service  ] [trc-115914] Batch file chunk serialized successfully latency_ms=52
+[2026-03-15 18:34:05.800] [INFO    ] [file-storage  ] [trc-305672] TLS handshake completed with client agent latency_ms=58

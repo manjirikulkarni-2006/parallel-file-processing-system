@@ -1,0 +1,21 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00936
+# Generated: 2026-03-15T13:29:30
+# Records Count: 18
+[2026-03-15 13:29:30.000] [INFO    ] [cache-redis   ] [trc-180609] Connection acquired from connection pool latency_ms=55
+[2026-03-15 13:29:30.770] [INFO    ] [auth-service  ] [trc-274529] Cache lookup returned positive hit for session key latency_ms=46
+[2026-03-15 13:29:30.684] [INFO    ] [cache-redis   ] [trc-739265] Scheduled garbage collection sweep finished latency_ms=13
+[2026-03-15 13:29:31.527] [INFO    ] [api-gateway   ] [trc-143663] TLS handshake completed with client agent latency_ms=65
+[2026-03-15 13:29:32.168] [INFO    ] [auth-service  ] [trc-206319] Cache lookup returned positive hit for session key latency_ms=28
+[2026-03-15 13:29:32.695] [INFO    ] [auth-service  ] [trc-982164] Scheduled garbage collection sweep finished latency_ms=63
+[2026-03-15 13:29:32.352] [ERROR   ] [db-cluster    ] [trc-433237] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=1024
+[2026-03-15 13:29:32.982] [ERROR   ] [db-cluster    ] [trc-737599] Failed to write metadata block to distributed store latency_ms=866
+[2026-03-15 13:29:31.880] [INFO    ] [billing-svc   ] [trc-294680] TLS handshake completed with client agent latency_ms=12
+[2026-03-15 13:29:32.691] [INFO    ] [worker-pool   ] [trc-102036] TLS handshake completed with client agent latency_ms=14
+[2026-03-15 13:29:35.820] [INFO    ] [auth-service  ] [trc-813720] Connection acquired from connection pool latency_ms=23
+[2026-03-15 13:29:36.842] [INFO    ] [cache-redis   ] [trc-205220] Worker heartbeat acknowledged by supervisor latency_ms=30
+[2026-03-15 13:29:33.336] [INFO    ] [file-storage  ] [trc-227163] Scheduled garbage collection sweep finished latency_ms=39
+[2026-03-15 13:29:37.150] [INFO    ] [db-cluster    ] [trc-826574] Connection acquired from connection pool latency_ms=69
+[2026-03-15 13:29:38.834] [INFO    ] [file-storage  ] [trc-124233] Incoming HTTP request dispatched to worker handler latency_ms=38
+[2026-03-15 13:29:41.040] [INFO    ] [file-storage  ] [trc-486219] Batch file chunk serialized successfully latency_ms=65
+[2026-03-15 13:29:38.240] [ERROR   ] [billing-svc   ] [trc-506215] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=1234
+[2026-03-15 13:29:33.043] [INFO    ] [auth-service  ] [trc-350255] Connection acquired from connection pool latency_ms=74

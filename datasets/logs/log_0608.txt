@@ -1,0 +1,33 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00608
+# Generated: 2026-03-15T13:52:24
+# Records Count: 30
+[2026-03-15 13:52:24.000] [INFO    ] [auth-service  ] [trc-307684] TLS handshake completed with client agent latency_ms=29
+[2026-03-15 13:52:24.398] [WARNING ] [worker-pool   ] [trc-811124] Disk buffer cache pressure elevated during concurrent writes latency_ms=232
+[2026-03-15 13:52:24.748] [WARNING ] [db-cluster    ] [trc-141308] High memory consumption threshold reached (88% utilized) latency_ms=339
+[2026-03-15 13:52:24.588] [WARNING ] [auth-service  ] [trc-307398] Thread pool saturation index approaching upper boundary latency_ms=122
+[2026-03-15 13:52:25.436] [INFO    ] [db-cluster    ] [trc-322887] Cache lookup returned positive hit for session key latency_ms=8
+[2026-03-15 13:52:26.905] [INFO    ] [api-gateway   ] [trc-428056] Connection acquired from connection pool latency_ms=52
+[2026-03-15 13:52:25.494] [INFO    ] [cache-redis   ] [trc-935355] Connection acquired from connection pool latency_ms=66
+[2026-03-15 13:52:29.033] [INFO    ] [cache-redis   ] [trc-980199] Scheduled garbage collection sweep finished latency_ms=50
+[2026-03-15 13:52:28.888] [INFO    ] [billing-svc   ] [trc-346384] Scheduled garbage collection sweep finished latency_ms=26
+[2026-03-15 13:52:28.581] [INFO    ] [cache-redis   ] [trc-352842] Cache lookup returned positive hit for session key latency_ms=21
+[2026-03-15 13:52:29.930] [INFO    ] [cache-redis   ] [trc-103907] Scheduled garbage collection sweep finished latency_ms=35
+[2026-03-15 13:52:27.751] [ERROR   ] [auth-service  ] [trc-520956] TLS socket abruptly terminated before payload completion latency_ms=633
+[2026-03-15 13:52:31.332] [INFO    ] [auth-service  ] [trc-767549] Incoming HTTP request dispatched to worker handler latency_ms=21
+[2026-03-15 13:52:28.394] [WARNING ] [file-storage  ] [trc-417117] High memory consumption threshold reached (88% utilized) latency_ms=380
+[2026-03-15 13:52:33.100] [WARNING ] [worker-pool   ] [trc-185247] High memory consumption threshold reached (88% utilized) latency_ms=81
+[2026-03-15 13:52:29.100] [INFO    ] [file-storage  ] [trc-348595] Scheduled garbage collection sweep finished latency_ms=38
+[2026-03-15 13:52:26.576] [WARNING ] [file-storage  ] [trc-916130] Thread pool saturation index approaching upper boundary latency_ms=260
+[2026-03-15 13:52:33.826] [WARNING ] [db-cluster    ] [trc-995318] Disk buffer cache pressure elevated during concurrent writes latency_ms=263
+[2026-03-15 13:52:38.328] [ERROR   ] [db-cluster    ] [trc-387967] Worker thread crashed with segmentation violation in foreign library latency_ms=1120
+[2026-03-15 13:52:37.034] [WARNING ] [billing-svc   ] [trc-195878] Thread pool saturation index approaching upper boundary latency_ms=112
+[2026-03-15 13:52:31.300] [INFO    ] [api-gateway   ] [trc-333001] Worker heartbeat acknowledged by supervisor latency_ms=23
+[2026-03-15 13:52:39.204] [INFO    ] [worker-pool   ] [trc-412666] Connection acquired from connection pool latency_ms=18
+[2026-03-15 13:52:32.074] [WARNING ] [file-storage  ] [trc-406597] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=145
+[2026-03-15 13:52:29.635] [WARNING ] [cache-redis   ] [trc-354668] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=99
+[2026-03-15 13:52:29.088] [INFO    ] [billing-svc   ] [trc-152756] Connection acquired from connection pool latency_ms=47
+[2026-03-15 13:52:37.350] [INFO    ] [api-gateway   ] [trc-299110] Connection acquired from connection pool latency_ms=30
+[2026-03-15 13:52:27.926] [WARNING ] [file-storage  ] [trc-454564] Thread pool saturation index approaching upper boundary latency_ms=408
+[2026-03-15 13:52:33.099] [INFO    ] [api-gateway   ] [trc-278044] Batch file chunk serialized successfully latency_ms=50
+[2026-03-15 13:52:32.568] [WARNING ] [api-gateway   ] [trc-120815] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=246
+[2026-03-15 13:52:38.935] [INFO    ] [db-cluster    ] [trc-722854] Worker heartbeat acknowledged by supervisor latency_ms=60

@@ -1,0 +1,21 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00673
+# Generated: 2026-03-15T17:04:08
+# Records Count: 18
+[2026-03-15 17:04:08.000] [WARNING ] [billing-svc   ] [trc-971481] Thread pool saturation index approaching upper boundary latency_ms=198
+[2026-03-15 17:04:08.528] [INFO    ] [api-gateway   ] [trc-437707] Cache lookup returned positive hit for session key latency_ms=53
+[2026-03-15 17:04:08.398] [INFO    ] [billing-svc   ] [trc-504130] Batch file chunk serialized successfully latency_ms=60
+[2026-03-15 17:04:09.707] [INFO    ] [worker-pool   ] [trc-608474] Cache lookup returned positive hit for session key latency_ms=31
+[2026-03-15 17:04:09.784] [INFO    ] [billing-svc   ] [trc-873616] Scheduled garbage collection sweep finished latency_ms=33
+[2026-03-15 17:04:10.090] [INFO    ] [file-storage  ] [trc-442863] Batch file chunk serialized successfully latency_ms=48
+[2026-03-15 17:04:09.554] [WARNING ] [billing-svc   ] [trc-444508] Disk buffer cache pressure elevated during concurrent writes latency_ms=347
+[2026-03-15 17:04:09.344] [WARNING ] [api-gateway   ] [trc-428932] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=155
+[2026-03-15 17:04:12.656] [INFO    ] [billing-svc   ] [trc-712758] Connection acquired from connection pool latency_ms=56
+[2026-03-15 17:04:09.827] [ERROR   ] [db-cluster    ] [trc-343085] Connection reset by peer while transmitting payload latency_ms=572
+[2026-03-15 17:04:13.990] [INFO    ] [cache-redis   ] [trc-736610] Connection acquired from connection pool latency_ms=16
+[2026-03-15 17:04:10.101] [INFO    ] [file-storage  ] [trc-452958] Batch file chunk serialized successfully latency_ms=75
+[2026-03-15 17:04:12.788] [ERROR   ] [billing-svc   ] [trc-871685] Failed to write metadata block to distributed store latency_ms=1046
+[2026-03-15 17:04:14.370] [WARNING ] [file-storage  ] [trc-857282] Disk buffer cache pressure elevated during concurrent writes latency_ms=197
+[2026-03-15 17:04:13.852] [INFO    ] [worker-pool   ] [trc-221867] Scheduled garbage collection sweep finished latency_ms=14
+[2026-03-15 17:04:11.090] [INFO    ] [cache-redis   ] [trc-502577] Cache lookup returned positive hit for session key latency_ms=17
+[2026-03-15 17:04:13.936] [ERROR   ] [file-storage  ] [trc-257171] Failed to write metadata block to distributed store latency_ms=668
+[2026-03-15 17:04:17.775] [WARNING ] [auth-service  ] [trc-744645] Thread pool saturation index approaching upper boundary latency_ms=253

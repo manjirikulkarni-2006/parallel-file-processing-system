@@ -1,0 +1,22 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00790
+# Generated: 2026-03-15T11:00:20
+# Records Count: 19
+[2026-03-15 11:00:20.000] [ERROR   ] [auth-service  ] [trc-448612] Connection reset by peer while transmitting payload latency_ms=522
+[2026-03-15 11:00:20.614] [INFO    ] [cache-redis   ] [trc-334454] Connection acquired from connection pool latency_ms=11
+[2026-03-15 11:00:21.382] [INFO    ] [cache-redis   ] [trc-634479] Cache lookup returned positive hit for session key latency_ms=62
+[2026-03-15 11:00:21.263] [INFO    ] [db-cluster    ] [trc-428621] Cache lookup returned positive hit for session key latency_ms=37
+[2026-03-15 11:00:22.748] [INFO    ] [api-gateway   ] [trc-551655] TLS handshake completed with client agent latency_ms=38
+[2026-03-15 11:00:22.260] [INFO    ] [billing-svc   ] [trc-514009] Connection acquired from connection pool latency_ms=35
+[2026-03-15 11:00:22.682] [INFO    ] [api-gateway   ] [trc-612392] Batch file chunk serialized successfully latency_ms=61
+[2026-03-15 11:00:22.016] [INFO    ] [cache-redis   ] [trc-788476] Incoming HTTP request dispatched to worker handler latency_ms=69
+[2026-03-15 11:00:25.576] [WARNING ] [cache-redis   ] [trc-109712] Disk buffer cache pressure elevated during concurrent writes latency_ms=139
+[2026-03-15 11:00:24.023] [INFO    ] [worker-pool   ] [trc-749689] Worker heartbeat acknowledged by supervisor latency_ms=68
+[2026-03-15 11:00:21.630] [INFO    ] [db-cluster    ] [trc-760041] Cache lookup returned positive hit for session key latency_ms=75
+[2026-03-15 11:00:22.563] [INFO    ] [worker-pool   ] [trc-698021] Incoming HTTP request dispatched to worker handler latency_ms=14
+[2026-03-15 11:00:23.240] [WARNING ] [db-cluster    ] [trc-888025] Disk buffer cache pressure elevated during concurrent writes latency_ms=291
+[2026-03-15 11:00:25.278] [INFO    ] [billing-svc   ] [trc-985821] Cache lookup returned positive hit for session key latency_ms=74
+[2026-03-15 11:00:30.388] [INFO    ] [billing-svc   ] [trc-996545] TLS handshake completed with client agent latency_ms=10
+[2026-03-15 11:00:31.445] [INFO    ] [db-cluster    ] [trc-853337] Batch file chunk serialized successfully latency_ms=46
+[2026-03-15 11:00:26.640] [INFO    ] [worker-pool   ] [trc-748891] Scheduled garbage collection sweep finished latency_ms=7
+[2026-03-15 11:00:31.356] [INFO    ] [api-gateway   ] [trc-612960] Incoming HTTP request dispatched to worker handler latency_ms=16
+[2026-03-15 11:00:28.784] [INFO    ] [billing-svc   ] [trc-329140] Cache lookup returned positive hit for session key latency_ms=22

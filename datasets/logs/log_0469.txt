@@ -1,0 +1,32 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00469
+# Generated: 2026-03-15T13:37:14
+# Records Count: 29
+[2026-03-15 13:37:14.000] [ERROR   ] [billing-svc   ] [trc-444205] Worker thread crashed with segmentation violation in foreign library latency_ms=797
+[2026-03-15 13:37:14.173] [INFO    ] [auth-service  ] [trc-760429] Worker heartbeat acknowledged by supervisor latency_ms=27
+[2026-03-15 13:37:14.674] [INFO    ] [api-gateway   ] [trc-177638] Cache lookup returned positive hit for session key latency_ms=47
+[2026-03-15 13:37:15.965] [ERROR   ] [auth-service  ] [trc-119723] Worker thread crashed with segmentation violation in foreign library latency_ms=883
+[2026-03-15 13:37:15.908] [INFO    ] [auth-service  ] [trc-270629] Scheduled garbage collection sweep finished latency_ms=75
+[2026-03-15 13:37:16.410] [INFO    ] [cache-redis   ] [trc-468880] Connection acquired from connection pool latency_ms=54
+[2026-03-15 13:37:18.560] [INFO    ] [worker-pool   ] [trc-937244] Cache lookup returned positive hit for session key latency_ms=71
+[2026-03-15 13:37:16.541] [INFO    ] [billing-svc   ] [trc-510847] Connection acquired from connection pool latency_ms=24
+[2026-03-15 13:37:19.784] [WARNING ] [file-storage  ] [trc-395621] Disk buffer cache pressure elevated during concurrent writes latency_ms=182
+[2026-03-15 13:37:20.687] [WARNING ] [auth-service  ] [trc-931853] Disk buffer cache pressure elevated during concurrent writes latency_ms=404
+[2026-03-15 13:37:21.220] [WARNING ] [billing-svc   ] [trc-845610] Thread pool saturation index approaching upper boundary latency_ms=338
+[2026-03-15 13:37:22.162] [INFO    ] [file-storage  ] [trc-115244] Batch file chunk serialized successfully latency_ms=48
+[2026-03-15 13:37:18.008] [INFO    ] [file-storage  ] [trc-461217] Cache lookup returned positive hit for session key latency_ms=30
+[2026-03-15 13:37:16.366] [INFO    ] [worker-pool   ] [trc-283167] TLS handshake completed with client agent latency_ms=59
+[2026-03-15 13:37:17.570] [CRITICAL] [worker-pool   ] [trc-902546] Cascading failover triggered on primary cluster node; state recovery active latency_ms=7146
+[2026-03-15 13:37:16.520] [CRITICAL] [db-cluster    ] [trc-768974] Authentication burst anomaly: 120 failed auth tokens within 10 seconds from subnet 198.51.100.0/24 latency_ms=4641
+[2026-03-15 13:37:16.864] [ERROR   ] [api-gateway   ] [trc-790792] Worker thread crashed with segmentation violation in foreign library latency_ms=3933
+[2026-03-15 13:37:19.729] [CRITICAL] [billing-svc   ] [trc-750679] Database connection pool completely exhausted; dropping new client requests latency_ms=7125
+[2026-03-15 13:37:27.194] [ERROR   ] [file-storage  ] [trc-337809] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=7380
+[2026-03-15 13:37:27.756] [INFO    ] [file-storage  ] [trc-985839] Cache lookup returned positive hit for session key latency_ms=70
+[2026-03-15 13:37:24.560] [ERROR   ] [file-storage  ] [trc-205171] TLS socket abruptly terminated before payload completion latency_ms=525
+[2026-03-15 13:37:24.857] [INFO    ] [cache-redis   ] [trc-378121] Scheduled garbage collection sweep finished latency_ms=42
+[2026-03-15 13:37:29.818] [INFO    ] [cache-redis   ] [trc-568835] TLS handshake completed with client agent latency_ms=10
+[2026-03-15 13:37:24.695] [INFO    ] [api-gateway   ] [trc-905005] Incoming HTTP request dispatched to worker handler latency_ms=38
+[2026-03-15 13:37:17.744] [WARNING ] [billing-svc   ] [trc-637114] Disk buffer cache pressure elevated during concurrent writes latency_ms=317
+[2026-03-15 13:37:30.225] [WARNING ] [cache-redis   ] [trc-704382] High memory consumption threshold reached (88% utilized) latency_ms=245
+[2026-03-15 13:37:28.560] [WARNING ] [file-storage  ] [trc-717384] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=382
+[2026-03-15 13:37:21.209] [INFO    ] [billing-svc   ] [trc-309221] Scheduled garbage collection sweep finished latency_ms=9
+[2026-03-15 13:37:36.204] [INFO    ] [api-gateway   ] [trc-517296] Cache lookup returned positive hit for session key latency_ms=6

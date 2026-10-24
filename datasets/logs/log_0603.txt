@@ -1,0 +1,19 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00603
+# Generated: 2026-03-15T17:21:44
+# Records Count: 16
+[2026-03-15 17:21:44.000] [INFO    ] [auth-service  ] [trc-780951] Cache lookup returned positive hit for session key latency_ms=26
+[2026-03-15 17:21:44.253] [WARNING ] [billing-svc   ] [trc-836043] Disk buffer cache pressure elevated during concurrent writes latency_ms=86
+[2026-03-15 17:21:45.466] [INFO    ] [db-cluster    ] [trc-173232] Worker heartbeat acknowledged by supervisor latency_ms=24
+[2026-03-15 17:21:44.639] [WARNING ] [api-gateway   ] [trc-676043] Downstream microservice response delayed, retry attempt scheduled latency_ms=198
+[2026-03-15 17:21:45.928] [INFO    ] [billing-svc   ] [trc-854829] Scheduled garbage collection sweep finished latency_ms=33
+[2026-03-15 17:21:44.810] [INFO    ] [cache-redis   ] [trc-750539] Batch file chunk serialized successfully latency_ms=45
+[2026-03-15 17:21:47.792] [ERROR   ] [auth-service  ] [trc-606148] TLS socket abruptly terminated before payload completion latency_ms=548
+[2026-03-15 17:21:45.785] [INFO    ] [db-cluster    ] [trc-831560] Cache lookup returned positive hit for session key latency_ms=51
+[2026-03-15 17:21:48.624] [INFO    ] [auth-service  ] [trc-291195] Scheduled garbage collection sweep finished latency_ms=49
+[2026-03-15 17:21:48.005] [WARNING ] [billing-svc   ] [trc-107234] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=301
+[2026-03-15 17:21:45.500] [INFO    ] [db-cluster    ] [trc-443094] Incoming HTTP request dispatched to worker handler latency_ms=46
+[2026-03-15 17:21:48.587] [WARNING ] [billing-svc   ] [trc-108736] Disk buffer cache pressure elevated during concurrent writes latency_ms=266
+[2026-03-15 17:21:47.732] [WARNING ] [api-gateway   ] [trc-572110] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=404
+[2026-03-15 17:21:53.477] [ERROR   ] [db-cluster    ] [trc-236440] TLS socket abruptly terminated before payload completion latency_ms=690
+[2026-03-15 17:21:49.348] [INFO    ] [billing-svc   ] [trc-809760] Scheduled garbage collection sweep finished latency_ms=57
+[2026-03-15 17:21:53.630] [INFO    ] [api-gateway   ] [trc-665571] Batch file chunk serialized successfully latency_ms=14

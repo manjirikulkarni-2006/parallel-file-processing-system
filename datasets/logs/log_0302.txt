@@ -1,0 +1,22 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00302
+# Generated: 2026-03-15T00:22:18
+# Records Count: 19
+[2026-03-15 00:22:18.000] [INFO    ] [billing-svc   ] [trc-365414] TLS handshake completed with client agent latency_ms=27
+[2026-03-15 00:22:18.517] [INFO    ] [billing-svc   ] [trc-171055] Worker heartbeat acknowledged by supervisor latency_ms=10
+[2026-03-15 00:22:18.702] [INFO    ] [cache-redis   ] [trc-470538] Scheduled garbage collection sweep finished latency_ms=6
+[2026-03-15 00:22:20.223] [INFO    ] [worker-pool   ] [trc-274118] Cache lookup returned positive hit for session key latency_ms=13
+[2026-03-15 00:22:19.340] [INFO    ] [worker-pool   ] [trc-692148] Worker heartbeat acknowledged by supervisor latency_ms=9
+[2026-03-15 00:22:19.915] [INFO    ] [cache-redis   ] [trc-909081] Worker heartbeat acknowledged by supervisor latency_ms=74
+[2026-03-15 00:22:21.648] [ERROR   ] [billing-svc   ] [trc-539078] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=1373
+[2026-03-15 00:22:22.130] [INFO    ] [api-gateway   ] [trc-763493] Connection acquired from connection pool latency_ms=72
+[2026-03-15 00:22:23.928] [INFO    ] [worker-pool   ] [trc-978214] Connection acquired from connection pool latency_ms=44
+[2026-03-15 00:22:19.503] [INFO    ] [billing-svc   ] [trc-322772] Scheduled garbage collection sweep finished latency_ms=65
+[2026-03-15 00:22:25.130] [INFO    ] [auth-service  ] [trc-659680] Cache lookup returned positive hit for session key latency_ms=29
+[2026-03-15 00:22:19.881] [INFO    ] [file-storage  ] [trc-204773] Batch file chunk serialized successfully latency_ms=35
+[2026-03-15 00:22:21.768] [INFO    ] [billing-svc   ] [trc-892961] Connection acquired from connection pool latency_ms=62
+[2026-03-15 00:22:20.054] [WARNING ] [auth-service  ] [trc-503521] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=341
+[2026-03-15 00:22:22.480] [INFO    ] [api-gateway   ] [trc-594847] Cache lookup returned positive hit for session key latency_ms=15
+[2026-03-15 00:22:28.710] [INFO    ] [worker-pool   ] [trc-222913] Scheduled garbage collection sweep finished latency_ms=18
+[2026-03-15 00:22:21.664] [INFO    ] [cache-redis   ] [trc-592730] Incoming HTTP request dispatched to worker handler latency_ms=48
+[2026-03-15 00:22:28.166] [INFO    ] [cache-redis   ] [trc-570890] Batch file chunk serialized successfully latency_ms=68
+[2026-03-15 00:22:22.014] [ERROR   ] [file-storage  ] [trc-243230] TLS socket abruptly terminated before payload completion latency_ms=1065

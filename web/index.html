@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parallel File Processing System with AI Insights</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header / Top Bar -->
+  <header class="app-header">
+    <div class="header-container">
+      <div class="brand-group">
+        <div class="brand-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+            <line x1="8" y1="21" x2="16" y2="21"></line>
+            <line x1="12" y1="17" x2="12" y2="21"></line>
+          </svg>
+        </div>
+        <div>
+          <h1 class="brand-title">Parallel File Processing System</h1>
+          <p class="brand-subtitle">Operating Systems Course Project &bull; IPC &bull; Parallel Processing &bull; AI Insights</p>
+        </div>
+      </div>
+      <div class="header-status">
+        <span class="status-indicator" id="system-status-indicator"></span>
+        <span id="system-status-text">Connecting to backend...</span>
+        <span class="badge badge-wsl" id="env-badge">WSL2 Ubuntu</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Layout -->
+  <div class="app-layout">
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+      <nav class="nav-menu">
+        <button class="nav-item active" data-tab="overview">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+          Overview
+        </button>
+        <button class="nav-item" data-tab="processing">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+          File Processing
+        </button>
+        <button class="nav-item" data-tab="benchmark">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+          Benchmark Suite
+        </button>
+        <button class="nav-item" data-tab="ai-insights">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path></svg>
+          AI Insights
+        </button>
+        <button class="nav-item" data-tab="system-info">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+          System Info
+        </button>
+      </nav>
+
+      <div class="sidebar-footer">
+        <div class="quick-status-item">
+          <span class="label">Engine Binary:</span>
+          <span id="footer-engine-status" class="val badge badge-success">Compiled</span>
+        </div>
+        <div class="quick-status-item">
+          <span class="label">Total Datasets:</span>
+          <span id="footer-total-datasets" class="val">3 ready</span>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="content-area">
+
+      <!-- Toast Container for Notifications -->
+      <div id="toast-container" class="toast-container"></div>
+
+      <!-- ============================================================= -->
+      <!-- TAB 1: OVERVIEW                                                -->
+      <!-- ============================================================= -->
+      <section id="tab-overview" class="tab-pane active">
+        <div class="page-header">
+          <h2>System Overview & Project Status</h2>
+          <p class="text-secondary">Parallel File Processing Engine, IPC Mechanisms, Benchmarking, and AI Analytics.</p>
+        </div>
+
+        <!-- Metric Cards Grid -->
+        <div class="metrics-grid">
+          <div class="card metric-card">
+            <div class="metric-header">
+              <span class="metric-title">Customer Reviews</span>
+              <span class="metric-icon">&#128172;</span>
+            </div>
+            <div class="metric-value" id="overview-rev-count">--</div>
+            <div class="metric-subtext" id="overview-rev-sub">datasets/reviews</div>
+          </div>
+
+          <div class="card metric-card">
+            <div class="metric-header">
+              <span class="metric-title">Server Log Streams</span>
+              <span class="metric-icon">&#128225;</span>
+            </div>
+            <div class="metric-value" id="overview-log-count">--</div>
+            <div class="metric-subtext" id="overview-log-sub">datasets/logs</div>
+          </div>
+
+          <div class="card metric-card">
+            <div class="metric-header">
+              <span class="metric-title">Executive Briefings</span>
+              <span class="metric-icon">&#128203;</span>
+            </div>
+            <div class="metric-value" id="overview-brf-count">--</div>
+            <div class="metric-subtext" id="overview-brf-sub">datasets/briefings</div>
+          </div>
+
+          <div class="card metric-card">
+            <div class="metric-header">
+              <span class="metric-title">Active Platform</span>
+              <span class="metric-icon">&#9881;</span>
+            </div>
+            <div class="metric-value" id="overview-platform-val">WSL2</div>
+            <div class="metric-subtext" id="overview-cores-val">-- Cores Available</div>
+          </div>
+        </div>
+
+        <!-- Architecture & Quick Actions -->
+        <div class="grid-2-col">
+          <div class="card">
+            <div class="card-header">
+              <h3>Operating System Concepts Demonstrated</h3>
+            </div>
+            <div class="card-body">
+              <ul class="concepts-list">
+                <li>
+                  <strong>Process Management:</strong> Worker pool creation via <code>fork()</code> and orderly termination harvesting with <code>waitpid()</code> to eliminate zombie processes.
+                </li>
+                <li>
+                  <strong>Inter-Process Communication (Pipes):</strong> Unidirectional pipe descriptors with <code>poll()</code> multiplexing, non-blocking chunk reads, and <code>EINTR</code> retry handling.
+                </li>
+                <li>
+                  <strong>Shared Memory & Semaphores:</strong> POSIX <code>shm_open()</code>, <code>mmap()</code>, and process-shared POSIX semaphores (<code>sem_t</code>) for dynamic work-stealing synchronization.
+                </li>
+                <li>
+                  <strong>CPU Scheduling Simulation:</strong> Accurate discrete-event modeling of FCFS, Non-preemptive Priority, and Round Robin scheduling.
+                </li>
+                <li>
+                  <strong>Real-Time AI Telemetry:</strong> Sentiment lexicon scoring, regex error signature extraction, and latency anomaly detection on live dataset records.
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header">
+              <h3>Latest Run Summary</h3>
+            </div>
+            <div class="card-body" id="latest-run-container">
+              <div class="empty-state">
+                <p>No recent execution record loaded. Run a file processing task or benchmark to view latest performance telemetry.</p>
+                <button class="btn btn-primary" onclick="App.navigateTo('processing')">Go to File Processing</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================================= -->
+      <!-- TAB 2: FILE PROCESSING                                         -->
+      <!-- ============================================================= -->
+      <section id="tab-processing" class="tab-pane">
+        <div class="page-header">
+          <h2>File Processing Engine</h2>
+          <p class="text-secondary">Execute actual C engine processing across real dataset files using your selected IPC paradigm.</p>
+        </div>
+
+        <div class="card control-card">
+          <div class="card-body">
+            <form id="form-run-engine" class="form-grid">
+              <div class="form-group">
+                <label for="select-dataset">Dataset Target</label>
+                <select id="select-dataset" class="form-select" required>
+                  <option value="briefings">Executive Briefings (500 files)</option>
+                  <option value="reviews">Customer Reviews (1,000 files)</option>
+                  <option value="logs">Server Logs (1,000 files)</option>
+                  <option value="custom">Upload My Own .txt Files</option>
+                </select>
+                <small class="form-hint">Choose a built-in dataset or upload your own text files.</small>
+              </div>
+
+              <div class="form-group hidden" id="custom-upload-group">
+                <label for="custom-files">Your .txt Files</label>
+                <input id="custom-files" class="form-input" type="file"
+                       accept=".txt,text/plain" multiple>
+                <small class="form-hint">Select one or more .txt files. Combined size limit: 10 MB; up to 100 files.</small>
+              </div>
+
+              <div class="form-group">
+                <label for="select-mode">Processing Mode</label>
+                <select id="select-mode" class="form-select" required>
+                  <option value="sequential">Mode A: Sequential (Baseline Single Process)</option>
+                  <option value="pipes" selected>Mode B: Parallel with UNIX Pipes</option>
+                  <option value="shared_memory">Mode C: Parallel with POSIX Shared Memory</option>
+                </select>
+                <small class="form-hint">Underlying OS concurrency mechanism.</small>
+              </div>
+
+              <div class="form-group" id="processing-workers-group">
+                <label for="slider-workers">Parallel Workers (Child Processes)</label>
+                <div class="slider-group">
+                  <input type="range" id="slider-workers" min="1" max="16" value="4" class="form-range">
+                  <span id="slider-workers-val" class="slider-val-badge">4</span>
+                </div>
+                <small class="form-hint">Used for Pipes and Shared Memory modes. Sequential mode always uses one worker.</small>
+              </div>
+
+              <div class="form-actions">
+                <button type="submit" id="btn-run-engine" class="btn btn-primary">
+                  <span class="btn-text">Execute Engine</span>
+                  <span id="run-engine-spinner" class="spinner hidden"></span>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <!-- Processing Results Output -->
+        <div id="processing-results-wrapper" class="hidden">
+          <div class="card results-card">
+            <div class="card-header card-header-flex">
+              <h3>Execution Results</h3>
+              <span id="res-badge-mode" class="badge badge-accent">Mode: Pipes</span>
+            </div>
+            <div class="card-body">
+              <div class="metrics-grid">
+                <div class="metric-item">
+                  <span class="label">Files Processed</span>
+                  <span class="value" id="res-files-count">--</span>
+                </div>
+                <div class="metric-item">
+                  <span class="label">Total Bytes Read</span>
+                  <span class="value" id="res-total-bytes">--</span>
+                </div>
+                <div class="metric-item">
+                  <span class="label">Total Lines / Words</span>
+                  <span class="value" id="res-lines-words">--</span>
+                </div>
+                <div class="metric-item">
+                  <span class="label">Cumulative Checksumm</span>
+                  <span class="value font-mono" id="res-checksum">--</span>
+                </div>
+                <div class="metric-item highlight">
+                  <span class="label">Elapsed Wall-Clock</span>
+                  <span class="value" id="res-elapsed-time">-- s</span>
+                </div>
+                <div class="metric-item highlight">
+                  <span class="label">Processing Speed</span>
+                  <span class="value" id="res-throughput">-- fps</span>
+                </div>
+                <div class="metric-item">
+                  <span class="label">Workers Used</span>
+                  <span class="value" id="res-workers-used">--</span>
+                </div>
+              </div>
+
+              <div class="raw-output-box">
+                <h4>Engine JSON Output Response:</h4>
+                <pre id="res-raw-json" class="json-code">{}</pre>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================================= -->
+      <!-- TAB 3: BENCHMARK SUITE                                         -->
+      <!-- ============================================================= -->
+      <section id="tab-benchmark" class="tab-pane">
+        <div class="page-header">
+          <h2>Benchmark Comparison Suite</h2>
+          <p class="text-secondary">Compare Sequential vs Pipes vs Shared Memory under identical workloads on monotonic clock.</p>
+        </div>
+
+        <div class="card control-card">
+          <div class="card-body">
+            <div class="form-grid">
+              <div class="form-group">
+                <label for="bench-select-dataset">Dataset Target</label>
+                <select id="bench-select-dataset" class="form-select">
+                  <option value="briefings">Executive Briefings (500 files)</option>
+                  <option value="reviews">Customer Reviews (1,000 files)</option>
+                  <option value="logs">Server Diagnostic Logs (1,000 files)</option>
+                  <option value="custom">Upload My Own .txt Files</option>
+                </select>
+              </div>
+
+              <div class="form-group hidden" id="bench-custom-upload-group">
+                <label for="bench-custom-files">Your .txt Files</label>
+                <input id="bench-custom-files" class="form-input" type="file"
+                       accept=".txt,text/plain" multiple>
+                <small class="form-hint">The same uploaded files will be used for all three benchmark modes. Combined size limit: 10 MB; up to 100 files.</small>
+              </div>
+
+              <div class="form-group">
+                <label>Worker Configuration</label>
+                <p class="form-hint">
+                  Worker counts are automatically optimized independently for Pipes
+                  and Shared Memory using measured benchmark results.
+                </p>
+              </div>
+
+              <div class="form-group form-actions">
+                <button type="button" id="btn-run-benchmark" class="btn btn-accent btn-lg">
+                  <span class="btn-text">Run Full Benchmark</span>
+                  <span class="spinner hidden"></span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Benchmark Comparison Output -->
+        <div id="benchmark-results-wrapper" class="hidden">
+          <!-- Verification Alert -->
+          <div id="benchmark-validation-alert" class="alert alert-success">
+            <strong>&#10004; Validation Passed:</strong> All three modes produced 100% identical file counts, total bytes, and cumulative checksums!
+          </div>
+
+          <!-- Comparison Cards Grid -->
+          <div class="metrics-grid-3">
+            <div class="card bench-mode-card" id="card-mode-seq">
+              <div class="bench-mode-header">
+                <h4>Sequential (Mode A)</h4>
+                <span class="badge badge-secondary">1 Worker</span>
+              </div>
+              <div class="bench-stat">
+                <span class="stat-label">Elapsed Time:</span>
+                <span class="stat-val" id="bm-seq-time">-- s</span>
+              </div>
+              <div class="bench-stat">
+                <span class="stat-label">Throughput:</span>
+                <span class="stat-val" id="bm-seq-fps">-- fps</span>
+              </div>
+              <div class="bench-stat">
+                <span class="stat-label">Relative Speedup:</span>
+                <span class="stat-val font-bold">1.00x (Baseline)</span>
+              </div></div>
+
+            <div class="card bench-mode-card" id="card-mode-pipe">
+              <div class="bench-mode-header">
+                <h4>Parallel Pipes (Mode B)</h4>
+                <span class="badge badge-accent" id="bm-pipe-workers-badge">Auto-selected</span>
+              </div>
+              <div class="bench-stat">
+                <span class="stat-label">Elapsed Time:</span>
+                <span class="stat-val" id="bm-pipe-time">-- s</span>
+              </div>
+              <div class="bench-stat">
+                <span class="stat-label">Throughput:</span>
+                <span class="stat-val" id="bm-pipe-fps">-- fps</span>
+              </div>
+              <div class="bench-stat">
+                <span class="stat-label">Relative Speedup:</span>
+                <span class="stat-val font-bold text-success" id="bm-pipe-speedup">--x</span>
+              </div>
+            </div>
+
+            <div class="card bench-mode-card" id="card-mode-shm">
+              <div class="bench-mode-header">
+                <h4>Shared Memory (Mode C)</h4>
+                <span class="badge badge-accent" id="bm-shm-workers-badge">Auto-selected</span>
+              </div>
+              <div class="bench-stat">
+                <span class="stat-label">Elapsed Time:</span>
+                <span class="stat-val" id="bm-shm-time">-- s</span>
+              </div>
+              <div class="bench-stat">
+                <span class="stat-label">Throughput:</span>
+                <span class="stat-val" id="bm-shm-fps">-- fps</span>
+              </div>
+              <div class="bench-stat">
+                <span class="stat-label">Relative Speedup:</span>
+                <span class="stat-val font-bold text-success" id="bm-shm-speedup">--x</span>
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="report-download-actions">
+            <button type="button" id="btn-download-report" class="btn btn-accent" disabled>
+              Download Benchmark Report
+            </button>
+            <span id="report-download-status">Run a benchmark first.</span>
+          </div>
+
+          <!-- Visual Bar Charts -->
+          <div class="card">
+            <div class="card-header">
+              <h3>Empirical Benchmark Visualizations</h3>
+            </div>
+            <div class="card-body">
+              <div class="chart-section">
+                <h4>Wall-Clock Elapsed Time (Lower is Better)</h4>
+                <div class="bar-chart-container">
+                  <div class="bar-row">
+                    <span class="bar-label">Sequential</span>
+                    <div class="bar-track"><div id="bar-time-seq" class="bar-fill bar-seq" style="width: 100%;"></div></div>
+                    <span id="bar-time-seq-lbl" class="bar-val">-- s</span>
+                  </div>
+                  <div class="bar-row">
+                    <span class="bar-label">UNIX Pipes</span>
+                    <div class="bar-track"><div id="bar-time-pipe" class="bar-fill bar-pipe" style="width: 25%;"></div></div>
+                    <span id="bar-time-pipe-lbl" class="bar-val">-- s</span>
+                  </div>
+                  <div class="bar-row">
+                    <span class="bar-label">Shared Memory</span>
+                    <div class="bar-track"><div id="bar-time-shm" class="bar-fill bar-shm" style="width: 25%;"></div></div>
+                    <span id="bar-time-shm-lbl" class="bar-val">-- s</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="chart-section mt-4">
+                <h4>System Throughput: Files Processed / Second (Higher is Better)</h4>
+                <div class="bar-chart-container">
+                  <div class="bar-row">
+                    <span class="bar-label">Sequential</span>
+                    <div class="bar-track"><div id="bar-fps-seq" class="bar-fill bar-seq" style="width: 20%;"></div></div>
+                    <span id="bar-fps-seq-lbl" class="bar-val">-- fps</span>
+                  </div>
+                  <div class="bar-row">
+                    <span class="bar-label">UNIX Pipes</span>
+                    <div class="bar-track"><div id="bar-fps-pipe" class="bar-fill bar-pipe" style="width: 90%;"></div></div>
+                    <span id="bar-fps-pipe-lbl" class="bar-val">-- fps</span>
+                  </div>
+                  <div class="bar-row">
+                    <span class="bar-label">Shared Memory</span>
+                    <div class="bar-track"><div id="bar-fps-shm" class="bar-fill bar-shm" style="width: 100%;"></div></div>
+                    <span id="bar-fps-shm-lbl" class="bar-val">-- fps</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================================= -->
+      <!-- TAB 4: CPU SCHEDULING SIMULATOR                                -->
+      <!-- ============================================================= -->
+      
+
+      <!-- ============================================================= -->
+      <!-- TAB 5: AI INSIGHTS                                             -->
+      <!-- ============================================================= -->
+      <section id="tab-ai-insights" class="tab-pane">
+        <div class="page-header">
+          <h2>AI & NLP Insights</h2>
+          <p class="text-secondary">Lightweight telemetry and semantic intelligence derived from the processed datasets.</p>
+        </div>
+
+        <div class="card control-card">
+          <div class="card-body">
+            <div class="form-grid">
+              <div class="form-group">
+                <label for="ai-select-dataset">Dataset Target</label>
+                <select id="ai-select-dataset" class="form-select">
+                  <option value="reviews">Customer Product Reviews (Sentiment & Complaints)</option>
+                  <option value="logs">Server Logs (Telemetry, Error Signatures & Latency Anomalies)</option>
+                  <option value="briefings">Executive Briefings (TF-IDF Keywords & Summaries)</option>
+                  <option value="custom">My Own Text Files (.txt)</option>
+                </select>
+              </div>
+
+              <div class="form-group hidden" id="ai-custom-upload-group">
+                <label for="ai-custom-files">Select Text Files (.txt)</label>
+                <input
+                  type="file"
+                  id="ai-custom-files"
+                  class="form-control"
+                  accept=".txt,text/plain"
+                  multiple
+                />
+                <small class="text-secondary">
+                  Maximum 100 files and 10 MB combined. Files are analyzed temporarily.
+                </small>
+              </div>
+
+              <div class="form-group form-actions">
+                <button type="button" id="btn-run-ai" class="btn btn-primary btn-lg">
+                  <span class="btn-text">Generate AI Insights</span>
+                  <span class="spinner hidden"></span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- AI Results Display -->
+        <div id="ai-results-wrapper" class="hidden">
+          <div id="ai-content-dynamic"></div>
+        </div>
+      </section>
+
+      <!-- ============================================================= -->
+      <!-- TAB 6: SYSTEM INFO                                             -->
+      <!-- ============================================================= -->
+      <section id="tab-system-info" class="tab-pane">
+        <div class="page-header">
+          <h2>Operating System & Environment Diagnostic</h2>
+          <p class="text-secondary">Host environment metrics and POSIX IPC capability status.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <h3>Environment Specifications</h3>
+          </div>
+          <div class="card-body">
+            <table class="info-table">
+              <tbody>
+                <tr>
+                  <td>Operating System / Kernel:</td>
+                  <td id="sys-kernel" class="font-bold">--</td>
+                </tr>
+                <tr>
+                  <td>Execution Environment:</td>
+                  <td id="sys-env-desc" class="font-bold text-accent">--</td>
+                </tr>
+                <tr>
+                  <td>CPU Processor Model:</td>
+                  <td id="sys-cpu-model">--</td>
+                </tr>
+                <tr>
+                  <td>Logical CPU Cores:</td>
+                  <td id="sys-cores-count" class="font-bold">--</td>
+                </tr>
+                <tr>
+                  <td>System RAM (Total / Free):</td>
+                  <td id="sys-ram">--</td>
+                </tr>
+                <tr>
+                  <td>Node.js Runtime:</td>
+                  <td id="sys-node-ver">--</td>
+                </tr>
+                <tr>
+                  <td>C Engine Binary:</td>
+                  <td id="sys-engine-path"><code>./engine/bin/engine</code> <span class="badge badge-success">Active</span></td>
+                </tr>
+                <tr>
+                  <td>Active Server Port:</td>
+                  <td id="sys-server-port">3001</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <!-- Scripts -->
+  <script src="app.js"></script>
+</body>
+</html>

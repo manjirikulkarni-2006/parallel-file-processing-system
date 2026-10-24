@@ -1,0 +1,26 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00443
+# Generated: 2026-03-15T21:46:25
+# Records Count: 23
+[2026-03-15 21:46:25.000] [INFO    ] [cache-redis   ] [trc-823644] Connection acquired from connection pool latency_ms=8
+[2026-03-15 21:46:25.763] [INFO    ] [file-storage  ] [trc-612489] Cache lookup returned positive hit for session key latency_ms=71
+[2026-03-15 21:46:25.444] [INFO    ] [file-storage  ] [trc-210724] Worker heartbeat acknowledged by supervisor latency_ms=55
+[2026-03-15 21:46:27.304] [WARNING ] [auth-service  ] [trc-337318] Downstream microservice response delayed, retry attempt scheduled latency_ms=211
+[2026-03-15 21:46:25.828] [INFO    ] [worker-pool   ] [trc-487850] Scheduled garbage collection sweep finished latency_ms=44
+[2026-03-15 21:46:28.300] [INFO    ] [cache-redis   ] [trc-583610] Scheduled garbage collection sweep finished latency_ms=33
+[2026-03-15 21:46:29.404] [INFO    ] [db-cluster    ] [trc-994914] Batch file chunk serialized successfully latency_ms=24
+[2026-03-15 21:46:26.232] [INFO    ] [billing-svc   ] [trc-711221] Incoming HTTP request dispatched to worker handler latency_ms=39
+[2026-03-15 21:46:30.984] [ERROR   ] [billing-svc   ] [trc-408853] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=1253
+[2026-03-15 21:46:27.799] [INFO    ] [cache-redis   ] [trc-303129] Worker heartbeat acknowledged by supervisor latency_ms=8
+[2026-03-15 21:46:27.140] [INFO    ] [db-cluster    ] [trc-158608] Batch file chunk serialized successfully latency_ms=59
+[2026-03-15 21:46:32.579] [WARNING ] [db-cluster    ] [trc-354577] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=131
+[2026-03-15 21:46:33.496] [WARNING ] [cache-redis   ] [trc-480651] Disk buffer cache pressure elevated during concurrent writes latency_ms=190
+[2026-03-15 21:46:31.552] [WARNING ] [file-storage  ] [trc-362344] High memory consumption threshold reached (88% utilized) latency_ms=236
+[2026-03-15 21:46:33.988] [WARNING ] [api-gateway   ] [trc-916853] Downstream microservice response delayed, retry attempt scheduled latency_ms=435
+[2026-03-15 21:46:34.255] [ERROR   ] [api-gateway   ] [trc-967131] Failed to write metadata block to distributed store latency_ms=1351
+[2026-03-15 21:46:34.216] [ERROR   ] [worker-pool   ] [trc-507135] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=1377
+[2026-03-15 21:46:32.378] [INFO    ] [api-gateway   ] [trc-813649] Batch file chunk serialized successfully latency_ms=54
+[2026-03-15 21:46:35.422] [INFO    ] [db-cluster    ] [trc-199748] Scheduled garbage collection sweep finished latency_ms=19
+[2026-03-15 21:46:29.465] [INFO    ] [cache-redis   ] [trc-224651] Batch file chunk serialized successfully latency_ms=7
+[2026-03-15 21:46:30.140] [INFO    ] [file-storage  ] [trc-822222] TLS handshake completed with client agent latency_ms=48
+[2026-03-15 21:46:41.611] [INFO    ] [file-storage  ] [trc-905336] Scheduled garbage collection sweep finished latency_ms=52
+[2026-03-15 21:46:41.126] [INFO    ] [db-cluster    ] [trc-614361] Scheduled garbage collection sweep finished latency_ms=28

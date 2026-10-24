@@ -1,0 +1,25 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00817
+# Generated: 2026-03-15T16:44:25
+# Records Count: 22
+[2026-03-15 16:44:25.000] [INFO    ] [api-gateway   ] [trc-555586] Connection acquired from connection pool latency_ms=53
+[2026-03-15 16:44:25.711] [ERROR   ] [file-storage  ] [trc-876714] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=1290
+[2026-03-15 16:44:25.304] [INFO    ] [cache-redis   ] [trc-638291] TLS handshake completed with client agent latency_ms=51
+[2026-03-15 16:44:25.576] [INFO    ] [billing-svc   ] [trc-270546] TLS handshake completed with client agent latency_ms=33
+[2026-03-15 16:44:27.328] [INFO    ] [api-gateway   ] [trc-626048] Batch file chunk serialized successfully latency_ms=10
+[2026-03-15 16:44:28.625] [INFO    ] [auth-service  ] [trc-954631] TLS handshake completed with client agent latency_ms=65
+[2026-03-15 16:44:27.562] [INFO    ] [billing-svc   ] [trc-810606] Batch file chunk serialized successfully latency_ms=38
+[2026-03-15 16:44:28.087] [INFO    ] [file-storage  ] [trc-722527] Worker heartbeat acknowledged by supervisor latency_ms=20
+[2026-03-15 16:44:29.320] [INFO    ] [billing-svc   ] [trc-840311] Worker heartbeat acknowledged by supervisor latency_ms=35
+[2026-03-15 16:44:29.158] [WARNING ] [file-storage  ] [trc-995713] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=293
+[2026-03-15 16:44:28.360] [WARNING ] [billing-svc   ] [trc-490588] Downstream microservice response delayed, retry attempt scheduled latency_ms=119
+[2026-03-15 16:44:28.047] [ERROR   ] [file-storage  ] [trc-439880] Worker thread crashed with segmentation violation in foreign library latency_ms=6781
+[2026-03-15 16:44:31.072] [CRITICAL] [db-cluster    ] [trc-548694] Database connection pool completely exhausted; dropping new client requests latency_ms=8028
+[2026-03-15 16:44:29.108] [ERROR   ] [file-storage  ] [trc-956827] Worker thread crashed with segmentation violation in foreign library latency_ms=7010
+[2026-03-15 16:44:35.248] [CRITICAL] [api-gateway   ] [trc-734209] Authentication burst anomaly: 120 failed auth tokens within 10 seconds from subnet 198.51.100.0/24 latency_ms=6172
+[2026-03-15 16:44:31.105] [CRITICAL] [worker-pool   ] [trc-788280] Cascading failover triggered on primary cluster node; state recovery active latency_ms=5089
+[2026-03-15 16:44:32.632] [ERROR   ] [auth-service  ] [trc-441709] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=577
+[2026-03-15 16:44:33.058] [WARNING ] [file-storage  ] [trc-674759] Thread pool saturation index approaching upper boundary latency_ms=343
+[2026-03-15 16:44:29.464] [ERROR   ] [billing-svc   ] [trc-155013] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=637
+[2026-03-15 16:44:34.462] [INFO    ] [api-gateway   ] [trc-549278] Incoming HTTP request dispatched to worker handler latency_ms=29
+[2026-03-15 16:44:40.920] [INFO    ] [db-cluster    ] [trc-154229] Cache lookup returned positive hit for session key latency_ms=20
+[2026-03-15 16:44:36.361] [INFO    ] [auth-service  ] [trc-432648] Batch file chunk serialized successfully latency_ms=29

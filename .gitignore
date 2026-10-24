@@ -1,0 +1,35 @@
+node_modules/
+bin/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+.DS_Store
+
+# Generated benchmark and runtime results
+/results/*.json
+
+# Compiled C artifacts
+*.o
+*.out
+/bin/
+
+# Local backups
+/backups/
+/backup_auto_workers_20261023_100108/
+*.bak
+*.before-auto-workers
+*.before_auto_workers
+
+# Runtime and temporary files
+*.log
+.DS_Store
+
+# Historical source snapshots and editor backups
+*.before-*
+*.before_*
+*.save
+
+# Generated verification results
+/results/verification/*.json

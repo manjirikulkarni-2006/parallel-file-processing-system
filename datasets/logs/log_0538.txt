@@ -1,0 +1,28 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00538
+# Generated: 2026-03-15T19:49:26
+# Records Count: 25
+[2026-03-15 19:49:26.000] [INFO    ] [billing-svc   ] [trc-452976] Batch file chunk serialized successfully latency_ms=45
+[2026-03-15 19:49:26.261] [INFO    ] [auth-service  ] [trc-258356] Connection acquired from connection pool latency_ms=15
+[2026-03-15 19:49:26.950] [INFO    ] [cache-redis   ] [trc-698035] TLS handshake completed with client agent latency_ms=11
+[2026-03-15 19:49:27.461] [INFO    ] [db-cluster    ] [trc-105766] Connection acquired from connection pool latency_ms=24
+[2026-03-15 19:49:27.700] [INFO    ] [db-cluster    ] [trc-783599] Connection acquired from connection pool latency_ms=15
+[2026-03-15 19:49:27.960] [WARNING ] [cache-redis   ] [trc-986307] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=317
+[2026-03-15 19:49:30.182] [INFO    ] [api-gateway   ] [trc-162460] Cache lookup returned positive hit for session key latency_ms=6
+[2026-03-15 19:49:31.460] [INFO    ] [billing-svc   ] [trc-528856] Connection acquired from connection pool latency_ms=34
+[2026-03-15 19:49:31.784] [INFO    ] [cache-redis   ] [trc-479656] Incoming HTTP request dispatched to worker handler latency_ms=61
+[2026-03-15 19:49:33.128] [INFO    ] [file-storage  ] [trc-298031] Scheduled garbage collection sweep finished latency_ms=5
+[2026-03-15 19:49:27.880] [WARNING ] [billing-svc   ] [trc-841967] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=416
+[2026-03-15 19:49:29.091] [INFO    ] [cache-redis   ] [trc-414363] Scheduled garbage collection sweep finished latency_ms=20
+[2026-03-15 19:49:30.500] [INFO    ] [api-gateway   ] [trc-758567] Incoming HTTP request dispatched to worker handler latency_ms=5
+[2026-03-15 19:49:34.762] [INFO    ] [worker-pool   ] [trc-433184] Batch file chunk serialized successfully latency_ms=12
+[2026-03-15 19:49:32.104] [INFO    ] [api-gateway   ] [trc-706876] Cache lookup returned positive hit for session key latency_ms=5
+[2026-03-15 19:49:34.115] [INFO    ] [worker-pool   ] [trc-203383] Incoming HTTP request dispatched to worker handler latency_ms=20
+[2026-03-15 19:49:36.736] [INFO    ] [auth-service  ] [trc-290485] Incoming HTTP request dispatched to worker handler latency_ms=33
+[2026-03-15 19:49:31.423] [INFO    ] [billing-svc   ] [trc-868883] Incoming HTTP request dispatched to worker handler latency_ms=14
+[2026-03-15 19:49:29.168] [INFO    ] [auth-service  ] [trc-356599] TLS handshake completed with client agent latency_ms=25
+[2026-03-15 19:49:31.187] [INFO    ] [auth-service  ] [trc-696732] TLS handshake completed with client agent latency_ms=22
+[2026-03-15 19:49:40.060] [INFO    ] [worker-pool   ] [trc-978031] Incoming HTTP request dispatched to worker handler latency_ms=41
+[2026-03-15 19:49:33.161] [INFO    ] [db-cluster    ] [trc-344794] Connection acquired from connection pool latency_ms=22
+[2026-03-15 19:49:31.544] [WARNING ] [billing-svc   ] [trc-381840] Disk buffer cache pressure elevated during concurrent writes latency_ms=123
+[2026-03-15 19:49:38.673] [INFO    ] [cache-redis   ] [trc-197620] Scheduled garbage collection sweep finished latency_ms=15
+[2026-03-15 19:49:44.336] [INFO    ] [cache-redis   ] [trc-988278] Connection acquired from connection pool latency_ms=23

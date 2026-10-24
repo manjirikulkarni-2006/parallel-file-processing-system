@@ -1,0 +1,27 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00491
+# Generated: 2026-03-15T02:44:57
+# Records Count: 24
+[2026-03-15 02:44:57.000] [ERROR   ] [file-storage  ] [trc-862804] Worker thread crashed with segmentation violation in foreign library latency_ms=1442
+[2026-03-15 02:44:57.756] [INFO    ] [billing-svc   ] [trc-287687] Batch file chunk serialized successfully latency_ms=49
+[2026-03-15 02:44:57.498] [INFO    ] [api-gateway   ] [trc-602006] Connection acquired from connection pool latency_ms=46
+[2026-03-15 02:44:57.813] [ERROR   ] [worker-pool   ] [trc-259371] TLS socket abruptly terminated before payload completion latency_ms=1026
+[2026-03-15 02:44:57.704] [INFO    ] [api-gateway   ] [trc-425054] Batch file chunk serialized successfully latency_ms=8
+[2026-03-15 02:44:59.615] [INFO    ] [worker-pool   ] [trc-539258] Cache lookup returned positive hit for session key latency_ms=10
+[2026-03-15 02:45:01.008] [INFO    ] [worker-pool   ] [trc-774458] TLS handshake completed with client agent latency_ms=47
+[2026-03-15 02:44:58.673] [ERROR   ] [db-cluster    ] [trc-884489] Worker thread crashed with segmentation violation in foreign library latency_ms=628
+[2026-03-15 02:44:58.600] [INFO    ] [cache-redis   ] [trc-396559] Scheduled garbage collection sweep finished latency_ms=7
+[2026-03-15 02:45:03.174] [INFO    ] [cache-redis   ] [trc-561391] Scheduled garbage collection sweep finished latency_ms=61
+[2026-03-15 02:45:01.890] [INFO    ] [auth-service  ] [trc-505313] Connection acquired from connection pool latency_ms=71
+[2026-03-15 02:45:01.510] [INFO    ] [worker-pool   ] [trc-221278] TLS handshake completed with client agent latency_ms=29
+[2026-03-15 02:45:02.748] [CRITICAL] [file-storage  ] [trc-783791] Cascading failover triggered on primary cluster node; state recovery active latency_ms=4105
+[2026-03-15 02:44:59.743] [ERROR   ] [auth-service  ] [trc-603650] Connection reset by peer while transmitting payload latency_ms=3730
+[2026-03-15 02:45:01.130] [CRITICAL] [auth-service  ] [trc-965465] Cascading failover triggered on primary cluster node; state recovery active latency_ms=5124
+[2026-03-15 02:45:04.320] [CRITICAL] [cache-redis   ] [trc-124623] File descriptor limit reached for worker process; operating system rejecting socket creation latency_ms=6041
+[2026-03-15 02:45:00.744] [ERROR   ] [billing-svc   ] [trc-950771] Worker thread crashed with segmentation violation in foreign library latency_ms=7377
+[2026-03-15 02:45:00.468] [INFO    ] [file-storage  ] [trc-955944] Connection acquired from connection pool latency_ms=69
+[2026-03-15 02:45:06.936] [INFO    ] [cache-redis   ] [trc-137450] Batch file chunk serialized successfully latency_ms=17
+[2026-03-15 02:45:05.911] [WARNING ] [auth-service  ] [trc-458290] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=445
+[2026-03-15 02:45:06.220] [WARNING ] [file-storage  ] [trc-217756] Disk buffer cache pressure elevated during concurrent writes latency_ms=373
+[2026-03-15 02:45:03.384] [WARNING ] [cache-redis   ] [trc-422326] Downstream microservice response delayed, retry attempt scheduled latency_ms=311
+[2026-03-15 02:45:06.746] [INFO    ] [billing-svc   ] [trc-541154] TLS handshake completed with client agent latency_ms=34
+[2026-03-15 02:45:05.050] [INFO    ] [auth-service  ] [trc-159197] Incoming HTTP request dispatched to worker handler latency_ms=32

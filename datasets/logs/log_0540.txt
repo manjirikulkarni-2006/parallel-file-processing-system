@@ -1,0 +1,23 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00540
+# Generated: 2026-03-15T10:53:41
+# Records Count: 20
+[2026-03-15 10:53:41.000] [ERROR   ] [api-gateway   ] [trc-396958] Connection reset by peer while transmitting payload latency_ms=849
+[2026-03-15 10:53:41.594] [WARNING ] [worker-pool   ] [trc-742330] High memory consumption threshold reached (88% utilized) latency_ms=327
+[2026-03-15 10:53:41.598] [INFO    ] [file-storage  ] [trc-229870] Worker heartbeat acknowledged by supervisor latency_ms=70
+[2026-03-15 10:53:41.741] [INFO    ] [worker-pool   ] [trc-963593] Cache lookup returned positive hit for session key latency_ms=50
+[2026-03-15 10:53:42.520] [INFO    ] [auth-service  ] [trc-670877] Connection acquired from connection pool latency_ms=7
+[2026-03-15 10:53:44.880] [INFO    ] [billing-svc   ] [trc-245036] Batch file chunk serialized successfully latency_ms=69
+[2026-03-15 10:53:45.032] [INFO    ] [billing-svc   ] [trc-306800] Incoming HTTP request dispatched to worker handler latency_ms=27
+[2026-03-15 10:53:42.407] [INFO    ] [file-storage  ] [trc-457402] Incoming HTTP request dispatched to worker handler latency_ms=51
+[2026-03-15 10:53:45.472] [INFO    ] [worker-pool   ] [trc-454441] Incoming HTTP request dispatched to worker handler latency_ms=29
+[2026-03-15 10:53:44.726] [INFO    ] [worker-pool   ] [trc-154315] Scheduled garbage collection sweep finished latency_ms=50
+[2026-03-15 10:53:46.970] [INFO    ] [worker-pool   ] [trc-869894] Cache lookup returned positive hit for session key latency_ms=15
+[2026-03-15 10:53:49.217] [WARNING ] [cache-redis   ] [trc-593682] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=390
+[2026-03-15 10:53:47.036] [ERROR   ] [api-gateway   ] [trc-363289] Worker thread crashed with segmentation violation in foreign library latency_ms=1270
+[2026-03-15 10:53:46.954] [ERROR   ] [cache-redis   ] [trc-838805] TLS socket abruptly terminated before payload completion latency_ms=1249
+[2026-03-15 10:53:45.102] [INFO    ] [cache-redis   ] [trc-819630] Cache lookup returned positive hit for session key latency_ms=40
+[2026-03-15 10:53:48.155] [ERROR   ] [worker-pool   ] [trc-383509] Connection reset by peer while transmitting payload latency_ms=686
+[2026-03-15 10:53:52.008] [WARNING ] [auth-service  ] [trc-175872] Thread pool saturation index approaching upper boundary latency_ms=436
+[2026-03-15 10:53:53.478] [ERROR   ] [cache-redis   ] [trc-398732] TLS socket abruptly terminated before payload completion latency_ms=800
+[2026-03-15 10:53:48.668] [WARNING ] [auth-service  ] [trc-292669] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=152
+[2026-03-15 10:53:55.991] [INFO    ] [billing-svc   ] [trc-701157] Worker heartbeat acknowledged by supervisor latency_ms=63

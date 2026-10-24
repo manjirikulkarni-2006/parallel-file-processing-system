@@ -1,0 +1,25 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00826
+# Generated: 2026-03-15T23:47:05
+# Records Count: 22
+[2026-03-15 23:47:05.000] [INFO    ] [billing-svc   ] [trc-455392] Incoming HTTP request dispatched to worker handler latency_ms=51
+[2026-03-15 23:47:05.259] [INFO    ] [file-storage  ] [trc-479037] Connection acquired from connection pool latency_ms=66
+[2026-03-15 23:47:05.586] [INFO    ] [worker-pool   ] [trc-184852] Connection acquired from connection pool latency_ms=73
+[2026-03-15 23:47:06.779] [INFO    ] [cache-redis   ] [trc-324465] Batch file chunk serialized successfully latency_ms=49
+[2026-03-15 23:47:06.780] [INFO    ] [db-cluster    ] [trc-673117] Connection acquired from connection pool latency_ms=69
+[2026-03-15 23:47:07.485] [INFO    ] [db-cluster    ] [trc-307257] Cache lookup returned positive hit for session key latency_ms=62
+[2026-03-15 23:47:07.220] [INFO    ] [auth-service  ] [trc-384893] Scheduled garbage collection sweep finished latency_ms=45
+[2026-03-15 23:47:07.422] [WARNING ] [auth-service  ] [trc-690829] High memory consumption threshold reached (88% utilized) latency_ms=419
+[2026-03-15 23:47:07.592] [INFO    ] [db-cluster    ] [trc-455912] Batch file chunk serialized successfully latency_ms=56
+[2026-03-15 23:47:09.401] [INFO    ] [api-gateway   ] [trc-972831] Connection acquired from connection pool latency_ms=66
+[2026-03-15 23:47:08.550] [INFO    ] [cache-redis   ] [trc-146960] Batch file chunk serialized successfully latency_ms=30
+[2026-03-15 23:47:12.865] [INFO    ] [file-storage  ] [trc-173834] Connection acquired from connection pool latency_ms=24
+[2026-03-15 23:47:06.968] [INFO    ] [cache-redis   ] [trc-191626] TLS handshake completed with client agent latency_ms=29
+[2026-03-15 23:47:09.251] [INFO    ] [file-storage  ] [trc-330963] Incoming HTTP request dispatched to worker handler latency_ms=5
+[2026-03-15 23:47:09.788] [INFO    ] [file-storage  ] [trc-996171] Batch file chunk serialized successfully latency_ms=24
+[2026-03-15 23:47:16.430] [WARNING ] [worker-pool   ] [trc-556418] Downstream microservice response delayed, retry attempt scheduled latency_ms=296
+[2026-03-15 23:47:16.792] [INFO    ] [billing-svc   ] [trc-410694] Incoming HTTP request dispatched to worker handler latency_ms=36
+[2026-03-15 23:47:08.281] [WARNING ] [cache-redis   ] [trc-578465] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=89
+[2026-03-15 23:47:15.458] [INFO    ] [api-gateway   ] [trc-107085] Scheduled garbage collection sweep finished latency_ms=35
+[2026-03-15 23:47:13.208] [INFO    ] [file-storage  ] [trc-549883] Scheduled garbage collection sweep finished latency_ms=56
+[2026-03-15 23:47:20.800] [INFO    ] [billing-svc   ] [trc-212937] Cache lookup returned positive hit for session key latency_ms=75
+[2026-03-15 23:47:12.728] [INFO    ] [api-gateway   ] [trc-295178] Batch file chunk serialized successfully latency_ms=70

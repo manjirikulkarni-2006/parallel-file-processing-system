@@ -1,0 +1,26 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00881
+# Generated: 2026-03-15T01:37:14
+# Records Count: 23
+[2026-03-15 01:37:14.000] [INFO    ] [worker-pool   ] [trc-960650] Connection acquired from connection pool latency_ms=29
+[2026-03-15 01:37:14.582] [INFO    ] [worker-pool   ] [trc-999540] Incoming HTTP request dispatched to worker handler latency_ms=74
+[2026-03-15 01:37:14.554] [INFO    ] [db-cluster    ] [trc-261387] Worker heartbeat acknowledged by supervisor latency_ms=26
+[2026-03-15 01:37:15.836] [INFO    ] [api-gateway   ] [trc-622333] TLS handshake completed with client agent latency_ms=54
+[2026-03-15 01:37:16.776] [INFO    ] [file-storage  ] [trc-185224] TLS handshake completed with client agent latency_ms=6
+[2026-03-15 01:37:17.615] [INFO    ] [cache-redis   ] [trc-587131] Scheduled garbage collection sweep finished latency_ms=28
+[2026-03-15 01:37:16.478] [INFO    ] [cache-redis   ] [trc-239924] Worker heartbeat acknowledged by supervisor latency_ms=11
+[2026-03-15 01:37:17.766] [WARNING ] [auth-service  ] [trc-861188] Disk buffer cache pressure elevated during concurrent writes latency_ms=294
+[2026-03-15 01:37:19.200] [INFO    ] [db-cluster    ] [trc-334841] Connection acquired from connection pool latency_ms=33
+[2026-03-15 01:37:17.033] [INFO    ] [billing-svc   ] [trc-450272] Connection acquired from connection pool latency_ms=58
+[2026-03-15 01:37:20.660] [INFO    ] [billing-svc   ] [trc-323247] Incoming HTTP request dispatched to worker handler latency_ms=61
+[2026-03-15 01:37:18.818] [CRITICAL] [auth-service  ] [trc-146200] Database connection pool completely exhausted; dropping new client requests latency_ms=8160
+[2026-03-15 01:37:23.120] [CRITICAL] [cache-redis   ] [trc-854958] Database connection pool completely exhausted; dropping new client requests latency_ms=6834
+[2026-03-15 01:37:20.227] [ERROR   ] [api-gateway   ] [trc-877415] Worker thread crashed with segmentation violation in foreign library latency_ms=6289
+[2026-03-15 01:37:24.024] [ERROR   ] [api-gateway   ] [trc-745069] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=5956
+[2026-03-15 01:37:17.540] [ERROR   ] [db-cluster    ] [trc-397318] Failed to write metadata block to distributed store latency_ms=7177
+[2026-03-15 01:37:20.112] [ERROR   ] [api-gateway   ] [trc-458675] TLS socket abruptly terminated before payload completion latency_ms=715
+[2026-03-15 01:37:18.539] [ERROR   ] [file-storage  ] [trc-400859] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=557
+[2026-03-15 01:37:28.364] [INFO    ] [auth-service  ] [trc-208575] TLS handshake completed with client agent latency_ms=27
+[2026-03-15 01:37:28.307] [INFO    ] [file-storage  ] [trc-481715] Scheduled garbage collection sweep finished latency_ms=70
+[2026-03-15 01:37:24.260] [ERROR   ] [file-storage  ] [trc-743410] Connection reset by peer while transmitting payload latency_ms=1199
+[2026-03-15 01:37:18.746] [INFO    ] [db-cluster    ] [trc-574589] Scheduled garbage collection sweep finished latency_ms=61
+[2026-03-15 01:37:21.898] [ERROR   ] [file-storage  ] [trc-455326] Failed to write metadata block to distributed store latency_ms=729

@@ -1,0 +1,18 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00360
+# Generated: 2026-03-15T16:32:04
+# Records Count: 15
+[2026-03-15 16:32:04.000] [INFO    ] [auth-service  ] [trc-716206] Batch file chunk serialized successfully latency_ms=73
+[2026-03-15 16:32:04.226] [INFO    ] [auth-service  ] [trc-656883] Connection acquired from connection pool latency_ms=61
+[2026-03-15 16:32:05.548] [INFO    ] [billing-svc   ] [trc-332148] Worker heartbeat acknowledged by supervisor latency_ms=47
+[2026-03-15 16:32:06.397] [ERROR   ] [file-storage  ] [trc-334139] Connection reset by peer while transmitting payload latency_ms=1295
+[2026-03-15 16:32:06.876] [INFO    ] [auth-service  ] [trc-931295] Batch file chunk serialized successfully latency_ms=71
+[2026-03-15 16:32:05.240] [INFO    ] [worker-pool   ] [trc-546377] Connection acquired from connection pool latency_ms=45
+[2026-03-15 16:32:06.400] [INFO    ] [cache-redis   ] [trc-911590] Worker heartbeat acknowledged by supervisor latency_ms=24
+[2026-03-15 16:32:06.786] [INFO    ] [cache-redis   ] [trc-282803] Connection acquired from connection pool latency_ms=43
+[2026-03-15 16:32:09.384] [WARNING ] [db-cluster    ] [trc-203948] High memory consumption threshold reached (88% utilized) latency_ms=254
+[2026-03-15 16:32:09.328] [WARNING ] [cache-redis   ] [trc-804672] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=198
+[2026-03-15 16:32:06.030] [INFO    ] [cache-redis   ] [trc-828781] Worker heartbeat acknowledged by supervisor latency_ms=8
+[2026-03-15 16:32:06.376] [INFO    ] [billing-svc   ] [trc-703983] Batch file chunk serialized successfully latency_ms=9
+[2026-03-15 16:32:06.832] [ERROR   ] [worker-pool   ] [trc-837939] Failed to write metadata block to distributed store latency_ms=1074
+[2026-03-15 16:32:05.950] [INFO    ] [worker-pool   ] [trc-409176] Scheduled garbage collection sweep finished latency_ms=25
+[2026-03-15 16:32:06.632] [WARNING ] [file-storage  ] [trc-311336] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=225

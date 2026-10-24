@@ -1,0 +1,23 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00953
+# Generated: 2026-03-15T07:41:00
+# Records Count: 20
+[2026-03-15 07:41:00.000] [INFO    ] [auth-service  ] [trc-583838] Scheduled garbage collection sweep finished latency_ms=59
+[2026-03-15 07:41:00.250] [INFO    ] [auth-service  ] [trc-775309] TLS handshake completed with client agent latency_ms=72
+[2026-03-15 07:41:00.584] [WARNING ] [auth-service  ] [trc-606827] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=164
+[2026-03-15 07:41:01.719] [INFO    ] [billing-svc   ] [trc-269211] Incoming HTTP request dispatched to worker handler latency_ms=28
+[2026-03-15 07:41:00.728] [INFO    ] [cache-redis   ] [trc-441445] Incoming HTTP request dispatched to worker handler latency_ms=61
+[2026-03-15 07:41:02.785] [INFO    ] [worker-pool   ] [trc-586147] TLS handshake completed with client agent latency_ms=62
+[2026-03-15 07:41:01.716] [ERROR   ] [cache-redis   ] [trc-763131] Worker thread crashed with segmentation violation in foreign library latency_ms=854
+[2026-03-15 07:41:03.185] [INFO    ] [file-storage  ] [trc-426843] Connection acquired from connection pool latency_ms=7
+[2026-03-15 07:41:05.624] [INFO    ] [worker-pool   ] [trc-625210] TLS handshake completed with client agent latency_ms=16
+[2026-03-15 07:41:03.159] [INFO    ] [auth-service  ] [trc-181966] TLS handshake completed with client agent latency_ms=29
+[2026-03-15 07:41:03.920] [INFO    ] [worker-pool   ] [trc-940667] Scheduled garbage collection sweep finished latency_ms=36
+[2026-03-15 07:41:07.106] [INFO    ] [cache-redis   ] [trc-483425] TLS handshake completed with client agent latency_ms=17
+[2026-03-15 07:41:09.444] [INFO    ] [api-gateway   ] [trc-345931] Cache lookup returned positive hit for session key latency_ms=17
+[2026-03-15 07:41:05.096] [WARNING ] [auth-service  ] [trc-255057] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=214
+[2026-03-15 07:41:06.790] [ERROR   ] [db-cluster    ] [trc-606174] Failed to write metadata block to distributed store latency_ms=716
+[2026-03-15 07:41:09.690] [INFO    ] [file-storage  ] [trc-359530] Worker heartbeat acknowledged by supervisor latency_ms=55
+[2026-03-15 07:41:05.632] [INFO    ] [file-storage  ] [trc-877585] Scheduled garbage collection sweep finished latency_ms=74
+[2026-03-15 07:41:12.036] [ERROR   ] [worker-pool   ] [trc-239639] Worker thread crashed with segmentation violation in foreign library latency_ms=1162
+[2026-03-15 07:41:13.248] [INFO    ] [db-cluster    ] [trc-972845] TLS handshake completed with client agent latency_ms=27
+[2026-03-15 07:41:04.560] [INFO    ] [api-gateway   ] [trc-198920] Connection acquired from connection pool latency_ms=5

@@ -1,0 +1,24 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00283
+# Generated: 2026-03-15T18:56:34
+# Records Count: 21
+[2026-03-15 18:56:34.000] [INFO    ] [billing-svc   ] [trc-193315] Cache lookup returned positive hit for session key latency_ms=49
+[2026-03-15 18:56:34.556] [INFO    ] [db-cluster    ] [trc-747629] Connection acquired from connection pool latency_ms=31
+[2026-03-15 18:56:35.410] [INFO    ] [billing-svc   ] [trc-944747] TLS handshake completed with client agent latency_ms=73
+[2026-03-15 18:56:35.791] [INFO    ] [billing-svc   ] [trc-362496] TLS handshake completed with client agent latency_ms=73
+[2026-03-15 18:56:35.176] [INFO    ] [worker-pool   ] [trc-815670] Incoming HTTP request dispatched to worker handler latency_ms=20
+[2026-03-15 18:56:37.820] [INFO    ] [file-storage  ] [trc-886402] Incoming HTTP request dispatched to worker handler latency_ms=60
+[2026-03-15 18:56:35.692] [ERROR   ] [worker-pool   ] [trc-545192] Worker thread crashed with segmentation violation in foreign library latency_ms=1149
+[2026-03-15 18:56:38.417] [ERROR   ] [db-cluster    ] [trc-837863] TLS socket abruptly terminated before payload completion latency_ms=700
+[2026-03-15 18:56:38.416] [ERROR   ] [cache-redis   ] [trc-817230] Worker thread crashed with segmentation violation in foreign library latency_ms=640
+[2026-03-15 18:56:39.319] [WARNING ] [file-storage  ] [trc-479466] Thread pool saturation index approaching upper boundary latency_ms=382
+[2026-03-15 18:56:40.180] [INFO    ] [auth-service  ] [trc-555194] TLS handshake completed with client agent latency_ms=11
+[2026-03-15 18:56:36.662] [INFO    ] [cache-redis   ] [trc-104115] Scheduled garbage collection sweep finished latency_ms=68
+[2026-03-15 18:56:36.736] [INFO    ] [file-storage  ] [trc-895871] Scheduled garbage collection sweep finished latency_ms=45
+[2026-03-15 18:56:37.640] [INFO    ] [cache-redis   ] [trc-109466] TLS handshake completed with client agent latency_ms=63
+[2026-03-15 18:56:38.368] [INFO    ] [api-gateway   ] [trc-234853] Scheduled garbage collection sweep finished latency_ms=51
+[2026-03-15 18:56:37.405] [INFO    ] [file-storage  ] [trc-143479] Cache lookup returned positive hit for session key latency_ms=53
+[2026-03-15 18:56:39.200] [WARNING ] [cache-redis   ] [trc-419549] Downstream microservice response delayed, retry attempt scheduled latency_ms=293
+[2026-03-15 18:56:39.729] [INFO    ] [auth-service  ] [trc-137383] Cache lookup returned positive hit for session key latency_ms=59
+[2026-03-15 18:56:44.206] [WARNING ] [auth-service  ] [trc-762877] Disk buffer cache pressure elevated during concurrent writes latency_ms=188
+[2026-03-15 18:56:43.709] [INFO    ] [api-gateway   ] [trc-647276] Connection acquired from connection pool latency_ms=21
+[2026-03-15 18:56:44.840] [INFO    ] [auth-service  ] [trc-438724] Worker heartbeat acknowledged by supervisor latency_ms=16

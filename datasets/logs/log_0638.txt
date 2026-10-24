@@ -1,0 +1,21 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00638
+# Generated: 2026-03-15T06:18:31
+# Records Count: 18
+[2026-03-15 06:18:31.000] [INFO    ] [file-storage  ] [trc-775280] Incoming HTTP request dispatched to worker handler latency_ms=65
+[2026-03-15 06:18:31.618] [ERROR   ] [api-gateway   ] [trc-160761] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=1108
+[2026-03-15 06:18:32.102] [INFO    ] [worker-pool   ] [trc-372972] Cache lookup returned positive hit for session key latency_ms=8
+[2026-03-15 06:18:31.606] [INFO    ] [auth-service  ] [trc-306908] TLS handshake completed with client agent latency_ms=43
+[2026-03-15 06:18:31.940] [INFO    ] [worker-pool   ] [trc-899840] Batch file chunk serialized successfully latency_ms=19
+[2026-03-15 06:18:33.040] [INFO    ] [cache-redis   ] [trc-250251] Incoming HTTP request dispatched to worker handler latency_ms=45
+[2026-03-15 06:18:33.784] [WARNING ] [auth-service  ] [trc-446995] High memory consumption threshold reached (88% utilized) latency_ms=177
+[2026-03-15 06:18:35.221] [INFO    ] [api-gateway   ] [trc-631597] Cache lookup returned positive hit for session key latency_ms=67
+[2026-03-15 06:18:36.960] [WARNING ] [file-storage  ] [trc-256580] Disk buffer cache pressure elevated during concurrent writes latency_ms=132
+[2026-03-15 06:18:32.890] [WARNING ] [billing-svc   ] [trc-673372] Thread pool saturation index approaching upper boundary latency_ms=308
+[2026-03-15 06:18:38.040] [ERROR   ] [cache-redis   ] [trc-489581] TLS socket abruptly terminated before payload completion latency_ms=1471
+[2026-03-15 06:18:36.291] [ERROR   ] [file-storage  ] [trc-940781] TLS socket abruptly terminated before payload completion latency_ms=587
+[2026-03-15 06:18:40.372] [INFO    ] [auth-service  ] [trc-639239] TLS handshake completed with client agent latency_ms=24
+[2026-03-15 06:18:34.510] [INFO    ] [cache-redis   ] [trc-584498] Scheduled garbage collection sweep finished latency_ms=59
+[2026-03-15 06:18:33.926] [WARNING ] [auth-service  ] [trc-657064] Downstream microservice response delayed, retry attempt scheduled latency_ms=331
+[2026-03-15 06:18:41.305] [INFO    ] [db-cluster    ] [trc-256261] Batch file chunk serialized successfully latency_ms=15
+[2026-03-15 06:18:39.880] [INFO    ] [api-gateway   ] [trc-448024] Incoming HTTP request dispatched to worker handler latency_ms=13
+[2026-03-15 06:18:42.798] [INFO    ] [db-cluster    ] [trc-122575] Connection acquired from connection pool latency_ms=46

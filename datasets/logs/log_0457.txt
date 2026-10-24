@@ -1,0 +1,18 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00457
+# Generated: 2026-03-15T16:25:21
+# Records Count: 15
+[2026-03-15 16:25:21.000] [INFO    ] [worker-pool   ] [trc-318934] Scheduled garbage collection sweep finished latency_ms=45
+[2026-03-15 16:25:21.151] [INFO    ] [api-gateway   ] [trc-694184] Cache lookup returned positive hit for session key latency_ms=34
+[2026-03-15 16:25:22.114] [INFO    ] [worker-pool   ] [trc-583425] Batch file chunk serialized successfully latency_ms=60
+[2026-03-15 16:25:23.334] [WARNING ] [db-cluster    ] [trc-985181] Thread pool saturation index approaching upper boundary latency_ms=328
+[2026-03-15 16:25:23.676] [WARNING ] [billing-svc   ] [trc-203897] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=215
+[2026-03-15 16:25:22.080] [INFO    ] [worker-pool   ] [trc-935458] Cache lookup returned positive hit for session key latency_ms=40
+[2026-03-15 16:25:25.260] [WARNING ] [db-cluster    ] [trc-388050] High memory consumption threshold reached (88% utilized) latency_ms=430
+[2026-03-15 16:25:24.311] [ERROR   ] [auth-service  ] [trc-462912] TLS socket abruptly terminated before payload completion latency_ms=3641
+[2026-03-15 16:25:24.368] [ERROR   ] [auth-service  ] [trc-468219] Connection reset by peer while transmitting payload latency_ms=7765
+[2026-03-15 16:25:24.897] [ERROR   ] [api-gateway   ] [trc-497009] TLS socket abruptly terminated before payload completion latency_ms=4756
+[2026-03-15 16:25:28.650] [ERROR   ] [billing-svc   ] [trc-370004] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=6481
+[2026-03-15 16:25:23.750] [CRITICAL] [cache-redis   ] [trc-314386] File descriptor limit reached for worker process; operating system rejecting socket creation latency_ms=4202
+[2026-03-15 16:25:23.400] [INFO    ] [api-gateway   ] [trc-413763] Worker heartbeat acknowledged by supervisor latency_ms=18
+[2026-03-15 16:25:25.251] [ERROR   ] [db-cluster    ] [trc-903128] Worker thread crashed with segmentation violation in foreign library latency_ms=1270
+[2026-03-15 16:25:26.474] [WARNING ] [file-storage  ] [trc-378167] High memory consumption threshold reached (88% utilized) latency_ms=392

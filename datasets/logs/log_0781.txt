@@ -1,0 +1,21 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00781
+# Generated: 2026-03-15T07:56:17
+# Records Count: 18
+[2026-03-15 07:56:17.000] [INFO    ] [auth-service  ] [trc-689494] Cache lookup returned positive hit for session key latency_ms=73
+[2026-03-15 07:56:17.375] [WARNING ] [worker-pool   ] [trc-612634] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=436
+[2026-03-15 07:56:17.434] [WARNING ] [worker-pool   ] [trc-680277] High memory consumption threshold reached (88% utilized) latency_ms=349
+[2026-03-15 07:56:17.750] [WARNING ] [api-gateway   ] [trc-267818] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=199
+[2026-03-15 07:56:18.540] [INFO    ] [auth-service  ] [trc-248649] Batch file chunk serialized successfully latency_ms=15
+[2026-03-15 07:56:20.785] [ERROR   ] [billing-svc   ] [trc-355338] Connection reset by peer while transmitting payload latency_ms=634
+[2026-03-15 07:56:18.158] [INFO    ] [db-cluster    ] [trc-742812] Scheduled garbage collection sweep finished latency_ms=42
+[2026-03-15 07:56:21.242] [INFO    ] [auth-service  ] [trc-990594] Cache lookup returned positive hit for session key latency_ms=72
+[2026-03-15 07:56:18.488] [INFO    ] [api-gateway   ] [trc-873307] TLS handshake completed with client agent latency_ms=17
+[2026-03-15 07:56:22.724] [INFO    ] [worker-pool   ] [trc-419981] Incoming HTTP request dispatched to worker handler latency_ms=64
+[2026-03-15 07:56:18.920] [INFO    ] [cache-redis   ] [trc-589349] Connection acquired from connection pool latency_ms=8
+[2026-03-15 07:56:24.744] [INFO    ] [cache-redis   ] [trc-725211] Batch file chunk serialized successfully latency_ms=60
+[2026-03-15 07:56:20.720] [INFO    ] [file-storage  ] [trc-638313] Scheduled garbage collection sweep finished latency_ms=64
+[2026-03-15 07:56:25.749] [INFO    ] [file-storage  ] [trc-298188] TLS handshake completed with client agent latency_ms=40
+[2026-03-15 07:56:21.844] [INFO    ] [worker-pool   ] [trc-764578] Batch file chunk serialized successfully latency_ms=60
+[2026-03-15 07:56:24.515] [INFO    ] [api-gateway   ] [trc-357364] Connection acquired from connection pool latency_ms=15
+[2026-03-15 07:56:29.272] [INFO    ] [auth-service  ] [trc-122342] Incoming HTTP request dispatched to worker handler latency_ms=24
+[2026-03-15 07:56:27.642] [INFO    ] [api-gateway   ] [trc-730881] Incoming HTTP request dispatched to worker handler latency_ms=70

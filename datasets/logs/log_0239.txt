@@ -1,0 +1,22 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00239
+# Generated: 2026-03-15T06:02:50
+# Records Count: 19
+[2026-03-15 06:02:50.000] [ERROR   ] [cache-redis   ] [trc-753222] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=707
+[2026-03-15 06:02:50.176] [WARNING ] [file-storage  ] [trc-866143] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=233
+[2026-03-15 06:02:50.416] [WARNING ] [auth-service  ] [trc-962489] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=168
+[2026-03-15 06:02:50.729] [WARNING ] [cache-redis   ] [trc-276717] Downstream microservice response delayed, retry attempt scheduled latency_ms=226
+[2026-03-15 06:02:50.636] [INFO    ] [billing-svc   ] [trc-836342] Connection acquired from connection pool latency_ms=60
+[2026-03-15 06:02:51.945] [WARNING ] [worker-pool   ] [trc-775267] High memory consumption threshold reached (88% utilized) latency_ms=374
+[2026-03-15 06:02:52.436] [WARNING ] [api-gateway   ] [trc-284578] High memory consumption threshold reached (88% utilized) latency_ms=362
+[2026-03-15 06:02:51.323] [WARNING ] [worker-pool   ] [trc-853328] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=261
+[2026-03-15 06:02:55.112] [INFO    ] [file-storage  ] [trc-432382] Incoming HTTP request dispatched to worker handler latency_ms=8
+[2026-03-15 06:02:53.951] [INFO    ] [cache-redis   ] [trc-601694] Cache lookup returned positive hit for session key latency_ms=16
+[2026-03-15 06:02:52.890] [INFO    ] [cache-redis   ] [trc-787244] Connection acquired from connection pool latency_ms=46
+[2026-03-15 06:02:55.049] [INFO    ] [db-cluster    ] [trc-108557] Worker heartbeat acknowledged by supervisor latency_ms=16
+[2026-03-15 06:02:53.192] [INFO    ] [auth-service  ] [trc-938772] TLS handshake completed with client agent latency_ms=34
+[2026-03-15 06:02:55.434] [WARNING ] [cache-redis   ] [trc-626741] Thread pool saturation index approaching upper boundary latency_ms=115
+[2026-03-15 06:02:54.984] [WARNING ] [auth-service  ] [trc-730012] Disk buffer cache pressure elevated during concurrent writes latency_ms=301
+[2026-03-15 06:02:54.950] [INFO    ] [db-cluster    ] [trc-548286] Incoming HTTP request dispatched to worker handler latency_ms=28
+[2026-03-15 06:03:00.480] [WARNING ] [auth-service  ] [trc-404458] High memory consumption threshold reached (88% utilized) latency_ms=139
+[2026-03-15 06:02:55.168] [INFO    ] [api-gateway   ] [trc-910834] Incoming HTTP request dispatched to worker handler latency_ms=31
+[2026-03-15 06:03:01.952] [INFO    ] [api-gateway   ] [trc-334659] Cache lookup returned positive hit for session key latency_ms=44

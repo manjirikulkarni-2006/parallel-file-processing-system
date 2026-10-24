@@ -1,0 +1,26 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00535
+# Generated: 2026-03-15T00:51:47
+# Records Count: 23
+[2026-03-15 00:51:47.000] [WARNING ] [file-storage  ] [trc-789711] Thread pool saturation index approaching upper boundary latency_ms=448
+[2026-03-15 00:51:47.217] [INFO    ] [file-storage  ] [trc-214657] Cache lookup returned positive hit for session key latency_ms=61
+[2026-03-15 00:51:47.946] [INFO    ] [db-cluster    ] [trc-522215] Connection acquired from connection pool latency_ms=60
+[2026-03-15 00:51:48.104] [INFO    ] [cache-redis   ] [trc-554695] TLS handshake completed with client agent latency_ms=6
+[2026-03-15 00:51:50.200] [INFO    ] [api-gateway   ] [trc-631845] Batch file chunk serialized successfully latency_ms=34
+[2026-03-15 00:51:47.990] [INFO    ] [auth-service  ] [trc-544574] Worker heartbeat acknowledged by supervisor latency_ms=9
+[2026-03-15 00:51:50.756] [INFO    ] [db-cluster    ] [trc-388326] Scheduled garbage collection sweep finished latency_ms=37
+[2026-03-15 00:51:49.590] [ERROR   ] [auth-service  ] [trc-411892] TLS socket abruptly terminated before payload completion latency_ms=1223
+[2026-03-15 00:51:51.936] [INFO    ] [api-gateway   ] [trc-436039] Scheduled garbage collection sweep finished latency_ms=8
+[2026-03-15 00:51:49.358] [WARNING ] [billing-svc   ] [trc-804768] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=179
+[2026-03-15 00:51:51.470] [WARNING ] [cache-redis   ] [trc-338391] Thread pool saturation index approaching upper boundary latency_ms=148
+[2026-03-15 00:51:54.128] [INFO    ] [billing-svc   ] [trc-402750] Batch file chunk serialized successfully latency_ms=33
+[2026-03-15 00:51:49.976] [INFO    ] [file-storage  ] [trc-631178] TLS handshake completed with client agent latency_ms=37
+[2026-03-15 00:51:49.210] [INFO    ] [cache-redis   ] [trc-252323] Incoming HTTP request dispatched to worker handler latency_ms=11
+[2026-03-15 00:51:50.850] [INFO    ] [worker-pool   ] [trc-881520] Cache lookup returned positive hit for session key latency_ms=24
+[2026-03-15 00:51:55.100] [INFO    ] [auth-service  ] [trc-277443] Incoming HTTP request dispatched to worker handler latency_ms=10
+[2026-03-15 00:51:56.680] [INFO    ] [billing-svc   ] [trc-929150] TLS handshake completed with client agent latency_ms=48
+[2026-03-15 00:51:57.710] [INFO    ] [db-cluster    ] [trc-639326] Cache lookup returned positive hit for session key latency_ms=58
+[2026-03-15 00:51:52.292] [WARNING ] [api-gateway   ] [trc-489839] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=89
+[2026-03-15 00:51:51.541] [INFO    ] [api-gateway   ] [trc-643661] Scheduled garbage collection sweep finished latency_ms=70
+[2026-03-15 00:51:53.540] [INFO    ] [db-cluster    ] [trc-272708] TLS handshake completed with client agent latency_ms=43
+[2026-03-15 00:51:51.137] [INFO    ] [api-gateway   ] [trc-918375] Incoming HTTP request dispatched to worker handler latency_ms=41
+[2026-03-15 00:52:03.016] [WARNING ] [db-cluster    ] [trc-949892] Downstream microservice response delayed, retry attempt scheduled latency_ms=135

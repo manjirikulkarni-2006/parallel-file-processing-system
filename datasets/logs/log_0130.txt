@@ -1,0 +1,24 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00130
+# Generated: 2026-03-15T07:44:39
+# Records Count: 21
+[2026-03-15 07:44:39.000] [INFO    ] [file-storage  ] [trc-282773] Cache lookup returned positive hit for session key latency_ms=65
+[2026-03-15 07:44:39.377] [INFO    ] [cache-redis   ] [trc-471236] Connection acquired from connection pool latency_ms=59
+[2026-03-15 07:44:40.174] [INFO    ] [api-gateway   ] [trc-631917] Incoming HTTP request dispatched to worker handler latency_ms=65
+[2026-03-15 07:44:40.668] [INFO    ] [api-gateway   ] [trc-151332] Batch file chunk serialized successfully latency_ms=10
+[2026-03-15 07:44:41.692] [INFO    ] [auth-service  ] [trc-507990] Scheduled garbage collection sweep finished latency_ms=20
+[2026-03-15 07:44:42.335] [WARNING ] [cache-redis   ] [trc-266089] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=275
+[2026-03-15 07:44:40.134] [INFO    ] [api-gateway   ] [trc-114847] Connection acquired from connection pool latency_ms=55
+[2026-03-15 07:44:40.764] [WARNING ] [worker-pool   ] [trc-776128] Disk buffer cache pressure elevated during concurrent writes latency_ms=193
+[2026-03-15 07:44:44.768] [INFO    ] [billing-svc   ] [trc-687433] Connection acquired from connection pool latency_ms=16
+[2026-03-15 07:44:44.886] [WARNING ] [billing-svc   ] [trc-932313] Thread pool saturation index approaching upper boundary latency_ms=442
+[2026-03-15 07:44:43.180] [WARNING ] [file-storage  ] [trc-370816] Thread pool saturation index approaching upper boundary latency_ms=182
+[2026-03-15 07:44:44.302] [INFO    ] [db-cluster    ] [trc-890365] Connection acquired from connection pool latency_ms=31
+[2026-03-15 07:44:43.452] [INFO    ] [billing-svc   ] [trc-260187] Connection acquired from connection pool latency_ms=70
+[2026-03-15 07:44:41.171] [WARNING ] [billing-svc   ] [trc-211285] Downstream microservice response delayed, retry attempt scheduled latency_ms=209
+[2026-03-15 07:44:43.298] [ERROR   ] [worker-pool   ] [trc-687426] TLS socket abruptly terminated before payload completion latency_ms=657
+[2026-03-15 07:44:50.940] [INFO    ] [cache-redis   ] [trc-293076] Cache lookup returned positive hit for session key latency_ms=56
+[2026-03-15 07:44:42.328] [WARNING ] [db-cluster    ] [trc-291931] Disk buffer cache pressure elevated during concurrent writes latency_ms=252
+[2026-03-15 07:44:45.222] [INFO    ] [worker-pool   ] [trc-787959] Batch file chunk serialized successfully latency_ms=36
+[2026-03-15 07:44:53.400] [INFO    ] [cache-redis   ] [trc-857134] Scheduled garbage collection sweep finished latency_ms=36
+[2026-03-15 07:44:43.142] [INFO    ] [cache-redis   ] [trc-779219] Incoming HTTP request dispatched to worker handler latency_ms=39
+[2026-03-15 07:44:50.120] [INFO    ] [billing-svc   ] [trc-931502] Incoming HTTP request dispatched to worker handler latency_ms=35

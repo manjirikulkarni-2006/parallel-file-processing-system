@@ -1,0 +1,19 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00303
+# Generated: 2026-03-15T19:08:48
+# Records Count: 16
+[2026-03-15 19:08:48.000] [ERROR   ] [auth-service  ] [trc-656443] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=827
+[2026-03-15 19:08:48.598] [INFO    ] [worker-pool   ] [trc-135123] Worker heartbeat acknowledged by supervisor latency_ms=28
+[2026-03-15 19:08:48.786] [INFO    ] [billing-svc   ] [trc-976568] Batch file chunk serialized successfully latency_ms=6
+[2026-03-15 19:08:49.611] [INFO    ] [db-cluster    ] [trc-612547] Incoming HTTP request dispatched to worker handler latency_ms=26
+[2026-03-15 19:08:49.688] [INFO    ] [cache-redis   ] [trc-726103] Connection acquired from connection pool latency_ms=53
+[2026-03-15 19:08:50.405] [ERROR   ] [worker-pool   ] [trc-887112] Connection reset by peer while transmitting payload latency_ms=693
+[2026-03-15 19:08:51.384] [WARNING ] [worker-pool   ] [trc-704176] Thread pool saturation index approaching upper boundary latency_ms=212
+[2026-03-15 19:08:51.654] [WARNING ] [api-gateway   ] [trc-828114] Downstream microservice response delayed, retry attempt scheduled latency_ms=197
+[2026-03-15 19:08:52.904] [INFO    ] [worker-pool   ] [trc-902703] Batch file chunk serialized successfully latency_ms=43
+[2026-03-15 19:08:52.086] [ERROR   ] [billing-svc   ] [trc-950264] TLS socket abruptly terminated before payload completion latency_ms=1044
+[2026-03-15 19:08:50.990] [INFO    ] [cache-redis   ] [trc-438835] Batch file chunk serialized successfully latency_ms=11
+[2026-03-15 19:08:50.915] [INFO    ] [cache-redis   ] [trc-645915] Incoming HTTP request dispatched to worker handler latency_ms=18
+[2026-03-15 19:08:51.168] [INFO    ] [worker-pool   ] [trc-871556] Connection acquired from connection pool latency_ms=34
+[2026-03-15 19:08:57.178] [INFO    ] [cache-redis   ] [trc-461044] Batch file chunk serialized successfully latency_ms=59
+[2026-03-15 19:08:54.202] [INFO    ] [billing-svc   ] [trc-540884] Incoming HTTP request dispatched to worker handler latency_ms=52
+[2026-03-15 19:08:51.165] [WARNING ] [billing-svc   ] [trc-533804] Disk buffer cache pressure elevated during concurrent writes latency_ms=84

@@ -1,0 +1,32 @@
+{
+  "name": "os-parallel-file-processing-system",
+  "version": "1.0.0",
+  "description": "Operating Systems Course Project: Parallel File Processing System with CPU Scheduling and AI Insights",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node tests/test_scheduling.js",
+    "test:engine": "bash tests/test_engine.sh",
+    "test:results": "python3 tests/test_results.py",
+    "build:engine": "make",
+    "generate:datasets:small": "python3 scripts/generate_datasets.py --small",
+    "generate:datasets:full": "python3 scripts/generate_datasets.py --full",
+    "check:env": "bash scripts/check_environment.sh"
+  },
+  "keywords": [
+    "operating-systems",
+    "parallel-processing",
+    "ipc",
+    "pipes",
+    "shared-memory",
+    "cpu-scheduling",
+    "nlp-insights"
+  ],
+  "author": "OS Course Student",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "multer": "^2.5.0"
+  }
+}

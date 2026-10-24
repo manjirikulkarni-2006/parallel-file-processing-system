@@ -1,0 +1,29 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00909
+# Generated: 2026-03-15T10:09:51
+# Records Count: 26
+[2026-03-15 10:09:51.000] [INFO    ] [worker-pool   ] [trc-758953] Worker heartbeat acknowledged by supervisor latency_ms=24
+[2026-03-15 10:09:51.308] [INFO    ] [auth-service  ] [trc-805423] Incoming HTTP request dispatched to worker handler latency_ms=67
+[2026-03-15 10:09:51.748] [INFO    ] [auth-service  ] [trc-549017] TLS handshake completed with client agent latency_ms=34
+[2026-03-15 10:09:52.029] [INFO    ] [file-storage  ] [trc-179748] TLS handshake completed with client agent latency_ms=27
+[2026-03-15 10:09:52.836] [INFO    ] [db-cluster    ] [trc-901411] Incoming HTTP request dispatched to worker handler latency_ms=74
+[2026-03-15 10:09:52.350] [INFO    ] [cache-redis   ] [trc-209302] Scheduled garbage collection sweep finished latency_ms=65
+[2026-03-15 10:09:52.500] [INFO    ] [billing-svc   ] [trc-619072] Batch file chunk serialized successfully latency_ms=8
+[2026-03-15 10:09:55.501] [WARNING ] [file-storage  ] [trc-489479] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=443
+[2026-03-15 10:09:55.712] [WARNING ] [file-storage  ] [trc-564554] High memory consumption threshold reached (88% utilized) latency_ms=147
+[2026-03-15 10:09:57.192] [INFO    ] [billing-svc   ] [trc-657754] Batch file chunk serialized successfully latency_ms=66
+[2026-03-15 10:09:58.680] [INFO    ] [db-cluster    ] [trc-769283] Cache lookup returned positive hit for session key latency_ms=11
+[2026-03-15 10:09:56.379] [INFO    ] [db-cluster    ] [trc-619008] Connection acquired from connection pool latency_ms=52
+[2026-03-15 10:09:54.396] [INFO    ] [db-cluster    ] [trc-403375] Connection acquired from connection pool latency_ms=54
+[2026-03-15 10:09:55.784] [CRITICAL] [billing-svc   ] [trc-457991] Cascading failover triggered on primary cluster node; state recovery active latency_ms=5926
+[2026-03-15 10:09:55.998] [CRITICAL] [file-storage  ] [trc-374069] Database connection pool completely exhausted; dropping new client requests latency_ms=4278
+[2026-03-15 10:09:59.145] [CRITICAL] [cache-redis   ] [trc-298997] Database connection pool completely exhausted; dropping new client requests latency_ms=5489
+[2026-03-15 10:10:02.808] [ERROR   ] [worker-pool   ] [trc-363256] TLS socket abruptly terminated before payload completion latency_ms=5121
+[2026-03-15 10:09:56.627] [ERROR   ] [billing-svc   ] [trc-425757] Failed to write metadata block to distributed store latency_ms=5182
+[2026-03-15 10:10:01.530] [ERROR   ] [db-cluster    ] [trc-701085] TLS socket abruptly terminated before payload completion latency_ms=664
+[2026-03-15 10:09:55.788] [INFO    ] [api-gateway   ] [trc-289836] Worker heartbeat acknowledged by supervisor latency_ms=31
+[2026-03-15 10:10:05.700] [WARNING ] [worker-pool   ] [trc-224437] Thread pool saturation index approaching upper boundary latency_ms=155
+[2026-03-15 10:10:03.789] [INFO    ] [db-cluster    ] [trc-146563] Incoming HTTP request dispatched to worker handler latency_ms=43
+[2026-03-15 10:09:58.744] [ERROR   ] [billing-svc   ] [trc-120787] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=1488
+[2026-03-15 10:09:59.993] [INFO    ] [file-storage  ] [trc-168771] Worker heartbeat acknowledged by supervisor latency_ms=13
+[2026-03-15 10:10:06.264] [INFO    ] [api-gateway   ] [trc-935176] Scheduled garbage collection sweep finished latency_ms=16
+[2026-03-15 10:10:01.325] [WARNING ] [worker-pool   ] [trc-895431] Disk buffer cache pressure elevated during concurrent writes latency_ms=407

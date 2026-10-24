@@ -1,0 +1,20 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00791
+# Generated: 2026-03-15T18:50:43
+# Records Count: 17
+[2026-03-15 18:50:43.000] [INFO    ] [file-storage  ] [trc-620348] Scheduled garbage collection sweep finished latency_ms=8
+[2026-03-15 18:50:43.778] [INFO    ] [api-gateway   ] [trc-709945] Incoming HTTP request dispatched to worker handler latency_ms=62
+[2026-03-15 18:50:43.368] [INFO    ] [auth-service  ] [trc-730281] TLS handshake completed with client agent latency_ms=70
+[2026-03-15 18:50:43.564] [INFO    ] [cache-redis   ] [trc-811662] Scheduled garbage collection sweep finished latency_ms=36
+[2026-03-15 18:50:44.144] [INFO    ] [db-cluster    ] [trc-646420] Incoming HTTP request dispatched to worker handler latency_ms=16
+[2026-03-15 18:50:46.655] [WARNING ] [cache-redis   ] [trc-214287] Disk buffer cache pressure elevated during concurrent writes latency_ms=363
+[2026-03-15 18:50:45.058] [WARNING ] [db-cluster    ] [trc-612028] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=258
+[2026-03-15 18:50:47.088] [INFO    ] [billing-svc   ] [trc-621237] Cache lookup returned positive hit for session key latency_ms=48
+[2026-03-15 18:50:46.960] [INFO    ] [db-cluster    ] [trc-676269] TLS handshake completed with client agent latency_ms=5
+[2026-03-15 18:50:48.139] [INFO    ] [file-storage  ] [trc-154682] Cache lookup returned positive hit for session key latency_ms=8
+[2026-03-15 18:50:46.530] [ERROR   ] [file-storage  ] [trc-618778] Failed to write metadata block to distributed store latency_ms=1193
+[2026-03-15 18:50:48.731] [INFO    ] [cache-redis   ] [trc-698120] Connection acquired from connection pool latency_ms=30
+[2026-03-15 18:50:48.676] [INFO    ] [worker-pool   ] [trc-506113] Scheduled garbage collection sweep finished latency_ms=50
+[2026-03-15 18:50:47.862] [INFO    ] [cache-redis   ] [trc-666341] Batch file chunk serialized successfully latency_ms=21
+[2026-03-15 18:50:53.220] [INFO    ] [worker-pool   ] [trc-596623] Scheduled garbage collection sweep finished latency_ms=46
+[2026-03-15 18:50:52.120] [ERROR   ] [file-storage  ] [trc-300058] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=1338
+[2026-03-15 18:50:45.480] [INFO    ] [cache-redis   ] [trc-254650] Cache lookup returned positive hit for session key latency_ms=52

@@ -1,0 +1,26 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00942
+# Generated: 2026-03-15T20:47:11
+# Records Count: 23
+[2026-03-15 20:47:11.000] [INFO    ] [api-gateway   ] [trc-249777] Worker heartbeat acknowledged by supervisor latency_ms=31
+[2026-03-15 20:47:11.157] [ERROR   ] [worker-pool   ] [trc-652270] Connection reset by peer while transmitting payload latency_ms=1447
+[2026-03-15 20:47:11.694] [INFO    ] [auth-service  ] [trc-362669] Worker heartbeat acknowledged by supervisor latency_ms=41
+[2026-03-15 20:47:12.917] [WARNING ] [worker-pool   ] [trc-687222] Downstream microservice response delayed, retry attempt scheduled latency_ms=370
+[2026-03-15 20:47:12.064] [INFO    ] [file-storage  ] [trc-681677] TLS handshake completed with client agent latency_ms=62
+[2026-03-15 20:47:13.160] [INFO    ] [cache-redis   ] [trc-586414] Worker heartbeat acknowledged by supervisor latency_ms=27
+[2026-03-15 20:47:14.570] [INFO    ] [billing-svc   ] [trc-573061] Connection acquired from connection pool latency_ms=27
+[2026-03-15 20:47:16.523] [INFO    ] [api-gateway   ] [trc-651059] TLS handshake completed with client agent latency_ms=74
+[2026-03-15 20:47:14.328] [ERROR   ] [api-gateway   ] [trc-980220] Worker thread crashed with segmentation violation in foreign library latency_ms=988
+[2026-03-15 20:47:13.043] [WARNING ] [billing-svc   ] [trc-639188] Downstream microservice response delayed, retry attempt scheduled latency_ms=166
+[2026-03-15 20:47:15.620] [INFO    ] [api-gateway   ] [trc-172107] Scheduled garbage collection sweep finished latency_ms=52
+[2026-03-15 20:47:18.832] [ERROR   ] [file-storage  ] [trc-669167] Failed to write metadata block to distributed store latency_ms=1382
+[2026-03-15 20:47:19.052] [WARNING ] [cache-redis   ] [trc-677959] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=212
+[2026-03-15 20:47:20.425] [INFO    ] [api-gateway   ] [trc-965087] TLS handshake completed with client agent latency_ms=49
+[2026-03-15 20:47:18.714] [INFO    ] [billing-svc   ] [trc-527271] Batch file chunk serialized successfully latency_ms=75
+[2026-03-15 20:47:17.720] [INFO    ] [billing-svc   ] [trc-127510] Worker heartbeat acknowledged by supervisor latency_ms=6
+[2026-03-15 20:47:14.584] [INFO    ] [billing-svc   ] [trc-866509] Batch file chunk serialized successfully latency_ms=6
+[2026-03-15 20:47:15.471] [INFO    ] [billing-svc   ] [trc-629827] Cache lookup returned positive hit for session key latency_ms=12
+[2026-03-15 20:47:25.022] [INFO    ] [cache-redis   ] [trc-311331] Cache lookup returned positive hit for session key latency_ms=13
+[2026-03-15 20:47:19.360] [WARNING ] [worker-pool   ] [trc-782588] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=109
+[2026-03-15 20:47:26.280] [INFO    ] [api-gateway   ] [trc-804768] Connection acquired from connection pool latency_ms=37
+[2026-03-15 20:47:19.253] [INFO    ] [api-gateway   ] [trc-114867] Incoming HTTP request dispatched to worker handler latency_ms=38
+[2026-03-15 20:47:16.786] [INFO    ] [auth-service  ] [trc-782869] Incoming HTTP request dispatched to worker handler latency_ms=66

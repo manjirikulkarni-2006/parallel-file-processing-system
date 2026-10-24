@@ -1,0 +1,20 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00403
+# Generated: 2026-03-15T16:31:06
+# Records Count: 17
+[2026-03-15 16:31:06.000] [INFO    ] [cache-redis   ] [trc-558458] Connection acquired from connection pool latency_ms=48
+[2026-03-15 16:31:06.761] [INFO    ] [cache-redis   ] [trc-449005] Connection acquired from connection pool latency_ms=39
+[2026-03-15 16:31:07.056] [INFO    ] [cache-redis   ] [trc-149971] Worker heartbeat acknowledged by supervisor latency_ms=71
+[2026-03-15 16:31:08.340] [WARNING ] [worker-pool   ] [trc-626964] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=390
+[2026-03-15 16:31:07.676] [INFO    ] [file-storage  ] [trc-533067] Scheduled garbage collection sweep finished latency_ms=12
+[2026-03-15 16:31:09.855] [INFO    ] [file-storage  ] [trc-866524] Connection acquired from connection pool latency_ms=71
+[2026-03-15 16:31:08.946] [INFO    ] [worker-pool   ] [trc-828215] Incoming HTTP request dispatched to worker handler latency_ms=62
+[2026-03-15 16:31:11.208] [WARNING ] [auth-service  ] [trc-834850] Disk buffer cache pressure elevated during concurrent writes latency_ms=233
+[2026-03-15 16:31:08.992] [ERROR   ] [api-gateway   ] [trc-427398] Connection reset by peer while transmitting payload latency_ms=769
+[2026-03-15 16:31:08.808] [INFO    ] [api-gateway   ] [trc-473526] TLS handshake completed with client agent latency_ms=9
+[2026-03-15 16:31:13.430] [WARNING ] [db-cluster    ] [trc-585083] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=239
+[2026-03-15 16:31:09.256] [INFO    ] [file-storage  ] [trc-478251] Incoming HTTP request dispatched to worker handler latency_ms=44
+[2026-03-15 16:31:08.076] [INFO    ] [cache-redis   ] [trc-488031] TLS handshake completed with client agent latency_ms=67
+[2026-03-15 16:31:14.138] [INFO    ] [cache-redis   ] [trc-120692] Cache lookup returned positive hit for session key latency_ms=64
+[2026-03-15 16:31:14.274] [WARNING ] [db-cluster    ] [trc-953022] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=105
+[2026-03-15 16:31:15.195] [ERROR   ] [cache-redis   ] [trc-790907] TLS socket abruptly terminated before payload completion latency_ms=1331
+[2026-03-15 16:31:18.352] [INFO    ] [db-cluster    ] [trc-436038] TLS handshake completed with client agent latency_ms=5

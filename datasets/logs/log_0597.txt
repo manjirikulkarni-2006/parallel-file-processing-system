@@ -1,0 +1,18 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00597
+# Generated: 2026-03-15T13:25:32
+# Records Count: 15
+[2026-03-15 13:25:32.000] [WARNING ] [worker-pool   ] [trc-951299] Thread pool saturation index approaching upper boundary latency_ms=310
+[2026-03-15 13:25:32.474] [ERROR   ] [db-cluster    ] [trc-469673] TLS socket abruptly terminated before payload completion latency_ms=1422
+[2026-03-15 13:25:33.404] [INFO    ] [api-gateway   ] [trc-492413] Incoming HTTP request dispatched to worker handler latency_ms=29
+[2026-03-15 13:25:33.668] [WARNING ] [api-gateway   ] [trc-109434] Downstream microservice response delayed, retry attempt scheduled latency_ms=400
+[2026-03-15 13:25:34.380] [WARNING ] [billing-svc   ] [trc-121212] Downstream microservice response delayed, retry attempt scheduled latency_ms=135
+[2026-03-15 13:25:32.760] [ERROR   ] [api-gateway   ] [trc-201925] TLS socket abruptly terminated before payload completion latency_ms=849
+[2026-03-15 13:25:32.918] [WARNING ] [api-gateway   ] [trc-754708] Disk buffer cache pressure elevated during concurrent writes latency_ms=320
+[2026-03-15 13:25:34.261] [WARNING ] [db-cluster    ] [trc-384645] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=310
+[2026-03-15 13:25:34.032] [INFO    ] [db-cluster    ] [trc-577701] Connection acquired from connection pool latency_ms=6
+[2026-03-15 13:25:36.671] [ERROR   ] [file-storage  ] [trc-356514] Worker thread crashed with segmentation violation in foreign library latency_ms=1356
+[2026-03-15 13:25:36.190] [WARNING ] [api-gateway   ] [trc-487160] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=200
+[2026-03-15 13:25:40.173] [INFO    ] [db-cluster    ] [trc-372527] Scheduled garbage collection sweep finished latency_ms=64
+[2026-03-15 13:25:37.268] [INFO    ] [auth-service  ] [trc-781645] Worker heartbeat acknowledged by supervisor latency_ms=17
+[2026-03-15 13:25:42.257] [WARNING ] [cache-redis   ] [trc-709365] Disk buffer cache pressure elevated during concurrent writes latency_ms=331
+[2026-03-15 13:25:38.524] [INFO    ] [db-cluster    ] [trc-441827] Worker heartbeat acknowledged by supervisor latency_ms=42

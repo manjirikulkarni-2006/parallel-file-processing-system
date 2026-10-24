@@ -1,0 +1,18 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00869
+# Generated: 2026-03-15T16:44:30
+# Records Count: 15
+[2026-03-15 16:44:30.000] [INFO    ] [file-storage  ] [trc-225901] Incoming HTTP request dispatched to worker handler latency_ms=31
+[2026-03-15 16:44:30.460] [WARNING ] [cache-redis   ] [trc-308792] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=379
+[2026-03-15 16:44:31.156] [INFO    ] [db-cluster    ] [trc-424562] Connection acquired from connection pool latency_ms=19
+[2026-03-15 16:44:31.995] [INFO    ] [billing-svc   ] [trc-670185] Worker heartbeat acknowledged by supervisor latency_ms=24
+[2026-03-15 16:44:30.956] [INFO    ] [billing-svc   ] [trc-788439] Scheduled garbage collection sweep finished latency_ms=23
+[2026-03-15 16:44:30.995] [INFO    ] [cache-redis   ] [trc-111833] Incoming HTTP request dispatched to worker handler latency_ms=73
+[2026-03-15 16:44:33.636] [INFO    ] [billing-svc   ] [trc-806446] Scheduled garbage collection sweep finished latency_ms=61
+[2026-03-15 16:44:32.184] [INFO    ] [file-storage  ] [trc-938795] Worker heartbeat acknowledged by supervisor latency_ms=52
+[2026-03-15 16:44:34.896] [INFO    ] [file-storage  ] [trc-817891] TLS handshake completed with client agent latency_ms=7
+[2026-03-15 16:44:32.259] [INFO    ] [cache-redis   ] [trc-101537] Cache lookup returned positive hit for session key latency_ms=36
+[2026-03-15 16:44:32.130] [INFO    ] [worker-pool   ] [trc-652056] Batch file chunk serialized successfully latency_ms=68
+[2026-03-15 16:44:33.784] [INFO    ] [file-storage  ] [trc-605454] Batch file chunk serialized successfully latency_ms=42
+[2026-03-15 16:44:37.752] [WARNING ] [file-storage  ] [trc-932314] High memory consumption threshold reached (88% utilized) latency_ms=398
+[2026-03-15 16:44:38.502] [WARNING ] [worker-pool   ] [trc-248799] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=205
+[2026-03-15 16:44:37.266] [INFO    ] [api-gateway   ] [trc-273652] Connection acquired from connection pool latency_ms=33

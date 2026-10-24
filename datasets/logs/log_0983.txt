@@ -1,0 +1,29 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00983
+# Generated: 2026-03-15T19:16:51
+# Records Count: 26
+[2026-03-15 19:16:51.000] [ERROR   ] [db-cluster    ] [trc-489244] Worker thread crashed with segmentation violation in foreign library latency_ms=1218
+[2026-03-15 19:16:51.181] [INFO    ] [worker-pool   ] [trc-576653] Scheduled garbage collection sweep finished latency_ms=46
+[2026-03-15 19:16:51.798] [INFO    ] [cache-redis   ] [trc-380826] Cache lookup returned positive hit for session key latency_ms=54
+[2026-03-15 19:16:52.896] [INFO    ] [worker-pool   ] [trc-678051] Incoming HTTP request dispatched to worker handler latency_ms=24
+[2026-03-15 19:16:52.364] [WARNING ] [auth-service  ] [trc-461857] Thread pool saturation index approaching upper boundary latency_ms=409
+[2026-03-15 19:16:52.580] [INFO    ] [worker-pool   ] [trc-509992] Batch file chunk serialized successfully latency_ms=55
+[2026-03-15 19:16:55.056] [INFO    ] [db-cluster    ] [trc-962294] Cache lookup returned positive hit for session key latency_ms=73
+[2026-03-15 19:16:53.373] [ERROR   ] [db-cluster    ] [trc-979443] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=882
+[2026-03-15 19:16:53.920] [INFO    ] [file-storage  ] [trc-305112] Incoming HTTP request dispatched to worker handler latency_ms=6
+[2026-03-15 19:16:54.312] [INFO    ] [cache-redis   ] [trc-805028] Cache lookup returned positive hit for session key latency_ms=55
+[2026-03-15 19:16:55.270] [ERROR   ] [db-cluster    ] [trc-927951] Connection reset by peer while transmitting payload latency_ms=1145
+[2026-03-15 19:16:53.761] [WARNING ] [billing-svc   ] [trc-410557] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=222
+[2026-03-15 19:16:58.164] [INFO    ] [worker-pool   ] [trc-591503] Incoming HTTP request dispatched to worker handler latency_ms=12
+[2026-03-15 19:16:53.158] [CRITICAL] [worker-pool   ] [trc-528406] Database connection pool completely exhausted; dropping new client requests latency_ms=7790
+[2026-03-15 19:16:57.216] [ERROR   ] [db-cluster    ] [trc-408449] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=3585
+[2026-03-15 19:16:59.985] [CRITICAL] [billing-svc   ] [trc-155859] File descriptor limit reached for worker process; operating system rejecting socket creation latency_ms=3858
+[2026-03-15 19:17:02.072] [ERROR   ] [worker-pool   ] [trc-925340] Failed to write metadata block to distributed store latency_ms=5352
+[2026-03-15 19:16:55.743] [ERROR   ] [file-storage  ] [trc-546865] Failed to write metadata block to distributed store latency_ms=5657
+[2026-03-15 19:16:54.726] [INFO    ] [billing-svc   ] [trc-754089] Cache lookup returned positive hit for session key latency_ms=56
+[2026-03-15 19:16:57.080] [ERROR   ] [auth-service  ] [trc-662822] Worker thread crashed with segmentation violation in foreign library latency_ms=1249
+[2026-03-15 19:16:54.560] [WARNING ] [db-cluster    ] [trc-468575] Disk buffer cache pressure elevated during concurrent writes latency_ms=229
+[2026-03-15 19:16:59.211] [INFO    ] [api-gateway   ] [trc-132328] TLS handshake completed with client agent latency_ms=9
+[2026-03-15 19:17:00.482] [INFO    ] [file-storage  ] [trc-521949] Cache lookup returned positive hit for session key latency_ms=66
+[2026-03-15 19:16:58.705] [INFO    ] [auth-service  ] [trc-910835] Worker heartbeat acknowledged by supervisor latency_ms=56
+[2026-03-15 19:17:01.680] [WARNING ] [db-cluster    ] [trc-709892] High memory consumption threshold reached (88% utilized) latency_ms=82
+[2026-03-15 19:17:10.500] [INFO    ] [worker-pool   ] [trc-623832] Worker heartbeat acknowledged by supervisor latency_ms=19

@@ -1,0 +1,22 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00494
+# Generated: 2026-03-15T16:14:48
+# Records Count: 19
+[2026-03-15 16:14:48.000] [INFO    ] [api-gateway   ] [trc-427351] Connection acquired from connection pool latency_ms=22
+[2026-03-15 16:14:48.638] [INFO    ] [billing-svc   ] [trc-406711] Batch file chunk serialized successfully latency_ms=50
+[2026-03-15 16:14:49.002] [INFO    ] [file-storage  ] [trc-439448] Cache lookup returned positive hit for session key latency_ms=51
+[2026-03-15 16:14:50.169] [INFO    ] [api-gateway   ] [trc-273536] TLS handshake completed with client agent latency_ms=36
+[2026-03-15 16:14:49.092] [INFO    ] [api-gateway   ] [trc-632391] Cache lookup returned positive hit for session key latency_ms=40
+[2026-03-15 16:14:51.495] [WARNING ] [billing-svc   ] [trc-125024] High memory consumption threshold reached (88% utilized) latency_ms=209
+[2026-03-15 16:14:50.346] [INFO    ] [billing-svc   ] [trc-641279] Connection acquired from connection pool latency_ms=65
+[2026-03-15 16:14:50.660] [WARNING ] [db-cluster    ] [trc-766652] Downstream microservice response delayed, retry attempt scheduled latency_ms=376
+[2026-03-15 16:14:49.576] [INFO    ] [file-storage  ] [trc-701055] Cache lookup returned positive hit for session key latency_ms=68
+[2026-03-15 16:14:50.187] [WARNING ] [file-storage  ] [trc-772505] High memory consumption threshold reached (88% utilized) latency_ms=449
+[2026-03-15 16:14:51.560] [INFO    ] [cache-redis   ] [trc-251253] Incoming HTTP request dispatched to worker handler latency_ms=57
+[2026-03-15 16:14:51.333] [INFO    ] [api-gateway   ] [trc-857352] Batch file chunk serialized successfully latency_ms=17
+[2026-03-15 16:14:52.644] [INFO    ] [auth-service  ] [trc-468151] Connection acquired from connection pool latency_ms=36
+[2026-03-15 16:14:56.229] [WARNING ] [api-gateway   ] [trc-276972] Downstream microservice response delayed, retry attempt scheduled latency_ms=244
+[2026-03-15 16:14:55.070] [WARNING ] [cache-redis   ] [trc-961808] Thread pool saturation index approaching upper boundary latency_ms=177
+[2026-03-15 16:14:54.705] [INFO    ] [billing-svc   ] [trc-676086] Cache lookup returned positive hit for session key latency_ms=19
+[2026-03-15 16:14:56.176] [INFO    ] [db-cluster    ] [trc-576486] Worker heartbeat acknowledged by supervisor latency_ms=12
+[2026-03-15 16:14:58.370] [INFO    ] [worker-pool   ] [trc-691979] Scheduled garbage collection sweep finished latency_ms=29
+[2026-03-15 16:15:02.094] [INFO    ] [cache-redis   ] [trc-549607] Connection acquired from connection pool latency_ms=73

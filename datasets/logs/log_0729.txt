@@ -1,0 +1,19 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00729
+# Generated: 2026-03-15T02:42:37
+# Records Count: 16
+[2026-03-15 02:42:37.000] [INFO    ] [auth-service  ] [trc-762790] TLS handshake completed with client agent latency_ms=48
+[2026-03-15 02:42:37.711] [INFO    ] [db-cluster    ] [trc-990906] Batch file chunk serialized successfully latency_ms=25
+[2026-03-15 02:42:38.070] [INFO    ] [auth-service  ] [trc-459544] Batch file chunk serialized successfully latency_ms=58
+[2026-03-15 02:42:37.927] [ERROR   ] [auth-service  ] [trc-694990] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=1013
+[2026-03-15 02:42:38.264] [INFO    ] [worker-pool   ] [trc-637680] Incoming HTTP request dispatched to worker handler latency_ms=75
+[2026-03-15 02:42:38.450] [ERROR   ] [worker-pool   ] [trc-438827] Worker thread crashed with segmentation violation in foreign library latency_ms=732
+[2026-03-15 02:42:40.624] [WARNING ] [auth-service  ] [trc-394688] High memory consumption threshold reached (88% utilized) latency_ms=108
+[2026-03-15 02:42:42.411] [WARNING ] [auth-service  ] [trc-817657] Disk buffer cache pressure elevated during concurrent writes latency_ms=291
+[2026-03-15 02:42:43.376] [INFO    ] [billing-svc   ] [trc-790391] Connection acquired from connection pool latency_ms=73
+[2026-03-15 02:42:38.404] [INFO    ] [db-cluster    ] [trc-139207] TLS handshake completed with client agent latency_ms=63
+[2026-03-15 02:42:39.200] [INFO    ] [file-storage  ] [trc-649173] Worker heartbeat acknowledged by supervisor latency_ms=45
+[2026-03-15 02:42:44.766] [WARNING ] [billing-svc   ] [trc-821963] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=315
+[2026-03-15 02:42:46.012] [INFO    ] [billing-svc   ] [trc-316017] Connection acquired from connection pool latency_ms=47
+[2026-03-15 02:42:43.708] [INFO    ] [file-storage  ] [trc-197881] Cache lookup returned positive hit for session key latency_ms=29
+[2026-03-15 02:42:42.852] [ERROR   ] [file-storage  ] [trc-866777] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=1457
+[2026-03-15 02:42:40.135] [INFO    ] [file-storage  ] [trc-969807] Connection acquired from connection pool latency_ms=69

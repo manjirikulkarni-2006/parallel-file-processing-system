@@ -1,0 +1,22 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00745
+# Generated: 2026-03-15T17:12:55
+# Records Count: 19
+[2026-03-15 17:12:55.000] [WARNING ] [billing-svc   ] [trc-261952] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=446
+[2026-03-15 17:12:55.434] [INFO    ] [api-gateway   ] [trc-499457] Batch file chunk serialized successfully latency_ms=30
+[2026-03-15 17:12:56.340] [INFO    ] [billing-svc   ] [trc-816628] TLS handshake completed with client agent latency_ms=6
+[2026-03-15 17:12:56.452] [INFO    ] [db-cluster    ] [trc-169690] Batch file chunk serialized successfully latency_ms=26
+[2026-03-15 17:12:56.108] [ERROR   ] [db-cluster    ] [trc-818527] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=690
+[2026-03-15 17:12:57.935] [INFO    ] [file-storage  ] [trc-254514] Scheduled garbage collection sweep finished latency_ms=33
+[2026-03-15 17:12:57.412] [INFO    ] [api-gateway   ] [trc-255242] Batch file chunk serialized successfully latency_ms=66
+[2026-03-15 17:12:58.738] [ERROR   ] [cache-redis   ] [trc-622752] Failed to write metadata block to distributed store latency_ms=1333
+[2026-03-15 17:12:59.784] [INFO    ] [file-storage  ] [trc-663383] Worker heartbeat acknowledged by supervisor latency_ms=7
+[2026-03-15 17:12:56.368] [CRITICAL] [billing-svc   ] [trc-627881] Cascading failover triggered on primary cluster node; state recovery active latency_ms=7704
+[2026-03-15 17:12:59.350] [CRITICAL] [file-storage  ] [trc-491459] File descriptor limit reached for worker process; operating system rejecting socket creation latency_ms=8368
+[2026-03-15 17:13:02.854] [ERROR   ] [api-gateway   ] [trc-320369] Failed to write metadata block to distributed store latency_ms=4026
+[2026-03-15 17:12:58.864] [CRITICAL] [worker-pool   ] [trc-696793] Cascading failover triggered on primary cluster node; state recovery active latency_ms=4857
+[2026-03-15 17:13:04.711] [CRITICAL] [file-storage  ] [trc-125843] Authentication burst anomaly: 120 failed auth tokens within 10 seconds from subnet 198.51.100.0/24 latency_ms=5251
+[2026-03-15 17:13:03.120] [INFO    ] [api-gateway   ] [trc-426860] Scheduled garbage collection sweep finished latency_ms=71
+[2026-03-15 17:12:57.370] [ERROR   ] [worker-pool   ] [trc-174269] TLS socket abruptly terminated before payload completion latency_ms=1106
+[2026-03-15 17:13:02.808] [WARNING ] [cache-redis   ] [trc-800971] Thread pool saturation index approaching upper boundary latency_ms=326
+[2026-03-15 17:13:06.526] [ERROR   ] [cache-redis   ] [trc-925958] Worker thread crashed with segmentation violation in foreign library latency_ms=563
+[2026-03-15 17:13:02.992] [INFO    ] [cache-redis   ] [trc-833263] Batch file chunk serialized successfully latency_ms=50

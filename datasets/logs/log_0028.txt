@@ -1,0 +1,22 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00028
+# Generated: 2026-03-15T17:18:50
+# Records Count: 19
+[2026-03-15 17:18:50.000] [INFO    ] [billing-svc   ] [trc-934259] Connection acquired from connection pool latency_ms=70
+[2026-03-15 17:18:50.748] [WARNING ] [db-cluster    ] [trc-319401] Thread pool saturation index approaching upper boundary latency_ms=419
+[2026-03-15 17:18:51.558] [INFO    ] [api-gateway   ] [trc-275566] Scheduled garbage collection sweep finished latency_ms=70
+[2026-03-15 17:18:51.599] [INFO    ] [db-cluster    ] [trc-644098] Cache lookup returned positive hit for session key latency_ms=52
+[2026-03-15 17:18:52.752] [WARNING ] [billing-svc   ] [trc-606773] Thread pool saturation index approaching upper boundary latency_ms=322
+[2026-03-15 17:18:52.120] [INFO    ] [file-storage  ] [trc-520422] Scheduled garbage collection sweep finished latency_ms=9
+[2026-03-15 17:18:52.172] [INFO    ] [auth-service  ] [trc-312861] Connection acquired from connection pool latency_ms=55
+[2026-03-15 17:18:52.611] [ERROR   ] [worker-pool   ] [trc-545668] TLS socket abruptly terminated before payload completion latency_ms=660
+[2026-03-15 17:18:54.264] [INFO    ] [worker-pool   ] [trc-677295] Scheduled garbage collection sweep finished latency_ms=15
+[2026-03-15 17:18:54.068] [INFO    ] [db-cluster    ] [trc-644022] Worker heartbeat acknowledged by supervisor latency_ms=10
+[2026-03-15 17:18:56.260] [INFO    ] [file-storage  ] [trc-751297] Batch file chunk serialized successfully latency_ms=64
+[2026-03-15 17:18:56.512] [WARNING ] [db-cluster    ] [trc-485364] Downstream microservice response delayed, retry attempt scheduled latency_ms=219
+[2026-03-15 17:18:56.492] [INFO    ] [api-gateway   ] [trc-288288] Cache lookup returned positive hit for session key latency_ms=14
+[2026-03-15 17:18:56.721] [WARNING ] [api-gateway   ] [trc-408824] Disk buffer cache pressure elevated during concurrent writes latency_ms=359
+[2026-03-15 17:18:53.220] [ERROR   ] [cache-redis   ] [trc-389852] Connection reset by peer while transmitting payload latency_ms=621
+[2026-03-15 17:18:53.345] [INFO    ] [worker-pool   ] [trc-140140] Cache lookup returned positive hit for session key latency_ms=30
+[2026-03-15 17:18:57.792] [WARNING ] [worker-pool   ] [trc-417420] Downstream microservice response delayed, retry attempt scheduled latency_ms=177
+[2026-03-15 17:19:03.056] [WARNING ] [auth-service  ] [trc-996531] Disk buffer cache pressure elevated during concurrent writes latency_ms=213
+[2026-03-15 17:18:52.844] [INFO    ] [cache-redis   ] [trc-414021] Cache lookup returned positive hit for session key latency_ms=56

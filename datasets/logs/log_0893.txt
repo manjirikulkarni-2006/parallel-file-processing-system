@@ -1,0 +1,20 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00893
+# Generated: 2026-03-15T16:32:26
+# Records Count: 17
+[2026-03-15 16:32:26.000] [WARNING ] [db-cluster    ] [trc-837335] Downstream microservice response delayed, retry attempt scheduled latency_ms=182
+[2026-03-15 16:32:26.253] [INFO    ] [auth-service  ] [trc-314594] Cache lookup returned positive hit for session key latency_ms=67
+[2026-03-15 16:32:27.276] [WARNING ] [worker-pool   ] [trc-988832] High memory consumption threshold reached (88% utilized) latency_ms=137
+[2026-03-15 16:32:27.236] [INFO    ] [billing-svc   ] [trc-992786] TLS handshake completed with client agent latency_ms=39
+[2026-03-15 16:32:27.104] [INFO    ] [cache-redis   ] [trc-531391] TLS handshake completed with client agent latency_ms=33
+[2026-03-15 16:32:26.945] [ERROR   ] [cache-redis   ] [trc-997683] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=1214
+[2026-03-15 16:32:27.380] [INFO    ] [auth-service  ] [trc-308171] Connection acquired from connection pool latency_ms=61
+[2026-03-15 16:32:29.633] [INFO    ] [billing-svc   ] [trc-969716] Worker heartbeat acknowledged by supervisor latency_ms=22
+[2026-03-15 16:32:29.432] [INFO    ] [cache-redis   ] [trc-407557] TLS handshake completed with client agent latency_ms=31
+[2026-03-15 16:32:31.805] [INFO    ] [auth-service  ] [trc-255097] TLS handshake completed with client agent latency_ms=10
+[2026-03-15 16:32:28.440] [INFO    ] [cache-redis   ] [trc-984275] Worker heartbeat acknowledged by supervisor latency_ms=9
+[2026-03-15 16:32:28.244] [INFO    ] [billing-svc   ] [trc-437871] Batch file chunk serialized successfully latency_ms=59
+[2026-03-15 16:32:29.012] [WARNING ] [auth-service  ] [trc-133578] Disk buffer cache pressure elevated during concurrent writes latency_ms=133
+[2026-03-15 16:32:33.748] [INFO    ] [db-cluster    ] [trc-613017] Scheduled garbage collection sweep finished latency_ms=21
+[2026-03-15 16:32:28.450] [INFO    ] [billing-svc   ] [trc-627725] Batch file chunk serialized successfully latency_ms=39
+[2026-03-15 16:32:37.115] [ERROR   ] [auth-service  ] [trc-820645] Connection reset by peer while transmitting payload latency_ms=889
+[2026-03-15 16:32:36.000] [INFO    ] [auth-service  ] [trc-838102] Worker heartbeat acknowledged by supervisor latency_ms=20

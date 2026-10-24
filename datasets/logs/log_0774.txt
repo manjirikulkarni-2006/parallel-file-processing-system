@@ -1,0 +1,25 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00774
+# Generated: 2026-03-15T12:03:00
+# Records Count: 22
+[2026-03-15 12:03:00.000] [INFO    ] [worker-pool   ] [trc-712679] Batch file chunk serialized successfully latency_ms=10
+[2026-03-15 12:03:00.548] [WARNING ] [api-gateway   ] [trc-284128] Downstream microservice response delayed, retry attempt scheduled latency_ms=268
+[2026-03-15 12:03:01.022] [INFO    ] [api-gateway   ] [trc-707547] Incoming HTTP request dispatched to worker handler latency_ms=33
+[2026-03-15 12:03:00.840] [INFO    ] [auth-service  ] [trc-777171] Batch file chunk serialized successfully latency_ms=47
+[2026-03-15 12:03:00.772] [INFO    ] [file-storage  ] [trc-667198] Batch file chunk serialized successfully latency_ms=11
+[2026-03-15 12:03:03.955] [INFO    ] [billing-svc   ] [trc-472097] TLS handshake completed with client agent latency_ms=42
+[2026-03-15 12:03:04.578] [INFO    ] [billing-svc   ] [trc-866443] Cache lookup returned positive hit for session key latency_ms=61
+[2026-03-15 12:03:04.963] [INFO    ] [cache-redis   ] [trc-678037] Incoming HTTP request dispatched to worker handler latency_ms=38
+[2026-03-15 12:03:06.360] [INFO    ] [auth-service  ] [trc-470744] Incoming HTTP request dispatched to worker handler latency_ms=10
+[2026-03-15 12:03:03.915] [INFO    ] [cache-redis   ] [trc-848543] Scheduled garbage collection sweep finished latency_ms=20
+[2026-03-15 12:03:04.730] [WARNING ] [file-storage  ] [trc-284898] Downstream microservice response delayed, retry attempt scheduled latency_ms=193
+[2026-03-15 12:03:06.061] [ERROR   ] [worker-pool   ] [trc-555085] Worker thread crashed with segmentation violation in foreign library latency_ms=7992
+[2026-03-15 12:03:06.564] [ERROR   ] [file-storage  ] [trc-606264] Worker thread crashed with segmentation violation in foreign library latency_ms=5668
+[2026-03-15 12:03:04.992] [CRITICAL] [api-gateway   ] [trc-257328] Database connection pool completely exhausted; dropping new client requests latency_ms=4139
+[2026-03-15 12:03:08.680] [CRITICAL] [billing-svc   ] [trc-423040] File descriptor limit reached for worker process; operating system rejecting socket creation latency_ms=4384
+[2026-03-15 12:03:11.865] [CRITICAL] [file-storage  ] [trc-448271] Database connection pool completely exhausted; dropping new client requests latency_ms=6559
+[2026-03-15 12:03:06.688] [INFO    ] [api-gateway   ] [trc-381192] Scheduled garbage collection sweep finished latency_ms=44
+[2026-03-15 12:03:08.636] [INFO    ] [billing-svc   ] [trc-858343] Scheduled garbage collection sweep finished latency_ms=73
+[2026-03-15 12:03:05.130] [INFO    ] [worker-pool   ] [trc-420943] Scheduled garbage collection sweep finished latency_ms=26
+[2026-03-15 12:03:04.256] [INFO    ] [worker-pool   ] [trc-815377] Batch file chunk serialized successfully latency_ms=65
+[2026-03-15 12:03:14.500] [WARNING ] [cache-redis   ] [trc-179741] Downstream microservice response delayed, retry attempt scheduled latency_ms=184
+[2026-03-15 12:03:16.107] [INFO    ] [billing-svc   ] [trc-337082] Cache lookup returned positive hit for session key latency_ms=61

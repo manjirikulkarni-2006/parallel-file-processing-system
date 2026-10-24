@@ -1,0 +1,18 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00944
+# Generated: 2026-03-15T00:40:59
+# Records Count: 15
+[2026-03-15 00:40:59.000] [INFO    ] [file-storage  ] [trc-997078] TLS handshake completed with client agent latency_ms=27
+[2026-03-15 00:40:59.530] [WARNING ] [worker-pool   ] [trc-430486] Disk buffer cache pressure elevated during concurrent writes latency_ms=230
+[2026-03-15 00:41:00.240] [WARNING ] [file-storage  ] [trc-729511] Thread pool saturation index approaching upper boundary latency_ms=163
+[2026-03-15 00:41:00.875] [WARNING ] [billing-svc   ] [trc-641598] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=428
+[2026-03-15 00:41:01.460] [INFO    ] [cache-redis   ] [trc-272175] Scheduled garbage collection sweep finished latency_ms=72
+[2026-03-15 00:41:02.080] [INFO    ] [worker-pool   ] [trc-496058] Connection acquired from connection pool latency_ms=48
+[2026-03-15 00:41:02.576] [INFO    ] [db-cluster    ] [trc-969749] Connection acquired from connection pool latency_ms=15
+[2026-03-15 00:41:01.989] [CRITICAL] [auth-service  ] [trc-504034] Authentication burst anomaly: 120 failed auth tokens within 10 seconds from subnet 198.51.100.0/24 latency_ms=7809
+[2026-03-15 00:41:03.792] [CRITICAL] [api-gateway   ] [trc-898200] Database connection pool completely exhausted; dropping new client requests latency_ms=6065
+[2026-03-15 00:41:04.769] [CRITICAL] [db-cluster    ] [trc-351187] Authentication burst anomaly: 120 failed auth tokens within 10 seconds from subnet 198.51.100.0/24 latency_ms=7991
+[2026-03-15 00:41:02.180] [CRITICAL] [worker-pool   ] [trc-933495] Authentication burst anomaly: 120 failed auth tokens within 10 seconds from subnet 198.51.100.0/24 latency_ms=6504
+[2026-03-15 00:41:06.315] [CRITICAL] [api-gateway   ] [trc-641813] Cascading failover triggered on primary cluster node; state recovery active latency_ms=6561
+[2026-03-15 00:41:04.256] [WARNING ] [auth-service  ] [trc-514686] Disk buffer cache pressure elevated during concurrent writes latency_ms=325
+[2026-03-15 00:41:05.851] [INFO    ] [api-gateway   ] [trc-105279] Batch file chunk serialized successfully latency_ms=22
+[2026-03-15 00:41:06.770] [INFO    ] [file-storage  ] [trc-277661] Worker heartbeat acknowledged by supervisor latency_ms=44

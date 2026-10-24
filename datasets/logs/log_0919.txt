@@ -1,0 +1,18 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00919
+# Generated: 2026-03-15T05:35:21
+# Records Count: 15
+[2026-03-15 05:35:21.000] [INFO    ] [worker-pool   ] [trc-514477] Cache lookup returned positive hit for session key latency_ms=19
+[2026-03-15 05:35:21.706] [ERROR   ] [file-storage  ] [trc-120192] Worker thread crashed with segmentation violation in foreign library latency_ms=952
+[2026-03-15 05:35:21.646] [INFO    ] [auth-service  ] [trc-999447] Connection acquired from connection pool latency_ms=71
+[2026-03-15 05:35:23.085] [ERROR   ] [cache-redis   ] [trc-571870] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=1487
+[2026-03-15 05:35:23.952] [WARNING ] [auth-service  ] [trc-718120] Disk buffer cache pressure elevated during concurrent writes latency_ms=109
+[2026-03-15 05:35:23.760] [INFO    ] [file-storage  ] [trc-240400] Connection acquired from connection pool latency_ms=51
+[2026-03-15 05:35:23.916] [INFO    ] [api-gateway   ] [trc-974178] Worker heartbeat acknowledged by supervisor latency_ms=20
+[2026-03-15 05:35:24.640] [INFO    ] [file-storage  ] [trc-802708] Batch file chunk serialized successfully latency_ms=42
+[2026-03-15 05:35:27.136] [WARNING ] [billing-svc   ] [trc-303072] Disk buffer cache pressure elevated during concurrent writes latency_ms=110
+[2026-03-15 05:35:27.237] [INFO    ] [worker-pool   ] [trc-125457] Incoming HTTP request dispatched to worker handler latency_ms=8
+[2026-03-15 05:35:27.920] [WARNING ] [billing-svc   ] [trc-713735] High memory consumption threshold reached (88% utilized) latency_ms=247
+[2026-03-15 05:35:28.216] [ERROR   ] [auth-service  ] [trc-251139] TLS socket abruptly terminated before payload completion latency_ms=931
+[2026-03-15 05:35:30.360] [ERROR   ] [auth-service  ] [trc-684559] Connection reset by peer while transmitting payload latency_ms=1488
+[2026-03-15 05:35:25.186] [INFO    ] [api-gateway   ] [trc-125432] Incoming HTTP request dispatched to worker handler latency_ms=71
+[2026-03-15 05:35:27.650] [WARNING ] [file-storage  ] [trc-269461] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=323

@@ -1,0 +1,21 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00164
+# Generated: 2026-03-15T23:47:51
+# Records Count: 18
+[2026-03-15 23:47:51.000] [WARNING ] [worker-pool   ] [trc-384424] Disk buffer cache pressure elevated during concurrent writes latency_ms=280
+[2026-03-15 23:47:51.524] [INFO    ] [auth-service  ] [trc-731533] Batch file chunk serialized successfully latency_ms=11
+[2026-03-15 23:47:52.306] [INFO    ] [cache-redis   ] [trc-595761] Cache lookup returned positive hit for session key latency_ms=6
+[2026-03-15 23:47:53.253] [WARNING ] [auth-service  ] [trc-969138] Downstream microservice response delayed, retry attempt scheduled latency_ms=243
+[2026-03-15 23:47:52.876] [INFO    ] [api-gateway   ] [trc-665786] Incoming HTTP request dispatched to worker handler latency_ms=36
+[2026-03-15 23:47:54.840] [INFO    ] [cache-redis   ] [trc-846421] Connection acquired from connection pool latency_ms=15
+[2026-03-15 23:47:55.212] [INFO    ] [api-gateway   ] [trc-814051] Batch file chunk serialized successfully latency_ms=55
+[2026-03-15 23:47:53.198] [WARNING ] [cache-redis   ] [trc-874284] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=343
+[2026-03-15 23:47:55.240] [INFO    ] [cache-redis   ] [trc-670412] TLS handshake completed with client agent latency_ms=40
+[2026-03-15 23:47:58.137] [INFO    ] [billing-svc   ] [trc-879871] Batch file chunk serialized successfully latency_ms=73
+[2026-03-15 23:47:58.030] [INFO    ] [api-gateway   ] [trc-258913] Connection acquired from connection pool latency_ms=48
+[2026-03-15 23:47:53.662] [INFO    ] [db-cluster    ] [trc-396206] TLS handshake completed with client agent latency_ms=31
+[2026-03-15 23:47:55.296] [INFO    ] [billing-svc   ] [trc-348229] Batch file chunk serialized successfully latency_ms=21
+[2026-03-15 23:47:55.602] [INFO    ] [api-gateway   ] [trc-299096] Batch file chunk serialized successfully latency_ms=43
+[2026-03-15 23:47:56.866] [INFO    ] [cache-redis   ] [trc-121668] Worker heartbeat acknowledged by supervisor latency_ms=11
+[2026-03-15 23:47:59.880] [INFO    ] [db-cluster    ] [trc-144639] Worker heartbeat acknowledged by supervisor latency_ms=66
+[2026-03-15 23:47:54.088] [INFO    ] [file-storage  ] [trc-276357] TLS handshake completed with client agent latency_ms=20
+[2026-03-15 23:48:03.971] [INFO    ] [billing-svc   ] [trc-745014] Scheduled garbage collection sweep finished latency_ms=41

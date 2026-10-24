@@ -1,0 +1,28 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00316
+# Generated: 2026-03-15T11:28:43
+# Records Count: 25
+[2026-03-15 11:28:43.000] [INFO    ] [billing-svc   ] [trc-943606] Cache lookup returned positive hit for session key latency_ms=28
+[2026-03-15 11:28:43.245] [INFO    ] [api-gateway   ] [trc-395671] Batch file chunk serialized successfully latency_ms=9
+[2026-03-15 11:28:43.764] [INFO    ] [billing-svc   ] [trc-496845] Connection acquired from connection pool latency_ms=55
+[2026-03-15 11:28:45.091] [WARNING ] [db-cluster    ] [trc-668349] Downstream microservice response delayed, retry attempt scheduled latency_ms=170
+[2026-03-15 11:28:43.664] [WARNING ] [cache-redis   ] [trc-884417] Downstream microservice response delayed, retry attempt scheduled latency_ms=316
+[2026-03-15 11:28:45.445] [INFO    ] [billing-svc   ] [trc-756255] Worker heartbeat acknowledged by supervisor latency_ms=36
+[2026-03-15 11:28:46.162] [WARNING ] [billing-svc   ] [trc-627400] Downstream microservice response delayed, retry attempt scheduled latency_ms=308
+[2026-03-15 11:28:47.452] [INFO    ] [api-gateway   ] [trc-501938] TLS handshake completed with client agent latency_ms=36
+[2026-03-15 11:28:49.024] [INFO    ] [auth-service  ] [trc-651786] Connection acquired from connection pool latency_ms=11
+[2026-03-15 11:28:45.727] [INFO    ] [worker-pool   ] [trc-425568] Scheduled garbage collection sweep finished latency_ms=58
+[2026-03-15 11:28:49.350] [INFO    ] [file-storage  ] [trc-403889] Batch file chunk serialized successfully latency_ms=62
+[2026-03-15 11:28:50.557] [INFO    ] [billing-svc   ] [trc-931632] Scheduled garbage collection sweep finished latency_ms=71
+[2026-03-15 11:28:50.128] [CRITICAL] [auth-service  ] [trc-852436] Database connection pool completely exhausted; dropping new client requests latency_ms=5341
+[2026-03-15 11:28:52.581] [ERROR   ] [worker-pool   ] [trc-748439] Worker thread crashed with segmentation violation in foreign library latency_ms=8298
+[2026-03-15 11:28:47.032] [CRITICAL] [billing-svc   ] [trc-167783] Authentication burst anomaly: 120 failed auth tokens within 10 seconds from subnet 198.51.100.0/24 latency_ms=7089
+[2026-03-15 11:28:47.905] [CRITICAL] [auth-service  ] [trc-763284] Database connection pool completely exhausted; dropping new client requests latency_ms=4215
+[2026-03-15 11:28:55.528] [CRITICAL] [worker-pool   ] [trc-583001] File descriptor limit reached for worker process; operating system rejecting socket creation latency_ms=8177
+[2026-03-15 11:28:52.894] [INFO    ] [auth-service  ] [trc-520508] Worker heartbeat acknowledged by supervisor latency_ms=53
+[2026-03-15 11:28:52.198] [ERROR   ] [worker-pool   ] [trc-902989] TLS socket abruptly terminated before payload completion latency_ms=1398
+[2026-03-15 11:28:55.445] [INFO    ] [billing-svc   ] [trc-587342] TLS handshake completed with client agent latency_ms=66
+[2026-03-15 11:28:57.340] [INFO    ] [billing-svc   ] [trc-762346] Scheduled garbage collection sweep finished latency_ms=22
+[2026-03-15 11:28:46.570] [WARNING ] [api-gateway   ] [trc-676864] High memory consumption threshold reached (88% utilized) latency_ms=91
+[2026-03-15 11:28:46.960] [INFO    ] [api-gateway   ] [trc-878415] Worker heartbeat acknowledged by supervisor latency_ms=57
+[2026-03-15 11:28:56.248] [INFO    ] [file-storage  ] [trc-160511] Cache lookup returned positive hit for session key latency_ms=15
+[2026-03-15 11:28:54.496] [INFO    ] [db-cluster    ] [trc-439070] Incoming HTTP request dispatched to worker handler latency_ms=37

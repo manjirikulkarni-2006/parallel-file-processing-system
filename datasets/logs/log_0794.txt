@@ -1,0 +1,28 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00794
+# Generated: 2026-03-15T21:04:43
+# Records Count: 25
+[2026-03-15 21:04:43.000] [WARNING ] [file-storage  ] [trc-712361] Disk buffer cache pressure elevated during concurrent writes latency_ms=187
+[2026-03-15 21:04:43.614] [INFO    ] [billing-svc   ] [trc-928006] Cache lookup returned positive hit for session key latency_ms=28
+[2026-03-15 21:04:43.606] [INFO    ] [auth-service  ] [trc-465068] Cache lookup returned positive hit for session key latency_ms=15
+[2026-03-15 21:04:44.419] [INFO    ] [cache-redis   ] [trc-228903] Batch file chunk serialized successfully latency_ms=47
+[2026-03-15 21:04:44.748] [INFO    ] [api-gateway   ] [trc-955271] Batch file chunk serialized successfully latency_ms=50
+[2026-03-15 21:04:46.380] [ERROR   ] [worker-pool   ] [trc-642950] TLS socket abruptly terminated before payload completion latency_ms=1280
+[2026-03-15 21:04:45.304] [INFO    ] [worker-pool   ] [trc-498818] Cache lookup returned positive hit for session key latency_ms=73
+[2026-03-15 21:04:44.414] [INFO    ] [worker-pool   ] [trc-218378] Scheduled garbage collection sweep finished latency_ms=14
+[2026-03-15 21:04:44.760] [INFO    ] [api-gateway   ] [trc-902453] Worker heartbeat acknowledged by supervisor latency_ms=5
+[2026-03-15 21:04:46.024] [INFO    ] [cache-redis   ] [trc-627076] Cache lookup returned positive hit for session key latency_ms=50
+[2026-03-15 21:04:47.240] [INFO    ] [auth-service  ] [trc-477269] TLS handshake completed with client agent latency_ms=36
+[2026-03-15 21:04:48.027] [INFO    ] [worker-pool   ] [trc-241041] Connection acquired from connection pool latency_ms=7
+[2026-03-15 21:04:48.148] [WARNING ] [db-cluster    ] [trc-195132] Downstream microservice response delayed, retry attempt scheduled latency_ms=355
+[2026-03-15 21:04:52.464] [INFO    ] [api-gateway   ] [trc-632617] Scheduled garbage collection sweep finished latency_ms=43
+[2026-03-15 21:04:51.624] [INFO    ] [file-storage  ] [trc-482713] Connection acquired from connection pool latency_ms=35
+[2026-03-15 21:04:46.075] [INFO    ] [db-cluster    ] [trc-512543] Incoming HTTP request dispatched to worker handler latency_ms=40
+[2026-03-15 21:04:50.952] [WARNING ] [cache-redis   ] [trc-258348] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=294
+[2026-03-15 21:04:55.563] [ERROR   ] [auth-service  ] [trc-329028] Failed to write metadata block to distributed store latency_ms=1283
+[2026-03-15 21:04:48.724] [INFO    ] [api-gateway   ] [trc-489721] Cache lookup returned positive hit for session key latency_ms=73
+[2026-03-15 21:04:47.028] [WARNING ] [auth-service  ] [trc-685310] Downstream microservice response delayed, retry attempt scheduled latency_ms=299
+[2026-03-15 21:04:57.240] [WARNING ] [auth-service  ] [trc-132693] Downstream microservice response delayed, retry attempt scheduled latency_ms=198
+[2026-03-15 21:04:56.356] [INFO    ] [cache-redis   ] [trc-659019] Scheduled garbage collection sweep finished latency_ms=7
+[2026-03-15 21:04:59.544] [WARNING ] [file-storage  ] [trc-977485] Thread pool saturation index approaching upper boundary latency_ms=338
+[2026-03-15 21:04:49.187] [ERROR   ] [file-storage  ] [trc-660649] Worker thread crashed with segmentation violation in foreign library latency_ms=1210
+[2026-03-15 21:04:59.440] [ERROR   ] [cache-redis   ] [trc-904164] Worker thread crashed with segmentation violation in foreign library latency_ms=1179

@@ -1,0 +1,21 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00022
+# Generated: 2026-03-15T17:02:32
+# Records Count: 18
+[2026-03-15 17:02:32.000] [ERROR   ] [cache-redis   ] [trc-315363] Failed to write metadata block to distributed store latency_ms=1245
+[2026-03-15 17:02:32.449] [WARNING ] [billing-svc   ] [trc-562965] Thread pool saturation index approaching upper boundary latency_ms=130
+[2026-03-15 17:02:32.614] [INFO    ] [billing-svc   ] [trc-481405] Connection acquired from connection pool latency_ms=20
+[2026-03-15 17:02:33.068] [WARNING ] [db-cluster    ] [trc-535945] High memory consumption threshold reached (88% utilized) latency_ms=205
+[2026-03-15 17:02:34.540] [INFO    ] [worker-pool   ] [trc-400687] Incoming HTTP request dispatched to worker handler latency_ms=39
+[2026-03-15 17:02:34.655] [INFO    ] [billing-svc   ] [trc-891512] TLS handshake completed with client agent latency_ms=36
+[2026-03-15 17:02:33.830] [INFO    ] [cache-redis   ] [trc-890109] Scheduled garbage collection sweep finished latency_ms=34
+[2026-03-15 17:02:34.037] [INFO    ] [cache-redis   ] [trc-549653] Batch file chunk serialized successfully latency_ms=63
+[2026-03-15 17:02:37.424] [INFO    ] [cache-redis   ] [trc-815337] Incoming HTTP request dispatched to worker handler latency_ms=61
+[2026-03-15 17:02:34.691] [WARNING ] [cache-redis   ] [trc-110431] Disk buffer cache pressure elevated during concurrent writes latency_ms=115
+[2026-03-15 17:02:34.360] [INFO    ] [worker-pool   ] [trc-430096] Scheduled garbage collection sweep finished latency_ms=26
+[2026-03-15 17:02:38.534] [WARNING ] [api-gateway   ] [trc-512369] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=374
+[2026-03-15 17:02:34.508] [WARNING ] [billing-svc   ] [trc-848022] Disk buffer cache pressure elevated during concurrent writes latency_ms=231
+[2026-03-15 17:02:39.527] [WARNING ] [db-cluster    ] [trc-813944] Downstream microservice response delayed, retry attempt scheduled latency_ms=449
+[2026-03-15 17:02:38.594] [WARNING ] [worker-pool   ] [trc-108286] Disk buffer cache pressure elevated during concurrent writes latency_ms=392
+[2026-03-15 17:02:36.500] [INFO    ] [billing-svc   ] [trc-523559] Connection acquired from connection pool latency_ms=74
+[2026-03-15 17:02:44.624] [INFO    ] [cache-redis   ] [trc-748216] TLS handshake completed with client agent latency_ms=49
+[2026-03-15 17:02:41.588] [ERROR   ] [cache-redis   ] [trc-306879] Connection reset by peer while transmitting payload latency_ms=537

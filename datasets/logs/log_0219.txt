@@ -1,0 +1,19 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00219
+# Generated: 2026-03-15T18:17:40
+# Records Count: 16
+[2026-03-15 18:17:40.000] [INFO    ] [billing-svc   ] [trc-957546] Cache lookup returned positive hit for session key latency_ms=48
+[2026-03-15 18:17:40.552] [INFO    ] [worker-pool   ] [trc-174665] Worker heartbeat acknowledged by supervisor latency_ms=25
+[2026-03-15 18:17:41.060] [WARNING ] [cache-redis   ] [trc-490344] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=244
+[2026-03-15 18:17:41.164] [WARNING ] [file-storage  ] [trc-939683] Thread pool saturation index approaching upper boundary latency_ms=344
+[2026-03-15 18:17:40.908] [WARNING ] [file-storage  ] [trc-195559] Downstream microservice response delayed, retry attempt scheduled latency_ms=90
+[2026-03-15 18:17:42.535] [INFO    ] [billing-svc   ] [trc-879010] TLS handshake completed with client agent latency_ms=44
+[2026-03-15 18:17:44.650] [ERROR   ] [worker-pool   ] [trc-899111] TLS socket abruptly terminated before payload completion latency_ms=1230
+[2026-03-15 18:17:44.417] [INFO    ] [api-gateway   ] [trc-449366] Scheduled garbage collection sweep finished latency_ms=45
+[2026-03-15 18:17:44.128] [ERROR   ] [db-cluster    ] [trc-227167] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=942
+[2026-03-15 18:17:43.474] [INFO    ] [auth-service  ] [trc-639944] Connection acquired from connection pool latency_ms=40
+[2026-03-15 18:17:45.690] [WARNING ] [auth-service  ] [trc-118297] Thread pool saturation index approaching upper boundary latency_ms=141
+[2026-03-15 18:17:46.270] [WARNING ] [auth-service  ] [trc-986440] Disk buffer cache pressure elevated during concurrent writes latency_ms=416
+[2026-03-15 18:17:46.276] [INFO    ] [billing-svc   ] [trc-553588] Connection acquired from connection pool latency_ms=6
+[2026-03-15 18:17:41.950] [ERROR   ] [db-cluster    ] [trc-556988] Worker thread crashed with segmentation violation in foreign library latency_ms=542
+[2026-03-15 18:17:46.244] [INFO    ] [auth-service  ] [trc-157393] Worker heartbeat acknowledged by supervisor latency_ms=54
+[2026-03-15 18:17:49.930] [INFO    ] [cache-redis   ] [trc-475913] Batch file chunk serialized successfully latency_ms=62

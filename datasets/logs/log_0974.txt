@@ -1,0 +1,19 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00974
+# Generated: 2026-03-15T12:58:19
+# Records Count: 16
+[2026-03-15 12:58:19.000] [INFO    ] [billing-svc   ] [trc-870906] Cache lookup returned positive hit for session key latency_ms=16
+[2026-03-15 12:58:19.455] [INFO    ] [file-storage  ] [trc-142902] Connection acquired from connection pool latency_ms=8
+[2026-03-15 12:58:19.598] [INFO    ] [billing-svc   ] [trc-768776] Worker heartbeat acknowledged by supervisor latency_ms=73
+[2026-03-15 12:58:20.857] [WARNING ] [db-cluster    ] [trc-409252] High memory consumption threshold reached (88% utilized) latency_ms=123
+[2026-03-15 12:58:20.540] [INFO    ] [auth-service  ] [trc-698100] Connection acquired from connection pool latency_ms=31
+[2026-03-15 12:58:20.870] [INFO    ] [db-cluster    ] [trc-228827] TLS handshake completed with client agent latency_ms=12
+[2026-03-15 12:58:20.020] [WARNING ] [db-cluster    ] [trc-757481] High memory consumption threshold reached (88% utilized) latency_ms=325
+[2026-03-15 12:58:23.221] [WARNING ] [billing-svc   ] [trc-455382] High memory consumption threshold reached (88% utilized) latency_ms=161
+[2026-03-15 12:58:21.056] [WARNING ] [file-storage  ] [trc-651743] Downstream microservice response delayed, retry attempt scheduled latency_ms=170
+[2026-03-15 12:58:25.588] [INFO    ] [api-gateway   ] [trc-967859] Incoming HTTP request dispatched to worker handler latency_ms=57
+[2026-03-15 12:58:26.440] [INFO    ] [cache-redis   ] [trc-979479] Incoming HTTP request dispatched to worker handler latency_ms=30
+[2026-03-15 12:58:21.662] [INFO    ] [file-storage  ] [trc-822129] Incoming HTTP request dispatched to worker handler latency_ms=67
+[2026-03-15 12:58:25.696] [INFO    ] [file-storage  ] [trc-333825] Incoming HTTP request dispatched to worker handler latency_ms=9
+[2026-03-15 12:58:23.953] [INFO    ] [api-gateway   ] [trc-763710] Connection acquired from connection pool latency_ms=54
+[2026-03-15 12:58:27.890] [INFO    ] [file-storage  ] [trc-695394] TLS handshake completed with client agent latency_ms=64
+[2026-03-15 12:58:21.730] [INFO    ] [api-gateway   ] [trc-801213] Batch file chunk serialized successfully latency_ms=31

@@ -1,0 +1,29 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00988
+# Generated: 2026-03-15T09:28:35
+# Records Count: 26
+[2026-03-15 09:28:35.000] [INFO    ] [api-gateway   ] [trc-704938] Batch file chunk serialized successfully latency_ms=43
+[2026-03-15 09:28:35.412] [INFO    ] [file-storage  ] [trc-589849] Incoming HTTP request dispatched to worker handler latency_ms=18
+[2026-03-15 09:28:35.300] [ERROR   ] [worker-pool   ] [trc-896260] Worker thread crashed with segmentation violation in foreign library latency_ms=1335
+[2026-03-15 09:28:36.947] [ERROR   ] [cache-redis   ] [trc-246347] Connection reset by peer while transmitting payload latency_ms=672
+[2026-03-15 09:28:35.640] [INFO    ] [db-cluster    ] [trc-723411] Scheduled garbage collection sweep finished latency_ms=48
+[2026-03-15 09:28:38.925] [WARNING ] [api-gateway   ] [trc-372966] Disk buffer cache pressure elevated during concurrent writes latency_ms=313
+[2026-03-15 09:28:37.238] [WARNING ] [auth-service  ] [trc-922178] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=390
+[2026-03-15 09:28:36.932] [ERROR   ] [billing-svc   ] [trc-998196] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=828
+[2026-03-15 09:28:37.432] [WARNING ] [api-gateway   ] [trc-126166] High memory consumption threshold reached (88% utilized) latency_ms=212
+[2026-03-15 09:28:41.894] [INFO    ] [cache-redis   ] [trc-165008] TLS handshake completed with client agent latency_ms=60
+[2026-03-15 09:28:40.890] [INFO    ] [db-cluster    ] [trc-124141] Batch file chunk serialized successfully latency_ms=40
+[2026-03-15 09:28:42.018] [INFO    ] [cache-redis   ] [trc-153261] Worker heartbeat acknowledged by supervisor latency_ms=5
+[2026-03-15 09:28:41.588] [INFO    ] [db-cluster    ] [trc-394700] Incoming HTTP request dispatched to worker handler latency_ms=25
+[2026-03-15 09:28:38.276] [WARNING ] [billing-svc   ] [trc-921225] Disk buffer cache pressure elevated during concurrent writes latency_ms=284
+[2026-03-15 09:28:41.132] [INFO    ] [auth-service  ] [trc-321744] TLS handshake completed with client agent latency_ms=52
+[2026-03-15 09:28:42.830] [ERROR   ] [db-cluster    ] [trc-262430] Worker thread crashed with segmentation violation in foreign library latency_ms=639
+[2026-03-15 09:28:40.024] [ERROR   ] [db-cluster    ] [trc-468997] Connection reset by peer while transmitting payload latency_ms=1478
+[2026-03-15 09:28:44.639] [INFO    ] [auth-service  ] [trc-139476] Incoming HTTP request dispatched to worker handler latency_ms=56
+[2026-03-15 09:28:46.286] [INFO    ] [billing-svc   ] [trc-281507] Worker heartbeat acknowledged by supervisor latency_ms=44
+[2026-03-15 09:28:44.481] [INFO    ] [auth-service  ] [trc-927025] Connection acquired from connection pool latency_ms=47
+[2026-03-15 09:28:46.340] [INFO    ] [billing-svc   ] [trc-861683] Incoming HTTP request dispatched to worker handler latency_ms=34
+[2026-03-15 09:28:46.235] [ERROR   ] [file-storage  ] [trc-204163] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=1321
+[2026-03-15 09:28:41.182] [INFO    ] [file-storage  ] [trc-918242] TLS handshake completed with client agent latency_ms=61
+[2026-03-15 09:28:46.546] [INFO    ] [api-gateway   ] [trc-794501] Scheduled garbage collection sweep finished latency_ms=60
+[2026-03-15 09:28:47.336] [INFO    ] [billing-svc   ] [trc-984738] Connection acquired from connection pool latency_ms=70
+[2026-03-15 09:28:47.000] [INFO    ] [billing-svc   ] [trc-961944] Connection acquired from connection pool latency_ms=22

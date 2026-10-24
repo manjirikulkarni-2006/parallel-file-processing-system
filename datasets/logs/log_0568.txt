@@ -1,0 +1,26 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00568
+# Generated: 2026-03-15T14:59:04
+# Records Count: 23
+[2026-03-15 14:59:04.000] [INFO    ] [auth-service  ] [trc-491020] Worker heartbeat acknowledged by supervisor latency_ms=17
+[2026-03-15 14:59:04.565] [WARNING ] [worker-pool   ] [trc-312591] Thread pool saturation index approaching upper boundary latency_ms=370
+[2026-03-15 14:59:04.812] [INFO    ] [worker-pool   ] [trc-573398] Incoming HTTP request dispatched to worker handler latency_ms=47
+[2026-03-15 14:59:06.142] [WARNING ] [billing-svc   ] [trc-532900] Thread pool saturation index approaching upper boundary latency_ms=349
+[2026-03-15 14:59:05.756] [INFO    ] [file-storage  ] [trc-955914] Scheduled garbage collection sweep finished latency_ms=25
+[2026-03-15 14:59:06.595] [WARNING ] [worker-pool   ] [trc-447048] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=351
+[2026-03-15 14:59:06.058] [WARNING ] [cache-redis   ] [trc-951837] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=220
+[2026-03-15 14:59:05.253] [INFO    ] [cache-redis   ] [trc-995202] Incoming HTTP request dispatched to worker handler latency_ms=71
+[2026-03-15 14:59:09.976] [INFO    ] [billing-svc   ] [trc-176551] TLS handshake completed with client agent latency_ms=41
+[2026-03-15 14:59:07.141] [INFO    ] [file-storage  ] [trc-561389] TLS handshake completed with client agent latency_ms=45
+[2026-03-15 14:59:05.870] [INFO    ] [api-gateway   ] [trc-150046] TLS handshake completed with client agent latency_ms=36
+[2026-03-15 14:59:12.085] [INFO    ] [worker-pool   ] [trc-221784] Connection acquired from connection pool latency_ms=12
+[2026-03-15 14:59:06.556] [INFO    ] [file-storage  ] [trc-417347] Batch file chunk serialized successfully latency_ms=66
+[2026-03-15 14:59:09.408] [ERROR   ] [file-storage  ] [trc-764831] TLS socket abruptly terminated before payload completion latency_ms=679
+[2026-03-15 14:59:13.394] [INFO    ] [auth-service  ] [trc-247311] Cache lookup returned positive hit for session key latency_ms=17
+[2026-03-15 14:59:07.960] [WARNING ] [api-gateway   ] [trc-719260] Thread pool saturation index approaching upper boundary latency_ms=95
+[2026-03-15 14:59:09.296] [INFO    ] [worker-pool   ] [trc-753167] Scheduled garbage collection sweep finished latency_ms=58
+[2026-03-15 14:59:16.597] [INFO    ] [cache-redis   ] [trc-738607] Cache lookup returned positive hit for session key latency_ms=63
+[2026-03-15 14:59:16.960] [INFO    ] [cache-redis   ] [trc-575006] Connection acquired from connection pool latency_ms=65
+[2026-03-15 14:59:12.151] [INFO    ] [billing-svc   ] [trc-508175] Connection acquired from connection pool latency_ms=5
+[2026-03-15 14:59:16.440] [ERROR   ] [auth-service  ] [trc-223653] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=1363
+[2026-03-15 14:59:19.057] [INFO    ] [auth-service  ] [trc-176851] TLS handshake completed with client agent latency_ms=22
+[2026-03-15 14:59:18.190] [INFO    ] [file-storage  ] [trc-923652] Scheduled garbage collection sweep finished latency_ms=12

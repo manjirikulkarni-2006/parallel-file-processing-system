@@ -1,0 +1,18 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00085
+# Generated: 2026-03-15T07:37:31
+# Records Count: 15
+[2026-03-15 07:37:31.000] [INFO    ] [file-storage  ] [trc-485999] Scheduled garbage collection sweep finished latency_ms=26
+[2026-03-15 07:37:31.556] [INFO    ] [auth-service  ] [trc-259651] TLS handshake completed with client agent latency_ms=41
+[2026-03-15 07:37:31.844] [INFO    ] [file-storage  ] [trc-492482] Connection acquired from connection pool latency_ms=30
+[2026-03-15 07:37:33.316] [INFO    ] [worker-pool   ] [trc-450733] Cache lookup returned positive hit for session key latency_ms=55
+[2026-03-15 07:37:32.088] [INFO    ] [billing-svc   ] [trc-399244] Batch file chunk serialized successfully latency_ms=70
+[2026-03-15 07:37:33.825] [INFO    ] [auth-service  ] [trc-293810] Batch file chunk serialized successfully latency_ms=18
+[2026-03-15 07:37:33.160] [INFO    ] [auth-service  ] [trc-896665] TLS handshake completed with client agent latency_ms=43
+[2026-03-15 07:37:33.583] [INFO    ] [file-storage  ] [trc-957588] Batch file chunk serialized successfully latency_ms=11
+[2026-03-15 07:37:37.328] [ERROR   ] [auth-service  ] [trc-694381] Worker thread crashed with segmentation violation in foreign library latency_ms=722
+[2026-03-15 07:37:37.057] [INFO    ] [api-gateway   ] [trc-424955] Scheduled garbage collection sweep finished latency_ms=28
+[2026-03-15 07:37:35.910] [ERROR   ] [auth-service  ] [trc-623860] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=1237
+[2026-03-15 07:37:36.335] [INFO    ] [db-cluster    ] [trc-509735] Connection acquired from connection pool latency_ms=67
+[2026-03-15 07:37:38.692] [INFO    ] [file-storage  ] [trc-725727] TLS handshake completed with client agent latency_ms=36
+[2026-03-15 07:37:33.977] [ERROR   ] [file-storage  ] [trc-212471] Connection reset by peer while transmitting payload latency_ms=1134
+[2026-03-15 07:37:33.814] [ERROR   ] [cache-redis   ] [trc-111756] Connection reset by peer while transmitting payload latency_ms=810

@@ -1,0 +1,26 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00737
+# Generated: 2026-03-15T08:30:58
+# Records Count: 23
+[2026-03-15 08:30:58.000] [ERROR   ] [cache-redis   ] [trc-135973] Worker thread crashed with segmentation violation in foreign library latency_ms=1259
+[2026-03-15 08:30:58.716] [INFO    ] [billing-svc   ] [trc-918490] Scheduled garbage collection sweep finished latency_ms=40
+[2026-03-15 08:30:59.214] [INFO    ] [cache-redis   ] [trc-736151] Incoming HTTP request dispatched to worker handler latency_ms=73
+[2026-03-15 08:30:59.275] [INFO    ] [worker-pool   ] [trc-798250] Cache lookup returned positive hit for session key latency_ms=41
+[2026-03-15 08:30:59.368] [INFO    ] [api-gateway   ] [trc-569966] Batch file chunk serialized successfully latency_ms=68
+[2026-03-15 08:31:01.595] [INFO    ] [auth-service  ] [trc-505426] Batch file chunk serialized successfully latency_ms=7
+[2026-03-15 08:31:01.306] [INFO    ] [file-storage  ] [trc-549764] TLS handshake completed with client agent latency_ms=63
+[2026-03-15 08:31:03.166] [WARNING ] [file-storage  ] [trc-855009] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=344
+[2026-03-15 08:31:02.328] [INFO    ] [auth-service  ] [trc-847455] Connection acquired from connection pool latency_ms=46
+[2026-03-15 08:31:01.384] [WARNING ] [billing-svc   ] [trc-750706] High memory consumption threshold reached (88% utilized) latency_ms=89
+[2026-03-15 08:31:03.090] [INFO    ] [worker-pool   ] [trc-331457] Scheduled garbage collection sweep finished latency_ms=61
+[2026-03-15 08:30:59.727] [INFO    ] [worker-pool   ] [trc-152542] Worker heartbeat acknowledged by supervisor latency_ms=23
+[2026-03-15 08:31:01.840] [INFO    ] [cache-redis   ] [trc-272252] Scheduled garbage collection sweep finished latency_ms=60
+[2026-03-15 08:31:05.735] [INFO    ] [billing-svc   ] [trc-540612] Scheduled garbage collection sweep finished latency_ms=56
+[2026-03-15 08:31:03.712] [INFO    ] [api-gateway   ] [trc-494562] Connection acquired from connection pool latency_ms=64
+[2026-03-15 08:31:08.335] [WARNING ] [file-storage  ] [trc-985702] Thread pool saturation index approaching upper boundary latency_ms=288
+[2026-03-15 08:31:03.696] [INFO    ] [file-storage  ] [trc-111489] Connection acquired from connection pool latency_ms=18
+[2026-03-15 08:31:03.899] [WARNING ] [cache-redis   ] [trc-907797] Downstream microservice response delayed, retry attempt scheduled latency_ms=351
+[2026-03-15 08:31:09.124] [INFO    ] [file-storage  ] [trc-149947] Batch file chunk serialized successfully latency_ms=61
+[2026-03-15 08:31:09.400] [INFO    ] [billing-svc   ] [trc-469064] Incoming HTTP request dispatched to worker handler latency_ms=31
+[2026-03-15 08:31:14.000] [INFO    ] [api-gateway   ] [trc-251427] Worker heartbeat acknowledged by supervisor latency_ms=51
+[2026-03-15 08:31:08.353] [INFO    ] [auth-service  ] [trc-705701] Cache lookup returned positive hit for session key latency_ms=72
+[2026-03-15 08:31:15.182] [INFO    ] [billing-svc   ] [trc-327852] Worker heartbeat acknowledged by supervisor latency_ms=57

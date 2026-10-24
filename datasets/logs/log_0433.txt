@@ -1,0 +1,33 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00433
+# Generated: 2026-03-15T02:22:56
+# Records Count: 30
+[2026-03-15 02:22:56.000] [INFO    ] [db-cluster    ] [trc-642855] TLS handshake completed with client agent latency_ms=16
+[2026-03-15 02:22:56.356] [INFO    ] [worker-pool   ] [trc-175185] Worker heartbeat acknowledged by supervisor latency_ms=13
+[2026-03-15 02:22:56.330] [INFO    ] [file-storage  ] [trc-106046] Worker heartbeat acknowledged by supervisor latency_ms=52
+[2026-03-15 02:22:57.929] [INFO    ] [billing-svc   ] [trc-207093] Cache lookup returned positive hit for session key latency_ms=49
+[2026-03-15 02:22:57.016] [INFO    ] [worker-pool   ] [trc-711188] Cache lookup returned positive hit for session key latency_ms=50
+[2026-03-15 02:22:58.420] [INFO    ] [file-storage  ] [trc-912439] Batch file chunk serialized successfully latency_ms=32
+[2026-03-15 02:22:59.252] [ERROR   ] [file-storage  ] [trc-138044] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=679
+[2026-03-15 02:23:01.313] [WARNING ] [db-cluster    ] [trc-547049] Disk buffer cache pressure elevated during concurrent writes latency_ms=105
+[2026-03-15 02:23:01.576] [ERROR   ] [worker-pool   ] [trc-352962] TLS socket abruptly terminated before payload completion latency_ms=1406
+[2026-03-15 02:22:57.980] [INFO    ] [db-cluster    ] [trc-967986] Worker heartbeat acknowledged by supervisor latency_ms=22
+[2026-03-15 02:23:02.290] [ERROR   ] [billing-svc   ] [trc-278157] Connection reset by peer while transmitting payload latency_ms=1342
+[2026-03-15 02:23:04.338] [INFO    ] [file-storage  ] [trc-132985] Incoming HTTP request dispatched to worker handler latency_ms=44
+[2026-03-15 02:23:02.528] [INFO    ] [worker-pool   ] [trc-362921] Connection acquired from connection pool latency_ms=7
+[2026-03-15 02:22:58.041] [INFO    ] [db-cluster    ] [trc-804188] Cache lookup returned positive hit for session key latency_ms=20
+[2026-03-15 02:23:06.836] [INFO    ] [file-storage  ] [trc-149889] Scheduled garbage collection sweep finished latency_ms=70
+[2026-03-15 02:23:05.600] [INFO    ] [auth-service  ] [trc-321252] Connection acquired from connection pool latency_ms=68
+[2026-03-15 02:23:04.576] [ERROR   ] [auth-service  ] [trc-849204] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=687
+[2026-03-15 02:23:01.440] [INFO    ] [auth-service  ] [trc-920162] Scheduled garbage collection sweep finished latency_ms=59
+[2026-03-15 02:23:09.986] [INFO    ] [cache-redis   ] [trc-439713] Scheduled garbage collection sweep finished latency_ms=31
+[2026-03-15 02:23:01.681] [ERROR   ] [billing-svc   ] [trc-504581] Worker thread crashed with segmentation violation in foreign library latency_ms=1099
+[2026-03-15 02:22:59.980] [INFO    ] [worker-pool   ] [trc-586882] Connection acquired from connection pool latency_ms=46
+[2026-03-15 02:23:02.174] [WARNING ] [auth-service  ] [trc-538645] Downstream microservice response delayed, retry attempt scheduled latency_ms=213
+[2026-03-15 02:23:12.566] [ERROR   ] [auth-service  ] [trc-154968] Worker thread crashed with segmentation violation in foreign library latency_ms=1381
+[2026-03-15 02:23:04.372] [ERROR   ] [file-storage  ] [trc-590983] Worker thread crashed with segmentation violation in foreign library latency_ms=1363
+[2026-03-15 02:23:08.672] [INFO    ] [api-gateway   ] [trc-304198] Cache lookup returned positive hit for session key latency_ms=60
+[2026-03-15 02:23:07.325] [INFO    ] [auth-service  ] [trc-541250] Batch file chunk serialized successfully latency_ms=12
+[2026-03-15 02:23:00.576] [INFO    ] [file-storage  ] [trc-688948] Batch file chunk serialized successfully latency_ms=25
+[2026-03-15 02:23:12.956] [WARNING ] [worker-pool   ] [trc-111608] High memory consumption threshold reached (88% utilized) latency_ms=212
+[2026-03-15 02:23:07.144] [INFO    ] [api-gateway   ] [trc-993867] Incoming HTTP request dispatched to worker handler latency_ms=13
+[2026-03-15 02:23:18.388] [INFO    ] [file-storage  ] [trc-996135] Connection acquired from connection pool latency_ms=60

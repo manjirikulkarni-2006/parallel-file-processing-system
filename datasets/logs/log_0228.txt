@@ -1,0 +1,22 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00228
+# Generated: 2026-03-15T15:26:19
+# Records Count: 19
+[2026-03-15 15:26:19.000] [INFO    ] [cache-redis   ] [trc-826975] Incoming HTTP request dispatched to worker handler latency_ms=21
+[2026-03-15 15:26:19.452] [INFO    ] [api-gateway   ] [trc-224796] Cache lookup returned positive hit for session key latency_ms=7
+[2026-03-15 15:26:20.548] [INFO    ] [cache-redis   ] [trc-527761] TLS handshake completed with client agent latency_ms=58
+[2026-03-15 15:26:19.753] [WARNING ] [billing-svc   ] [trc-853755] High memory consumption threshold reached (88% utilized) latency_ms=248
+[2026-03-15 15:26:20.264] [INFO    ] [billing-svc   ] [trc-447515] TLS handshake completed with client agent latency_ms=36
+[2026-03-15 15:26:20.580] [WARNING ] [auth-service  ] [trc-792751] Disk buffer cache pressure elevated during concurrent writes latency_ms=104
+[2026-03-15 15:26:21.892] [INFO    ] [file-storage  ] [trc-978133] Batch file chunk serialized successfully latency_ms=61
+[2026-03-15 15:26:22.227] [ERROR   ] [auth-service  ] [trc-466835] Connection reset by peer while transmitting payload latency_ms=1477
+[2026-03-15 15:26:22.704] [INFO    ] [db-cluster    ] [trc-524245] Cache lookup returned positive hit for session key latency_ms=30
+[2026-03-15 15:26:25.840] [WARNING ] [worker-pool   ] [trc-148992] High memory consumption threshold reached (88% utilized) latency_ms=139
+[2026-03-15 15:26:23.870] [WARNING ] [cache-redis   ] [trc-266888] Downstream microservice response delayed, retry attempt scheduled latency_ms=339
+[2026-03-15 15:26:25.545] [INFO    ] [cache-redis   ] [trc-290397] TLS handshake completed with client agent latency_ms=74
+[2026-03-15 15:26:27.580] [INFO    ] [file-storage  ] [trc-285774] Connection acquired from connection pool latency_ms=15
+[2026-03-15 15:26:26.865] [INFO    ] [worker-pool   ] [trc-657343] Connection acquired from connection pool latency_ms=7
+[2026-03-15 15:26:24.740] [ERROR   ] [worker-pool   ] [trc-941316] TLS socket abruptly terminated before payload completion latency_ms=507
+[2026-03-15 15:26:30.355] [WARNING ] [db-cluster    ] [trc-223451] Thread pool saturation index approaching upper boundary latency_ms=114
+[2026-03-15 15:26:26.456] [INFO    ] [cache-redis   ] [trc-237621] Connection acquired from connection pool latency_ms=52
+[2026-03-15 15:26:27.262] [INFO    ] [billing-svc   ] [trc-905481] TLS handshake completed with client agent latency_ms=51
+[2026-03-15 15:26:32.680] [INFO    ] [auth-service  ] [trc-147390] Scheduled garbage collection sweep finished latency_ms=50

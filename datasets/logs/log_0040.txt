@@ -1,0 +1,27 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00040
+# Generated: 2026-03-15T15:23:21
+# Records Count: 24
+[2026-03-15 15:23:21.000] [WARNING ] [billing-svc   ] [trc-678570] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=249
+[2026-03-15 15:23:21.519] [INFO    ] [billing-svc   ] [trc-949383] Scheduled garbage collection sweep finished latency_ms=72
+[2026-03-15 15:23:22.538] [INFO    ] [worker-pool   ] [trc-349825] Connection acquired from connection pool latency_ms=54
+[2026-03-15 15:23:21.717] [INFO    ] [api-gateway   ] [trc-236823] Worker heartbeat acknowledged by supervisor latency_ms=20
+[2026-03-15 15:23:21.768] [WARNING ] [file-storage  ] [trc-786141] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=440
+[2026-03-15 15:23:24.030] [ERROR   ] [api-gateway   ] [trc-178516] TLS socket abruptly terminated before payload completion latency_ms=851
+[2026-03-15 15:23:23.748] [ERROR   ] [billing-svc   ] [trc-597233] Failed to write metadata block to distributed store latency_ms=1046
+[2026-03-15 15:23:23.149] [INFO    ] [api-gateway   ] [trc-234041] Worker heartbeat acknowledged by supervisor latency_ms=37
+[2026-03-15 15:23:26.784] [INFO    ] [worker-pool   ] [trc-483791] TLS handshake completed with client agent latency_ms=20
+[2026-03-15 15:23:26.364] [INFO    ] [api-gateway   ] [trc-606274] Worker heartbeat acknowledged by supervisor latency_ms=7
+[2026-03-15 15:23:24.200] [INFO    ] [file-storage  ] [trc-387465] Connection acquired from connection pool latency_ms=42
+[2026-03-15 15:23:23.156] [WARNING ] [file-storage  ] [trc-163746] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=283
+[2026-03-15 15:23:28.872] [ERROR   ] [billing-svc   ] [trc-658335] Connection reset by peer while transmitting payload latency_ms=4855
+[2026-03-15 15:23:28.774] [CRITICAL] [cache-redis   ] [trc-634017] File descriptor limit reached for worker process; operating system rejecting socket creation latency_ms=6783
+[2026-03-15 15:23:31.794] [CRITICAL] [worker-pool   ] [trc-316976] Cascading failover triggered on primary cluster node; state recovery active latency_ms=8184
+[2026-03-15 15:23:26.595] [CRITICAL] [file-storage  ] [trc-830565] File descriptor limit reached for worker process; operating system rejecting socket creation latency_ms=7627
+[2026-03-15 15:23:31.992] [ERROR   ] [worker-pool   ] [trc-418148] Worker thread crashed with segmentation violation in foreign library latency_ms=5699
+[2026-03-15 15:23:33.155] [INFO    ] [api-gateway   ] [trc-279420] Worker heartbeat acknowledged by supervisor latency_ms=35
+[2026-03-15 15:23:29.064] [INFO    ] [api-gateway   ] [trc-770685] Cache lookup returned positive hit for session key latency_ms=22
+[2026-03-15 15:23:29.094] [INFO    ] [cache-redis   ] [trc-929026] Connection acquired from connection pool latency_ms=31
+[2026-03-15 15:23:34.940] [INFO    ] [api-gateway   ] [trc-101467] TLS handshake completed with client agent latency_ms=52
+[2026-03-15 15:23:31.122] [ERROR   ] [api-gateway   ] [trc-839730] Worker thread crashed with segmentation violation in foreign library latency_ms=1239
+[2026-03-15 15:23:27.292] [INFO    ] [db-cluster    ] [trc-741185] Incoming HTTP request dispatched to worker handler latency_ms=6
+[2026-03-15 15:23:32.822] [ERROR   ] [auth-service  ] [trc-865960] Failed to write metadata block to distributed store latency_ms=762

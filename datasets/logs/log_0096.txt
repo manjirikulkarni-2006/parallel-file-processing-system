@@ -1,0 +1,28 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00096
+# Generated: 2026-03-15T15:31:35
+# Records Count: 25
+[2026-03-15 15:31:35.000] [INFO    ] [cache-redis   ] [trc-975798] Connection acquired from connection pool latency_ms=44
+[2026-03-15 15:31:35.699] [INFO    ] [cache-redis   ] [trc-546316] Scheduled garbage collection sweep finished latency_ms=18
+[2026-03-15 15:31:35.412] [ERROR   ] [worker-pool   ] [trc-797118] Failed to write metadata block to distributed store latency_ms=1212
+[2026-03-15 15:31:36.242] [ERROR   ] [cache-redis   ] [trc-498019] Worker thread crashed with segmentation violation in foreign library latency_ms=848
+[2026-03-15 15:31:37.284] [INFO    ] [api-gateway   ] [trc-656754] Batch file chunk serialized successfully latency_ms=44
+[2026-03-15 15:31:37.285] [INFO    ] [db-cluster    ] [trc-123836] Cache lookup returned positive hit for session key latency_ms=46
+[2026-03-15 15:31:37.034] [WARNING ] [billing-svc   ] [trc-197597] Disk buffer cache pressure elevated during concurrent writes latency_ms=388
+[2026-03-15 15:31:40.341] [INFO    ] [cache-redis   ] [trc-204986] Incoming HTTP request dispatched to worker handler latency_ms=38
+[2026-03-15 15:31:38.928] [INFO    ] [worker-pool   ] [trc-229737] Connection acquired from connection pool latency_ms=15
+[2026-03-15 15:31:38.483] [INFO    ] [api-gateway   ] [trc-389946] Scheduled garbage collection sweep finished latency_ms=75
+[2026-03-15 15:31:42.040] [WARNING ] [cache-redis   ] [trc-183532] Disk buffer cache pressure elevated during concurrent writes latency_ms=375
+[2026-03-15 15:31:42.799] [INFO    ] [worker-pool   ] [trc-679198] Incoming HTTP request dispatched to worker handler latency_ms=56
+[2026-03-15 15:31:37.292] [CRITICAL] [worker-pool   ] [trc-540581] Authentication burst anomaly: 120 failed auth tokens within 10 seconds from subnet 198.51.100.0/24 latency_ms=5704
+[2026-03-15 15:31:37.639] [CRITICAL] [auth-service  ] [trc-172087] Database connection pool completely exhausted; dropping new client requests latency_ms=4375
+[2026-03-15 15:31:43.932] [ERROR   ] [api-gateway   ] [trc-592016] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=7939
+[2026-03-15 15:31:38.885] [ERROR   ] [worker-pool   ] [trc-266521] TLS socket abruptly terminated before payload completion latency_ms=5528
+[2026-03-15 15:31:38.728] [CRITICAL] [worker-pool   ] [trc-276559] Database connection pool completely exhausted; dropping new client requests latency_ms=3637
+[2026-03-15 15:31:45.727] [WARNING ] [auth-service  ] [trc-864148] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=429
+[2026-03-15 15:31:47.078] [INFO    ] [auth-service  ] [trc-527725] Worker heartbeat acknowledged by supervisor latency_ms=39
+[2026-03-15 15:31:49.060] [WARNING ] [cache-redis   ] [trc-865304] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=332
+[2026-03-15 15:31:49.200] [INFO    ] [auth-service  ] [trc-162255] Worker heartbeat acknowledged by supervisor latency_ms=54
+[2026-03-15 15:31:42.287] [INFO    ] [cache-redis   ] [trc-653418] Connection acquired from connection pool latency_ms=56
+[2026-03-15 15:31:51.588] [INFO    ] [db-cluster    ] [trc-706424] Connection acquired from connection pool latency_ms=20
+[2026-03-15 15:31:48.340] [INFO    ] [worker-pool   ] [trc-779831] Incoming HTTP request dispatched to worker handler latency_ms=19
+[2026-03-15 15:31:48.560] [WARNING ] [file-storage  ] [trc-300450] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=375

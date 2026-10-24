@@ -1,0 +1,22 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00027
+# Generated: 2026-03-15T18:42:43
+# Records Count: 19
+[2026-03-15 18:42:43.000] [INFO    ] [cache-redis   ] [trc-975744] Incoming HTTP request dispatched to worker handler latency_ms=59
+[2026-03-15 18:42:43.502] [INFO    ] [auth-service  ] [trc-310105] Connection acquired from connection pool latency_ms=13
+[2026-03-15 18:42:43.998] [INFO    ] [auth-service  ] [trc-800302] TLS handshake completed with client agent latency_ms=64
+[2026-03-15 18:42:45.292] [WARNING ] [billing-svc   ] [trc-447231] Disk buffer cache pressure elevated during concurrent writes latency_ms=251
+[2026-03-15 18:42:46.120] [INFO    ] [worker-pool   ] [trc-539033] Incoming HTTP request dispatched to worker handler latency_ms=63
+[2026-03-15 18:42:43.965] [ERROR   ] [db-cluster    ] [trc-330063] Failed to write metadata block to distributed store latency_ms=1209
+[2026-03-15 18:42:45.310] [INFO    ] [db-cluster    ] [trc-754227] Batch file chunk serialized successfully latency_ms=47
+[2026-03-15 18:42:46.738] [INFO    ] [auth-service  ] [trc-519758] Incoming HTTP request dispatched to worker handler latency_ms=51
+[2026-03-15 18:42:44.280] [INFO    ] [api-gateway   ] [trc-475271] Incoming HTTP request dispatched to worker handler latency_ms=23
+[2026-03-15 18:42:47.023] [ERROR   ] [db-cluster    ] [trc-303846] Worker thread crashed with segmentation violation in foreign library latency_ms=3859
+[2026-03-15 18:42:44.800] [CRITICAL] [auth-service  ] [trc-307434] Cascading failover triggered on primary cluster node; state recovery active latency_ms=5646
+[2026-03-15 18:42:46.608] [ERROR   ] [worker-pool   ] [trc-988704] Failed to write metadata block to distributed store latency_ms=5105
+[2026-03-15 18:42:45.064] [CRITICAL] [auth-service  ] [trc-983825] Database connection pool completely exhausted; dropping new client requests latency_ms=3671
+[2026-03-15 18:42:46.770] [ERROR   ] [db-cluster    ] [trc-786680] Connection reset by peer while transmitting payload latency_ms=6272
+[2026-03-15 18:42:48.110] [INFO    ] [worker-pool   ] [trc-578364] Scheduled garbage collection sweep finished latency_ms=52
+[2026-03-15 18:42:47.875] [ERROR   ] [file-storage  ] [trc-937836] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=1399
+[2026-03-15 18:42:46.456] [ERROR   ] [api-gateway   ] [trc-251448] Failed to write metadata block to distributed store latency_ms=1313
+[2026-03-15 18:42:48.848] [INFO    ] [auth-service  ] [trc-658424] Cache lookup returned positive hit for session key latency_ms=45
+[2026-03-15 18:42:56.734] [INFO    ] [db-cluster    ] [trc-767044] Incoming HTTP request dispatched to worker handler latency_ms=29

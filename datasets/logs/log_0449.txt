@@ -1,0 +1,24 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00449
+# Generated: 2026-03-15T23:39:10
+# Records Count: 21
+[2026-03-15 23:39:10.000] [INFO    ] [api-gateway   ] [trc-380216] Scheduled garbage collection sweep finished latency_ms=47
+[2026-03-15 23:39:10.628] [INFO    ] [api-gateway   ] [trc-795185] Incoming HTTP request dispatched to worker handler latency_ms=63
+[2026-03-15 23:39:11.320] [WARNING ] [cache-redis   ] [trc-749886] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=233
+[2026-03-15 23:39:11.227] [INFO    ] [billing-svc   ] [trc-957858] TLS handshake completed with client agent latency_ms=65
+[2026-03-15 23:39:11.932] [ERROR   ] [billing-svc   ] [trc-731755] Connection reset by peer while transmitting payload latency_ms=605
+[2026-03-15 23:39:11.930] [INFO    ] [cache-redis   ] [trc-215527] Scheduled garbage collection sweep finished latency_ms=58
+[2026-03-15 23:39:14.134] [INFO    ] [cache-redis   ] [trc-610094] TLS handshake completed with client agent latency_ms=10
+[2026-03-15 23:39:11.981] [INFO    ] [worker-pool   ] [trc-264955] Cache lookup returned positive hit for session key latency_ms=45
+[2026-03-15 23:39:16.120] [INFO    ] [billing-svc   ] [trc-941356] Connection acquired from connection pool latency_ms=40
+[2026-03-15 23:39:15.283] [INFO    ] [file-storage  ] [trc-400641] Connection acquired from connection pool latency_ms=17
+[2026-03-15 23:39:11.620] [CRITICAL] [cache-redis   ] [trc-700351] Authentication burst anomaly: 120 failed auth tokens within 10 seconds from subnet 198.51.100.0/24 latency_ms=8044
+[2026-03-15 23:39:15.533] [CRITICAL] [file-storage  ] [trc-846602] File descriptor limit reached for worker process; operating system rejecting socket creation latency_ms=5059
+[2026-03-15 23:39:14.092] [CRITICAL] [billing-svc   ] [trc-941878] Database connection pool completely exhausted; dropping new client requests latency_ms=5034
+[2026-03-15 23:39:18.476] [ERROR   ] [billing-svc   ] [trc-174391] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=6004
+[2026-03-15 23:39:14.732] [CRITICAL] [api-gateway   ] [trc-882134] Cascading failover triggered on primary cluster node; state recovery active latency_ms=8003
+[2026-03-15 23:39:18.985] [ERROR   ] [cache-redis   ] [trc-270260] TLS socket abruptly terminated before payload completion latency_ms=1477
+[2026-03-15 23:39:21.360] [INFO    ] [api-gateway   ] [trc-612349] Batch file chunk serialized successfully latency_ms=44
+[2026-03-15 23:39:22.444] [INFO    ] [db-cluster    ] [trc-143889] Worker heartbeat acknowledged by supervisor latency_ms=45
+[2026-03-15 23:39:23.356] [INFO    ] [billing-svc   ] [trc-750639] TLS handshake completed with client agent latency_ms=19
+[2026-03-15 23:39:23.794] [INFO    ] [cache-redis   ] [trc-524350] Scheduled garbage collection sweep finished latency_ms=39
+[2026-03-15 23:39:17.500] [ERROR   ] [billing-svc   ] [trc-794251] Failed to write metadata block to distributed store latency_ms=853

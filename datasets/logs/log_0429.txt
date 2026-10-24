@@ -1,0 +1,23 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00429
+# Generated: 2026-03-15T10:11:13
+# Records Count: 20
+[2026-03-15 10:11:13.000] [ERROR   ] [billing-svc   ] [trc-662123] Worker thread crashed with segmentation violation in foreign library latency_ms=786
+[2026-03-15 10:11:13.235] [WARNING ] [auth-service  ] [trc-752110] Disk buffer cache pressure elevated during concurrent writes latency_ms=374
+[2026-03-15 10:11:14.064] [ERROR   ] [billing-svc   ] [trc-189542] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=1077
+[2026-03-15 10:11:15.292] [ERROR   ] [auth-service  ] [trc-318742] Failed to write metadata block to distributed store latency_ms=1064
+[2026-03-15 10:11:13.924] [INFO    ] [worker-pool   ] [trc-555031] Worker heartbeat acknowledged by supervisor latency_ms=10
+[2026-03-15 10:11:16.215] [WARNING ] [api-gateway   ] [trc-466190] Thread pool saturation index approaching upper boundary latency_ms=386
+[2026-03-15 10:11:16.168] [INFO    ] [billing-svc   ] [trc-168331] Batch file chunk serialized successfully latency_ms=31
+[2026-03-15 10:11:16.997] [WARNING ] [api-gateway   ] [trc-782402] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=345
+[2026-03-15 10:11:18.168] [WARNING ] [worker-pool   ] [trc-143029] Disk buffer cache pressure elevated during concurrent writes latency_ms=411
+[2026-03-15 10:11:15.385] [WARNING ] [api-gateway   ] [trc-575400] High memory consumption threshold reached (88% utilized) latency_ms=431
+[2026-03-15 10:11:18.340] [ERROR   ] [file-storage  ] [trc-933426] TLS socket abruptly terminated before payload completion latency_ms=4690
+[2026-03-15 10:11:15.420] [CRITICAL] [worker-pool   ] [trc-429221] File descriptor limit reached for worker process; operating system rejecting socket creation latency_ms=7755
+[2026-03-15 10:11:21.952] [ERROR   ] [file-storage  ] [trc-894517] TLS socket abruptly terminated before payload completion latency_ms=6748
+[2026-03-15 10:11:16.744] [ERROR   ] [file-storage  ] [trc-704279] Failed to write metadata block to distributed store latency_ms=3560
+[2026-03-15 10:11:17.774] [CRITICAL] [file-storage  ] [trc-400834] Cascading failover triggered on primary cluster node; state recovery active latency_ms=4112
+[2026-03-15 10:11:22.960] [INFO    ] [worker-pool   ] [trc-149634] Scheduled garbage collection sweep finished latency_ms=11
+[2026-03-15 10:11:24.568] [INFO    ] [auth-service  ] [trc-880190] Incoming HTTP request dispatched to worker handler latency_ms=24
+[2026-03-15 10:11:22.656] [WARNING ] [api-gateway   ] [trc-375433] Disk buffer cache pressure elevated during concurrent writes latency_ms=261
+[2026-03-15 10:11:25.420] [INFO    ] [file-storage  ] [trc-541490] Worker heartbeat acknowledged by supervisor latency_ms=75
+[2026-03-15 10:11:17.161] [INFO    ] [file-storage  ] [trc-385025] Incoming HTTP request dispatched to worker handler latency_ms=35

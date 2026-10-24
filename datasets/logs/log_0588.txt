@@ -1,0 +1,22 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00588
+# Generated: 2026-03-15T16:48:27
+# Records Count: 19
+[2026-03-15 16:48:27.000] [INFO    ] [auth-service  ] [trc-579266] Batch file chunk serialized successfully latency_ms=29
+[2026-03-15 16:48:27.406] [INFO    ] [file-storage  ] [trc-323424] Cache lookup returned positive hit for session key latency_ms=71
+[2026-03-15 16:48:27.332] [INFO    ] [db-cluster    ] [trc-378035] Worker heartbeat acknowledged by supervisor latency_ms=6
+[2026-03-15 16:48:27.816] [INFO    ] [db-cluster    ] [trc-469305] Batch file chunk serialized successfully latency_ms=66
+[2026-03-15 16:48:29.024] [WARNING ] [worker-pool   ] [trc-573366] High memory consumption threshold reached (88% utilized) latency_ms=192
+[2026-03-15 16:48:28.135] [WARNING ] [db-cluster    ] [trc-763380] Disk buffer cache pressure elevated during concurrent writes latency_ms=142
+[2026-03-15 16:48:30.096] [INFO    ] [db-cluster    ] [trc-300570] Cache lookup returned positive hit for session key latency_ms=6
+[2026-03-15 16:48:32.411] [INFO    ] [billing-svc   ] [trc-537571] Incoming HTTP request dispatched to worker handler latency_ms=27
+[2026-03-15 16:48:28.408] [INFO    ] [api-gateway   ] [trc-320515] Scheduled garbage collection sweep finished latency_ms=72
+[2026-03-15 16:48:29.466] [CRITICAL] [billing-svc   ] [trc-724616] Database connection pool completely exhausted; dropping new client requests latency_ms=6016
+[2026-03-15 16:48:33.030] [ERROR   ] [db-cluster    ] [trc-455144] Worker thread crashed with segmentation violation in foreign library latency_ms=5931
+[2026-03-15 16:48:31.895] [ERROR   ] [api-gateway   ] [trc-685778] TLS socket abruptly terminated before payload completion latency_ms=6246
+[2026-03-15 16:48:28.932] [CRITICAL] [auth-service  ] [trc-941617] Database connection pool completely exhausted; dropping new client requests latency_ms=8196
+[2026-03-15 16:48:31.667] [ERROR   ] [api-gateway   ] [trc-421963] TLS socket abruptly terminated before payload completion latency_ms=3639
+[2026-03-15 16:48:36.548] [INFO    ] [billing-svc   ] [trc-412924] Worker heartbeat acknowledged by supervisor latency_ms=57
+[2026-03-15 16:48:29.505] [INFO    ] [billing-svc   ] [trc-845927] Connection acquired from connection pool latency_ms=12
+[2026-03-15 16:48:38.408] [WARNING ] [db-cluster    ] [trc-343208] Downstream microservice response delayed, retry attempt scheduled latency_ms=192
+[2026-03-15 16:48:31.964] [INFO    ] [auth-service  ] [trc-204556] Batch file chunk serialized successfully latency_ms=34
+[2026-03-15 16:48:35.154] [ERROR   ] [auth-service  ] [trc-734354] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=930

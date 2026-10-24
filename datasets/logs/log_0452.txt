@@ -1,0 +1,18 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00452
+# Generated: 2026-03-15T14:20:26
+# Records Count: 15
+[2026-03-15 14:20:26.000] [INFO    ] [worker-pool   ] [trc-221455] Worker heartbeat acknowledged by supervisor latency_ms=54
+[2026-03-15 14:20:26.160] [INFO    ] [file-storage  ] [trc-476878] Scheduled garbage collection sweep finished latency_ms=17
+[2026-03-15 14:20:26.472] [WARNING ] [cache-redis   ] [trc-872823] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=361
+[2026-03-15 14:20:28.223] [WARNING ] [auth-service  ] [trc-191177] Thread pool saturation index approaching upper boundary latency_ms=240
+[2026-03-15 14:20:28.656] [INFO    ] [db-cluster    ] [trc-418998] Worker heartbeat acknowledged by supervisor latency_ms=35
+[2026-03-15 14:20:26.860] [INFO    ] [file-storage  ] [trc-616999] Connection acquired from connection pool latency_ms=53
+[2026-03-15 14:20:28.112] [INFO    ] [api-gateway   ] [trc-374571] Connection acquired from connection pool latency_ms=69
+[2026-03-15 14:20:31.558] [ERROR   ] [file-storage  ] [trc-527884] Connection reset by peer while transmitting payload latency_ms=1028
+[2026-03-15 14:20:30.504] [INFO    ] [api-gateway   ] [trc-791290] TLS handshake completed with client agent latency_ms=55
+[2026-03-15 14:20:32.372] [INFO    ] [db-cluster    ] [trc-328533] Cache lookup returned positive hit for session key latency_ms=40
+[2026-03-15 14:20:33.550] [INFO    ] [db-cluster    ] [trc-393356] Connection acquired from connection pool latency_ms=27
+[2026-03-15 14:20:27.969] [WARNING ] [db-cluster    ] [trc-948522] Disk buffer cache pressure elevated during concurrent writes latency_ms=373
+[2026-03-15 14:20:29.672] [INFO    ] [worker-pool   ] [trc-911343] Scheduled garbage collection sweep finished latency_ms=35
+[2026-03-15 14:20:28.665] [WARNING ] [api-gateway   ] [trc-307775] Downstream microservice response delayed, retry attempt scheduled latency_ms=353
+[2026-03-15 14:20:28.940] [WARNING ] [billing-svc   ] [trc-836982] Thread pool saturation index approaching upper boundary latency_ms=268

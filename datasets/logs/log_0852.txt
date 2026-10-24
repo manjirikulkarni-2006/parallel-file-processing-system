@@ -1,0 +1,30 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00852
+# Generated: 2026-03-15T19:23:17
+# Records Count: 27
+[2026-03-15 19:23:17.000] [INFO    ] [billing-svc   ] [trc-881826] Connection acquired from connection pool latency_ms=18
+[2026-03-15 19:23:17.448] [INFO    ] [cache-redis   ] [trc-484431] Incoming HTTP request dispatched to worker handler latency_ms=19
+[2026-03-15 19:23:17.408] [INFO    ] [auth-service  ] [trc-295387] Cache lookup returned positive hit for session key latency_ms=42
+[2026-03-15 19:23:18.692] [INFO    ] [worker-pool   ] [trc-667730] Incoming HTTP request dispatched to worker handler latency_ms=33
+[2026-03-15 19:23:18.284] [INFO    ] [db-cluster    ] [trc-732934] Incoming HTTP request dispatched to worker handler latency_ms=66
+[2026-03-15 19:23:20.935] [INFO    ] [cache-redis   ] [trc-959597] Worker heartbeat acknowledged by supervisor latency_ms=52
+[2026-03-15 19:23:21.050] [ERROR   ] [db-cluster    ] [trc-386639] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=1383
+[2026-03-15 19:23:18.526] [WARNING ] [billing-svc   ] [trc-443682] Thread pool saturation index approaching upper boundary latency_ms=98
+[2026-03-15 19:23:19.104] [INFO    ] [db-cluster    ] [trc-783948] Cache lookup returned positive hit for session key latency_ms=33
+[2026-03-15 19:23:21.968] [INFO    ] [db-cluster    ] [trc-432802] Connection acquired from connection pool latency_ms=21
+[2026-03-15 19:23:23.320] [INFO    ] [worker-pool   ] [trc-570213] Worker heartbeat acknowledged by supervisor latency_ms=72
+[2026-03-15 19:23:24.084] [INFO    ] [worker-pool   ] [trc-124629] Incoming HTTP request dispatched to worker handler latency_ms=49
+[2026-03-15 19:23:20.432] [ERROR   ] [billing-svc   ] [trc-622105] Failed to write metadata block to distributed store latency_ms=1268
+[2026-03-15 19:23:26.152] [ERROR   ] [api-gateway   ] [trc-667779] Worker thread crashed with segmentation violation in foreign library latency_ms=6802
+[2026-03-15 19:23:27.178] [CRITICAL] [worker-pool   ] [trc-896175] File descriptor limit reached for worker process; operating system rejecting socket creation latency_ms=4308
+[2026-03-15 19:23:26.900] [CRITICAL] [worker-pool   ] [trc-278028] Authentication burst anomaly: 120 failed auth tokens within 10 seconds from subnet 198.51.100.0/24 latency_ms=4787
+[2026-03-15 19:23:22.376] [ERROR   ] [api-gateway   ] [trc-561112] Failed to write metadata block to distributed store latency_ms=7518
+[2026-03-15 19:23:23.409] [ERROR   ] [api-gateway   ] [trc-583772] Failed to write metadata block to distributed store latency_ms=3804
+[2026-03-15 19:23:28.106] [INFO    ] [api-gateway   ] [trc-474216] Scheduled garbage collection sweep finished latency_ms=27
+[2026-03-15 19:23:19.945] [INFO    ] [cache-redis   ] [trc-828064] Batch file chunk serialized successfully latency_ms=34
+[2026-03-15 19:23:25.760] [WARNING ] [billing-svc   ] [trc-746114] High memory consumption threshold reached (88% utilized) latency_ms=330
+[2026-03-15 19:23:20.633] [INFO    ] [cache-redis   ] [trc-818736] TLS handshake completed with client agent latency_ms=47
+[2026-03-15 19:23:22.522] [INFO    ] [file-storage  ] [trc-412061] Connection acquired from connection pool latency_ms=16
+[2026-03-15 19:23:21.347] [ERROR   ] [cache-redis   ] [trc-976241] Failed to write metadata block to distributed store latency_ms=625
+[2026-03-15 19:23:28.328] [INFO    ] [worker-pool   ] [trc-318519] Incoming HTTP request dispatched to worker handler latency_ms=53
+[2026-03-15 19:23:23.750] [WARNING ] [worker-pool   ] [trc-352690] Disk buffer cache pressure elevated during concurrent writes latency_ms=100
+[2026-03-15 19:23:34.706] [ERROR   ] [auth-service  ] [trc-149419] Failed to write metadata block to distributed store latency_ms=712

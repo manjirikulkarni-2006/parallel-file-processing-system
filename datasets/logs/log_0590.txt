@@ -1,0 +1,22 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00590
+# Generated: 2026-03-15T12:56:38
+# Records Count: 19
+[2026-03-15 12:56:38.000] [INFO    ] [auth-service  ] [trc-678632] TLS handshake completed with client agent latency_ms=14
+[2026-03-15 12:56:38.379] [ERROR   ] [billing-svc   ] [trc-792344] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=1171
+[2026-03-15 12:56:38.828] [WARNING ] [file-storage  ] [trc-121671] Thread pool saturation index approaching upper boundary latency_ms=444
+[2026-03-15 12:56:39.455] [INFO    ] [db-cluster    ] [trc-179044] Worker heartbeat acknowledged by supervisor latency_ms=67
+[2026-03-15 12:56:39.204] [INFO    ] [file-storage  ] [trc-782141] Worker heartbeat acknowledged by supervisor latency_ms=8
+[2026-03-15 12:56:39.135] [INFO    ] [api-gateway   ] [trc-187357] Cache lookup returned positive hit for session key latency_ms=39
+[2026-03-15 12:56:38.966] [INFO    ] [worker-pool   ] [trc-894482] Cache lookup returned positive hit for session key latency_ms=41
+[2026-03-15 12:56:42.746] [ERROR   ] [db-cluster    ] [trc-123956] TLS socket abruptly terminated before payload completion latency_ms=587
+[2026-03-15 12:56:43.264] [WARNING ] [api-gateway   ] [trc-607157] Thread pool saturation index approaching upper boundary latency_ms=228
+[2026-03-15 12:56:44.885] [WARNING ] [api-gateway   ] [trc-934799] Thread pool saturation index approaching upper boundary latency_ms=393
+[2026-03-15 12:56:41.360] [INFO    ] [auth-service  ] [trc-249481] Connection acquired from connection pool latency_ms=35
+[2026-03-15 12:56:45.095] [INFO    ] [auth-service  ] [trc-515858] Incoming HTTP request dispatched to worker handler latency_ms=47
+[2026-03-15 12:56:45.260] [ERROR   ] [db-cluster    ] [trc-258266] Connection reset by peer while transmitting payload latency_ms=1219
+[2026-03-15 12:56:46.099] [ERROR   ] [auth-service  ] [trc-504616] TLS socket abruptly terminated before payload completion latency_ms=748
+[2026-03-15 12:56:41.850] [INFO    ] [file-storage  ] [trc-851754] Worker heartbeat acknowledged by supervisor latency_ms=48
+[2026-03-15 12:56:42.905] [INFO    ] [billing-svc   ] [trc-782327] Worker heartbeat acknowledged by supervisor latency_ms=60
+[2026-03-15 12:56:42.720] [INFO    ] [worker-pool   ] [trc-332475] Batch file chunk serialized successfully latency_ms=32
+[2026-03-15 12:56:50.648] [INFO    ] [worker-pool   ] [trc-812575] Cache lookup returned positive hit for session key latency_ms=28
+[2026-03-15 12:56:43.148] [WARNING ] [worker-pool   ] [trc-313751] Disk buffer cache pressure elevated during concurrent writes latency_ms=109

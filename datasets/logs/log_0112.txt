@@ -1,0 +1,22 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00112
+# Generated: 2026-03-15T02:56:47
+# Records Count: 19
+[2026-03-15 02:56:47.000] [INFO    ] [api-gateway   ] [trc-542981] Worker heartbeat acknowledged by supervisor latency_ms=25
+[2026-03-15 02:56:47.640] [INFO    ] [auth-service  ] [trc-684610] Incoming HTTP request dispatched to worker handler latency_ms=26
+[2026-03-15 02:56:48.526] [INFO    ] [file-storage  ] [trc-164506] TLS handshake completed with client agent latency_ms=15
+[2026-03-15 02:56:48.773] [INFO    ] [db-cluster    ] [trc-719511] Connection acquired from connection pool latency_ms=21
+[2026-03-15 02:56:48.116] [INFO    ] [cache-redis   ] [trc-395068] Incoming HTTP request dispatched to worker handler latency_ms=48
+[2026-03-15 02:56:49.385] [WARNING ] [worker-pool   ] [trc-266302] High memory consumption threshold reached (88% utilized) latency_ms=193
+[2026-03-15 02:56:49.652] [INFO    ] [api-gateway   ] [trc-361826] Incoming HTTP request dispatched to worker handler latency_ms=51
+[2026-03-15 02:56:50.955] [ERROR   ] [db-cluster    ] [trc-691845] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=877
+[2026-03-15 02:56:51.664] [INFO    ] [cache-redis   ] [trc-423233] Cache lookup returned positive hit for session key latency_ms=61
+[2026-03-15 02:56:53.786] [ERROR   ] [billing-svc   ] [trc-916190] Worker thread crashed with segmentation violation in foreign library latency_ms=5835
+[2026-03-15 02:56:52.850] [ERROR   ] [cache-redis   ] [trc-280861] Worker thread crashed with segmentation violation in foreign library latency_ms=7428
+[2026-03-15 02:56:49.838] [ERROR   ] [auth-service  ] [trc-977417] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=7056
+[2026-03-15 02:56:48.824] [ERROR   ] [api-gateway   ] [trc-146266] Connection reset by peer while transmitting payload latency_ms=7712
+[2026-03-15 02:56:50.575] [CRITICAL] [api-gateway   ] [trc-317285] File descriptor limit reached for worker process; operating system rejecting socket creation latency_ms=8037
+[2026-03-15 02:56:52.390] [INFO    ] [api-gateway   ] [trc-571152] Scheduled garbage collection sweep finished latency_ms=16
+[2026-03-15 02:56:56.750] [INFO    ] [auth-service  ] [trc-544392] Worker heartbeat acknowledged by supervisor latency_ms=6
+[2026-03-15 02:56:57.864] [WARNING ] [api-gateway   ] [trc-951796] Downstream microservice response delayed, retry attempt scheduled latency_ms=309
+[2026-03-15 02:56:51.403] [INFO    ] [auth-service  ] [trc-721540] TLS handshake completed with client agent latency_ms=18
+[2026-03-15 02:56:56.000] [INFO    ] [billing-svc   ] [trc-163755] Connection acquired from connection pool latency_ms=70

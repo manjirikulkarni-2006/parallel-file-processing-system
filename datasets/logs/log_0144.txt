@@ -1,0 +1,23 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00144
+# Generated: 2026-03-15T07:37:31
+# Records Count: 20
+[2026-03-15 07:37:31.000] [INFO    ] [api-gateway   ] [trc-498281] Batch file chunk serialized successfully latency_ms=10
+[2026-03-15 07:37:31.287] [ERROR   ] [cache-redis   ] [trc-632737] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=997
+[2026-03-15 07:37:31.672] [WARNING ] [db-cluster    ] [trc-129541] Disk buffer cache pressure elevated during concurrent writes latency_ms=384
+[2026-03-15 07:37:32.743] [INFO    ] [cache-redis   ] [trc-781738] Incoming HTTP request dispatched to worker handler latency_ms=48
+[2026-03-15 07:37:32.620] [INFO    ] [worker-pool   ] [trc-285691] Batch file chunk serialized successfully latency_ms=37
+[2026-03-15 07:37:33.060] [WARNING ] [api-gateway   ] [trc-956686] Thread pool saturation index approaching upper boundary latency_ms=119
+[2026-03-15 07:37:32.110] [ERROR   ] [api-gateway   ] [trc-753736] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=1481
+[2026-03-15 07:37:34.367] [INFO    ] [billing-svc   ] [trc-314683] Scheduled garbage collection sweep finished latency_ms=43
+[2026-03-15 07:37:35.552] [INFO    ] [cache-redis   ] [trc-378502] Cache lookup returned positive hit for session key latency_ms=20
+[2026-03-15 07:37:32.692] [INFO    ] [auth-service  ] [trc-801789] Incoming HTTP request dispatched to worker handler latency_ms=22
+[2026-03-15 07:37:37.520] [INFO    ] [auth-service  ] [trc-108674] Batch file chunk serialized successfully latency_ms=58
+[2026-03-15 07:37:34.993] [ERROR   ] [db-cluster    ] [trc-240845] TLS socket abruptly terminated before payload completion latency_ms=1393
+[2026-03-15 07:37:34.048] [INFO    ] [worker-pool   ] [trc-764545] Cache lookup returned positive hit for session key latency_ms=63
+[2026-03-15 07:37:34.484] [INFO    ] [file-storage  ] [trc-891651] Worker heartbeat acknowledged by supervisor latency_ms=45
+[2026-03-15 07:37:36.124] [INFO    ] [api-gateway   ] [trc-703292] Scheduled garbage collection sweep finished latency_ms=10
+[2026-03-15 07:37:39.670] [INFO    ] [db-cluster    ] [trc-521665] Scheduled garbage collection sweep finished latency_ms=5
+[2026-03-15 07:37:42.728] [INFO    ] [auth-service  ] [trc-281543] Scheduled garbage collection sweep finished latency_ms=40
+[2026-03-15 07:37:44.226] [WARNING ] [file-storage  ] [trc-576414] Downstream microservice response delayed, retry attempt scheduled latency_ms=259
+[2026-03-15 07:37:35.752] [INFO    ] [cache-redis   ] [trc-841250] Scheduled garbage collection sweep finished latency_ms=47
+[2026-03-15 07:37:44.300] [INFO    ] [billing-svc   ] [trc-575712] Batch file chunk serialized successfully latency_ms=20

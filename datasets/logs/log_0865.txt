@@ -1,0 +1,20 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00865
+# Generated: 2026-03-15T22:03:34
+# Records Count: 17
+[2026-03-15 22:03:34.000] [INFO    ] [worker-pool   ] [trc-470688] Worker heartbeat acknowledged by supervisor latency_ms=59
+[2026-03-15 22:03:34.248] [INFO    ] [cache-redis   ] [trc-851927] Incoming HTTP request dispatched to worker handler latency_ms=72
+[2026-03-15 22:03:34.968] [WARNING ] [file-storage  ] [trc-840181] Downstream microservice response delayed, retry attempt scheduled latency_ms=90
+[2026-03-15 22:03:34.615] [ERROR   ] [api-gateway   ] [trc-819472] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=1454
+[2026-03-15 22:03:36.956] [INFO    ] [auth-service  ] [trc-134349] Worker heartbeat acknowledged by supervisor latency_ms=10
+[2026-03-15 22:03:37.120] [INFO    ] [auth-service  ] [trc-888876] Worker heartbeat acknowledged by supervisor latency_ms=5
+[2026-03-15 22:03:38.734] [WARNING ] [billing-svc   ] [trc-113341] Disk buffer cache pressure elevated during concurrent writes latency_ms=265
+[2026-03-15 22:03:36.065] [INFO    ] [worker-pool   ] [trc-912047] Batch file chunk serialized successfully latency_ms=30
+[2026-03-15 22:03:35.496] [ERROR   ] [billing-svc   ] [trc-655339] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=812
+[2026-03-15 22:03:39.364] [INFO    ] [file-storage  ] [trc-495377] Cache lookup returned positive hit for session key latency_ms=29
+[2026-03-15 22:03:38.330] [INFO    ] [api-gateway   ] [trc-349653] Worker heartbeat acknowledged by supervisor latency_ms=23
+[2026-03-15 22:03:39.423] [INFO    ] [worker-pool   ] [trc-406449] Worker heartbeat acknowledged by supervisor latency_ms=52
+[2026-03-15 22:03:37.960] [INFO    ] [file-storage  ] [trc-973066] Connection acquired from connection pool latency_ms=16
+[2026-03-15 22:03:41.670] [INFO    ] [billing-svc   ] [trc-613135] TLS handshake completed with client agent latency_ms=36
+[2026-03-15 22:03:40.454] [WARNING ] [api-gateway   ] [trc-286703] Disk buffer cache pressure elevated during concurrent writes latency_ms=314
+[2026-03-15 22:03:45.295] [INFO    ] [billing-svc   ] [trc-478066] Batch file chunk serialized successfully latency_ms=35
+[2026-03-15 22:03:43.872] [INFO    ] [worker-pool   ] [trc-734191] Connection acquired from connection pool latency_ms=22

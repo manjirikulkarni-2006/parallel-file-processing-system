@@ -1,0 +1,23 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00332
+# Generated: 2026-03-15T13:52:47
+# Records Count: 20
+[2026-03-15 13:52:47.000] [INFO    ] [file-storage  ] [trc-106840] Scheduled garbage collection sweep finished latency_ms=31
+[2026-03-15 13:52:47.607] [INFO    ] [api-gateway   ] [trc-490464] Connection acquired from connection pool latency_ms=14
+[2026-03-15 13:52:48.218] [INFO    ] [cache-redis   ] [trc-669855] TLS handshake completed with client agent latency_ms=74
+[2026-03-15 13:52:49.166] [WARNING ] [cache-redis   ] [trc-910138] Disk buffer cache pressure elevated during concurrent writes latency_ms=81
+[2026-03-15 13:52:48.408] [INFO    ] [db-cluster    ] [trc-768938] TLS handshake completed with client agent latency_ms=61
+[2026-03-15 13:52:48.930] [INFO    ] [file-storage  ] [trc-229290] Scheduled garbage collection sweep finished latency_ms=31
+[2026-03-15 13:52:50.636] [INFO    ] [api-gateway   ] [trc-803744] Cache lookup returned positive hit for session key latency_ms=55
+[2026-03-15 13:52:49.261] [INFO    ] [worker-pool   ] [trc-983230] Cache lookup returned positive hit for session key latency_ms=8
+[2026-03-15 13:52:51.800] [ERROR   ] [cache-redis   ] [trc-611996] Connection reset by peer while transmitting payload latency_ms=515
+[2026-03-15 13:52:51.302] [INFO    ] [auth-service  ] [trc-473373] Worker heartbeat acknowledged by supervisor latency_ms=71
+[2026-03-15 13:52:49.830] [ERROR   ] [cache-redis   ] [trc-314396] TLS socket abruptly terminated before payload completion latency_ms=4328
+[2026-03-15 13:52:50.047] [CRITICAL] [cache-redis   ] [trc-636004] Cascading failover triggered on primary cluster node; state recovery active latency_ms=8125
+[2026-03-15 13:52:51.644] [CRITICAL] [file-storage  ] [trc-437653] Cascading failover triggered on primary cluster node; state recovery active latency_ms=7882
+[2026-03-15 13:52:52.681] [ERROR   ] [db-cluster    ] [trc-604621] TLS socket abruptly terminated before payload completion latency_ms=4859
+[2026-03-15 13:52:53.972] [ERROR   ] [file-storage  ] [trc-609951] Failed to write metadata block to distributed store latency_ms=7305
+[2026-03-15 13:52:50.315] [WARNING ] [worker-pool   ] [trc-546870] High memory consumption threshold reached (88% utilized) latency_ms=244
+[2026-03-15 13:52:53.240] [INFO    ] [auth-service  ] [trc-879621] Scheduled garbage collection sweep finished latency_ms=7
+[2026-03-15 13:52:56.180] [INFO    ] [db-cluster    ] [trc-536304] Batch file chunk serialized successfully latency_ms=12
+[2026-03-15 13:52:57.098] [ERROR   ] [auth-service  ] [trc-902737] Connection reset by peer while transmitting payload latency_ms=602
+[2026-03-15 13:53:00.984] [WARNING ] [cache-redis   ] [trc-172444] High memory consumption threshold reached (88% utilized) latency_ms=133

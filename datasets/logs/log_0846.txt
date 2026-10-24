@@ -1,0 +1,24 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00846
+# Generated: 2026-03-15T22:50:47
+# Records Count: 21
+[2026-03-15 22:50:47.000] [ERROR   ] [db-cluster    ] [trc-566446] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=690
+[2026-03-15 22:50:47.772] [ERROR   ] [file-storage  ] [trc-476013] Connection reset by peer while transmitting payload latency_ms=975
+[2026-03-15 22:50:47.526] [WARNING ] [worker-pool   ] [trc-701251] High memory consumption threshold reached (88% utilized) latency_ms=364
+[2026-03-15 22:50:49.313] [INFO    ] [billing-svc   ] [trc-205271] Incoming HTTP request dispatched to worker handler latency_ms=51
+[2026-03-15 22:50:48.228] [INFO    ] [file-storage  ] [trc-922245] TLS handshake completed with client agent latency_ms=24
+[2026-03-15 22:50:48.900] [INFO    ] [cache-redis   ] [trc-933867] Incoming HTTP request dispatched to worker handler latency_ms=44
+[2026-03-15 22:50:48.290] [INFO    ] [billing-svc   ] [trc-104316] Batch file chunk serialized successfully latency_ms=74
+[2026-03-15 22:50:51.256] [WARNING ] [api-gateway   ] [trc-467230] Thread pool saturation index approaching upper boundary latency_ms=126
+[2026-03-15 22:50:49.368] [WARNING ] [auth-service  ] [trc-106459] Thread pool saturation index approaching upper boundary latency_ms=299
+[2026-03-15 22:50:52.481] [INFO    ] [api-gateway   ] [trc-436603] Cache lookup returned positive hit for session key latency_ms=55
+[2026-03-15 22:50:51.980] [ERROR   ] [api-gateway   ] [trc-373315] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=952
+[2026-03-15 22:50:52.962] [INFO    ] [worker-pool   ] [trc-958660] Cache lookup returned positive hit for session key latency_ms=60
+[2026-03-15 22:50:49.436] [INFO    ] [worker-pool   ] [trc-835977] Connection acquired from connection pool latency_ms=53
+[2026-03-15 22:50:52.720] [INFO    ] [db-cluster    ] [trc-420609] Incoming HTTP request dispatched to worker handler latency_ms=21
+[2026-03-15 22:50:57.178] [WARNING ] [api-gateway   ] [trc-603878] Thread pool saturation index approaching upper boundary latency_ms=121
+[2026-03-15 22:50:53.840] [INFO    ] [billing-svc   ] [trc-846548] Connection acquired from connection pool latency_ms=46
+[2026-03-15 22:50:51.128] [ERROR   ] [api-gateway   ] [trc-772673] TLS socket abruptly terminated before payload completion latency_ms=661
+[2026-03-15 22:50:52.457] [WARNING ] [auth-service  ] [trc-383158] Disk buffer cache pressure elevated during concurrent writes latency_ms=238
+[2026-03-15 22:50:56.000] [INFO    ] [file-storage  ] [trc-224064] Cache lookup returned positive hit for session key latency_ms=28
+[2026-03-15 22:50:58.476] [WARNING ] [db-cluster    ] [trc-217707] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=118
+[2026-03-15 22:50:57.100] [INFO    ] [api-gateway   ] [trc-856938] Batch file chunk serialized successfully latency_ms=69

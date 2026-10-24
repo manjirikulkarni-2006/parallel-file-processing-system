@@ -1,0 +1,22 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00580
+# Generated: 2026-03-15T01:15:28
+# Records Count: 19
+[2026-03-15 01:15:28.000] [WARNING ] [billing-svc   ] [trc-615197] Disk buffer cache pressure elevated during concurrent writes latency_ms=419
+[2026-03-15 01:15:28.410] [INFO    ] [api-gateway   ] [trc-860695] Cache lookup returned positive hit for session key latency_ms=16
+[2026-03-15 01:15:28.700] [INFO    ] [api-gateway   ] [trc-612177] Cache lookup returned positive hit for session key latency_ms=23
+[2026-03-15 01:15:30.289] [INFO    ] [api-gateway   ] [trc-765650] Cache lookup returned positive hit for session key latency_ms=26
+[2026-03-15 01:15:28.680] [INFO    ] [worker-pool   ] [trc-601407] Scheduled garbage collection sweep finished latency_ms=9
+[2026-03-15 01:15:31.580] [INFO    ] [auth-service  ] [trc-709668] Scheduled garbage collection sweep finished latency_ms=24
+[2026-03-15 01:15:31.450] [WARNING ] [auth-service  ] [trc-936224] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=107
+[2026-03-15 01:15:32.606] [WARNING ] [file-storage  ] [trc-997386] Thread pool saturation index approaching upper boundary latency_ms=113
+[2026-03-15 01:15:32.552] [INFO    ] [cache-redis   ] [trc-372776] Worker heartbeat acknowledged by supervisor latency_ms=40
+[2026-03-15 01:15:33.058] [INFO    ] [api-gateway   ] [trc-253622] Cache lookup returned positive hit for session key latency_ms=67
+[2026-03-15 01:15:35.740] [INFO    ] [file-storage  ] [trc-795837] Scheduled garbage collection sweep finished latency_ms=26
+[2026-03-15 01:15:31.773] [WARNING ] [auth-service  ] [trc-919705] Thread pool saturation index approaching upper boundary latency_ms=94
+[2026-03-15 01:15:32.236] [WARNING ] [api-gateway   ] [trc-665549] Disk buffer cache pressure elevated during concurrent writes latency_ms=174
+[2026-03-15 01:15:34.890] [ERROR   ] [db-cluster    ] [trc-352237] Connection reset by peer while transmitting payload latency_ms=589
+[2026-03-15 01:15:34.272] [WARNING ] [api-gateway   ] [trc-278342] Downstream microservice response delayed, retry attempt scheduled latency_ms=187
+[2026-03-15 01:15:31.015] [INFO    ] [file-storage  ] [trc-945251] Cache lookup returned positive hit for session key latency_ms=12
+[2026-03-15 01:15:33.024] [INFO    ] [db-cluster    ] [trc-984078] Batch file chunk serialized successfully latency_ms=67
+[2026-03-15 01:15:40.036] [WARNING ] [api-gateway   ] [trc-276920] Disk buffer cache pressure elevated during concurrent writes latency_ms=381
+[2026-03-15 01:15:35.290] [INFO    ] [auth-service  ] [trc-238489] Cache lookup returned positive hit for session key latency_ms=37

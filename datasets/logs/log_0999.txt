@@ -1,0 +1,19 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00999
+# Generated: 2026-03-15T00:30:19
+# Records Count: 16
+[2026-03-15 00:30:19.000] [INFO    ] [auth-service  ] [trc-545288] Batch file chunk serialized successfully latency_ms=43
+[2026-03-15 00:30:19.745] [INFO    ] [auth-service  ] [trc-576348] Scheduled garbage collection sweep finished latency_ms=72
+[2026-03-15 00:30:19.652] [INFO    ] [api-gateway   ] [trc-893953] Connection acquired from connection pool latency_ms=54
+[2026-03-15 00:30:20.734] [INFO    ] [api-gateway   ] [trc-620931] Batch file chunk serialized successfully latency_ms=70
+[2026-03-15 00:30:21.936] [INFO    ] [worker-pool   ] [trc-501845] Worker heartbeat acknowledged by supervisor latency_ms=7
+[2026-03-15 00:30:21.270] [ERROR   ] [cache-redis   ] [trc-930423] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=1226
+[2026-03-15 00:30:22.618] [INFO    ] [file-storage  ] [trc-861379] Batch file chunk serialized successfully latency_ms=15
+[2026-03-15 00:30:23.277] [ERROR   ] [cache-redis   ] [trc-438625] TLS socket abruptly terminated before payload completion latency_ms=1041
+[2026-03-15 00:30:24.000] [WARNING ] [file-storage  ] [trc-540043] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=285
+[2026-03-15 00:30:24.400] [INFO    ] [api-gateway   ] [trc-576910] Incoming HTTP request dispatched to worker handler latency_ms=29
+[2026-03-15 00:30:22.430] [INFO    ] [worker-pool   ] [trc-794818] Cache lookup returned positive hit for session key latency_ms=30
+[2026-03-15 00:30:25.930] [INFO    ] [db-cluster    ] [trc-158216] Cache lookup returned positive hit for session key latency_ms=45
+[2026-03-15 00:30:26.008] [WARNING ] [auth-service  ] [trc-280696] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=186
+[2026-03-15 00:30:27.281] [INFO    ] [worker-pool   ] [trc-780179] Batch file chunk serialized successfully latency_ms=65
+[2026-03-15 00:30:29.892] [WARNING ] [db-cluster    ] [trc-896468] Downstream microservice response delayed, retry attempt scheduled latency_ms=348
+[2026-03-15 00:30:29.170] [INFO    ] [db-cluster    ] [trc-106980] Scheduled garbage collection sweep finished latency_ms=44

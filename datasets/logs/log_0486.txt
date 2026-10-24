@@ -1,0 +1,25 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00486
+# Generated: 2026-03-15T03:12:32
+# Records Count: 22
+[2026-03-15 03:12:32.000] [WARNING ] [db-cluster    ] [trc-272245] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=193
+[2026-03-15 03:12:32.459] [INFO    ] [billing-svc   ] [trc-729771] Scheduled garbage collection sweep finished latency_ms=47
+[2026-03-15 03:12:32.522] [INFO    ] [worker-pool   ] [trc-826016] Connection acquired from connection pool latency_ms=32
+[2026-03-15 03:12:32.609] [ERROR   ] [file-storage  ] [trc-962396] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=910
+[2026-03-15 03:12:32.748] [INFO    ] [worker-pool   ] [trc-695141] Batch file chunk serialized successfully latency_ms=51
+[2026-03-15 03:12:34.965] [INFO    ] [api-gateway   ] [trc-275922] Worker heartbeat acknowledged by supervisor latency_ms=32
+[2026-03-15 03:12:34.310] [INFO    ] [cache-redis   ] [trc-413032] Cache lookup returned positive hit for session key latency_ms=53
+[2026-03-15 03:12:36.529] [WARNING ] [cache-redis   ] [trc-708183] Disk buffer cache pressure elevated during concurrent writes latency_ms=184
+[2026-03-15 03:12:37.368] [INFO    ] [file-storage  ] [trc-257002] Connection acquired from connection pool latency_ms=17
+[2026-03-15 03:12:35.987] [INFO    ] [billing-svc   ] [trc-724334] Batch file chunk serialized successfully latency_ms=32
+[2026-03-15 03:12:36.960] [INFO    ] [billing-svc   ] [trc-783779] Worker heartbeat acknowledged by supervisor latency_ms=11
+[2026-03-15 03:12:39.491] [WARNING ] [auth-service  ] [trc-188127] High memory consumption threshold reached (88% utilized) latency_ms=439
+[2026-03-15 03:12:38.600] [INFO    ] [billing-svc   ] [trc-791330] Batch file chunk serialized successfully latency_ms=38
+[2026-03-15 03:12:37.447] [INFO    ] [cache-redis   ] [trc-959563] Batch file chunk serialized successfully latency_ms=72
+[2026-03-15 03:12:40.554] [INFO    ] [auth-service  ] [trc-237526] Incoming HTTP request dispatched to worker handler latency_ms=73
+[2026-03-15 03:12:35.570] [INFO    ] [api-gateway   ] [trc-523545] Cache lookup returned positive hit for session key latency_ms=19
+[2026-03-15 03:12:43.376] [WARNING ] [auth-service  ] [trc-513023] Thread pool saturation index approaching upper boundary latency_ms=422
+[2026-03-15 03:12:35.978] [WARNING ] [file-storage  ] [trc-849675] High memory consumption threshold reached (88% utilized) latency_ms=445
+[2026-03-15 03:12:36.788] [WARNING ] [worker-pool   ] [trc-339372] Disk buffer cache pressure elevated during concurrent writes latency_ms=424
+[2026-03-15 03:12:43.837] [INFO    ] [worker-pool   ] [trc-958131] Scheduled garbage collection sweep finished latency_ms=39
+[2026-03-15 03:12:36.580] [INFO    ] [file-storage  ] [trc-167724] Scheduled garbage collection sweep finished latency_ms=43
+[2026-03-15 03:12:48.086] [INFO    ] [file-storage  ] [trc-763624] Scheduled garbage collection sweep finished latency_ms=20

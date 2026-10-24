@@ -1,0 +1,27 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00401
+# Generated: 2026-03-15T21:06:54
+# Records Count: 24
+[2026-03-15 21:06:54.000] [INFO    ] [billing-svc   ] [trc-381988] TLS handshake completed with client agent latency_ms=37
+[2026-03-15 21:06:54.308] [INFO    ] [worker-pool   ] [trc-736588] Batch file chunk serialized successfully latency_ms=24
+[2026-03-15 21:06:55.180] [INFO    ] [auth-service  ] [trc-225452] Batch file chunk serialized successfully latency_ms=39
+[2026-03-15 21:06:55.287] [INFO    ] [auth-service  ] [trc-289903] Scheduled garbage collection sweep finished latency_ms=28
+[2026-03-15 21:06:55.832] [INFO    ] [auth-service  ] [trc-777074] TLS handshake completed with client agent latency_ms=66
+[2026-03-15 21:06:55.730] [INFO    ] [file-storage  ] [trc-197144] Scheduled garbage collection sweep finished latency_ms=8
+[2026-03-15 21:06:56.328] [INFO    ] [worker-pool   ] [trc-565312] Batch file chunk serialized successfully latency_ms=46
+[2026-03-15 21:06:55.771] [INFO    ] [api-gateway   ] [trc-793775] Cache lookup returned positive hit for session key latency_ms=74
+[2026-03-15 21:06:57.136] [INFO    ] [billing-svc   ] [trc-686697] Worker heartbeat acknowledged by supervisor latency_ms=31
+[2026-03-15 21:06:57.510] [INFO    ] [auth-service  ] [trc-596978] Cache lookup returned positive hit for session key latency_ms=45
+[2026-03-15 21:06:57.620] [INFO    ] [billing-svc   ] [trc-438297] Connection acquired from connection pool latency_ms=45
+[2026-03-15 21:07:00.446] [ERROR   ] [billing-svc   ] [trc-311557] Worker thread crashed with segmentation violation in foreign library latency_ms=730
+[2026-03-15 21:06:56.604] [ERROR   ] [billing-svc   ] [trc-560844] TLS socket abruptly terminated before payload completion latency_ms=1189
+[2026-03-15 21:07:04.361] [INFO    ] [api-gateway   ] [trc-499210] Scheduled garbage collection sweep finished latency_ms=30
+[2026-03-15 21:07:01.084] [INFO    ] [worker-pool   ] [trc-567916] TLS handshake completed with client agent latency_ms=50
+[2026-03-15 21:07:00.240] [INFO    ] [cache-redis   ] [trc-321435] TLS handshake completed with client agent latency_ms=69
+[2026-03-15 21:06:59.120] [INFO    ] [worker-pool   ] [trc-417397] Scheduled garbage collection sweep finished latency_ms=57
+[2026-03-15 21:07:06.019] [INFO    ] [file-storage  ] [trc-247578] Connection acquired from connection pool latency_ms=9
+[2026-03-15 21:07:04.026] [INFO    ] [file-storage  ] [trc-239409] TLS handshake completed with client agent latency_ms=37
+[2026-03-15 21:07:03.481] [INFO    ] [cache-redis   ] [trc-677824] Connection acquired from connection pool latency_ms=70
+[2026-03-15 21:07:03.200] [INFO    ] [worker-pool   ] [trc-583248] Worker heartbeat acknowledged by supervisor latency_ms=58
+[2026-03-15 21:07:09.456] [WARNING ] [billing-svc   ] [trc-204835] Disk buffer cache pressure elevated during concurrent writes latency_ms=123
+[2026-03-15 21:07:06.914] [INFO    ] [billing-svc   ] [trc-284544] Cache lookup returned positive hit for session key latency_ms=30
+[2026-03-15 21:06:59.957] [INFO    ] [worker-pool   ] [trc-437896] Batch file chunk serialized successfully latency_ms=48

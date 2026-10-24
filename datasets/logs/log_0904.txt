@@ -1,0 +1,22 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00904
+# Generated: 2026-03-15T08:30:52
+# Records Count: 19
+[2026-03-15 08:30:52.000] [WARNING ] [auth-service  ] [trc-825839] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=143
+[2026-03-15 08:30:52.475] [WARNING ] [worker-pool   ] [trc-129633] Disk buffer cache pressure elevated during concurrent writes latency_ms=104
+[2026-03-15 08:30:52.634] [ERROR   ] [auth-service  ] [trc-893497] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=1462
+[2026-03-15 08:30:53.536] [INFO    ] [api-gateway   ] [trc-938745] Worker heartbeat acknowledged by supervisor latency_ms=19
+[2026-03-15 08:30:54.288] [INFO    ] [file-storage  ] [trc-404000] Incoming HTTP request dispatched to worker handler latency_ms=37
+[2026-03-15 08:30:52.750] [INFO    ] [file-storage  ] [trc-792711] Worker heartbeat acknowledged by supervisor latency_ms=64
+[2026-03-15 08:30:55.096] [WARNING ] [auth-service  ] [trc-349427] Downstream microservice response delayed, retry attempt scheduled latency_ms=370
+[2026-03-15 08:30:57.026] [INFO    ] [file-storage  ] [trc-862233] TLS handshake completed with client agent latency_ms=36
+[2026-03-15 08:30:54.528] [WARNING ] [auth-service  ] [trc-910942] Disk buffer cache pressure elevated during concurrent writes latency_ms=106
+[2026-03-15 08:30:53.980] [INFO    ] [db-cluster    ] [trc-963211] Batch file chunk serialized successfully latency_ms=33
+[2026-03-15 08:30:56.940] [INFO    ] [cache-redis   ] [trc-910270] Incoming HTTP request dispatched to worker handler latency_ms=42
+[2026-03-15 08:30:54.321] [INFO    ] [file-storage  ] [trc-156711] Worker heartbeat acknowledged by supervisor latency_ms=22
+[2026-03-15 08:31:00.040] [INFO    ] [auth-service  ] [trc-353294] Scheduled garbage collection sweep finished latency_ms=56
+[2026-03-15 08:30:59.709] [INFO    ] [cache-redis   ] [trc-987692] Connection acquired from connection pool latency_ms=15
+[2026-03-15 08:30:56.732] [INFO    ] [file-storage  ] [trc-923700] Worker heartbeat acknowledged by supervisor latency_ms=44
+[2026-03-15 08:30:58.285] [INFO    ] [worker-pool   ] [trc-157068] Worker heartbeat acknowledged by supervisor latency_ms=38
+[2026-03-15 08:31:04.128] [INFO    ] [cache-redis   ] [trc-102605] Worker heartbeat acknowledged by supervisor latency_ms=56
+[2026-03-15 08:31:00.857] [INFO    ] [file-storage  ] [trc-185647] Batch file chunk serialized successfully latency_ms=15
+[2026-03-15 08:30:57.040] [INFO    ] [api-gateway   ] [trc-413647] Incoming HTTP request dispatched to worker handler latency_ms=25

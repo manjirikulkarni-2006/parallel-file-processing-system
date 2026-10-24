@@ -1,0 +1,17 @@
+==================================================
+CUSTOMER PRODUCT REVIEW RECORD
+Review-ID: REV-00769
+Product: NovaCore Octa-CPU
+Category: Processors
+Rating: 1/5 Stars
+Sentiment-Tag: Negative
+Date: 2026-03-24
+--------------------------------------------------
+Feedback:
+Unit failed after three weeks of standard desktop use. Customer service was slow to respond and refused replacement under warranty.
+
+Verified Purchase: Yes. Usage duration: 12 weeks.
+Key attributes evaluated: build quality, throughput, reliability, ergonomics.
+User feedback note: Consider alternatives if demanding high stability.
+Diagnostic benchmark checksum ID: REV-00769-CHK.
+==================================================

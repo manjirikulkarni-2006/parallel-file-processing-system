@@ -1,0 +1,19 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00763
+# Generated: 2026-03-15T03:27:17
+# Records Count: 16
+[2026-03-15 03:27:17.000] [INFO    ] [cache-redis   ] [trc-990169] TLS handshake completed with client agent latency_ms=70
+[2026-03-15 03:27:17.732] [INFO    ] [db-cluster    ] [trc-497738] TLS handshake completed with client agent latency_ms=55
+[2026-03-15 03:27:18.266] [INFO    ] [db-cluster    ] [trc-325764] Connection acquired from connection pool latency_ms=74
+[2026-03-15 03:27:18.839] [WARNING ] [auth-service  ] [trc-588135] Downstream microservice response delayed, retry attempt scheduled latency_ms=312
+[2026-03-15 03:27:20.200] [WARNING ] [auth-service  ] [trc-211654] Disk buffer cache pressure elevated during concurrent writes latency_ms=171
+[2026-03-15 03:27:20.915] [INFO    ] [api-gateway   ] [trc-900860] Scheduled garbage collection sweep finished latency_ms=33
+[2026-03-15 03:27:19.430] [WARNING ] [file-storage  ] [trc-497724] Thread pool saturation index approaching upper boundary latency_ms=371
+[2026-03-15 03:27:19.177] [INFO    ] [cache-redis   ] [trc-611645] Batch file chunk serialized successfully latency_ms=22
+[2026-03-15 03:27:19.496] [CRITICAL] [auth-service  ] [trc-241913] Authentication burst anomaly: 120 failed auth tokens within 10 seconds from subnet 198.51.100.0/24 latency_ms=6574
+[2026-03-15 03:27:20.618] [ERROR   ] [file-storage  ] [trc-522165] Failed to write metadata block to distributed store latency_ms=4613
+[2026-03-15 03:27:22.380] [CRITICAL] [db-cluster    ] [trc-692667] File descriptor limit reached for worker process; operating system rejecting socket creation latency_ms=6670
+[2026-03-15 03:27:25.052] [ERROR   ] [db-cluster    ] [trc-306569] Connection reset by peer while transmitting payload latency_ms=4990
+[2026-03-15 03:27:22.328] [ERROR   ] [api-gateway   ] [trc-429298] TLS socket abruptly terminated before payload completion latency_ms=8093
+[2026-03-15 03:27:22.382] [INFO    ] [cache-redis   ] [trc-383284] Batch file chunk serialized successfully latency_ms=37
+[2026-03-15 03:27:26.758] [WARNING ] [billing-svc   ] [trc-954881] Thread pool saturation index approaching upper boundary latency_ms=134
+[2026-03-15 03:27:25.415] [WARNING ] [db-cluster    ] [trc-490085] Disk buffer cache pressure elevated during concurrent writes latency_ms=420

@@ -1,0 +1,25 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00194
+# Generated: 2026-03-15T23:32:31
+# Records Count: 22
+[2026-03-15 23:32:31.000] [INFO    ] [auth-service  ] [trc-202708] Connection acquired from connection pool latency_ms=55
+[2026-03-15 23:32:31.730] [INFO    ] [api-gateway   ] [trc-925068] Connection acquired from connection pool latency_ms=63
+[2026-03-15 23:32:32.190] [INFO    ] [cache-redis   ] [trc-607559] Incoming HTTP request dispatched to worker handler latency_ms=50
+[2026-03-15 23:32:31.870] [INFO    ] [file-storage  ] [trc-638805] Batch file chunk serialized successfully latency_ms=5
+[2026-03-15 23:32:33.408] [INFO    ] [billing-svc   ] [trc-406202] Worker heartbeat acknowledged by supervisor latency_ms=15
+[2026-03-15 23:32:33.660] [INFO    ] [cache-redis   ] [trc-306041] Cache lookup returned positive hit for session key latency_ms=45
+[2026-03-15 23:32:32.212] [ERROR   ] [api-gateway   ] [trc-948155] Connection reset by peer while transmitting payload latency_ms=634
+[2026-03-15 23:32:34.752] [INFO    ] [billing-svc   ] [trc-946113] Worker heartbeat acknowledged by supervisor latency_ms=68
+[2026-03-15 23:32:36.744] [ERROR   ] [file-storage  ] [trc-135877] Worker thread crashed with segmentation violation in foreign library latency_ms=1153
+[2026-03-15 23:32:35.536] [INFO    ] [api-gateway   ] [trc-278363] Worker heartbeat acknowledged by supervisor latency_ms=56
+[2026-03-15 23:32:37.130] [INFO    ] [cache-redis   ] [trc-515866] TLS handshake completed with client agent latency_ms=11
+[2026-03-15 23:32:35.708] [WARNING ] [api-gateway   ] [trc-733955] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=219
+[2026-03-15 23:32:37.804] [INFO    ] [billing-svc   ] [trc-823280] Cache lookup returned positive hit for session key latency_ms=43
+[2026-03-15 23:32:41.270] [WARNING ] [api-gateway   ] [trc-662529] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=202
+[2026-03-15 23:32:39.176] [INFO    ] [file-storage  ] [trc-629518] Incoming HTTP request dispatched to worker handler latency_ms=36
+[2026-03-15 23:32:41.680] [INFO    ] [billing-svc   ] [trc-238582] Incoming HTTP request dispatched to worker handler latency_ms=11
+[2026-03-15 23:32:38.536] [INFO    ] [api-gateway   ] [trc-355521] Batch file chunk serialized successfully latency_ms=12
+[2026-03-15 23:32:35.284] [INFO    ] [file-storage  ] [trc-425587] Incoming HTTP request dispatched to worker handler latency_ms=17
+[2026-03-15 23:32:38.020] [INFO    ] [file-storage  ] [trc-789474] Cache lookup returned positive hit for session key latency_ms=35
+[2026-03-15 23:32:37.213] [INFO    ] [api-gateway   ] [trc-908397] Connection acquired from connection pool latency_ms=14
+[2026-03-15 23:32:41.920] [WARNING ] [file-storage  ] [trc-227463] Thread pool saturation index approaching upper boundary latency_ms=193
+[2026-03-15 23:32:43.075] [INFO    ] [cache-redis   ] [trc-109476] Worker heartbeat acknowledged by supervisor latency_ms=16

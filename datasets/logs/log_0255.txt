@@ -1,0 +1,18 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00255
+# Generated: 2026-03-15T21:05:30
+# Records Count: 15
+[2026-03-15 21:05:30.000] [INFO    ] [cache-redis   ] [trc-494542] Worker heartbeat acknowledged by supervisor latency_ms=17
+[2026-03-15 21:05:30.235] [WARNING ] [billing-svc   ] [trc-530723] Disk buffer cache pressure elevated during concurrent writes latency_ms=259
+[2026-03-15 21:05:31.040] [INFO    ] [billing-svc   ] [trc-960113] TLS handshake completed with client agent latency_ms=52
+[2026-03-15 21:05:32.208] [INFO    ] [worker-pool   ] [trc-275028] Connection acquired from connection pool latency_ms=68
+[2026-03-15 21:05:32.948] [ERROR   ] [cache-redis   ] [trc-306919] Failed to write metadata block to distributed store latency_ms=1281
+[2026-03-15 21:05:32.845] [INFO    ] [auth-service  ] [trc-822833] Worker heartbeat acknowledged by supervisor latency_ms=68
+[2026-03-15 21:05:31.986] [INFO    ] [db-cluster    ] [trc-519167] Worker heartbeat acknowledged by supervisor latency_ms=68
+[2026-03-15 21:05:34.459] [INFO    ] [db-cluster    ] [trc-483891] Cache lookup returned positive hit for session key latency_ms=59
+[2026-03-15 21:05:31.784] [WARNING ] [auth-service  ] [trc-973934] High memory consumption threshold reached (88% utilized) latency_ms=328
+[2026-03-15 21:05:33.717] [INFO    ] [file-storage  ] [trc-176518] Connection acquired from connection pool latency_ms=8
+[2026-03-15 21:05:37.100] [WARNING ] [billing-svc   ] [trc-670865] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=301
+[2026-03-15 21:05:37.183] [INFO    ] [cache-redis   ] [trc-236605] Worker heartbeat acknowledged by supervisor latency_ms=6
+[2026-03-15 21:05:37.812] [INFO    ] [cache-redis   ] [trc-525766] Scheduled garbage collection sweep finished latency_ms=8
+[2026-03-15 21:05:32.379] [INFO    ] [api-gateway   ] [trc-178638] Worker heartbeat acknowledged by supervisor latency_ms=18
+[2026-03-15 21:05:36.888] [ERROR   ] [worker-pool   ] [trc-651225] Worker thread crashed with segmentation violation in foreign library latency_ms=789

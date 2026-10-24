@@ -1,0 +1,31 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00048
+# Generated: 2026-03-15T18:57:41
+# Records Count: 28
+[2026-03-15 18:57:41.000] [INFO    ] [worker-pool   ] [trc-952905] Connection acquired from connection pool latency_ms=11
+[2026-03-15 18:57:41.655] [ERROR   ] [db-cluster    ] [trc-149064] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=622
+[2026-03-15 18:57:41.554] [INFO    ] [db-cluster    ] [trc-279453] Worker heartbeat acknowledged by supervisor latency_ms=54
+[2026-03-15 18:57:42.176] [INFO    ] [file-storage  ] [trc-122301] TLS handshake completed with client agent latency_ms=5
+[2026-03-15 18:57:43.488] [WARNING ] [worker-pool   ] [trc-237424] Thread pool saturation index approaching upper boundary latency_ms=98
+[2026-03-15 18:57:44.480] [INFO    ] [file-storage  ] [trc-141020] Incoming HTTP request dispatched to worker handler latency_ms=13
+[2026-03-15 18:57:44.786] [WARNING ] [api-gateway   ] [trc-970161] Downstream microservice response delayed, retry attempt scheduled latency_ms=220
+[2026-03-15 18:57:44.318] [INFO    ] [cache-redis   ] [trc-462623] Worker heartbeat acknowledged by supervisor latency_ms=45
+[2026-03-15 18:57:46.240] [INFO    ] [file-storage  ] [trc-149359] TLS handshake completed with client agent latency_ms=63
+[2026-03-15 18:57:46.895] [ERROR   ] [cache-redis   ] [trc-772239] Connection reset by peer while transmitting payload latency_ms=1363
+[2026-03-15 18:57:46.320] [INFO    ] [file-storage  ] [trc-207734] Incoming HTTP request dispatched to worker handler latency_ms=6
+[2026-03-15 18:57:44.212] [WARNING ] [api-gateway   ] [trc-438542] Thread pool saturation index approaching upper boundary latency_ms=195
+[2026-03-15 18:57:44.888] [WARNING ] [api-gateway   ] [trc-300445] Downstream microservice response delayed, retry attempt scheduled latency_ms=355
+[2026-03-15 18:57:43.015] [INFO    ] [billing-svc   ] [trc-155040] Scheduled garbage collection sweep finished latency_ms=10
+[2026-03-15 18:57:44.682] [INFO    ] [api-gateway   ] [trc-419071] Cache lookup returned positive hit for session key latency_ms=53
+[2026-03-15 18:57:47.390] [ERROR   ] [billing-svc   ] [trc-278612] TLS socket abruptly terminated before payload completion latency_ms=971
+[2026-03-15 18:57:45.352] [WARNING ] [auth-service  ] [trc-434844] Disk buffer cache pressure elevated during concurrent writes latency_ms=291
+[2026-03-15 18:57:51.319] [INFO    ] [billing-svc   ] [trc-228317] Connection acquired from connection pool latency_ms=66
+[2026-03-15 18:57:52.718] [WARNING ] [worker-pool   ] [trc-437548] Thread pool saturation index approaching upper boundary latency_ms=195
+[2026-03-15 18:57:45.636] [INFO    ] [worker-pool   ] [trc-903421] Incoming HTTP request dispatched to worker handler latency_ms=50
+[2026-03-15 18:57:55.420] [INFO    ] [cache-redis   ] [trc-354149] TLS handshake completed with client agent latency_ms=31
+[2026-03-15 18:57:45.809] [INFO    ] [api-gateway   ] [trc-618631] Incoming HTTP request dispatched to worker handler latency_ms=32
+[2026-03-15 18:57:54.838] [INFO    ] [cache-redis   ] [trc-503764] Incoming HTTP request dispatched to worker handler latency_ms=48
+[2026-03-15 18:57:49.349] [WARNING ] [cache-redis   ] [trc-719208] Disk buffer cache pressure elevated during concurrent writes latency_ms=240
+[2026-03-15 18:57:52.256] [INFO    ] [billing-svc   ] [trc-576076] Scheduled garbage collection sweep finished latency_ms=69
+[2026-03-15 18:57:47.450] [ERROR   ] [auth-service  ] [trc-329412] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=1498
+[2026-03-15 18:57:56.938] [INFO    ] [cache-redis   ] [trc-750618] Scheduled garbage collection sweep finished latency_ms=56
+[2026-03-15 18:57:50.234] [INFO    ] [api-gateway   ] [trc-391334] TLS handshake completed with client agent latency_ms=44

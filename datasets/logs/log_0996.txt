@@ -1,0 +1,31 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00996
+# Generated: 2026-03-15T12:44:08
+# Records Count: 28
+[2026-03-15 12:44:08.000] [INFO    ] [db-cluster    ] [trc-216924] Cache lookup returned positive hit for session key latency_ms=11
+[2026-03-15 12:44:08.333] [INFO    ] [auth-service  ] [trc-254534] Cache lookup returned positive hit for session key latency_ms=25
+[2026-03-15 12:44:08.612] [INFO    ] [auth-service  ] [trc-465078] Incoming HTTP request dispatched to worker handler latency_ms=13
+[2026-03-15 12:44:09.275] [INFO    ] [file-storage  ] [trc-522711] Scheduled garbage collection sweep finished latency_ms=17
+[2026-03-15 12:44:09.844] [INFO    ] [worker-pool   ] [trc-589046] Connection acquired from connection pool latency_ms=71
+[2026-03-15 12:44:08.815] [INFO    ] [cache-redis   ] [trc-431976] Worker heartbeat acknowledged by supervisor latency_ms=40
+[2026-03-15 12:44:09.296] [WARNING ] [billing-svc   ] [trc-180441] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=196
+[2026-03-15 12:44:09.974] [INFO    ] [file-storage  ] [trc-331483] Cache lookup returned positive hit for session key latency_ms=19
+[2026-03-15 12:44:09.256] [WARNING ] [file-storage  ] [trc-311039] High memory consumption threshold reached (88% utilized) latency_ms=354
+[2026-03-15 12:44:12.167] [ERROR   ] [file-storage  ] [trc-290820] Connection reset by peer while transmitting payload latency_ms=1426
+[2026-03-15 12:44:14.990] [INFO    ] [worker-pool   ] [trc-539355] Scheduled garbage collection sweep finished latency_ms=37
+[2026-03-15 12:44:13.665] [INFO    ] [auth-service  ] [trc-425166] Connection acquired from connection pool latency_ms=52
+[2026-03-15 12:44:15.884] [INFO    ] [billing-svc   ] [trc-852422] Scheduled garbage collection sweep finished latency_ms=29
+[2026-03-15 12:44:14.045] [ERROR   ] [db-cluster    ] [trc-260829] TLS socket abruptly terminated before payload completion latency_ms=1214
+[2026-03-15 12:44:12.312] [INFO    ] [worker-pool   ] [trc-408070] Worker heartbeat acknowledged by supervisor latency_ms=31
+[2026-03-15 12:44:11.390] [WARNING ] [billing-svc   ] [trc-952829] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=402
+[2026-03-15 12:44:12.016] [INFO    ] [api-gateway   ] [trc-795660] Batch file chunk serialized successfully latency_ms=34
+[2026-03-15 12:44:12.658] [INFO    ] [worker-pool   ] [trc-814132] Batch file chunk serialized successfully latency_ms=65
+[2026-03-15 12:44:14.246] [INFO    ] [billing-svc   ] [trc-410898] Incoming HTTP request dispatched to worker handler latency_ms=48
+[2026-03-15 12:44:15.638] [INFO    ] [worker-pool   ] [trc-296593] Connection acquired from connection pool latency_ms=63
+[2026-03-15 12:44:13.720] [INFO    ] [db-cluster    ] [trc-812768] Connection acquired from connection pool latency_ms=41
+[2026-03-15 12:44:20.201] [INFO    ] [file-storage  ] [trc-186431] Cache lookup returned positive hit for session key latency_ms=36
+[2026-03-15 12:44:13.654] [INFO    ] [api-gateway   ] [trc-122048] Worker heartbeat acknowledged by supervisor latency_ms=73
+[2026-03-15 12:44:16.809] [ERROR   ] [cache-redis   ] [trc-820232] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=525
+[2026-03-15 12:44:21.296] [WARNING ] [worker-pool   ] [trc-993364] High memory consumption threshold reached (88% utilized) latency_ms=359
+[2026-03-15 12:44:13.850] [INFO    ] [auth-service  ] [trc-333218] Scheduled garbage collection sweep finished latency_ms=28
+[2026-03-15 12:44:28.566] [INFO    ] [worker-pool   ] [trc-387993] Connection acquired from connection pool latency_ms=40
+[2026-03-15 12:44:20.582] [INFO    ] [billing-svc   ] [trc-288316] Worker heartbeat acknowledged by supervisor latency_ms=16

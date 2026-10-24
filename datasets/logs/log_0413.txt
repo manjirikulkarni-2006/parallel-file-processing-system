@@ -1,0 +1,24 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00413
+# Generated: 2026-03-15T05:53:59
+# Records Count: 21
+[2026-03-15 05:53:59.000] [INFO    ] [db-cluster    ] [trc-544742] Batch file chunk serialized successfully latency_ms=21
+[2026-03-15 05:53:59.321] [INFO    ] [db-cluster    ] [trc-831862] Incoming HTTP request dispatched to worker handler latency_ms=68
+[2026-03-15 05:53:59.922] [INFO    ] [billing-svc   ] [trc-561599] Cache lookup returned positive hit for session key latency_ms=50
+[2026-03-15 05:54:00.479] [INFO    ] [auth-service  ] [trc-892858] TLS handshake completed with client agent latency_ms=26
+[2026-03-15 05:53:59.776] [WARNING ] [worker-pool   ] [trc-726389] Downstream microservice response delayed, retry attempt scheduled latency_ms=155
+[2026-03-15 05:54:01.625] [INFO    ] [worker-pool   ] [trc-733642] Incoming HTTP request dispatched to worker handler latency_ms=53
+[2026-03-15 05:54:01.568] [INFO    ] [auth-service  ] [trc-605714] Scheduled garbage collection sweep finished latency_ms=55
+[2026-03-15 05:54:00.330] [INFO    ] [billing-svc   ] [trc-778228] Scheduled garbage collection sweep finished latency_ms=70
+[2026-03-15 05:54:05.296] [INFO    ] [db-cluster    ] [trc-332904] Batch file chunk serialized successfully latency_ms=10
+[2026-03-15 05:54:01.475] [WARNING ] [worker-pool   ] [trc-498538] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=369
+[2026-03-15 05:54:06.670] [ERROR   ] [worker-pool   ] [trc-294121] Connection reset by peer while transmitting payload latency_ms=1290
+[2026-03-15 05:54:04.225] [INFO    ] [worker-pool   ] [trc-951206] Incoming HTTP request dispatched to worker handler latency_ms=16
+[2026-03-15 05:54:05.060] [WARNING ] [api-gateway   ] [trc-809457] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=407
+[2026-03-15 05:54:07.138] [INFO    ] [file-storage  ] [trc-927272] Worker heartbeat acknowledged by supervisor latency_ms=58
+[2026-03-15 05:54:08.954] [WARNING ] [api-gateway   ] [trc-657028] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=253
+[2026-03-15 05:54:09.335] [INFO    ] [billing-svc   ] [trc-884702] Cache lookup returned positive hit for session key latency_ms=69
+[2026-03-15 05:54:05.064] [INFO    ] [db-cluster    ] [trc-373532] TLS handshake completed with client agent latency_ms=62
+[2026-03-15 05:54:08.044] [INFO    ] [cache-redis   ] [trc-742703] Worker heartbeat acknowledged by supervisor latency_ms=66
+[2026-03-15 05:54:06.488] [WARNING ] [auth-service  ] [trc-466415] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=403
+[2026-03-15 05:54:13.136] [WARNING ] [billing-svc   ] [trc-160635] Downstream microservice response delayed, retry attempt scheduled latency_ms=189
+[2026-03-15 05:54:09.860] [WARNING ] [file-storage  ] [trc-275716] Downstream microservice response delayed, retry attempt scheduled latency_ms=286

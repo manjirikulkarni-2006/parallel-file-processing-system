@@ -1,0 +1,17 @@
+==================================================
+CUSTOMER PRODUCT REVIEW RECORD
+Review-ID: REV-00386
+Product: ErgoGlide Mechanical Keyboard
+Category: Peripherals
+Rating: 1/5 Stars
+Sentiment-Tag: Negative
+Date: 2026-03-01
+--------------------------------------------------
+Feedback:
+Significant quality control defects. High acoustic coil whine and persistent latency drops during basic file I/O operations.
+
+Verified Purchase: Yes. Usage duration: 3 weeks.
+Key attributes evaluated: build quality, throughput, reliability, ergonomics.
+User feedback note: Consider alternatives if demanding high stability.
+Diagnostic benchmark checksum ID: REV-00386-CHK.
+==================================================

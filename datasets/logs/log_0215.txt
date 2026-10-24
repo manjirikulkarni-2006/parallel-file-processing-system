@@ -1,0 +1,23 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00215
+# Generated: 2026-03-15T17:25:01
+# Records Count: 20
+[2026-03-15 17:25:01.000] [INFO    ] [auth-service  ] [trc-276982] Incoming HTTP request dispatched to worker handler latency_ms=66
+[2026-03-15 17:25:01.185] [ERROR   ] [api-gateway   ] [trc-751618] Worker thread crashed with segmentation violation in foreign library latency_ms=1073
+[2026-03-15 17:25:02.120] [ERROR   ] [db-cluster    ] [trc-318992] TLS socket abruptly terminated before payload completion latency_ms=1177
+[2026-03-15 17:25:01.852] [INFO    ] [file-storage  ] [trc-950510] Worker heartbeat acknowledged by supervisor latency_ms=66
+[2026-03-15 17:25:02.252] [INFO    ] [file-storage  ] [trc-621208] Scheduled garbage collection sweep finished latency_ms=14
+[2026-03-15 17:25:03.035] [WARNING ] [cache-redis   ] [trc-265156] Disk buffer cache pressure elevated during concurrent writes latency_ms=265
+[2026-03-15 17:25:04.408] [WARNING ] [auth-service  ] [trc-704270] Thread pool saturation index approaching upper boundary latency_ms=421
+[2026-03-15 17:25:06.187] [INFO    ] [db-cluster    ] [trc-424753] Batch file chunk serialized successfully latency_ms=6
+[2026-03-15 17:25:04.120] [INFO    ] [auth-service  ] [trc-897171] Worker heartbeat acknowledged by supervisor latency_ms=69
+[2026-03-15 17:25:02.404] [INFO    ] [db-cluster    ] [trc-104707] Incoming HTTP request dispatched to worker handler latency_ms=10
+[2026-03-15 17:25:04.330] [CRITICAL] [file-storage  ] [trc-611357] Database connection pool completely exhausted; dropping new client requests latency_ms=4729
+[2026-03-15 17:25:02.881] [CRITICAL] [auth-service  ] [trc-814191] Database connection pool completely exhausted; dropping new client requests latency_ms=4173
+[2026-03-15 17:25:08.800] [CRITICAL] [worker-pool   ] [trc-412011] Authentication burst anomaly: 120 failed auth tokens within 10 seconds from subnet 198.51.100.0/24 latency_ms=4047
+[2026-03-15 17:25:08.241] [CRITICAL] [worker-pool   ] [trc-655564] Cascading failover triggered on primary cluster node; state recovery active latency_ms=4058
+[2026-03-15 17:25:03.884] [CRITICAL] [cache-redis   ] [trc-382130] Cascading failover triggered on primary cluster node; state recovery active latency_ms=7321
+[2026-03-15 17:25:08.155] [INFO    ] [billing-svc   ] [trc-875654] Incoming HTTP request dispatched to worker handler latency_ms=50
+[2026-03-15 17:25:06.200] [INFO    ] [db-cluster    ] [trc-814023] Batch file chunk serialized successfully latency_ms=37
+[2026-03-15 17:25:08.344] [INFO    ] [auth-service  ] [trc-965323] Scheduled garbage collection sweep finished latency_ms=55
+[2026-03-15 17:25:04.708] [ERROR   ] [db-cluster    ] [trc-660520] Worker thread crashed with segmentation violation in foreign library latency_ms=799
+[2026-03-15 17:25:14.395] [INFO    ] [cache-redis   ] [trc-297802] Worker heartbeat acknowledged by supervisor latency_ms=52

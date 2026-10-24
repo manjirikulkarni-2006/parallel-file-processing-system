@@ -1,0 +1,30 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00952
+# Generated: 2026-03-15T06:29:39
+# Records Count: 27
+[2026-03-15 06:29:39.000] [INFO    ] [worker-pool   ] [trc-530008] Worker heartbeat acknowledged by supervisor latency_ms=67
+[2026-03-15 06:29:39.678] [INFO    ] [cache-redis   ] [trc-246724] Worker heartbeat acknowledged by supervisor latency_ms=62
+[2026-03-15 06:29:39.772] [WARNING ] [worker-pool   ] [trc-966612] Thread pool saturation index approaching upper boundary latency_ms=262
+[2026-03-15 06:29:41.148] [INFO    ] [auth-service  ] [trc-319879] Connection acquired from connection pool latency_ms=9
+[2026-03-15 06:29:41.300] [INFO    ] [auth-service  ] [trc-574435] Scheduled garbage collection sweep finished latency_ms=70
+[2026-03-15 06:29:42.815] [INFO    ] [auth-service  ] [trc-674747] Worker heartbeat acknowledged by supervisor latency_ms=17
+[2026-03-15 06:29:40.842] [WARNING ] [file-storage  ] [trc-661292] Thread pool saturation index approaching upper boundary latency_ms=151
+[2026-03-15 06:29:41.765] [INFO    ] [api-gateway   ] [trc-867465] Cache lookup returned positive hit for session key latency_ms=60
+[2026-03-15 06:29:45.088] [INFO    ] [worker-pool   ] [trc-158160] Scheduled garbage collection sweep finished latency_ms=57
+[2026-03-15 06:29:44.832] [WARNING ] [file-storage  ] [trc-522083] Disk buffer cache pressure elevated during concurrent writes latency_ms=371
+[2026-03-15 06:29:41.200] [INFO    ] [db-cluster    ] [trc-694322] Batch file chunk serialized successfully latency_ms=38
+[2026-03-15 06:29:45.182] [INFO    ] [file-storage  ] [trc-405543] Scheduled garbage collection sweep finished latency_ms=17
+[2026-03-15 06:29:41.868] [INFO    ] [auth-service  ] [trc-439853] Batch file chunk serialized successfully latency_ms=35
+[2026-03-15 06:29:48.191] [CRITICAL] [db-cluster    ] [trc-235631] Authentication burst anomaly: 120 failed auth tokens within 10 seconds from subnet 198.51.100.0/24 latency_ms=5052
+[2026-03-15 06:29:46.098] [CRITICAL] [cache-redis   ] [trc-575853] Cascading failover triggered on primary cluster node; state recovery active latency_ms=8153
+[2026-03-15 06:29:50.970] [CRITICAL] [db-cluster    ] [trc-259367] Cascading failover triggered on primary cluster node; state recovery active latency_ms=6294
+[2026-03-15 06:29:51.272] [ERROR   ] [cache-redis   ] [trc-251268] TLS socket abruptly terminated before payload completion latency_ms=4124
+[2026-03-15 06:29:48.146] [CRITICAL] [billing-svc   ] [trc-210087] Cascading failover triggered on primary cluster node; state recovery active latency_ms=6746
+[2026-03-15 06:29:49.350] [INFO    ] [file-storage  ] [trc-190842] Connection acquired from connection pool latency_ms=27
+[2026-03-15 06:29:46.847] [INFO    ] [worker-pool   ] [trc-585684] Scheduled garbage collection sweep finished latency_ms=26
+[2026-03-15 06:29:54.880] [INFO    ] [auth-service  ] [trc-736206] Scheduled garbage collection sweep finished latency_ms=54
+[2026-03-15 06:29:51.663] [WARNING ] [file-storage  ] [trc-963100] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=359
+[2026-03-15 06:29:50.572] [INFO    ] [db-cluster    ] [trc-306419] Worker heartbeat acknowledged by supervisor latency_ms=43
+[2026-03-15 06:29:43.255] [INFO    ] [worker-pool   ] [trc-332689] Worker heartbeat acknowledged by supervisor latency_ms=59
+[2026-03-15 06:29:50.712] [INFO    ] [worker-pool   ] [trc-453464] Incoming HTTP request dispatched to worker handler latency_ms=55
+[2026-03-15 06:29:45.175] [INFO    ] [api-gateway   ] [trc-554362] Worker heartbeat acknowledged by supervisor latency_ms=41
+[2026-03-15 06:29:50.050] [WARNING ] [file-storage  ] [trc-935036] Downstream microservice response delayed, retry attempt scheduled latency_ms=139

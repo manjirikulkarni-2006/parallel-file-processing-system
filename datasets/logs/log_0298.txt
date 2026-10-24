@@ -1,0 +1,18 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00298
+# Generated: 2026-03-15T15:18:25
+# Records Count: 15
+[2026-03-15 15:18:25.000] [WARNING ] [auth-service  ] [trc-213161] High memory consumption threshold reached (88% utilized) latency_ms=372
+[2026-03-15 15:18:25.664] [INFO    ] [cache-redis   ] [trc-545904] TLS handshake completed with client agent latency_ms=7
+[2026-03-15 15:18:26.372] [INFO    ] [worker-pool   ] [trc-799774] Scheduled garbage collection sweep finished latency_ms=54
+[2026-03-15 15:18:25.462] [INFO    ] [db-cluster    ] [trc-926400] Connection acquired from connection pool latency_ms=6
+[2026-03-15 15:18:27.292] [INFO    ] [auth-service  ] [trc-465216] Connection acquired from connection pool latency_ms=50
+[2026-03-15 15:18:28.260] [INFO    ] [db-cluster    ] [trc-491866] TLS handshake completed with client agent latency_ms=42
+[2026-03-15 15:18:26.920] [INFO    ] [cache-redis   ] [trc-737519] Scheduled garbage collection sweep finished latency_ms=13
+[2026-03-15 15:18:26.057] [ERROR   ] [cache-redis   ] [trc-412442] Connection reset by peer while transmitting payload latency_ms=5278
+[2026-03-15 15:18:27.504] [CRITICAL] [db-cluster    ] [trc-313111] Cascading failover triggered on primary cluster node; state recovery active latency_ms=6027
+[2026-03-15 15:18:31.174] [CRITICAL] [auth-service  ] [trc-843910] File descriptor limit reached for worker process; operating system rejecting socket creation latency_ms=5195
+[2026-03-15 15:18:29.820] [ERROR   ] [auth-service  ] [trc-816712] Worker thread crashed with segmentation violation in foreign library latency_ms=6884
+[2026-03-15 15:18:27.552] [ERROR   ] [api-gateway   ] [trc-683835] Failed to write metadata block to distributed store latency_ms=3605
+[2026-03-15 15:18:29.776] [INFO    ] [cache-redis   ] [trc-666275] Scheduled garbage collection sweep finished latency_ms=59
+[2026-03-15 15:18:34.698] [INFO    ] [worker-pool   ] [trc-630134] Batch file chunk serialized successfully latency_ms=22
+[2026-03-15 15:18:28.052] [INFO    ] [file-storage  ] [trc-451106] TLS handshake completed with client agent latency_ms=13

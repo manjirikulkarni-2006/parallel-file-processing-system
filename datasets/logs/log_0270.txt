@@ -1,0 +1,30 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00270
+# Generated: 2026-03-15T13:39:32
+# Records Count: 27
+[2026-03-15 13:39:32.000] [INFO    ] [worker-pool   ] [trc-670172] Worker heartbeat acknowledged by supervisor latency_ms=23
+[2026-03-15 13:39:32.624] [INFO    ] [auth-service  ] [trc-938116] Connection acquired from connection pool latency_ms=54
+[2026-03-15 13:39:33.236] [ERROR   ] [billing-svc   ] [trc-442830] Connection reset by peer while transmitting payload latency_ms=1435
+[2026-03-15 13:39:33.728] [INFO    ] [worker-pool   ] [trc-386377] Worker heartbeat acknowledged by supervisor latency_ms=20
+[2026-03-15 13:39:33.880] [INFO    ] [auth-service  ] [trc-934558] Incoming HTTP request dispatched to worker handler latency_ms=8
+[2026-03-15 13:39:33.235] [INFO    ] [api-gateway   ] [trc-299950] Cache lookup returned positive hit for session key latency_ms=22
+[2026-03-15 13:39:34.232] [INFO    ] [api-gateway   ] [trc-476757] Worker heartbeat acknowledged by supervisor latency_ms=26
+[2026-03-15 13:39:34.737] [INFO    ] [worker-pool   ] [trc-291921] TLS handshake completed with client agent latency_ms=6
+[2026-03-15 13:39:34.224] [WARNING ] [auth-service  ] [trc-861819] Downstream microservice response delayed, retry attempt scheduled latency_ms=282
+[2026-03-15 13:39:34.952] [WARNING ] [db-cluster    ] [trc-599765] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=160
+[2026-03-15 13:39:33.600] [INFO    ] [auth-service  ] [trc-428345] Scheduled garbage collection sweep finished latency_ms=37
+[2026-03-15 13:39:35.432] [INFO    ] [auth-service  ] [trc-662976] Scheduled garbage collection sweep finished latency_ms=10
+[2026-03-15 13:39:39.296] [INFO    ] [db-cluster    ] [trc-503560] Scheduled garbage collection sweep finished latency_ms=22
+[2026-03-15 13:39:42.179] [INFO    ] [billing-svc   ] [trc-307516] TLS handshake completed with client agent latency_ms=73
+[2026-03-15 13:39:41.170] [ERROR   ] [billing-svc   ] [trc-840377] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=1225
+[2026-03-15 13:39:40.310] [INFO    ] [db-cluster    ] [trc-417072] Worker heartbeat acknowledged by supervisor latency_ms=68
+[2026-03-15 13:39:42.368] [INFO    ] [cache-redis   ] [trc-240607] Batch file chunk serialized successfully latency_ms=48
+[2026-03-15 13:39:37.644] [WARNING ] [cache-redis   ] [trc-406302] High memory consumption threshold reached (88% utilized) latency_ms=90
+[2026-03-15 13:39:39.128] [INFO    ] [cache-redis   ] [trc-329284] Scheduled garbage collection sweep finished latency_ms=52
+[2026-03-15 13:39:36.256] [INFO    ] [api-gateway   ] [trc-821339] Scheduled garbage collection sweep finished latency_ms=68
+[2026-03-15 13:39:37.960] [INFO    ] [worker-pool   ] [trc-937055] Connection acquired from connection pool latency_ms=49
+[2026-03-15 13:39:41.093] [INFO    ] [auth-service  ] [trc-553258] Incoming HTTP request dispatched to worker handler latency_ms=60
+[2026-03-15 13:39:47.268] [INFO    ] [file-storage  ] [trc-803502] Connection acquired from connection pool latency_ms=67
+[2026-03-15 13:39:45.662] [ERROR   ] [cache-redis   ] [trc-859083] Failed to write metadata block to distributed store latency_ms=1094
+[2026-03-15 13:39:49.136] [INFO    ] [worker-pool   ] [trc-833286] Worker heartbeat acknowledged by supervisor latency_ms=18
+[2026-03-15 13:39:49.850] [ERROR   ] [auth-service  ] [trc-933655] TLS socket abruptly terminated before payload completion latency_ms=695
+[2026-03-15 13:39:46.040] [ERROR   ] [billing-svc   ] [trc-301016] Failed to write metadata block to distributed store latency_ms=1295

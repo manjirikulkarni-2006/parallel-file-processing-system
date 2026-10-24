@@ -1,0 +1,23 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00425
+# Generated: 2026-03-15T01:49:01
+# Records Count: 20
+[2026-03-15 01:49:01.000] [INFO    ] [api-gateway   ] [trc-325365] Cache lookup returned positive hit for session key latency_ms=28
+[2026-03-15 01:49:01.399] [WARNING ] [cache-redis   ] [trc-614768] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=119
+[2026-03-15 01:49:01.718] [INFO    ] [worker-pool   ] [trc-956948] Cache lookup returned positive hit for session key latency_ms=13
+[2026-03-15 01:49:02.347] [INFO    ] [billing-svc   ] [trc-561192] Worker heartbeat acknowledged by supervisor latency_ms=66
+[2026-03-15 01:49:03.208] [INFO    ] [auth-service  ] [trc-986089] Batch file chunk serialized successfully latency_ms=65
+[2026-03-15 01:49:04.850] [WARNING ] [cache-redis   ] [trc-791346] Downstream microservice response delayed, retry attempt scheduled latency_ms=152
+[2026-03-15 01:49:05.644] [INFO    ] [auth-service  ] [trc-203333] Incoming HTTP request dispatched to worker handler latency_ms=68
+[2026-03-15 01:49:03.023] [INFO    ] [db-cluster    ] [trc-380563] Connection acquired from connection pool latency_ms=15
+[2026-03-15 01:49:04.984] [WARNING ] [api-gateway   ] [trc-603467] High memory consumption threshold reached (88% utilized) latency_ms=331
+[2026-03-15 01:49:07.579] [INFO    ] [db-cluster    ] [trc-347405] Connection acquired from connection pool latency_ms=40
+[2026-03-15 01:49:03.110] [ERROR   ] [billing-svc   ] [trc-861861] TLS socket abruptly terminated before payload completion latency_ms=898
+[2026-03-15 01:49:03.552] [INFO    ] [file-storage  ] [trc-540135] TLS handshake completed with client agent latency_ms=45
+[2026-03-15 01:49:03.928] [INFO    ] [file-storage  ] [trc-515650] Batch file chunk serialized successfully latency_ms=16
+[2026-03-15 01:49:06.616] [INFO    ] [worker-pool   ] [trc-607758] Batch file chunk serialized successfully latency_ms=45
+[2026-03-15 01:49:10.716] [WARNING ] [billing-svc   ] [trc-554547] Thread pool saturation index approaching upper boundary latency_ms=163
+[2026-03-15 01:49:06.535] [INFO    ] [db-cluster    ] [trc-636366] Scheduled garbage collection sweep finished latency_ms=62
+[2026-03-15 01:49:10.968] [ERROR   ] [api-gateway   ] [trc-808935] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=625
+[2026-03-15 01:49:06.644] [INFO    ] [api-gateway   ] [trc-703164] Connection acquired from connection pool latency_ms=16
+[2026-03-15 01:49:12.772] [WARNING ] [db-cluster    ] [trc-856351] High memory consumption threshold reached (88% utilized) latency_ms=420
+[2026-03-15 01:49:13.369] [INFO    ] [billing-svc   ] [trc-111857] Connection acquired from connection pool latency_ms=61

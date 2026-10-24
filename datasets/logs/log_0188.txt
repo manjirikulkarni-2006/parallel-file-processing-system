@@ -1,0 +1,33 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00188
+# Generated: 2026-03-15T03:43:37
+# Records Count: 30
+[2026-03-15 03:43:37.000] [INFO    ] [billing-svc   ] [trc-739541] Scheduled garbage collection sweep finished latency_ms=56
+[2026-03-15 03:43:37.562] [INFO    ] [cache-redis   ] [trc-577373] Incoming HTTP request dispatched to worker handler latency_ms=53
+[2026-03-15 03:43:38.372] [INFO    ] [cache-redis   ] [trc-345921] Scheduled garbage collection sweep finished latency_ms=39
+[2026-03-15 03:43:37.498] [WARNING ] [api-gateway   ] [trc-744867] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=162
+[2026-03-15 03:43:38.752] [INFO    ] [auth-service  ] [trc-807226] TLS handshake completed with client agent latency_ms=51
+[2026-03-15 03:43:38.750] [INFO    ] [cache-redis   ] [trc-581184] TLS handshake completed with client agent latency_ms=28
+[2026-03-15 03:43:38.680] [INFO    ] [cache-redis   ] [trc-192530] Scheduled garbage collection sweep finished latency_ms=38
+[2026-03-15 03:43:39.793] [INFO    ] [file-storage  ] [trc-837589] Incoming HTTP request dispatched to worker handler latency_ms=51
+[2026-03-15 03:43:40.528] [INFO    ] [db-cluster    ] [trc-804393] Incoming HTTP request dispatched to worker handler latency_ms=19
+[2026-03-15 03:43:41.428] [INFO    ] [db-cluster    ] [trc-926897] Incoming HTTP request dispatched to worker handler latency_ms=15
+[2026-03-15 03:43:41.860] [WARNING ] [api-gateway   ] [trc-881421] High memory consumption threshold reached (88% utilized) latency_ms=115
+[2026-03-15 03:43:43.116] [ERROR   ] [billing-svc   ] [trc-969064] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=509
+[2026-03-15 03:43:39.172] [INFO    ] [file-storage  ] [trc-134284] Cache lookup returned positive hit for session key latency_ms=31
+[2026-03-15 03:43:42.421] [ERROR   ] [cache-redis   ] [trc-591495] TLS socket abruptly terminated before payload completion latency_ms=966
+[2026-03-15 03:43:47.066] [INFO    ] [cache-redis   ] [trc-313183] Cache lookup returned positive hit for session key latency_ms=69
+[2026-03-15 03:43:46.930] [CRITICAL] [billing-svc   ] [trc-317072] Database connection pool completely exhausted; dropping new client requests latency_ms=8416
+[2026-03-15 03:43:42.456] [ERROR   ] [api-gateway   ] [trc-397468] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=8170
+[2026-03-15 03:43:41.131] [CRITICAL] [cache-redis   ] [trc-364397] File descriptor limit reached for worker process; operating system rejecting socket creation latency_ms=6673
+[2026-03-15 03:43:44.920] [CRITICAL] [billing-svc   ] [trc-972157] Cascading failover triggered on primary cluster node; state recovery active latency_ms=3687
+[2026-03-15 03:43:43.878] [ERROR   ] [api-gateway   ] [trc-618893] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=6967
+[2026-03-15 03:43:47.460] [INFO    ] [auth-service  ] [trc-916505] Cache lookup returned positive hit for session key latency_ms=55
+[2026-03-15 03:43:51.721] [WARNING ] [worker-pool   ] [trc-376687] Disk buffer cache pressure elevated during concurrent writes latency_ms=165
+[2026-03-15 03:43:51.520] [INFO    ] [billing-svc   ] [trc-234779] Incoming HTTP request dispatched to worker handler latency_ms=9
+[2026-03-15 03:43:43.762] [INFO    ] [api-gateway   ] [trc-672631] Incoming HTTP request dispatched to worker handler latency_ms=16
+[2026-03-15 03:43:48.064] [INFO    ] [billing-svc   ] [trc-882534] Incoming HTTP request dispatched to worker handler latency_ms=45
+[2026-03-15 03:43:42.950] [INFO    ] [file-storage  ] [trc-125257] Cache lookup returned positive hit for session key latency_ms=40
+[2026-03-15 03:43:46.438] [INFO    ] [cache-redis   ] [trc-250198] Incoming HTTP request dispatched to worker handler latency_ms=56
+[2026-03-15 03:43:46.639] [WARNING ] [billing-svc   ] [trc-159789] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=200
+[2026-03-15 03:43:50.356] [INFO    ] [db-cluster    ] [trc-986063] Connection acquired from connection pool latency_ms=53
+[2026-03-15 03:43:59.098] [WARNING ] [billing-svc   ] [trc-899672] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=86

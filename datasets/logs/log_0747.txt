@@ -1,0 +1,20 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00747
+# Generated: 2026-03-15T16:35:45
+# Records Count: 17
+[2026-03-15 16:35:45.000] [INFO    ] [worker-pool   ] [trc-841674] Incoming HTTP request dispatched to worker handler latency_ms=47
+[2026-03-15 16:35:45.559] [INFO    ] [cache-redis   ] [trc-315274] Scheduled garbage collection sweep finished latency_ms=43
+[2026-03-15 16:35:45.836] [INFO    ] [billing-svc   ] [trc-447750] TLS handshake completed with client agent latency_ms=25
+[2026-03-15 16:35:45.714] [INFO    ] [db-cluster    ] [trc-977923] Cache lookup returned positive hit for session key latency_ms=16
+[2026-03-15 16:35:46.992] [ERROR   ] [api-gateway   ] [trc-782884] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=1392
+[2026-03-15 16:35:46.230] [INFO    ] [cache-redis   ] [trc-937569] Cache lookup returned positive hit for session key latency_ms=60
+[2026-03-15 16:35:47.052] [INFO    ] [cache-redis   ] [trc-189175] Batch file chunk serialized successfully latency_ms=40
+[2026-03-15 16:35:47.485] [INFO    ] [billing-svc   ] [trc-788805] Batch file chunk serialized successfully latency_ms=28
+[2026-03-15 16:35:47.064] [ERROR   ] [billing-svc   ] [trc-735682] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=769
+[2026-03-15 16:35:46.827] [ERROR   ] [auth-service  ] [trc-734231] Failed to write metadata block to distributed store latency_ms=649
+[2026-03-15 16:35:51.280] [INFO    ] [billing-svc   ] [trc-231659] TLS handshake completed with client agent latency_ms=52
+[2026-03-15 16:35:47.387] [WARNING ] [worker-pool   ] [trc-855282] High memory consumption threshold reached (88% utilized) latency_ms=210
+[2026-03-15 16:35:50.832] [INFO    ] [worker-pool   ] [trc-561361] Batch file chunk serialized successfully latency_ms=72
+[2026-03-15 16:35:54.828] [INFO    ] [billing-svc   ] [trc-521075] Cache lookup returned positive hit for session key latency_ms=23
+[2026-03-15 16:35:47.660] [INFO    ] [file-storage  ] [trc-512987] Batch file chunk serialized successfully latency_ms=53
+[2026-03-15 16:35:53.895] [INFO    ] [file-storage  ] [trc-928727] Incoming HTTP request dispatched to worker handler latency_ms=62
+[2026-03-15 16:35:47.880] [INFO    ] [api-gateway   ] [trc-803125] Scheduled garbage collection sweep finished latency_ms=74

@@ -1,0 +1,25 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00242
+# Generated: 2026-03-15T16:55:10
+# Records Count: 22
+[2026-03-15 16:55:10.000] [INFO    ] [file-storage  ] [trc-316207] Batch file chunk serialized successfully latency_ms=30
+[2026-03-15 16:55:10.555] [INFO    ] [file-storage  ] [trc-982049] Connection acquired from connection pool latency_ms=35
+[2026-03-15 16:55:11.388] [INFO    ] [api-gateway   ] [trc-134122] Connection acquired from connection pool latency_ms=57
+[2026-03-15 16:55:11.233] [INFO    ] [db-cluster    ] [trc-481778] Batch file chunk serialized successfully latency_ms=58
+[2026-03-15 16:55:11.720] [WARNING ] [file-storage  ] [trc-551650] Downstream microservice response delayed, retry attempt scheduled latency_ms=130
+[2026-03-15 16:55:12.760] [WARNING ] [auth-service  ] [trc-614949] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=99
+[2026-03-15 16:55:13.354] [INFO    ] [auth-service  ] [trc-210781] Cache lookup returned positive hit for session key latency_ms=26
+[2026-03-15 16:55:15.166] [INFO    ] [db-cluster    ] [trc-604140] Incoming HTTP request dispatched to worker handler latency_ms=38
+[2026-03-15 16:55:14.128] [INFO    ] [file-storage  ] [trc-416575] Incoming HTTP request dispatched to worker handler latency_ms=19
+[2026-03-15 16:55:13.825] [INFO    ] [worker-pool   ] [trc-938077] Batch file chunk serialized successfully latency_ms=27
+[2026-03-15 16:55:17.070] [INFO    ] [api-gateway   ] [trc-841063] Connection acquired from connection pool latency_ms=53
+[2026-03-15 16:55:12.420] [INFO    ] [api-gateway   ] [trc-534185] Incoming HTTP request dispatched to worker handler latency_ms=18
+[2026-03-15 16:55:15.568] [WARNING ] [db-cluster    ] [trc-132555] Thread pool saturation index approaching upper boundary latency_ms=118
+[2026-03-15 16:55:13.133] [INFO    ] [file-storage  ] [trc-737085] TLS handshake completed with client agent latency_ms=7
+[2026-03-15 16:55:16.860] [WARNING ] [worker-pool   ] [trc-456290] Downstream microservice response delayed, retry attempt scheduled latency_ms=274
+[2026-03-15 16:55:17.635] [WARNING ] [worker-pool   ] [trc-283972] Disk buffer cache pressure elevated during concurrent writes latency_ms=206
+[2026-03-15 16:55:18.608] [INFO    ] [file-storage  ] [trc-889640] Scheduled garbage collection sweep finished latency_ms=34
+[2026-03-15 16:55:21.237] [ERROR   ] [db-cluster    ] [trc-193852] Connection reset by peer while transmitting payload latency_ms=703
+[2026-03-15 16:55:18.046] [INFO    ] [cache-redis   ] [trc-809527] TLS handshake completed with client agent latency_ms=45
+[2026-03-15 16:55:18.303] [INFO    ] [worker-pool   ] [trc-988772] TLS handshake completed with client agent latency_ms=57
+[2026-03-15 16:55:21.680] [INFO    ] [api-gateway   ] [trc-109297] Incoming HTTP request dispatched to worker handler latency_ms=16
+[2026-03-15 16:55:15.124] [INFO    ] [file-storage  ] [trc-533756] Connection acquired from connection pool latency_ms=24

@@ -1,0 +1,33 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00652
+# Generated: 2026-03-15T16:12:36
+# Records Count: 30
+[2026-03-15 16:12:36.000] [INFO    ] [db-cluster    ] [trc-728200] TLS handshake completed with client agent latency_ms=56
+[2026-03-15 16:12:36.559] [INFO    ] [worker-pool   ] [trc-698841] Cache lookup returned positive hit for session key latency_ms=43
+[2026-03-15 16:12:36.830] [WARNING ] [worker-pool   ] [trc-117841] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=171
+[2026-03-15 16:12:37.050] [INFO    ] [api-gateway   ] [trc-256342] Worker heartbeat acknowledged by supervisor latency_ms=19
+[2026-03-15 16:12:37.644] [INFO    ] [cache-redis   ] [trc-266911] Connection acquired from connection pool latency_ms=47
+[2026-03-15 16:12:39.335] [INFO    ] [file-storage  ] [trc-207854] Worker heartbeat acknowledged by supervisor latency_ms=53
+[2026-03-15 16:12:38.868] [ERROR   ] [worker-pool   ] [trc-446811] TLS socket abruptly terminated before payload completion latency_ms=654
+[2026-03-15 16:12:40.501] [WARNING ] [auth-service  ] [trc-581066] High memory consumption threshold reached (88% utilized) latency_ms=212
+[2026-03-15 16:12:38.136] [WARNING ] [db-cluster    ] [trc-632245] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=391
+[2026-03-15 16:12:39.807] [INFO    ] [auth-service  ] [trc-379051] Scheduled garbage collection sweep finished latency_ms=45
+[2026-03-15 16:12:37.680] [INFO    ] [worker-pool   ] [trc-650576] Incoming HTTP request dispatched to worker handler latency_ms=6
+[2026-03-15 16:12:42.006] [INFO    ] [api-gateway   ] [trc-513718] Scheduled garbage collection sweep finished latency_ms=72
+[2026-03-15 16:12:43.872] [INFO    ] [db-cluster    ] [trc-232363] Worker heartbeat acknowledged by supervisor latency_ms=21
+[2026-03-15 16:12:45.386] [INFO    ] [auth-service  ] [trc-968448] Incoming HTTP request dispatched to worker handler latency_ms=8
+[2026-03-15 16:12:46.374] [INFO    ] [auth-service  ] [trc-591548] Worker heartbeat acknowledged by supervisor latency_ms=46
+[2026-03-15 16:12:40.590] [WARNING ] [file-storage  ] [trc-730268] Downstream microservice response delayed, retry attempt scheduled latency_ms=332
+[2026-03-15 16:12:38.800] [WARNING ] [cache-redis   ] [trc-249136] Thread pool saturation index approaching upper boundary latency_ms=426
+[2026-03-15 16:12:47.186] [INFO    ] [auth-service  ] [trc-170151] Cache lookup returned positive hit for session key latency_ms=67
+[2026-03-15 16:12:40.086] [INFO    ] [cache-redis   ] [trc-477423] Connection acquired from connection pool latency_ms=20
+[2026-03-15 16:12:48.179] [WARNING ] [worker-pool   ] [trc-352343] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=391
+[2026-03-15 16:12:48.100] [INFO    ] [file-storage  ] [trc-907781] Worker heartbeat acknowledged by supervisor latency_ms=10
+[2026-03-15 16:12:43.875] [WARNING ] [db-cluster    ] [trc-222112] Disk buffer cache pressure elevated during concurrent writes latency_ms=223
+[2026-03-15 16:12:44.690] [INFO    ] [file-storage  ] [trc-858323] Connection acquired from connection pool latency_ms=25
+[2026-03-15 16:12:53.204] [INFO    ] [file-storage  ] [trc-786744] Connection acquired from connection pool latency_ms=57
+[2026-03-15 16:12:53.928] [INFO    ] [api-gateway   ] [trc-714807] Incoming HTTP request dispatched to worker handler latency_ms=65
+[2026-03-15 16:12:53.775] [INFO    ] [auth-service  ] [trc-110755] Connection acquired from connection pool latency_ms=8
+[2026-03-15 16:12:56.644] [INFO    ] [worker-pool   ] [trc-497333] Incoming HTTP request dispatched to worker handler latency_ms=46
+[2026-03-15 16:12:55.332] [INFO    ] [file-storage  ] [trc-523893] TLS handshake completed with client agent latency_ms=67
+[2026-03-15 16:12:48.964] [INFO    ] [file-storage  ] [trc-255938] Worker heartbeat acknowledged by supervisor latency_ms=63
+[2026-03-15 16:12:49.746] [WARNING ] [billing-svc   ] [trc-662227] Slow query execution exceeded expected baseline (query took > 250ms) latency_ms=129

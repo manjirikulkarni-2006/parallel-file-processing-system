@@ -1,0 +1,21 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00780
+# Generated: 2026-03-15T13:11:35
+# Records Count: 18
+[2026-03-15 13:11:35.000] [INFO    ] [file-storage  ] [trc-858296] Scheduled garbage collection sweep finished latency_ms=34
+[2026-03-15 13:11:35.313] [WARNING ] [file-storage  ] [trc-369164] High memory consumption threshold reached (88% utilized) latency_ms=317
+[2026-03-15 13:11:36.348] [INFO    ] [cache-redis   ] [trc-245482] TLS handshake completed with client agent latency_ms=31
+[2026-03-15 13:11:35.678] [INFO    ] [billing-svc   ] [trc-327244] Scheduled garbage collection sweep finished latency_ms=38
+[2026-03-15 13:11:36.028] [INFO    ] [file-storage  ] [trc-932310] TLS handshake completed with client agent latency_ms=11
+[2026-03-15 13:11:36.655] [INFO    ] [auth-service  ] [trc-995642] TLS handshake completed with client agent latency_ms=17
+[2026-03-15 13:11:38.456] [WARNING ] [auth-service  ] [trc-321498] Downstream microservice response delayed, retry attempt scheduled latency_ms=252
+[2026-03-15 13:11:37.562] [INFO    ] [billing-svc   ] [trc-413017] Incoming HTTP request dispatched to worker handler latency_ms=7
+[2026-03-15 13:11:39.256] [INFO    ] [worker-pool   ] [trc-667978] Worker heartbeat acknowledged by supervisor latency_ms=18
+[2026-03-15 13:11:36.998] [INFO    ] [file-storage  ] [trc-657963] Incoming HTTP request dispatched to worker handler latency_ms=34
+[2026-03-15 13:11:37.050] [INFO    ] [billing-svc   ] [trc-818423] Scheduled garbage collection sweep finished latency_ms=62
+[2026-03-15 13:11:36.870] [INFO    ] [auth-service  ] [trc-364694] Incoming HTTP request dispatched to worker handler latency_ms=73
+[2026-03-15 13:11:40.160] [INFO    ] [worker-pool   ] [trc-905873] Cache lookup returned positive hit for session key latency_ms=31
+[2026-03-15 13:11:43.736] [INFO    ] [billing-svc   ] [trc-107657] Cache lookup returned positive hit for session key latency_ms=50
+[2026-03-15 13:11:41.006] [INFO    ] [billing-svc   ] [trc-915939] Scheduled garbage collection sweep finished latency_ms=51
+[2026-03-15 13:11:46.880] [INFO    ] [worker-pool   ] [trc-683782] Cache lookup returned positive hit for session key latency_ms=38
+[2026-03-15 13:11:42.568] [INFO    ] [auth-service  ] [trc-520184] Cache lookup returned positive hit for session key latency_ms=8
+[2026-03-15 13:11:45.812] [WARNING ] [auth-service  ] [trc-894348] High memory consumption threshold reached (88% utilized) latency_ms=422

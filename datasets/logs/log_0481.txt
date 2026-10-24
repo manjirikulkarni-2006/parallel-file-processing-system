@@ -1,0 +1,22 @@
+# SERVER DIAGNOSTIC LOG STREAM - SESSION LOG-00481
+# Generated: 2026-03-15T00:54:18
+# Records Count: 19
+[2026-03-15 00:54:18.000] [INFO    ] [cache-redis   ] [trc-106454] Batch file chunk serialized successfully latency_ms=74
+[2026-03-15 00:54:18.646] [INFO    ] [file-storage  ] [trc-594432] Incoming HTTP request dispatched to worker handler latency_ms=10
+[2026-03-15 00:54:18.422] [INFO    ] [file-storage  ] [trc-398229] Cache lookup returned positive hit for session key latency_ms=43
+[2026-03-15 00:54:18.987] [ERROR   ] [worker-pool   ] [trc-810630] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=1463
+[2026-03-15 00:54:20.716] [INFO    ] [db-cluster    ] [trc-952236] Connection acquired from connection pool latency_ms=12
+[2026-03-15 00:54:20.395] [INFO    ] [cache-redis   ] [trc-379211] Incoming HTTP request dispatched to worker handler latency_ms=63
+[2026-03-15 00:54:19.440] [ERROR   ] [api-gateway   ] [trc-464056] Deadlock detected in transactional database lock manager; transaction aborted latency_ms=1009
+[2026-03-15 00:54:20.583] [INFO    ] [file-storage  ] [trc-867683] Connection acquired from connection pool latency_ms=57
+[2026-03-15 00:54:23.896] [INFO    ] [cache-redis   ] [trc-134553] Incoming HTTP request dispatched to worker handler latency_ms=53
+[2026-03-15 00:54:21.663] [ERROR   ] [billing-svc   ] [trc-641433] Failed to write metadata block to distributed store latency_ms=5468
+[2026-03-15 00:54:22.920] [ERROR   ] [cache-redis   ] [trc-649936] Failed to write metadata block to distributed store latency_ms=8100
+[2026-03-15 00:54:26.767] [ERROR   ] [file-storage  ] [trc-799312] Worker thread crashed with segmentation violation in foreign library latency_ms=4176
+[2026-03-15 00:54:25.476] [CRITICAL] [worker-pool   ] [trc-766556] Authentication burst anomaly: 120 failed auth tokens within 10 seconds from subnet 198.51.100.0/24 latency_ms=7306
+[2026-03-15 00:54:26.372] [CRITICAL] [api-gateway   ] [trc-141756] Cascading failover triggered on primary cluster node; state recovery active latency_ms=3559
+[2026-03-15 00:54:26.498] [INFO    ] [db-cluster    ] [trc-236061] Connection acquired from connection pool latency_ms=26
+[2026-03-15 00:54:25.800] [INFO    ] [worker-pool   ] [trc-323636] Batch file chunk serialized successfully latency_ms=44
+[2026-03-15 00:54:23.936] [INFO    ] [file-storage  ] [trc-345607] Scheduled garbage collection sweep finished latency_ms=55
+[2026-03-15 00:54:23.355] [INFO    ] [cache-redis   ] [trc-233690] Batch file chunk serialized successfully latency_ms=31
+[2026-03-15 00:54:26.298] [INFO    ] [file-storage  ] [trc-321155] TLS handshake completed with client agent latency_ms=22
